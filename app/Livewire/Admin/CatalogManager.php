@@ -3,7 +3,9 @@
 namespace App\Livewire\Admin;
 
 use App\Actions\Catalog\SaveCategory;
+use App\Actions\Catalog\DeleteProductImage;
 use App\Actions\Catalog\SaveProduct;
+use App\Actions\Catalog\StoreProductImage;
 use App\Domain\Catalog\Price;
 use App\Enums\CatalogStatus;
 use App\Models\Category;
@@ -12,9 +14,12 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rule;
 use Livewire\Component;
+use Livewire\WithFileUploads;
 
 class CatalogManager extends Component
 {
+    use WithFileUploads;
+
     public ?int $categoryId = null;
 
     public string $categoryName = '';
@@ -44,6 +49,14 @@ class CatalogManager extends Component
     public int $productLength = 0;
 
     public string $productStatus = 'active';
+
+    public ?int $imageProductId = null;
+
+    public $productImage = null;
+
+    public string $imageAltText = '';
+
+    public int $imageSortOrder = 0;
 
     public function boot(): void
     {
@@ -165,10 +178,38 @@ class CatalogManager extends Component
         session()->flash('catalogMessage', 'Produto restaurado.');
     }
 
+    public function saveProductImage(StoreProductImage $storeProductImage): void
+    {
+        $validated = $this->validate([
+            'imageProductId' => ['required', 'integer', Rule::exists('products', 'id')->whereNull('deleted_at')],
+            'productImage' => ['required', 'file', 'image', 'mimes:jpg,jpeg,png,webp', 'max:2048'],
+            'imageAltText' => ['nullable', 'string', 'max:180'],
+            'imageSortOrder' => ['required', 'integer', 'min:0', 'max:65535'],
+        ]);
+
+        $storeProductImage->execute(
+            Auth::user(),
+            $validated['imageProductId'],
+            $validated['productImage'],
+            $validated['imageAltText'] ?: null,
+            $validated['imageSortOrder'],
+        );
+
+        $this->reset('imageProductId', 'productImage', 'imageAltText', 'imageSortOrder');
+        $this->resetValidation();
+        session()->flash('catalogMessage', 'Imagem salva.');
+    }
+
+    public function deleteProductImage(DeleteProductImage $deleteProductImage, int $imageId): void
+    {
+        $deleteProductImage->execute(Auth::user(), $imageId);
+        session()->flash('catalogMessage', 'Imagem removida.');
+    }
+
     public function render(): View
     {
         $categories = Category::withTrashed()->orderBy('name')->get();
-        $products = Product::withTrashed()->with('category')->orderBy('name')->get();
+        $products = Product::withTrashed()->with(['category', 'images'])->orderBy('name')->get();
 
         return view('livewire.admin.catalog-manager', compact('categories', 'products'));
     }

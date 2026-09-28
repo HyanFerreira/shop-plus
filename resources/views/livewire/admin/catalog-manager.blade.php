@@ -123,4 +123,54 @@
             </form>
         </div>
     </section>
+
+    <section class="bg-white shadow-xl sm:rounded-lg" aria-labelledby="images-title">
+        <div class="p-6 space-y-6">
+            <div>
+                <h3 id="images-title" class="text-lg font-medium text-gray-900">Imagens dos produtos</h3>
+                <p class="mt-1 text-sm text-gray-600">JPEG, PNG ou WebP, com no máximo 2 MB.</p>
+            </div>
+
+            <div class="space-y-5">
+                @foreach ($products->whereNull('deleted_at') as $product)
+                    @if ($product->images->isNotEmpty())
+                        <div wire:key="product-images-{{ $product->id }}">
+                            <h4 class="mb-2 font-medium text-gray-900">{{ $product->name }}</h4>
+                            <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                                @foreach ($product->images as $image)
+                                    <li wire:key="image-{{ $image->id }}" class="rounded-md border border-gray-200 p-3">
+                                        <img src="{{ Storage::disk('public')->url($image->path) }}" alt="{{ $image->alt_text }}" class="h-28 w-full rounded object-cover">
+                                        <p class="mt-2 text-sm text-gray-600">{{ $image->alt_text ?: 'Sem texto alternativo' }}</p>
+                                        <p class="text-xs text-gray-500">Ordem {{ $image->sort_order }}</p>
+                                        <x-danger-button type="button" class="mt-2" wire:click="deleteProductImage({{ $image->id }})" wire:confirm="Remover esta imagem?">Remover</x-danger-button>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                @endforeach
+            </div>
+
+            <form wire:submit="saveProductImage" class="border-t border-gray-200 pt-6 space-y-5">
+                <div class="grid gap-5 md:grid-cols-2">
+                    <div>
+                        <x-label for="imageProductId" value="Produto" />
+                        <select id="imageProductId" wire:model="imageProductId" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                            <option value="">Selecione</option>
+                            @foreach ($products->whereNull('deleted_at') as $product)<option value="{{ $product->id }}">{{ $product->name }}</option>@endforeach
+                        </select>
+                        <x-input-error for="imageProductId" class="mt-2" />
+                    </div>
+                    <div>
+                        <x-label for="productImage" value="Arquivo" />
+                        <input id="productImage" type="file" wire:model="productImage" accept="image/jpeg,image/png,image/webp" class="mt-1 block w-full text-sm text-gray-700">
+                        <x-input-error for="productImage" class="mt-2" />
+                    </div>
+                    <div><x-label for="imageAltText" value="Texto alternativo" /><x-input id="imageAltText" class="mt-1 block w-full" wire:model="imageAltText" /><x-input-error for="imageAltText" class="mt-2" /></div>
+                    <div><x-label for="imageSortOrder" value="Ordem" /><x-input id="imageSortOrder" type="number" min="0" class="mt-1 block w-full" wire:model="imageSortOrder" /><x-input-error for="imageSortOrder" class="mt-2" /></div>
+                </div>
+                <div class="flex justify-end"><x-button type="submit" wire:loading.attr="disabled" wire:target="productImage,saveProductImage">Salvar imagem</x-button></div>
+            </form>
+        </div>
+    </section>
 </div>
