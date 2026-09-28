@@ -10,4 +10,5 @@ Route::middleware([
     'admin',
 ])->group(function () {
     Route::get('/admin', DashboardController::class)->name('admin.dashboard');
+    Route::view('/admin/catalogo', 'admin.catalog')->name('admin.catalog');
 });

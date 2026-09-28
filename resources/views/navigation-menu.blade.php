@@ -22,6 +22,9 @@
                         <x-nav-link href="{{ route('admin.dashboard') }}" :active="request()->routeIs('admin.*')">
                             {{ __('Administração') }}
                         </x-nav-link>
+                        <x-nav-link href="{{ route('admin.catalog') }}" :active="request()->routeIs('admin.catalog')">
+                            {{ __('Catálogo admin') }}
+                        </x-nav-link>
                     @endif
                 </div>
             </div>
@@ -156,6 +159,9 @@
             @if (Auth::user()->isAdmin())
                 <x-responsive-nav-link href="{{ route('admin.dashboard') }}" :active="request()->routeIs('admin.*')">
                     {{ __('Administração') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link href="{{ route('admin.catalog') }}" :active="request()->routeIs('admin.catalog')">
+                    {{ __('Catálogo admin') }}
                 </x-responsive-nav-link>
             @endif
         </div>
