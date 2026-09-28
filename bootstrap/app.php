@@ -3,6 +3,7 @@
 use App\Http\Middleware\AddSecurityHeaders;
 use App\Http\Middleware\EnsureUserIsActive;
 use App\Http\Middleware\EnsureUserIsAdmin;
+use App\Http\Middleware\PreventSensitiveResponseCaching;
 use Illuminate\Contracts\Auth\Middleware\AuthenticatesRequests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -22,6 +23,7 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->alias([
             'admin' => EnsureUserIsAdmin::class,
+            'no-store' => PreventSensitiveResponseCaching::class,
         ]);
 
         $middleware->prependToPriorityList(
