@@ -14,4 +14,6 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::view('/meus-dados', 'personal-data.show')->name('personal-data.show');
 });
