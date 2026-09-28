@@ -19,7 +19,7 @@ Laravel will be installed directly in the current, initially empty directory. No
 
 ## Installation Approach
 
-Use Composer's `create-project` command with the Laravel 12 constraint and `.` as the target. This avoids depending on a separately installed Laravel CLI and avoids copying a generated application from a temporary directory.
+Use Composer's `create-project` command with the Laravel 12 constraint. Because the approved specification and Git metadata now occupy the repository root, generate the skeleton in a unique system-temporary directory, copy its contents into the root without replacing `.git` or `docs`, and then remove that exact temporary directory. The finished Laravel application still lives directly in the current folder, with no additional project subdirectory. This avoids depending on a separately installed Laravel CLI while preserving the versioned planning artifacts.
 
 After Laravel is present:
 
