@@ -25,7 +25,7 @@ class PlaceOrderTest extends TestCase
     {
         $user = User::factory()->create();
         $address = Address::factory()->for($user)->create();
-        $product = Product::factory()->create(['name' => 'Produto FictÃ­cio', 'sku' => 'SKU-TESTE', 'price_cents' => 2500, 'weight_grams' => 800]);
+        $product = Product::factory()->create(['name' => 'Produto Fictício', 'sku' => 'SKU-TESTE', 'price_cents' => 2500, 'weight_grams' => 800]);
         $inventory = InventoryItem::factory()->for($product)->create(['on_hand' => 10, 'reserved' => 0]);
         app(AddCartItem::class)->execute($user, $product, 2);
 
@@ -34,7 +34,7 @@ class PlaceOrderTest extends TestCase
         $this->assertSame(OrderStatus::PendingPayment, $order->status);
         $this->assertSame(5000, $order->subtotal_cents);
         $this->assertSame(6690, $order->total_cents);
-        $this->assertSame('Produto FictÃ­cio', $order->items->first()->product_name);
+        $this->assertSame('Produto Fictício', $order->items->first()->product_name);
         $this->assertSame(2, $inventory->fresh()->reserved);
         $this->assertSame(StockMovementType::SaleReserved, StockMovement::first()->type);
         $this->assertDatabaseCount('cart_items', 0);
