@@ -6,9 +6,7 @@ use InvalidArgumentException;
 
 final readonly class Cpf
 {
-    private function __construct(private string $digits)
-    {
-    }
+    private function __construct(private string $digits) {}
 
     public static function from(string $value): self
     {

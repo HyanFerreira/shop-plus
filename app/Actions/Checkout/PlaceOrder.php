@@ -71,6 +71,7 @@ class PlaceOrder
                 'shipping_method' => $shippingMethod,
                 'shipping_days' => $selected['days'],
                 'placed_at' => now(),
+                'payment_expires_at' => now()->addMinutes(30),
             ]);
 
             foreach ($items as $item) {

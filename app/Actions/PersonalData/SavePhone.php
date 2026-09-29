@@ -7,15 +7,14 @@ use App\Domain\PersonalData\BrazilianPhone;
 use App\Enums\PhoneType;
 use App\Models\Phone;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
 class SavePhone
 {
-    public function __construct(private readonly BlindIndex $blindIndex)
-    {
-    }
+    public function __construct(private readonly BlindIndex $blindIndex) {}
 
     public function execute(
         User $user,
@@ -55,7 +54,10 @@ class SavePhone
                 ]);
                 $user->phones()->save($phone);
 
-                return $phone->refresh();
+                $phone->refresh();
+                app(SecurityAudit::class)->record($user, $phoneId ? 'profile.phone_updated' : 'profile.phone_created', $phone);
+
+                return $phone;
             });
         } catch (QueryException $exception) {
             if ((string) $exception->getCode() === '23000') {

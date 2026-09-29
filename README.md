@@ -23,7 +23,7 @@ Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 
 - entrega simulada com rastreio, máquina de estados e eventos imutáveis;
 - acompanhamento privado do cliente e operação administrativa dos pedidos.
 
-O fluxo principal de compra e venda está implementado. O incremento final concentra seeders de demonstração, auditoria e hardening adicional.
+O fluxo funcional completo está implementado, incluindo expiração de pedidos, reembolso, entrega, gestão de administradores, auditoria e dados de demonstração. Permanecem apenas refinamentos visuais e integrações explicitamente fora do escopo acadêmico.
 
 ## Instalação local
 

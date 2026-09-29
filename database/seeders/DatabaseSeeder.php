@@ -80,7 +80,7 @@ class DatabaseSeeder extends Seeder
             if (! PurchaseOrder::query()->exists()) {
                 $purchase = app(SavePurchaseOrder::class)->execute($admin, null, $supplier->id, [$products[0]->id => 5, $products[1]->id => 3]);
                 app(PlacePurchaseOrder::class)->execute($admin, $purchase);
-                app(ReceivePurchase::class)->execute($purchase, $purchase->items()->pluck('quantity_ordered', 'id')->all(), (string) Str::uuid());
+                app(ReceivePurchase::class)->execute($admin, $purchase, $purchase->items()->pluck('quantity_ordered', 'id')->all(), (string) Str::uuid());
             }
 
             if (! Order::query()->where('user_id', $customer->id)->exists()) {

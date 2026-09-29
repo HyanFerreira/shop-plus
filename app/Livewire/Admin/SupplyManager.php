@@ -158,7 +158,7 @@ class SupplyManager extends Component
     public function receivePurchase(ReceivePurchase $action): void
     {
         $v = $this->validate(['receiveOrderId' => ['required', 'integer'], 'receiveItemId' => ['required', 'integer'], 'receiveQuantity' => ['required', 'integer', 'min:1'], 'receiptKey' => ['required', 'uuid']]);
-        $action->execute(PurchaseOrder::findOrFail($v['receiveOrderId']), [$v['receiveItemId'] => $v['receiveQuantity']], $v['receiptKey']);
+        $action->execute(Auth::user(), PurchaseOrder::findOrFail($v['receiveOrderId']), [$v['receiveItemId'] => $v['receiveQuantity']], $v['receiptKey']);
         $this->reset('receiveOrderId', 'receiveItemId');
         $this->receiptKey = (string) Str::uuid();
         $this->receiveQuantity = 1;
@@ -186,7 +186,7 @@ class SupplyManager extends Component
 
     private function resetSupplierForm(): void
     {
-        $this->reset('supplierId','supplierName','supplierDocument','supplierEmail','supplierPhone','supplierAddress');
+        $this->reset('supplierId', 'supplierName', 'supplierDocument', 'supplierEmail', 'supplierPhone', 'supplierAddress');
         $this->supplierActive = true;
         $this->resetValidation();
     }

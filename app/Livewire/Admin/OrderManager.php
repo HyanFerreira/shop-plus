@@ -2,6 +2,7 @@
 
 namespace App\Livewire\Admin;
 
+use App\Actions\Payment\RefundOrder;
 use App\Actions\Shipping\TransitionShipment;
 use App\Enums\ShipmentStatus;
 use App\Models\Order;
@@ -15,6 +16,8 @@ class OrderManager extends Component
     public string $targetStatus = '';
 
     public string $note = '';
+
+    public string $refundReason = '';
 
     public function transition(TransitionShipment $action, int $shipmentId): void
     {
@@ -39,6 +42,14 @@ class OrderManager extends Component
             ShipmentStatus::Failed => [ShipmentStatus::Preparing, ShipmentStatus::Returned],
             default => [],
         };
+    }
+
+    public function refund(RefundOrder $action, int $orderId): void
+    {
+        $this->validate(['refundReason' => ['required', 'string', 'min:5', 'max:500']]);
+        $action->execute(Auth::user(), Order::findOrFail($orderId), $this->refundReason);
+        $this->reset('refundReason');
+        session()->flash('order-admin-status', 'Pedido reembolsado e estoque devolvido.');
     }
 
     public function render()

@@ -5,6 +5,7 @@ namespace App\Actions\Inventory;
 use App\Domain\PersonalData\BlindIndex;
 use App\Models\Supplier;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Database\QueryException;
 use Illuminate\Validation\ValidationException;
 
@@ -41,7 +42,10 @@ class SaveSupplier
             throw $e;
         }
 
-        return $supplier->refresh();
+        $supplier->refresh();
+        app(SecurityAudit::class)->record($actor, $supplierId ? 'supplier.updated' : 'supplier.created', $supplier);
+
+        return $supplier;
     }
 
     private function formatDocument(string $digits): string

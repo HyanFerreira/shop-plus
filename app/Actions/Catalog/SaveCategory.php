@@ -5,6 +5,7 @@ namespace App\Actions\Catalog;
 use App\Enums\CatalogStatus;
 use App\Models\Category;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
@@ -42,7 +43,10 @@ class SaveCategory
             throw $exception;
         }
 
-        return $category->refresh();
+        $category->refresh();
+        app(SecurityAudit::class)->record($actor, $categoryId ? 'category.updated' : 'category.created', $category);
+
+        return $category;
     }
 
     private function validationFailure(): ValidationException

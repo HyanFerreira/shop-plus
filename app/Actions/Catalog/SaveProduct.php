@@ -7,6 +7,7 @@ use App\Enums\CatalogStatus;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
@@ -63,6 +64,9 @@ class SaveProduct
             throw $exception;
         }
 
-        return $product->refresh();
+        $product->refresh();
+        app(SecurityAudit::class)->record($actor, $productId ? 'product.updated' : 'product.created', $product);
+
+        return $product;
     }
 }

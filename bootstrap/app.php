@@ -4,6 +4,7 @@ use App\Http\Middleware\AddSecurityHeaders;
 use App\Http\Middleware\EnsureUserIsActive;
 use App\Http\Middleware\EnsureUserIsAdmin;
 use App\Http\Middleware\PreventSensitiveResponseCaching;
+use App\Http\Middleware\ThrottleSensitiveAuthRequests;
 use Illuminate\Contracts\Auth\Middleware\AuthenticatesRequests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -34,6 +35,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->web(append: [
             AddSecurityHeaders::class,
             EnsureUserIsActive::class,
+            ThrottleSensitiveAuthRequests::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {

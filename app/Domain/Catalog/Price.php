@@ -6,9 +6,7 @@ use InvalidArgumentException;
 
 final readonly class Price
 {
-    private function __construct(private int $cents)
-    {
-    }
+    private function __construct(private int $cents) {}
 
     public static function fromInput(string $value): self
     {

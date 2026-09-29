@@ -4,6 +4,7 @@ namespace App\Actions\PersonalData;
 
 use App\Models\Address;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
@@ -44,7 +45,10 @@ class SaveAddress
             ]);
             $user->addresses()->save($address);
 
-            return $address->refresh();
+            $address->refresh();
+            app(SecurityAudit::class)->record($user, $addressId ? 'profile.address_updated' : 'profile.address_created', $address);
+
+            return $address;
         });
     }
 }

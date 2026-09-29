@@ -42,7 +42,7 @@ class CancelOrder
                 }
             }
 
-            $order->update(['status' => OrderStatus::Cancelled]);
+            $order->update(['status' => OrderStatus::Cancelled, 'cancelled_at' => now()]);
             $order->statusHistories()->create(['from_status' => OrderStatus::PendingPayment, 'to_status' => OrderStatus::Cancelled, 'actor_id' => $user->id, 'note' => 'Cancelado pelo cliente']);
             app(SecurityAudit::class)->record($user, 'order.cancelled', $order);
 

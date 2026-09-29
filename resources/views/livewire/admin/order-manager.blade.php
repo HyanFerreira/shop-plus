@@ -17,6 +17,9 @@
                 @else
                     <p class="mt-4 border-t pt-4 text-sm text-gray-500">Aguardando pagamento autorizado.</p>
                 @endif
+                @if (in_array($order->status, [\App\Enums\OrderStatus::Paid, \App\Enums\OrderStatus::Processing, \App\Enums\OrderStatus::Shipped, \App\Enums\OrderStatus::Delivered], true))
+                    <div class="mt-4 flex gap-2 border-t pt-4"><input wire:model="refundReason" maxlength="500" placeholder="Justificativa do reembolso" class="flex-1 rounded-md border-gray-300"><button wire:click="refund({{ $order->id }})" wire:confirm="Confirmar reembolso e devolução ao estoque?" class="rounded-md bg-red-700 px-4 py-2 text-white">Reembolsar</button></div>
+                @endif
             </article>
         @empty
             <p class="rounded-lg bg-white p-8 text-center shadow">Nenhum pedido.</p>

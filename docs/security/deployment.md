@@ -7,6 +7,7 @@
 - Use HTTPS e configure `SESSION_SECURE_COOKIE=true`, `SESSION_HTTP_ONLY=true`, `SESSION_SAME_SITE=lax` e `SESSION_ENCRYPT=true`.
 - Use credenciais MySQL exclusivas com o menor privilégio necessário. Nunca versione `.env`, dumps ou backups.
 - Configure e teste e-mail para recuperação de senha; o ambiente local usa log por padrão.
+- Para SMTP, preencha `MAIL_MAILER=smtp`, host, porta, usuário, senha e remetente no `.env`; essas credenciais dependem do provedor escolhido e não devem ser versionadas.
 - Execute filas com processo supervisionado, retenha logs pelo mínimo necessário e restrinja o acesso operacional.
 - Faça backup cifrado e teste restauração. Dados cifrados exigem backup seguro da `APP_KEY`.
 

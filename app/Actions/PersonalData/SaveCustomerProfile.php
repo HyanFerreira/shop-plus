@@ -6,15 +6,14 @@ use App\Domain\PersonalData\BlindIndex;
 use App\Domain\PersonalData\Cpf;
 use App\Models\CustomerProfile;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
 class SaveCustomerProfile
 {
-    public function __construct(private readonly BlindIndex $blindIndex)
-    {
-    }
+    public function __construct(private readonly BlindIndex $blindIndex) {}
 
     public function execute(User $user, string $cpfInput, ?string $birthDate): CustomerProfile
     {
@@ -45,7 +44,10 @@ class SaveCustomerProfile
 
                 $user->customerProfile()->save($profile);
 
-                return $profile->refresh();
+                $profile->refresh();
+                app(SecurityAudit::class)->record($user, 'profile.personal_data_updated', $profile);
+
+                return $profile;
             });
         } catch (QueryException $exception) {
             if ((string) $exception->getCode() === '23000') {

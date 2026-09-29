@@ -2,8 +2,8 @@
 
 namespace App\Livewire\Admin;
 
-use App\Actions\Catalog\SaveCategory;
 use App\Actions\Catalog\DeleteProductImage;
+use App\Actions\Catalog\SaveCategory;
 use App\Actions\Catalog\SaveProduct;
 use App\Actions\Catalog\StoreProductImage;
 use App\Domain\Catalog\Price;

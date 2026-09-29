@@ -3,17 +3,17 @@
 namespace App\Livewire\PersonalData;
 
 use App\Actions\PersonalData\DeleteAddress;
-use App\Actions\PersonalData\SaveCustomerProfile;
 use App\Actions\PersonalData\DeletePhone;
 use App\Actions\PersonalData\SaveAddress;
+use App\Actions\PersonalData\SaveCustomerProfile;
 use App\Actions\PersonalData\SavePhone;
 use App\Domain\PersonalData\BrazilianPhone;
 use App\Domain\PersonalData\Cpf;
 use App\Enums\PhoneType;
-use App\Models\Phone;
 use App\Models\Address;
-use App\Rules\ValidCpf;
+use App\Models\Phone;
 use App\Rules\ValidBrazilianPhone;
+use App\Rules\ValidCpf;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rule;

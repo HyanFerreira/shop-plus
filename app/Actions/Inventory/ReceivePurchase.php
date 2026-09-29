@@ -7,15 +7,22 @@ use App\Enums\StockMovementType;
 use App\Models\InventoryItem;
 use App\Models\PurchaseOrder;
 use App\Models\StockMovement;
+use App\Models\User;
+use App\Support\SecurityAudit;
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
 class ReceivePurchase
 {
     /** @param array<int, int> $quantities Item ID => quantity received now. */
-    public function execute(PurchaseOrder $order, array $quantities, string $idempotencyKey): PurchaseOrder
+    public function execute(User $actor, PurchaseOrder $order, array $quantities, string $idempotencyKey): PurchaseOrder
     {
-        return DB::transaction(function () use ($order, $quantities, $idempotencyKey) {
+        if (! $actor->isAdmin()) {
+            throw new AuthorizationException;
+        }
+
+        return DB::transaction(function () use ($actor, $order, $quantities, $idempotencyKey) {
             $order = PurchaseOrder::query()->lockForUpdate()->findOrFail($order->id);
             $items = $order->items()->lockForUpdate()->get()->keyBy('id');
 
@@ -54,6 +61,7 @@ class ReceivePurchase
                     'reference_type' => $item::class,
                     'reference_id' => $item->id,
                     'reason' => 'Recebimento de ordem de compra',
+                    'actor_id' => $actor->id,
                 ]);
 
                 $item->increment('quantity_received', $quantity);
@@ -64,6 +72,7 @@ class ReceivePurchase
                 : PurchaseOrderStatus::Received;
             $order->received_at = $order->status === PurchaseOrderStatus::Received ? now() : null;
             $order->save();
+            app(SecurityAudit::class)->record($actor, 'purchase.received', $order);
 
             return $order->refresh();
         }, 3);

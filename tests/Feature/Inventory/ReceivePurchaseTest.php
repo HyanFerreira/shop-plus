@@ -7,6 +7,7 @@ use App\Enums\PurchaseOrderStatus;
 use App\Models\Product;
 use App\Models\PurchaseOrder;
 use App\Models\PurchaseOrderItem;
+use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Validation\ValidationException;
 use Tests\TestCase;
@@ -21,14 +22,15 @@ class ReceivePurchaseTest extends TestCase
         $product = Product::factory()->create();
         $item = PurchaseOrderItem::factory()->for($order)->for($product)->create(['quantity_ordered' => 5]);
         $action = app(ReceivePurchase::class);
+        $admin = User::factory()->admin()->create();
 
-        $action->execute($order, [$item->id => 2], 'receipt-00000001');
+        $action->execute($admin, $order, [$item->id => 2], 'receipt-00000001');
 
         $this->assertSame(PurchaseOrderStatus::PartiallyReceived, $order->fresh()->status);
         $this->assertSame(2, $item->fresh()->quantity_received);
         $this->assertSame(2, $product->inventoryItem->on_hand);
 
-        $action->execute($order->fresh(), [$item->id => 3], 'receipt-00000002');
+        $action->execute($admin, $order->fresh(), [$item->id => 3], 'receipt-00000002');
 
         $this->assertSame(PurchaseOrderStatus::Received, $order->fresh()->status);
         $this->assertSame(5, $product->inventoryItem->fresh()->on_hand);
@@ -40,9 +42,10 @@ class ReceivePurchaseTest extends TestCase
         $order = PurchaseOrder::factory()->create(['status' => PurchaseOrderStatus::Placed]);
         $item = PurchaseOrderItem::factory()->for($order)->create(['quantity_ordered' => 4]);
         $action = app(ReceivePurchase::class);
+        $admin = User::factory()->admin()->create();
 
-        $action->execute($order, [$item->id => 2], 'receipt-00000003');
-        $action->execute($order->fresh(), [$item->id => 2], 'receipt-00000003');
+        $action->execute($admin, $order, [$item->id => 2], 'receipt-00000003');
+        $action->execute($admin, $order->fresh(), [$item->id => 2], 'receipt-00000003');
 
         $this->assertSame(2, $item->fresh()->quantity_received);
         $this->assertSame(2, $item->product->inventoryItem->on_hand);
@@ -55,6 +58,6 @@ class ReceivePurchaseTest extends TestCase
         $item = PurchaseOrderItem::factory()->for($order)->create(['quantity_ordered' => 2]);
 
         $this->expectException(ValidationException::class);
-        app(ReceivePurchase::class)->execute($order, [$item->id => 3], 'receipt-00000004');
+        app(ReceivePurchase::class)->execute(User::factory()->admin()->create(), $order, [$item->id => 3], 'receipt-00000004');
     }
 }
