@@ -18,8 +18,10 @@ Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 
 - estoque transacional com idempotência e livro-razão imutável.
 - carrinho autenticado, frete interno e checkout idempotente com reserva transacional;
 - pedidos com itens congelados e snapshot criptografado do endereço.
+- pagamento interno com cartões fictícios, idempotência e descarte de PAN/CVV;
+- aprovação, recusa e cancelamento integrados ao livro-razão de estoque.
 
-Pagamento simulado, ciclo completo do pedido e entrega serão adicionados nos próximos incrementos.
+Processamento administrativo do pedido e entrega simulada serão adicionados nos próximos incrementos.
 
 ## Instalação local
 
@@ -54,4 +56,4 @@ npm.cmd audit
 npm.cmd run build
 ```
 
-Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md), [integridade de estoque](docs/security/inventory.md) e [segurança do checkout](docs/security/checkout.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
+Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md), [integridade de estoque](docs/security/inventory.md), [segurança do checkout](docs/security/checkout.md) e [segurança do pagamento simulado](docs/security/payment.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).

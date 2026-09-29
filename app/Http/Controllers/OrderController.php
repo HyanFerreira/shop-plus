@@ -13,7 +13,7 @@ class OrderController extends Controller
         $order = Order::query()
             ->where('user_id', Auth::id())
             ->where('public_number', $publicNumber)
-            ->with(['items', 'statusHistories'])
+            ->with(['items', 'statusHistories', 'payments'])
             ->firstOrFail();
 
         return view('orders.show', compact('order'));

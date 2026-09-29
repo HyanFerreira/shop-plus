@@ -21,7 +21,7 @@ class CartManager extends Component
     {
         $quantity = filter_var($this->quantities[$itemId] ?? null, FILTER_VALIDATE_INT);
         if ($quantity === false) {
-            $this->addError('quantities.'.$itemId, 'Quantidade invÃ¡lida.');
+            $this->addError('quantities.'.$itemId, 'Quantidade inválida.');
 
             return;
         }

@@ -22,7 +22,7 @@ class AddCartItem
         return DB::transaction(function () use ($user, $product, $quantity) {
             $product = Product::query()->with('category')->lockForUpdate()->findOrFail($product->id);
             if ($product->status !== CatalogStatus::Active || $product->category?->status !== CatalogStatus::Active) {
-                throw ValidationException::withMessages(['product' => 'Produto indisponÃ­vel.']);
+                throw ValidationException::withMessages(['product' => 'Produto indisponível.']);
             }
 
             $cart = Cart::query()->firstOrCreate(['user_id' => $user->id]);
@@ -31,7 +31,7 @@ class AddCartItem
             $available = InventoryItem::query()->where('product_id', $product->id)->value(DB::raw('on_hand - reserved')) ?? 0;
 
             if ($newQuantity > $available) {
-                throw ValidationException::withMessages(['quantity' => 'Quantidade indisponÃ­vel em estoque.']);
+                throw ValidationException::withMessages(['quantity' => 'Quantidade indisponível em estoque.']);
             }
 
             $item ??= new CartItem(['product_id' => $product->id]);

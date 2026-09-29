@@ -1,7 +1,7 @@
 <div>
     @if (session('cart-status')) <div class="mb-4 rounded-md bg-green-50 p-4 text-green-800">{{ session('cart-status') }}</div> @endif
     @if (!$cart || $cart->items->isEmpty())
-        <div class="rounded-lg bg-white p-8 text-center shadow"><p class="text-gray-600">Seu carrinho estÃ¡ vazio.</p><a href="{{ route('catalog.index') }}" class="mt-4 inline-block text-indigo-700">Explorar catÃ¡logo</a></div>
+        <div class="rounded-lg bg-white p-8 text-center shadow"><p class="text-gray-600">Seu carrinho está vazio.</p><a href="{{ route('catalog.index') }}" class="mt-4 inline-block text-indigo-700">Explorar catálogo</a></div>
     @else
         <div class="overflow-hidden rounded-lg bg-white shadow">
             @foreach ($cart->items as $item)

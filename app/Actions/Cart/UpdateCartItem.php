@@ -15,7 +15,7 @@ class UpdateCartItem
         return DB::transaction(function () use ($user, $itemId, $quantity) {
             $item = CartItem::query()->whereKey($itemId)->whereHas('cart', fn ($query) => $query->where('user_id', $user->id))->lockForUpdate()->first();
             if (! $item) {
-                throw ValidationException::withMessages(['cart' => 'Item nÃ£o encontrado.']);
+                throw ValidationException::withMessages(['cart' => 'Item não encontrado.']);
             }
             if ($quantity === 0) {
                 $item->delete();
@@ -28,7 +28,7 @@ class UpdateCartItem
 
             $available = InventoryItem::query()->where('product_id', $item->product_id)->value(DB::raw('on_hand - reserved')) ?? 0;
             if ($quantity > $available) {
-                throw ValidationException::withMessages(['quantity' => 'Quantidade indisponÃ­vel em estoque.']);
+                throw ValidationException::withMessages(['quantity' => 'Quantidade indisponível em estoque.']);
             }
 
             $item->update(['quantity' => $quantity]);

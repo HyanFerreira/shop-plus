@@ -29,14 +29,14 @@ class PlaceOrder
             }
 
             if (! Str::isUuid($checkoutKey)) {
-                throw ValidationException::withMessages(['checkout' => 'Chave de checkout invÃ¡lida.']);
+                throw ValidationException::withMessages(['checkout' => 'Chave de checkout inválida.']);
             }
 
             $address = Address::query()->where('user_id', $user->id)->find($addressId);
             $cart = Cart::query()->where('user_id', $user->id)->lockForUpdate()->first();
             $items = $cart?->items()->with(['product.category'])->orderBy('product_id')->lockForUpdate()->get();
             if (! $address || ! $items || $items->isEmpty()) {
-                throw ValidationException::withMessages(['checkout' => 'Carrinho ou endereÃ§o invÃ¡lido.']);
+                throw ValidationException::withMessages(['checkout' => 'Carrinho ou endereço inválido.']);
             }
 
             $inventory = InventoryItem::query()->whereIn('product_id', $items->pluck('product_id'))->orderBy('product_id')->lockForUpdate()->get()->keyBy('product_id');
@@ -46,7 +46,7 @@ class PlaceOrder
                 $product = $item->product;
                 $stock = $inventory->get($item->product_id);
                 if (! $product || $product->status !== CatalogStatus::Active || $product->category?->status !== CatalogStatus::Active || ! $stock || $item->quantity > $stock->available()) {
-                    throw ValidationException::withMessages(['checkout' => 'Um item do carrinho ficou indisponÃ­vel.']);
+                    throw ValidationException::withMessages(['checkout' => 'Um item do carrinho ficou indisponível.']);
                 }
                 $subtotal += $product->price_cents * $item->quantity;
                 $weight += $product->weight_grams * $item->quantity;
@@ -55,7 +55,7 @@ class PlaceOrder
             $options = $this->shipping->options($address->postal_code_encrypted, $weight);
             $selected = $options[$shippingMethod] ?? null;
             if (! $selected) {
-                throw ValidationException::withMessages(['shippingMethod' => 'Modalidade de entrega invÃ¡lida.']);
+                throw ValidationException::withMessages(['shippingMethod' => 'Modalidade de entrega inválida.']);
             }
 
             $order = Order::create([
