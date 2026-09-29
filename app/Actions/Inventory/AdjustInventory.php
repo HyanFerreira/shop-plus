@@ -7,6 +7,7 @@ use App\Models\InventoryItem;
 use App\Models\Product;
 use App\Models\StockMovement;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
@@ -41,6 +42,7 @@ class AdjustInventory
                 'reason' => trim($reason),
                 'actor_id' => $actor->id,
             ]);
+            app(SecurityAudit::class)->record($actor, 'inventory.adjusted', $inventory, ['delta' => $delta, 'product_id' => $product->id]);
 
             return $inventory->refresh();
         }, 3);

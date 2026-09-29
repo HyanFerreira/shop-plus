@@ -13,6 +13,7 @@ use App\Models\Payment;
 use App\Models\Shipment;
 use App\Models\StockMovement;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
@@ -99,6 +100,8 @@ class ProcessPayment
                 ]);
                 $shipment->events()->create(['to_status' => ShipmentStatus::AwaitingProcessing, 'note' => 'Entrega simulada criada automaticamente']);
             }
+
+            app(SecurityAudit::class)->record($user, $card['authorized'] ? 'payment.authorized' : 'payment.failed', $payment, ['order_id' => $order->id, 'amount_cents' => $payment->amount_cents]);
 
             return $payment;
         }, 3);

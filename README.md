@@ -48,6 +48,14 @@ npm.cmd run build
 php artisan serve
 ```
 
+Para popular o cenário inteiramente fictício, defina `DEMO_PASSWORD` no ambiente local e execute:
+
+```powershell
+php artisan db:seed
+```
+
+Usuários de demonstração: `admin@comercio.example.test` e `cliente@comercio.example.test`. A senha não é versionada; se `DEMO_PASSWORD` estiver vazia, o seeder gera e exibe uma senha efêmera.
+
 ## Qualidade e segurança
 
 ```powershell
@@ -58,4 +66,4 @@ npm.cmd audit
 npm.cmd run build
 ```
 
-Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md), [integridade de estoque](docs/security/inventory.md), [segurança do checkout](docs/security/checkout.md), [segurança do pagamento simulado](docs/security/payment.md) e [segurança da entrega](docs/security/shipping.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
+Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md), [integridade de estoque](docs/security/inventory.md), [segurança do checkout](docs/security/checkout.md), [segurança do pagamento simulado](docs/security/payment.md), [segurança da entrega](docs/security/shipping.md) e no [checklist de execução segura](docs/security/deployment.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).

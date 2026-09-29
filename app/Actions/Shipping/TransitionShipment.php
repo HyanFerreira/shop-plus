@@ -6,6 +6,7 @@ use App\Enums\OrderStatus;
 use App\Enums\ShipmentStatus;
 use App\Models\Shipment;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
@@ -59,6 +60,7 @@ class TransitionShipment
                 $shipment->order->update(['status' => $orderStatus]);
                 $shipment->order->statusHistories()->create(['from_status' => $previous, 'to_status' => $orderStatus, 'actor_id' => $actor->id, 'note' => 'Atualização da entrega simulada']);
             }
+            app(SecurityAudit::class)->record($actor, 'shipment.transitioned', $shipment, ['from' => $from->value, 'to' => $target->value]);
 
             return $shipment->load('events', 'order');
         }, 3);

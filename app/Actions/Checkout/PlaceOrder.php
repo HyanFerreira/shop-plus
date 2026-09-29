@@ -12,6 +12,7 @@ use App\Models\InventoryItem;
 use App\Models\Order;
 use App\Models\StockMovement;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
@@ -99,6 +100,7 @@ class PlaceOrder
 
             $order->statusHistories()->create(['to_status' => OrderStatus::PendingPayment, 'actor_id' => $user->id, 'note' => 'Pedido criado']);
             $cart->items()->delete();
+            app(SecurityAudit::class)->record($user, 'order.created', $order, ['total_cents' => $order->total_cents]);
 
             return $order->load('items', 'statusHistories');
         }, 3);

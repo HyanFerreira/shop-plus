@@ -8,6 +8,7 @@ use App\Models\InventoryItem;
 use App\Models\Order;
 use App\Models\StockMovement;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
@@ -43,6 +44,7 @@ class CancelOrder
 
             $order->update(['status' => OrderStatus::Cancelled]);
             $order->statusHistories()->create(['from_status' => OrderStatus::PendingPayment, 'to_status' => OrderStatus::Cancelled, 'actor_id' => $user->id, 'note' => 'Cancelado pelo cliente']);
+            app(SecurityAudit::class)->record($user, 'order.cancelled', $order);
 
             return $order->refresh();
         }, 3);
