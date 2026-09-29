@@ -11,4 +11,5 @@ Route::middleware([
 ])->group(function () {
     Route::get('/admin', DashboardController::class)->name('admin.dashboard');
     Route::view('/admin/catalogo', 'admin.catalog')->name('admin.catalog');
+    Route::view('/admin/abastecimento', 'admin.supply')->name('admin.supply');
 });

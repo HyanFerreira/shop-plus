@@ -28,6 +28,9 @@
                         <x-nav-link href="{{ route('admin.catalog') }}" :active="request()->routeIs('admin.catalog')">
                             {{ __('Catálogo admin') }}
                         </x-nav-link>
+                        <x-nav-link href="{{ route('admin.supply') }}" :active="request()->routeIs('admin.supply')">
+                            {{ __('Abastecimento') }}
+                        </x-nav-link>
                     @endif
                 </div>
             </div>
@@ -168,6 +171,9 @@
                 </x-responsive-nav-link>
                 <x-responsive-nav-link href="{{ route('admin.catalog') }}" :active="request()->routeIs('admin.catalog')">
                     {{ __('Catálogo admin') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link href="{{ route('admin.supply') }}" :active="request()->routeIs('admin.supply')">
+                    {{ __('Abastecimento') }}
                 </x-responsive-nav-link>
             @endif
         </div>
