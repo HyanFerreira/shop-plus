@@ -10,5 +10,8 @@
         @elseif ($order->payments->isNotEmpty())
             <section class="rounded-lg bg-white p-6 shadow"><h3 class="font-semibold">Pagamento</h3>@foreach ($order->payments as $payment)<p class="mt-2">{{ $payment->brand }} final {{ $payment->last_four }} — {{ $payment->status->value }}</p>@endforeach</section>
         @endif
+        @if ($order->shipment)
+            <section class="rounded-lg bg-white p-6 shadow"><h3 class="font-semibold">Rastreio fictício {{ $order->shipment->tracking_code }}</h3><ol class="mt-4 space-y-3">@foreach ($order->shipment->events as $event)<li class="border-l-2 border-indigo-300 pl-4"><p class="font-medium">{{ $event->to_status->value }}</p><p class="text-sm text-gray-500">{{ $event->created_at->format('d/m/Y H:i') }}@if($event->note) · {{ $event->note }}@endif</p></li>@endforeach</ol></section>
+        @endif
     </div></div>
 </x-app-layout>

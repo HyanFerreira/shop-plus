@@ -5,10 +5,12 @@ namespace App\Actions\Payment;
 use App\Domain\Payment\FictitiousCardValidator;
 use App\Enums\OrderStatus;
 use App\Enums\PaymentStatus;
+use App\Enums\ShipmentStatus;
 use App\Enums\StockMovementType;
 use App\Models\InventoryItem;
 use App\Models\Order;
 use App\Models\Payment;
+use App\Models\Shipment;
 use App\Models\StockMovement;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
@@ -85,6 +87,18 @@ class ProcessPayment
             $newStatus = $card['authorized'] ? OrderStatus::Paid : OrderStatus::Cancelled;
             $order->update(['status' => $newStatus]);
             $order->statusHistories()->create(['from_status' => OrderStatus::PendingPayment, 'to_status' => $newStatus, 'actor_id' => $user->id, 'note' => $card['authorized'] ? 'Pagamento fictício autorizado' : 'Pagamento fictício recusado']);
+
+            if ($card['authorized']) {
+                $shipment = Shipment::create([
+                    'order_id' => $order->id,
+                    'method' => $order->shipping_method,
+                    'price_cents' => $order->shipping_cents,
+                    'estimated_days' => $order->shipping_days,
+                    'status' => ShipmentStatus::AwaitingProcessing,
+                    'tracking_code' => 'TRK-'.Str::upper(Str::random(16)),
+                ]);
+                $shipment->events()->create(['to_status' => ShipmentStatus::AwaitingProcessing, 'note' => 'Entrega simulada criada automaticamente']);
+            }
 
             return $payment;
         }, 3);

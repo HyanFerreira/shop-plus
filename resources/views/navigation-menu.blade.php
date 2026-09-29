@@ -24,6 +24,9 @@
                     <x-nav-link href="{{ route('cart.show') }}" :active="request()->routeIs('cart.*') || request()->routeIs('checkout.*')">
                         {{ __('Carrinho') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('orders.index') }}" :active="request()->routeIs('orders.*')">
+                        {{ __('Meus pedidos') }}
+                    </x-nav-link>
                     @if (Auth::user()->isAdmin())
                         <x-nav-link href="{{ route('admin.dashboard') }}" :active="request()->routeIs('admin.*')">
                             {{ __('Administração') }}
@@ -33,6 +36,9 @@
                         </x-nav-link>
                         <x-nav-link href="{{ route('admin.supply') }}" :active="request()->routeIs('admin.supply')">
                             {{ __('Abastecimento') }}
+                        </x-nav-link>
+                        <x-nav-link href="{{ route('admin.orders') }}" :active="request()->routeIs('admin.orders')">
+                            {{ __('Pedidos') }}
                         </x-nav-link>
                     @endif
                 </div>
@@ -171,6 +177,9 @@
             <x-responsive-nav-link href="{{ route('cart.show') }}" :active="request()->routeIs('cart.*') || request()->routeIs('checkout.*')">
                 {{ __('Carrinho') }}
             </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ route('orders.index') }}" :active="request()->routeIs('orders.*')">
+                {{ __('Meus pedidos') }}
+            </x-responsive-nav-link>
             @if (Auth::user()->isAdmin())
                 <x-responsive-nav-link href="{{ route('admin.dashboard') }}" :active="request()->routeIs('admin.*')">
                     {{ __('Administração') }}
@@ -180,6 +189,9 @@
                 </x-responsive-nav-link>
                 <x-responsive-nav-link href="{{ route('admin.supply') }}" :active="request()->routeIs('admin.supply')">
                     {{ __('Abastecimento') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link href="{{ route('admin.orders') }}" :active="request()->routeIs('admin.orders')">
+                    {{ __('Pedidos') }}
                 </x-responsive-nav-link>
             @endif
         </div>

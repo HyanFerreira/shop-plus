@@ -37,6 +37,8 @@ class ProcessPaymentTest extends TestCase
         $this->assertSame(3, $inventory->fresh()->on_hand);
         $this->assertSame(0, $inventory->fresh()->reserved);
         $this->assertSame(StockMovementType::SaleCompleted, StockMovement::latest('id')->first()->type);
+        $this->assertDatabaseHas('shipments', ['order_id' => $order->id, 'status' => 'awaiting_processing']);
+        $this->assertDatabaseHas('shipment_events', ['to_status' => 'awaiting_processing']);
 
         $raw = json_encode(DB::table('payments')->first());
         $this->assertStringNotContainsString(FictitiousCardValidator::APPROVED_VISA, $raw);

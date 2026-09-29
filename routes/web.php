@@ -26,5 +26,6 @@ Route::middleware([
 
     Route::view('/carrinho', 'cart.show')->name('cart.show');
     Route::view('/checkout', 'checkout.show')->middleware('no-store')->name('checkout.show');
+    Route::get('/pedidos', [OrderController::class, 'index'])->middleware('no-store')->name('orders.index');
     Route::get('/pedidos/{publicNumber}', [OrderController::class, 'show'])->middleware('no-store')->name('orders.show');
 });

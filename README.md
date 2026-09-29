@@ -20,8 +20,10 @@ Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 
 - pedidos com itens congelados e snapshot criptografado do endereço.
 - pagamento interno com cartões fictícios, idempotência e descarte de PAN/CVV;
 - aprovação, recusa e cancelamento integrados ao livro-razão de estoque.
+- entrega simulada com rastreio, máquina de estados e eventos imutáveis;
+- acompanhamento privado do cliente e operação administrativa dos pedidos.
 
-Processamento administrativo do pedido e entrega simulada serão adicionados nos próximos incrementos.
+O fluxo principal de compra e venda está implementado. O incremento final concentra seeders de demonstração, auditoria e hardening adicional.
 
 ## Instalação local
 
@@ -56,4 +58,4 @@ npm.cmd audit
 npm.cmd run build
 ```
 
-Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md), [integridade de estoque](docs/security/inventory.md), [segurança do checkout](docs/security/checkout.md) e [segurança do pagamento simulado](docs/security/payment.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
+Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md), [integridade de estoque](docs/security/inventory.md), [segurança do checkout](docs/security/checkout.md), [segurança do pagamento simulado](docs/security/payment.md) e [segurança da entrega](docs/security/shipping.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
