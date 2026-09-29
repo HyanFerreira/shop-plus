@@ -12,8 +12,10 @@ Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 
 - Argon2id e cabeçalhos HTTP de segurança;
 - perfil do cliente com CPF sintético validado, telefones e endereços;
 - dados pessoais criptografados, índices cegos e isolamento por proprietário.
+- catálogo público pesquisável com categorias, produtos, preços em centavos e imagens validadas;
+- administração do catálogo com autorização no servidor e exclusão lógica.
 
-Catálogo, fornecedores, estoque, carrinho, pedidos, pagamento simulado e entrega serão adicionados nos próximos incrementos.
+Fornecedores, estoque, carrinho, pedidos, pagamento simulado e entrega serão adicionados nos próximos incrementos.
 
 ## Instalação local
 
@@ -48,4 +50,4 @@ npm.cmd audit
 npm.cmd run build
 ```
 
-Detalhes dos controles de dados pessoais estão em [docs/security/personal-data.md](docs/security/personal-data.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
+Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md) e [segurança do catálogo](docs/security/catalog.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
