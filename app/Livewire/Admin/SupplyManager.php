@@ -13,6 +13,7 @@ use App\Models\InventoryItem;
 use App\Models\Product;
 use App\Models\PurchaseOrder;
 use App\Models\Supplier;
+use App\Support\SecurityAudit;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
@@ -108,13 +109,17 @@ class SupplyManager extends Component
 
     public function deleteSupplier(int $id): void
     {
-        Supplier::findOrFail($id)->delete();
+        $supplier = Supplier::findOrFail($id);
+        $supplier->delete();
+        app(SecurityAudit::class)->record(Auth::user(), 'supplier.deleted', $supplier);
         session()->flash('supplyMessage', 'Fornecedor removido.');
     }
 
     public function restoreSupplier(int $id): void
     {
-        Supplier::onlyTrashed()->findOrFail($id)->restore();
+        $supplier = Supplier::onlyTrashed()->findOrFail($id);
+        $supplier->restore();
+        app(SecurityAudit::class)->record(Auth::user(), 'supplier.restored', $supplier);
         session()->flash('supplyMessage', 'Fornecedor restaurado.');
     }
 

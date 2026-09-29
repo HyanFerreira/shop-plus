@@ -4,6 +4,7 @@ namespace App\Actions\Catalog;
 
 use App\Models\ProductImage;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Support\Facades\Storage;
 
 class DeleteProductImage
@@ -15,5 +16,6 @@ class DeleteProductImage
         $image = ProductImage::query()->findOrFail($imageId);
         Storage::disk('public')->delete($image->path);
         $image->delete();
+        app(SecurityAudit::class)->record($actor, 'product.image_deleted', $image);
     }
 }

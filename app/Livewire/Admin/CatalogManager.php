@@ -10,6 +10,7 @@ use App\Domain\Catalog\Price;
 use App\Enums\CatalogStatus;
 use App\Models\Category;
 use App\Models\Product;
+use App\Support\SecurityAudit;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rule;
@@ -100,14 +101,18 @@ class CatalogManager extends Component
 
     public function deleteCategory(int $categoryId): void
     {
-        Category::query()->findOrFail($categoryId)->delete();
+        $category = Category::query()->findOrFail($categoryId);
+        $category->delete();
+        app(SecurityAudit::class)->record(Auth::user(), 'category.deleted', $category);
         $this->resetCategoryForm();
         session()->flash('catalogMessage', 'Categoria removida.');
     }
 
     public function restoreCategory(int $categoryId): void
     {
-        Category::onlyTrashed()->findOrFail($categoryId)->restore();
+        $category = Category::onlyTrashed()->findOrFail($categoryId);
+        $category->restore();
+        app(SecurityAudit::class)->record(Auth::user(), 'category.restored', $category);
         session()->flash('catalogMessage', 'Categoria restaurada.');
     }
 
@@ -167,14 +172,18 @@ class CatalogManager extends Component
 
     public function deleteProduct(int $productId): void
     {
-        Product::query()->findOrFail($productId)->delete();
+        $product = Product::query()->findOrFail($productId);
+        $product->delete();
+        app(SecurityAudit::class)->record(Auth::user(), 'product.deleted', $product);
         $this->resetProductForm();
         session()->flash('catalogMessage', 'Produto removido.');
     }
 
     public function restoreProduct(int $productId): void
     {
-        Product::onlyTrashed()->findOrFail($productId)->restore();
+        $product = Product::onlyTrashed()->findOrFail($productId);
+        $product->restore();
+        app(SecurityAudit::class)->record(Auth::user(), 'product.restored', $product);
         session()->flash('catalogMessage', 'Produto restaurado.');
     }
 

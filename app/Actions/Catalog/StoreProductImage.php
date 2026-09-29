@@ -5,6 +5,7 @@ namespace App\Actions\Catalog;
 use App\Models\Product;
 use App\Models\ProductImage;
 use App\Models\User;
+use App\Support\SecurityAudit;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
 use Throwable;
@@ -24,11 +25,14 @@ class StoreProductImage
         $path = $upload->storePublicly('products/'.$product->id, 'public');
 
         try {
-            return $product->images()->create([
+            $image = $product->images()->create([
                 'path' => $path,
                 'alt_text' => $altText ? trim($altText) : null,
                 'sort_order' => $sortOrder,
             ]);
+            app(SecurityAudit::class)->record($actor, 'product.image_created', $image);
+
+            return $image;
         } catch (Throwable $exception) {
             Storage::disk('public')->delete($path);
             throw $exception;
