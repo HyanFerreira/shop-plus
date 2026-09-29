@@ -25,6 +25,8 @@ Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 
 
 O fluxo funcional completo está implementado, incluindo expiração de pedidos, reembolso, entrega, gestão de administradores, auditoria e dados de demonstração. Permanecem apenas refinamentos visuais e integrações explicitamente fora do escopo acadêmico.
 
+A referência para a próxima etapa de interface está em [docs/design](docs/design/README.md).
+
 ## Instalação local
 
 ```powershell
