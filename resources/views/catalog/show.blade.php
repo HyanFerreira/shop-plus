@@ -24,6 +24,7 @@
                     <div><dt class="text-gray-500">Peso</dt><dd class="font-medium">{{ $product->weight_grams }} g</dd></div>
                     <div><dt class="text-gray-500">Dimensões</dt><dd class="font-medium">{{ $product->width_mm }} × {{ $product->height_mm }} × {{ $product->length_mm }} mm</dd></div>
                 </dl>
+                <livewire:product-add-to-cart :product="$product" />
             </div>
         </article>
     </main>

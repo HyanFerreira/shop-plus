@@ -9,12 +9,14 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Product extends Model
 {
     /** @use HasFactory<ProductFactory> */
     use HasFactory;
+
     use SoftDeletes;
 
     protected $fillable = [
@@ -61,6 +63,23 @@ class Product extends Model
         return $this->hasMany(ProductImage::class)->orderBy('sort_order')->orderBy('id');
     }
 
-    public function supplierProducts(): HasMany { return $this->hasMany(SupplierProduct::class); }
-    public function inventoryItem(): \Illuminate\Database\Eloquent\Relations\HasOne { return $this->hasOne(InventoryItem::class); }
+    public function supplierProducts(): HasMany
+    {
+        return $this->hasMany(SupplierProduct::class);
+    }
+
+    public function inventoryItem(): HasOne
+    {
+        return $this->hasOne(InventoryItem::class);
+    }
+
+    public function cartItems(): HasMany
+    {
+        return $this->hasMany(CartItem::class);
+    }
+
+    public function orderItems(): HasMany
+    {
+        return $this->hasMany(OrderItem::class);
+    }
 }

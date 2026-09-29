@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CatalogProductController;
+use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -22,4 +23,8 @@ Route::middleware([
     Route::view('/meus-dados', 'personal-data.show')
         ->middleware('no-store')
         ->name('personal-data.show');
+
+    Route::view('/carrinho', 'cart.show')->name('cart.show');
+    Route::view('/checkout', 'checkout.show')->middleware('no-store')->name('checkout.show');
+    Route::get('/pedidos/{publicNumber}', [OrderController::class, 'show'])->middleware('no-store')->name('orders.show');
 });
