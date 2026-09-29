@@ -14,8 +14,10 @@ Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 
 - dados pessoais criptografados, índices cegos e isolamento por proprietário.
 - catálogo público pesquisável com categorias, produtos, preços em centavos e imagens validadas;
 - administração do catálogo com autorização no servidor e exclusão lógica.
+- fornecedores fictícios protegidos, ordens de compra e recebimentos parciais;
+- estoque transacional com idempotência e livro-razão imutável.
 
-Fornecedores, estoque, carrinho, pedidos, pagamento simulado e entrega serão adicionados nos próximos incrementos.
+Carrinho, pedidos, pagamento simulado e entrega serão adicionados nos próximos incrementos.
 
 ## Instalação local
 
@@ -50,4 +52,4 @@ npm.cmd audit
 npm.cmd run build
 ```
 
-Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md) e [segurança do catálogo](docs/security/catalog.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
+Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md) e [integridade de estoque](docs/security/inventory.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).
