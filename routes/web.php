@@ -1,10 +1,14 @@
 <?php
 
+use App\Http\Controllers\CatalogProductController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('/catalogo', 'catalog.index')->name('catalog.index');
+Route::get('/catalogo/{slug}', CatalogProductController::class)->name('catalog.show');
 
 Route::middleware([
     'auth:sanctum',
