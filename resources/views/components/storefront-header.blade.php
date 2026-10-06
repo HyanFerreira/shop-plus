@@ -1,0 +1,9 @@
+<header class="border-b border-slate-100 bg-white">
+    <div class="mx-auto flex h-14 max-w-[1120px] items-center gap-5 px-4 sm:px-6">
+        <x-shop-logo class="shrink-0 text-lg" />
+        <form action="{{ route('catalog.index') }}" class="hidden max-w-[390px] flex-1 md:block"><label class="sr-only" for="storefront-search">Buscar produtos</label><div class="relative"><input id="storefront-search" name="q" value="{{ request('q') }}" class="h-8 w-full rounded-full border-0 bg-slate-100 px-4 text-[10px] text-slate-700 shadow-none placeholder:text-slate-400 focus:bg-white focus:ring-1 focus:ring-blue-300" placeholder="Buscar produtos, marcas ou categorias..."><x-icon name="magnifying-glass" class="absolute right-3 top-2 size-3.5 text-slate-400" /></div></form>
+        <nav class="ml-auto hidden items-center gap-6 text-[11px] font-semibold text-slate-700 md:flex"><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-blue-600' : 'hover:text-blue-600' }}">Início</a><a href="{{ route('catalog.index') }}" class="{{ request()->routeIs('catalog.*') ? 'text-blue-600' : 'hover:text-blue-600' }}">Categorias</a><a href="{{ route('home') }}#ofertas" class="hover:text-blue-600">Ofertas</a><a href="{{ route('catalog.index') }}" class="hover:text-blue-600">Vender</a></nav>
+        <a href="{{ route('cart.show') }}" class="relative ml-auto text-slate-800 md:ml-0" aria-label="Carrinho"><x-icon name="shopping-cart" class="size-5" /><span class="absolute -right-1 -top-1 size-2 rounded-full bg-red-500"></span></a><x-icon name="bell" class="hidden size-5 text-slate-700 lg:block" />
+        @auth <a href="{{ route('dashboard') }}" class="hidden text-[11px] font-semibold text-slate-700 sm:block">Olá, {{ Str::before(Auth::user()->name, ' ') }}</a> @else <a href="{{ route('login') }}" class="text-[11px] font-semibold text-slate-700 hover:text-blue-600">Entrar</a> @endauth
+    </div>
+</header>

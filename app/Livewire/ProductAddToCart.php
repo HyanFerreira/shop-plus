@@ -13,6 +13,16 @@ class ProductAddToCart extends Component
 
     public int $quantity = 1;
 
+    public function increment(): void
+    {
+        $this->quantity = min(99, $this->quantity + 1);
+    }
+
+    public function decrement(): void
+    {
+        $this->quantity = max(1, $this->quantity - 1);
+    }
+
     public function add(AddCartItem $action): mixed
     {
         if (! Auth::check()) {

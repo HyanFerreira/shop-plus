@@ -1,12 +1,11 @@
 <?php
 
 use App\Http\Controllers\CatalogProductController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', HomeController::class)->name('home');
 
 Route::view('/catalogo', 'catalog.index')->name('catalog.index');
 Route::get('/catalogo/{slug}', CatalogProductController::class)->name('catalog.show');

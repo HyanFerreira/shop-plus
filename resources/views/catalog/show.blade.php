@@ -1,31 +1,14 @@
-<x-guest-layout>
-    <header class="border-b border-gray-200 bg-white">
-        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-            <a href="{{ route('catalog.index') }}" class="text-xl font-semibold text-gray-900">Sistema de Comércio</a>
-            <a href="{{ route('catalog.index') }}" class="text-sm text-indigo-700 hover:text-indigo-900">Voltar ao catálogo</a>
-        </div>
-    </header>
-    <main class="min-h-screen bg-gray-50 py-10">
-        <article class="mx-auto grid max-w-6xl gap-10 px-4 md:grid-cols-2 sm:px-6 lg:px-8">
-            <div>
-                @if ($product->images->isNotEmpty())
-                    <img src="{{ Storage::disk('public')->url($product->images->first()->path) }}" alt="{{ $product->images->first()->alt_text }}" class="aspect-square w-full rounded-xl bg-white object-cover shadow">
-                @else
-                    <div class="flex aspect-square items-center justify-center rounded-xl bg-gray-200 text-gray-500">Sem imagem</div>
-                @endif
-            </div>
-            <div>
-                <p class="text-sm font-medium text-indigo-700">{{ $product->category->name }}</p>
-                <h1 class="mt-2 text-3xl font-bold text-gray-900">{{ $product->name }}</h1>
-                <p class="mt-2 text-sm text-gray-500">SKU {{ $product->sku }}</p>
-                <p class="mt-6 text-3xl font-semibold text-gray-900">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p>
-                <p class="mt-6 whitespace-pre-line text-gray-700">{{ $product->description }}</p>
-                <dl class="mt-8 grid grid-cols-2 gap-4 rounded-lg bg-white p-4 text-sm shadow-sm">
-                    <div><dt class="text-gray-500">Peso</dt><dd class="font-medium">{{ $product->weight_grams }} g</dd></div>
-                    <div><dt class="text-gray-500">Dimensões</dt><dd class="font-medium">{{ $product->width_mm }} × {{ $product->height_mm }} × {{ $product->length_mm }} mm</dd></div>
-                </dl>
-                <livewire:product-add-to-cart :product="$product" />
-            </div>
-        </article>
-    </main>
-</x-guest-layout>
+<x-storefront-layout>
+    @php $inStock = ($product->inventoryItem?->on_hand ?? 0) > ($product->inventoryItem?->reserved ?? 0); @endphp
+    <main class="bg-slate-50 py-5 sm:py-7"><div class="mx-auto max-w-[1120px] px-4 sm:px-6">
+        <nav class="mb-4 text-xs text-slate-500"><a href="{{ route('home') }}" class="hover:text-blue-600">Início</a><span class="mx-2">›</span><a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}" class="hover:text-blue-600">{{ $product->category->name }}</a><span class="mx-2">›</span><span>{{ $product->name }}</span></nav>
+        <article class="rounded-xl border border-slate-200 bg-white p-3 shadow-sm sm:p-5"><div class="grid gap-7 lg:grid-cols-[1fr_.95fr]">
+            <section><div class="relative flex aspect-[1.12] items-center justify-center overflow-hidden rounded-lg bg-slate-50">@if($product->images->isNotEmpty())<img src="{{ Storage::disk('public')->url($product->images->first()->path) }}" alt="{{ $product->images->first()->alt_text }}" class="h-full w-full object-contain">@else<x-icon name="shopping-bag" class="size-28 text-slate-300" /><span class="sr-only">Sem imagem</span>@endif</div><div class="mt-3 flex gap-2">@forelse($product->images as $image)<button type="button" class="flex size-14 items-center justify-center overflow-hidden rounded-md border border-blue-500 bg-white"><img src="{{ Storage::disk('public')->url($image->path) }}" alt="{{ $image->alt_text }}" class="h-full w-full object-cover"></button>@empty<button type="button" class="flex size-14 items-center justify-center rounded-md border border-blue-500 bg-slate-50"><x-icon name="shopping-bag" class="size-6 text-slate-400" /></button>@endforelse</div></section>
+            <section class="relative"><button type="button" class="absolute right-0 top-0 text-slate-500 hover:text-blue-600" aria-label="Favoritar"><x-icon name="heart" class="size-6" /></button><p class="text-sm font-semibold text-blue-600">{{ $product->brand }}</p><h1 class="mt-1 pr-8 text-2xl font-black tracking-tight text-slate-900 sm:text-3xl">{{ $product->name }}</h1><p class="mt-1 text-sm text-slate-500">{{ $product->category->name }} · SKU {{ $product->sku }}</p><p class="mt-3 text-sm font-semibold text-amber-500">★★★★★ <span class="ml-1 text-slate-500">{{ number_format((float) $product->rating_average, 1, ',', '.') }} ({{ $product->rating_count }} avaliações)</span></p><div class="mt-4 flex flex-wrap items-end gap-3"><p class="text-3xl font-black text-slate-950">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p><x-badge variant="danger">Oferta fictícia</x-badge></div><p class="mt-1 text-sm text-slate-600">Em até 12x sem juros no ambiente de demonstração.</p><p class="mt-4 flex items-center gap-2 text-sm font-bold {{ $inStock ? 'text-emerald-700' : 'text-red-700' }}"><span class="size-2 rounded-full {{ $inStock ? 'bg-emerald-500' : 'bg-red-500' }}"></span>{{ $inStock ? 'Em estoque' : 'Indisponível no momento' }}</p><livewire:product-add-to-cart :product="$product" />
+                <div class="mt-5 grid gap-3 border-t border-slate-100 pt-5 sm:grid-cols-3"><div class="flex items-center gap-2 text-xs text-slate-600"><x-icon name="truck" class="size-6 text-blue-600" /><span><strong class="block text-slate-800">Frete grátis</strong>acima de R$ 199</span></div><div class="flex items-center gap-2 text-xs text-slate-600"><x-icon name="shopping-bag" class="size-6 text-blue-600" /><span><strong class="block text-slate-800">Entrega rápida</strong>todo o Brasil</span></div><div class="flex items-center gap-2 text-xs text-slate-600"><x-icon name="lock-closed" class="size-6 text-blue-600" /><span><strong class="block text-slate-800">Compra segura</strong>dados protegidos</span></div></div>
+            </section>
+        </div></article>
+        <section class="mt-5 rounded-xl border border-slate-200 bg-white p-5"><div class="flex gap-7 border-b border-slate-100 text-sm font-semibold"><span class="border-b-2 border-blue-600 pb-3 text-slate-900">Descrição</span><span class="pb-3 text-slate-400">Especificações</span><span class="pb-3 text-slate-400">Avaliações ({{ $product->rating_count }})</span></div><p class="mt-5 whitespace-pre-line text-sm leading-6 text-slate-600">{{ $product->description }}</p><dl class="mt-5 grid gap-3 text-sm sm:grid-cols-3"><div><dt class="text-slate-400">Peso</dt><dd class="font-semibold text-slate-800">{{ $product->weight_grams }} g</dd></div><div><dt class="text-slate-400">Dimensões</dt><dd class="font-semibold text-slate-800">{{ $product->width_mm }} × {{ $product->height_mm }} × {{ $product->length_mm }} mm</dd></div><div><dt class="text-slate-400">Marca</dt><dd class="font-semibold text-slate-800">{{ $product->brand }}</dd></div></dl></section>
+        @if($relatedProducts->isNotEmpty())<section class="mt-6"><div class="mb-3 flex items-center justify-between"><h2 class="text-lg font-black tracking-tight text-slate-900">Produtos relacionados</h2><a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}" class="text-xs font-bold text-blue-600">Ver todos →</a></div><div class="grid grid-cols-2 gap-3 sm:grid-cols-4">@foreach($relatedProducts as $related)<a href="{{ route('catalog.show', $related->slug) }}" class="overflow-hidden rounded-lg border border-slate-200 bg-white p-2.5 transition hover:-translate-y-0.5 hover:shadow-md"><div class="flex aspect-[1.2] items-center justify-center rounded-md bg-slate-50">@if($related->images->isNotEmpty())<img src="{{ Storage::disk('public')->url($related->images->first()->path) }}" alt="{{ $related->images->first()->alt_text }}" class="h-full w-full object-cover">@else<x-icon name="shopping-bag" class="size-10 text-slate-300" />@endif</div><p class="mt-2 min-h-8 text-xs font-bold text-slate-900">{{ $related->name }}</p><p class="mt-1 text-sm font-black text-slate-900">{{ \App\Domain\Catalog\Price::fromCents($related->price_cents)->brl() }}</p><p class="mt-1 text-xs text-amber-500">★ {{ number_format((float) $related->rating_average, 1, ',', '.') }}</p></a>@endforeach</div></section>@endif
+    </div></main>
+</x-storefront-layout>

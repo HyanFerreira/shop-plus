@@ -17,16 +17,20 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body class="font-sans antialiased">
+    <body>
         <x-banner />
 
-        <div class="min-h-screen bg-gray-100">
-            @livewire('navigation-menu')
+        <div class="ds-page">
+            @if (request()->routeIs('profile.*') || request()->routeIs('api-tokens.*'))
+                @livewire('navigation-menu')
+            @else
+                <x-storefront-header />
+            @endif
 
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <header class="border-b border-slate-200 bg-white">
+                    <div class="ds-container py-6">
                         {{ $header }}
                     </div>
                 </header>
@@ -36,6 +40,9 @@
             <main>
                 {{ $slot }}
             </main>
+            @unless (request()->routeIs('profile.*') || request()->routeIs('api-tokens.*'))
+                <x-storefront-footer />
+            @endunless
         </div>
 
         @stack('modals')
