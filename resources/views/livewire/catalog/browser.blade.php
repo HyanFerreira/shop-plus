@@ -1,29 +1,46 @@
 <div>
-    <div class="mb-8 grid gap-4 rounded-xl bg-white p-5 shadow-sm md:grid-cols-3">
-        <div><x-label for="catalogSearch" value="Buscar" /><x-input id="catalogSearch" class="mt-1 block w-full" wire:model.live.debounce.300ms="search" placeholder="Nome ou descrição" /></div>
-        <div><x-label for="catalogCategory" value="Categoria" /><select id="catalogCategory" wire:model.live="category" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"><option value="">Todas</option>@foreach ($categories as $item)<option value="{{ $item->slug }}">{{ $item->name }}</option>@endforeach</select></div>
-        <div><x-label for="catalogSort" value="Ordenar" /><select id="catalogSort" wire:model.live="sort" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"><option value="newest">Mais recentes</option><option value="name">Nome</option><option value="price_asc">Menor preço</option><option value="price_desc">Maior preço</option></select></div>
+    <div class="mb-5 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+        <div>
+            <p class="text-xs text-slate-500">Início <span class="mx-2">›</span> Catálogo</p>
+            <h1 class="mt-1 text-3xl font-black tracking-tight text-slate-900">{{ $category !== '' ? optional($categories->firstWhere('slug', $category))->name ?? 'Catálogo' : 'Catálogo' }}</h1>
+            <p class="mt-1 text-sm text-slate-500">Encontre produtos fictícios para testar sua experiência de compra.</p>
+            <p class="mt-1 text-xs text-slate-500">{{ $products->total() }} produtos encontrados</p>
+        </div>
+        <div class="flex items-center gap-3"><span class="whitespace-nowrap text-sm font-medium text-slate-700">Ordenar por</span><div x-data="{ open: false }" class="relative"><button type="button" @click="open = !open" @click.away="open = false" class="flex min-w-44 items-center justify-between gap-5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-300"><span>{{ ['relevance' => 'Mais relevantes', 'rating' => 'Melhor avaliados', 'name' => 'Nome', 'price_asc' => 'Menor preço', 'price_desc' => 'Maior preço'][$sort] ?? 'Mais relevantes' }}</span><span class="text-slate-400">⌄</span></button><div x-cloak x-show="open" x-transition class="absolute right-0 z-20 mt-2 w-48 overflow-hidden rounded-lg border border-slate-200 bg-white py-1 shadow-lg"><button type="button" wire:click="$set('sort', 'relevance')" @click="open = false" class="block w-full px-3 py-2 text-left text-sm hover:bg-blue-50">Mais relevantes</button><button type="button" wire:click="$set('sort', 'rating')" @click="open = false" class="block w-full px-3 py-2 text-left text-sm hover:bg-blue-50">Melhor avaliados</button><button type="button" wire:click="$set('sort', 'name')" @click="open = false" class="block w-full px-3 py-2 text-left text-sm hover:bg-blue-50">Nome</button><button type="button" wire:click="$set('sort', 'price_asc')" @click="open = false" class="block w-full px-3 py-2 text-left text-sm hover:bg-blue-50">Menor preço</button><button type="button" wire:click="$set('sort', 'price_desc')" @click="open = false" class="block w-full px-3 py-2 text-left text-sm hover:bg-blue-50">Maior preço</button></div></div></div>
     </div>
 
-    @if ($products->isEmpty())
-        <p class="rounded-xl bg-white p-10 text-center text-gray-500">Nenhum produto encontrado.</p>
-    @else
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            @foreach ($products as $product)
-                <article wire:key="catalog-product-{{ $product->id }}" class="overflow-hidden rounded-xl bg-white shadow-sm">
-                    @if ($product->images->isNotEmpty())
-                        <img src="{{ Storage::disk('public')->url($product->images->first()->path) }}" alt="{{ $product->images->first()->alt_text }}" class="aspect-square w-full object-cover">
-                    @else
-                        <div class="flex aspect-square items-center justify-center bg-gray-200 text-sm text-gray-500">Sem imagem</div>
-                    @endif
-                    <div class="p-5">
-                        <p class="text-xs font-medium uppercase tracking-wide text-indigo-700">{{ $product->category->name }}</p>
-                        <h2 class="mt-2 font-semibold text-gray-900"><a href="{{ route('catalog.show', $product->slug) }}" class="hover:text-indigo-700">{{ $product->name }}</a></h2>
-                        <p class="mt-3 text-lg font-bold text-gray-900">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p>
-                    </div>
-                </article>
-            @endforeach
-        </div>
-        <div class="mt-8">{{ $products->links() }}</div>
-    @endif
+    <div class="grid gap-5 lg:grid-cols-[245px_minmax(0,1fr)]">
+        <aside class="ds-panel h-fit p-4">
+            <div class="flex items-center justify-between"><h2 class="font-bold text-slate-900">Filtros</h2><button type="button" wire:click="clearFilters" class="text-xs font-semibold text-blue-600 hover:text-blue-800">Limpar</button></div>
+            <div class="mt-4 border-t border-slate-100 pt-4"><x-label for="catalogSearch" value="Buscar" /><div class="relative"><x-input id="catalogSearch" wire:model.live.debounce.300ms="search" placeholder="Nome, marca..." class="pr-9" /><x-icon name="magnifying-glass" class="absolute right-3 top-3 size-4 text-slate-400" /></div></div>
+
+            <fieldset class="mt-5 border-t border-slate-100 pt-4"><legend class="font-bold text-slate-900">Categorias</legend><div class="mt-3 space-y-2.5">@foreach ($categories as $item)<label class="flex cursor-pointer items-center justify-between gap-2 text-sm text-slate-600"><span class="flex items-center gap-2"><input type="checkbox" wire:model.live="selectedCategories" value="{{ $item->slug }}" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">{{ $item->name }}</span><span class="text-xs text-slate-400">({{ $item->products_count }})</span></label>@endforeach</div></fieldset>
+
+            <fieldset class="mt-5 border-t border-slate-100 pt-4"><legend class="font-bold text-slate-900">Faixa de preço</legend><div class="mt-3 grid grid-cols-[1fr_auto_1fr] items-center gap-2"><input wire:model.live.debounce.500ms="minPrice" type="number" min="0" class="ds-input px-2 py-2 text-xs" placeholder="R$ 0"><span class="text-xs text-slate-400">até</span><input wire:model.live.debounce.500ms="maxPrice" type="number" min="0" max="{{ $priceCeiling }}" class="ds-input px-2 py-2 text-xs" placeholder="R$ {{ number_format($priceCeiling, 0, ',', '.') }}"></div></fieldset>
+
+            <fieldset class="mt-5 border-t border-slate-100 pt-4"><legend class="font-bold text-slate-900">Marcas</legend><div class="mt-3 space-y-2.5">@foreach ($availableBrands as $brand)<label class="flex cursor-pointer items-center justify-between gap-2 text-sm text-slate-600"><span class="flex items-center gap-2"><input type="checkbox" wire:model.live="brands" value="{{ $brand->brand }}" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">{{ $brand->brand }}</span><span class="text-xs text-slate-400">({{ $brand->products_count }})</span></label>@endforeach</div></fieldset>
+
+            <fieldset class="mt-5 border-t border-slate-100 pt-4"><legend class="font-bold text-slate-900">Avaliação mínima</legend><div class="mt-3 space-y-2.5">@foreach ([0 => 'Qualquer avaliação', 4 => '4 estrelas ou mais', 3 => '3 estrelas ou mais', 2 => '2 estrelas ou mais'] as $value => $label)<label class="flex cursor-pointer items-center gap-2 text-sm text-slate-600"><input type="radio" wire:model.live="minimumRating" value="{{ $value }}" class="border-slate-300 text-blue-600 focus:ring-blue-500">@if($value > 0)<span class="text-amber-500">★★★★</span>@endif {{ $label }}</label>@endforeach</div></fieldset>
+
+            <fieldset class="mt-5 border-t border-slate-100 pt-4"><legend class="font-bold text-slate-900">Disponibilidade</legend><label class="mt-3 flex cursor-pointer items-center gap-2 text-sm text-slate-600"><input type="checkbox" wire:model.live="inStock" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">Em estoque</label></fieldset>
+            <fieldset class="mt-5 border-t border-slate-100 pt-4"><legend class="font-bold text-slate-900">Entrega</legend><label class="mt-3 flex cursor-pointer items-center gap-2 text-sm text-slate-600"><input type="checkbox" wire:model.live="freeShipping" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">Frete grátis</label><label class="mt-2 flex cursor-pointer items-center gap-2 text-sm text-slate-600"><input type="checkbox" wire:model.live="expressShipping" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">Entrega rápida</label></fieldset>
+        </aside>
+
+        <section>
+            @if ($selectedCategories !== [] || $brands !== [] || $minPrice !== '' || $maxPrice !== '' || $minimumRating > 0 || $inStock || $freeShipping || $expressShipping)
+                <div class="mb-4 flex flex-wrap items-center gap-2"><span class="text-sm font-semibold text-slate-700">Filtros ativos:</span>@if($inStock)<x-badge variant="info">Em estoque</x-badge>@endif @if($freeShipping)<x-badge variant="info">Frete grátis</x-badge>@endif @if($expressShipping)<x-badge variant="info">Entrega rápida</x-badge>@endif @if($minimumRating > 0)<x-badge variant="info">{{ $minimumRating }}+ estrelas</x-badge>@endif</div>
+            @endif
+            @if ($products->isEmpty())
+                <div class="ds-card p-10 text-center"><p class="font-bold text-slate-900">Nenhum produto encontrado</p><p class="mt-1 text-sm text-slate-500">Ajuste ou limpe os filtros para ver outros produtos.</p><button type="button" wire:click="clearFilters" class="mt-4 text-sm font-semibold text-blue-600">Limpar filtros</button></div>
+            @else
+                <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
+                    @foreach ($products as $product)
+                        <article wire:key="catalog-product-{{ $product->id }}" class="group overflow-hidden rounded-lg border border-slate-200 bg-white p-2.5 transition hover:-translate-y-0.5 hover:shadow-md"><a href="{{ route('catalog.show', $product->slug) }}" class="relative block overflow-hidden rounded-md bg-slate-50">@if ($product->images->isNotEmpty())<img src="{{ Storage::disk('public')->url($product->images->first()->path) }}" alt="{{ $product->images->first()->alt_text }}" class="aspect-[1.15] w-full object-cover transition duration-300 group-hover:scale-105">@else<div class="flex aspect-[1.15] items-center justify-center bg-gradient-to-br from-blue-50 to-slate-100 text-slate-400"><x-icon name="shopping-bag" class="size-12" /></div>@endif<x-icon name="heart" class="absolute right-2 top-2 size-4 text-slate-400" /></a><div class="pt-3"><p class="text-[10px] font-semibold uppercase tracking-wide text-blue-700">{{ $product->brand }}</p><h2 class="mt-1 min-h-9 text-xs font-bold leading-4 text-slate-900"><a href="{{ route('catalog.show', $product->slug) }}">{{ $product->name }}</a></h2><p class="mt-2 text-base font-black text-slate-900">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p><p class="mt-1 text-xs font-semibold text-amber-500">★ {{ number_format((float) $product->rating_average, 1, ',', '.') }} <span class="text-slate-400">({{ $product->rating_count }})</span></p></div></article>
+                    @endforeach
+                </div>
+                <div class="mt-7 flex flex-col gap-3 border-t border-slate-100 pt-5 sm:flex-row sm:items-center sm:justify-between"><p class="text-xs text-slate-400">Mostrando {{ $products->firstItem() }} a {{ $products->lastItem() }} de {{ $products->total() }} resultados</p><div class="flex flex-wrap items-center gap-4"><div class="flex items-center gap-2 text-xs text-slate-600"><span>Mostrar</span><div x-data="{ open: false }" class="relative"><button type="button" @click="open = !open" @click.away="open = false" class="flex min-w-14 items-center justify-between gap-2 rounded-md border border-slate-200 bg-white px-2 py-1.5 text-xs font-bold text-slate-700 transition hover:border-blue-300"><span>{{ $perPage }}</span><span class="text-slate-400">⌄</span></button><div x-cloak x-show="open" x-transition class="absolute bottom-full z-20 mb-2 w-14 overflow-hidden rounded-md border border-slate-200 bg-white py-1 shadow-lg"><button type="button" wire:click="$set('perPage', 12)" @click="open = false" class="block w-full px-2 py-1.5 text-left text-xs hover:bg-blue-50">12</button><button type="button" wire:click="$set('perPage', 24)" @click="open = false" class="block w-full px-2 py-1.5 text-left text-xs hover:bg-blue-50">24</button><button type="button" wire:click="$set('perPage', 48)" @click="open = false" class="block w-full px-2 py-1.5 text-left text-xs hover:bg-blue-50">48</button></div></div><span>por página</span></div>{{ $products->links('components.catalog-pagination') }}</div></div>
+            @endif
+            <div class="mt-6 grid gap-3 sm:grid-cols-3"><div class="flex items-center gap-3 rounded-lg bg-indigo-50 px-4 py-3"><x-icon name="truck" class="size-7 text-blue-600" /><p class="text-xs font-bold text-blue-700">Frete grátis<br><span class="font-medium text-indigo-500">em compras selecionadas</span></p></div><div class="flex items-center gap-3 rounded-lg bg-emerald-50 px-4 py-3"><x-icon name="credit-card" class="size-7 text-emerald-600" /><p class="text-xs font-bold text-emerald-700">Até 12x sem juros<br><span class="font-medium text-emerald-600">em produtos selecionados</span></p></div><div class="flex items-center gap-3 rounded-lg bg-orange-50 px-4 py-3"><x-icon name="lock-closed" class="size-7 text-orange-600" /><p class="text-xs font-bold text-orange-700">Compra segura<br><span class="font-medium text-orange-500">seus dados protegidos</span></p></div></div>
+        </section>
+    </div>
 </div>

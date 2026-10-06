@@ -4,6 +4,7 @@ namespace Tests\Feature\Catalog;
 
 use App\Livewire\Catalog\Browser;
 use App\Models\Category;
+use App\Models\InventoryItem;
 use App\Models\Product;
 use App\Models\ProductImage;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -69,6 +70,32 @@ class PublicCatalogTest extends TestCase
 
         Livewire::test(Browser::class)
             ->assertViewHas('products', fn ($products) => $products->count() === 12 && $products->lastPage() === 2);
+    }
+
+    public function test_extended_catalogue_filters_query_persisted_product_attributes(): void
+    {
+        $electronics = Category::factory()->create(['slug' => 'eletronicos']);
+        $visible = Product::factory()->for($electronics)->create([
+            'name' => 'Produto filtrável', 'brand' => 'Núcleo', 'price_cents' => 50_000,
+            'rating_average' => 4.8, 'free_shipping' => true, 'express_shipping' => true,
+        ]);
+        InventoryItem::factory()->for($visible)->create(['on_hand' => 5, 'reserved' => 0]);
+        Product::factory()->for($electronics)->create([
+            'name' => 'Produto excluído', 'brand' => 'Outra marca', 'price_cents' => 10_000,
+            'rating_average' => 3.0, 'free_shipping' => false, 'express_shipping' => false,
+        ]);
+
+        Livewire::test(Browser::class)
+            ->set('selectedCategories', ['eletronicos'])
+            ->set('brands', ['Núcleo'])
+            ->set('minPrice', '400')
+            ->set('maxPrice', '600')
+            ->set('minimumRating', 4)
+            ->set('inStock', true)
+            ->set('freeShipping', true)
+            ->set('expressShipping', true)
+            ->assertSee('Produto filtrável')
+            ->assertDontSee('Produto excluído');
     }
 
     public function test_product_detail_fails_closed_for_unavailable_products(): void
