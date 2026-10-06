@@ -2,6 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    :root {
+        --ds-ink: 15 23 42;
+        --ds-muted: 100 116 139;
+        --ds-canvas: 248 250 252;
+        --ds-surface: 255 255 255;
+        --ds-line: 226 232 240;
+        --ds-brand: 37 99 235;
+        --ds-brand-strong: 29 78 216;
+        --ds-success: 5 150 105;
+        --ds-danger: 220 38 38;
+        --ds-radius-sm: 0.5rem;
+        --ds-radius-md: 0.75rem;
+        --ds-radius-lg: 1rem;
+        --ds-shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 24px rgb(15 23 42 / 0.05);
+    }
+
+    html { @apply bg-slate-50 text-slate-900; }
+    body { @apply min-h-screen bg-slate-50 font-sans antialiased; }
+    ::selection { @apply bg-blue-100 text-blue-950; }
+}
+
+@layer components {
+    .ds-page { @apply min-h-screen bg-slate-50; }
+    .ds-container { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+
+    .ds-panel {
+        @apply rounded-2xl border border-slate-200 bg-white;
+        box-shadow: var(--ds-shadow-card);
+    }
+
+    .ds-card {
+        @apply rounded-xl border border-slate-200 bg-white p-5;
+        box-shadow: var(--ds-shadow-card);
+    }
+
+    .ds-button {
+        @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-lg border px-4 py-2.5 text-sm font-semibold transition duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+    }
+    .ds-button--primary { @apply border-slate-900 bg-slate-900 text-white shadow-sm hover:border-slate-800 hover:bg-slate-800 focus:ring-slate-900 active:bg-slate-950; }
+    .ds-button--secondary { @apply border-slate-200 bg-white text-slate-700 shadow-sm hover:border-slate-300 hover:bg-slate-50 focus:ring-slate-400 active:bg-slate-100; }
+    .ds-button--danger { @apply border-red-600 bg-red-600 text-white shadow-sm hover:border-red-700 hover:bg-red-700 focus:ring-red-600 active:bg-red-800; }
+    .ds-button--success { @apply border-emerald-600 bg-emerald-600 text-white shadow-sm hover:border-emerald-700 hover:bg-emerald-700 focus:ring-emerald-600 active:bg-emerald-800; }
+    .ds-button--sm { @apply min-h-8 rounded-md px-3 py-1.5 text-xs; }
+    .ds-button--lg { @apply min-h-12 px-5 py-3 text-base; }
+
+    .ds-input { @apply block w-full rounded-lg border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-900 shadow-sm placeholder:text-slate-400 transition focus:border-blue-600 focus:ring-2 focus:ring-blue-100 disabled:cursor-not-allowed disabled:bg-slate-100 disabled:text-slate-500; }
+    .ds-label { @apply mb-1.5 block text-sm font-medium text-slate-700; }
+    .ds-help { @apply mt-1.5 text-sm text-slate-500; }
+    .ds-error { @apply mt-1.5 text-sm font-medium text-red-600; }
+
+    .ds-badge { @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold; }
+    .ds-badge--neutral { @apply bg-slate-100 text-slate-700; }
+    .ds-badge--info { @apply bg-blue-50 text-blue-700; }
+    .ds-badge--success { @apply bg-emerald-50 text-emerald-700; }
+    .ds-badge--danger { @apply bg-red-50 text-red-700; }
+    .ds-badge--warning { @apply bg-amber-50 text-amber-800; }
+
+    .ds-alert { @apply rounded-xl border px-4 py-3 text-sm; }
+    .ds-alert--info { @apply border-blue-200 bg-blue-50 text-blue-800; }
+    .ds-alert--success { @apply border-emerald-200 bg-emerald-50 text-emerald-800; }
+    .ds-alert--danger { @apply border-red-200 bg-red-50 text-red-800; }
+    .ds-alert--warning { @apply border-amber-200 bg-amber-50 text-amber-900; }
+}
+
 [x-cloak] {
     display: none;
 }
