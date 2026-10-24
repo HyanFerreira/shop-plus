@@ -2,6 +2,7 @@
 
 <svg {{ $attributes->class(['shrink-0'])->merge(['fill' => 'none', 'viewBox' => '0 0 24 24', 'stroke' => 'currentColor', 'aria-hidden' => 'true', 'stroke-width' => $strokeWidth]) }}>
     @switch($name)
+        @case('trash')<path stroke-linecap="round" stroke-linejoin="round" d="M9 3h6m-11 4h16M6 7l1 14h10l1-14M10 11v6m4-6v6M9 7V3m6 4V3" />@break
         @case('shopping-bag')<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 9.4V7.5a4.5 4.5 0 0 0-9 0v1.9m-3.75 0h16.5l-1.125 10.125a2.25 2.25 0 0 1-2.237 2.003H7.112a2.25 2.25 0 0 1-2.237-2.003L3.75 9.4Z" />@break
         @case('shopping-cart')<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.43M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h12.75l-1.5-9H5.106m2.394 9L5.106 5.265M7.5 14.25l-2.394-8.985M6.75 21a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />@break
         @case('magnifying-glass')<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35m1.35-5.4a6.75 6.75 0 1 1-13.5 0 6.75 6.75 0 0 1 13.5 0Z" />@break
