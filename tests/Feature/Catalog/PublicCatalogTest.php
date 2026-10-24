@@ -8,6 +8,7 @@ use App\Models\InventoryItem;
 use App\Models\Product;
 use App\Models\ProductImage;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Storage;
 use Livewire\Livewire;
 use Tests\TestCase;
 
@@ -116,6 +117,7 @@ class PublicCatalogTest extends TestCase
 
     public function test_product_detail_formats_price_escapes_content_and_has_image_fallback(): void
     {
+        Storage::fake('public');
         $unsafe = '<script>alert("detail")</script>';
         $product = Product::factory()->create([
             'name' => 'Produto de Detalhe',
@@ -131,7 +133,8 @@ class PublicCatalogTest extends TestCase
             ->assertDontSee($unsafe, false)
             ->assertSeeText('Sem imagem');
 
-        ProductImage::factory()->for($product)->create(['alt_text' => 'Imagem sintética']);
+        $image = ProductImage::factory()->for($product)->create(['alt_text' => 'Imagem sintética']);
+        Storage::disk('public')->put($image->path, 'synthetic image fixture');
 
         $this->get('/catalogo/'.$product->slug)
             ->assertOk()
