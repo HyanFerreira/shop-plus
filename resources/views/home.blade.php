@@ -1,55 +1,125 @@
 @php
     $shortcutCategories = [
-        ['name' => 'Eletrônicos', 'icon' => 'device-phone-mobile'], ['name' => 'Informática', 'icon' => 'computer-desktop'], ['name' => 'Casa e Decoração', 'icon' => 'home'],
-        ['name' => 'Moda', 'icon' => 'shirt'], ['name' => 'Esportes', 'icon' => 'trophy'], ['name' => 'Beleza', 'icon' => 'sparkles'],
-        ['name' => 'Automotivo', 'icon' => 'truck'], ['name' => 'Brinquedos', 'icon' => 'sparkles'], ['name' => 'Livros', 'icon' => 'book-open'], ['name' => 'Mais', 'icon' => 'ellipsis-horizontal'],
+        ['name' => 'Eletrônicos', 'icon' => 'device-phone-mobile', 'image' => 'phone.svg'],
+        ['name' => 'Informática', 'icon' => 'computer-desktop', 'image' => 'notebook.svg'],
+        ['name' => 'Casa e Decoração', 'icon' => 'home', 'image' => 'lamp.svg'],
+        ['name' => 'Moda', 'icon' => 'shirt', 'image' => 'sneaker.svg'],
+        ['name' => 'Esportes', 'icon' => 'trophy', 'image' => 'dumbbells.svg'],
+        ['name' => 'Beleza', 'icon' => 'sparkles', 'image' => 'perfume.svg'],
+        ['name' => 'Automotivo', 'icon' => 'truck'],
+        ['name' => 'Brinquedos', 'icon' => 'sparkles'],
+        ['name' => 'Livros', 'icon' => 'book-open'],
+        ['name' => 'Mais', 'icon' => 'ellipsis-horizontal'],
     ];
 @endphp
 
-<x-guest-layout>
-    <header class="border-b border-slate-100 bg-white">
-        <div class="mx-auto flex h-14 max-w-[1120px] items-center gap-5 px-4 sm:px-6">
-            <x-shop-logo class="shrink-0 text-lg" />
-            <form action="{{ route('catalog.index') }}" class="hidden max-w-[320px] flex-1 md:block"><label class="sr-only" for="home-search">Buscar produtos</label><div class="relative"><input id="home-search" name="search" class="h-8 w-full rounded-full border-0 bg-slate-100 px-4 text-[10px] text-slate-700 shadow-none placeholder:text-slate-400 focus:bg-white focus:ring-1 focus:ring-blue-300"><x-icon name="magnifying-glass" class="absolute right-3 top-2 size-3.5 text-slate-400" /></div></form>
-            <nav class="ml-auto hidden items-center gap-5 text-[11px] font-semibold text-slate-700 md:flex"><a class="text-blue-600" href="{{ route('home') }}">Início</a><a href="{{ route('catalog.index') }}" class="hover:text-blue-600">Categorias</a><a href="#ofertas" class="hover:text-blue-600">Ofertas</a><a href="{{ route('catalog.index') }}" class="hover:text-blue-600">Vender</a></nav>
-            <a href="{{ route('cart.show') }}" class="relative ml-auto text-slate-800 md:ml-0" aria-label="Carrinho"><x-icon name="shopping-cart" class="size-5" /><span class="absolute -right-1 -top-1 size-2 rounded-full bg-red-500"></span></a>
-            @auth <a href="{{ route('dashboard') }}" class="hidden text-[11px] font-semibold text-slate-700 sm:block">Olá, {{ Str::before(Auth::user()->name, ' ') }}</a> @else <a href="{{ route('login') }}" class="text-[11px] font-semibold text-slate-700 hover:text-blue-600">Entrar</a> @endauth
-        </div>
-    </header>
-
-    <main class="bg-white pb-10">
-        <div class="mx-auto max-w-[1120px] px-4 pt-4 sm:px-6">
-            <section class="relative overflow-hidden rounded-xl bg-slate-950" style="height: 260px">
-                <img src="{{ asset('images/hero-headphones.png') }}" alt="Headphones fictícios em cenário azul" class="absolute inset-0 h-full w-full object-cover object-center">
-                <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"></div>
-                <div class="relative z-10 flex h-full max-w-[420px] flex-col justify-center p-8 sm:p-10"><h1 class="text-3xl font-bold leading-[1.08] tracking-tight text-white sm:text-[34px]">Tecnologia com<br>as melhores ofertas</h1><p class="mt-3 max-w-[260px] text-sm leading-5 text-slate-100">Produtos incríveis para o seu dia a dia<br>com entrega em todo o Brasil.</p><a href="#ofertas" class="mt-5 inline-flex w-fit items-center gap-2 rounded-lg bg-white px-4 py-2 text-xs font-bold text-slate-900 shadow-sm">Ver ofertas <span>→</span></a></div>
+<x-storefront-layout>
+    <main id="storefront-content" tabindex="-1" class="home-page">
+        <div class="ds-storefront-container home-content">
+            <section class="home-hero" aria-labelledby="home-title">
+                <div class="home-hero__copy">
+                    <h1 id="home-title">Tecnologia com<br>as melhores ofertas</h1>
+                    <p>Produtos incríveis para o seu dia a dia<br class="hidden sm:block"> com entrega em todo o Brasil.</p>
+                    <a href="#ofertas" class="ds-button ds-button--secondary home-hero__cta">Ver ofertas <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="home-hero__art">
+                    <img src="{{ asset('images/hero-headphones.png') }}" alt="Headphone fictício em cenário navy e azul" width="1672" height="941" fetchpriority="high">
+                </div>
             </section>
 
-            <section class="mt-4 grid grid-cols-5 gap-y-4 sm:grid-cols-10">
+            <nav class="home-shortcuts" aria-label="Atalhos de categorias">
                 @foreach ($shortcutCategories as $shortcut)
-                    <a href="{{ route('catalog.index') }}" class="group flex flex-col items-center gap-1.5 text-center"><span class="flex size-10 items-center justify-center rounded-full bg-slate-100 text-slate-800 transition group-hover:bg-blue-50 group-hover:text-blue-700"><x-icon :name="$shortcut['icon']" class="size-5" /></span><span class="text-[9px] font-medium text-slate-700">{{ $shortcut['name'] }}</span></a>
+                    <a href="{{ route('catalog.index') }}">
+                        <span class="home-shortcuts__circle"><x-icon :name="$shortcut['icon']" /></span>
+                        <span>{{ $shortcut['name'] }}</span>
+                    </a>
                 @endforeach
+            </nav>
+
+            <section id="ofertas" class="home-section" aria-labelledby="offers-title">
+                <div class="home-section__heading">
+                    <h2 id="offers-title">Ofertas em destaque</h2>
+                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="home-products">
+                    @forelse ($products as $item)
+                        <x-home-product-card :product="$item" />
+                    @empty
+                        <p class="ds-card home-empty">Os produtos aparecerão aqui quando estiverem disponíveis.</p>
+                    @endforelse
+                </div>
             </section>
 
-            <section id="ofertas" class="mt-6"><div class="mb-2 flex items-center justify-between"><h2 class="text-lg font-bold tracking-tight text-slate-900">Ofertas em destaque</h2><a href="{{ route('catalog.index') }}" class="text-xs font-bold text-blue-600">Ver todas&nbsp; →</a></div>
-                <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-                    @foreach ($products as $item)
-                        <article class="group overflow-hidden rounded-lg border border-slate-200 bg-white p-2.5 transition hover:-translate-y-0.5 hover:shadow-md"><a href="{{ route('catalog.show', $item->slug) }}" class="relative block overflow-hidden rounded-md bg-slate-50">@if($item->images->isNotEmpty())<img src="{{ Storage::disk('public')->url($item->images->first()->path) }}" alt="{{ $item->images->first()->alt_text }}" class="aspect-[1.15] w-full object-cover transition group-hover:scale-105">@else<div class="flex aspect-[1.15] items-center justify-center rounded-md bg-gradient-to-br from-blue-50 to-slate-100 text-slate-500"><x-icon name="shopping-bag" class="size-12" /></div>@endif<x-icon name="heart" class="absolute right-1.5 top-1.5 size-4 text-slate-400" /></a><p class="mt-2 h-7 text-[10px] font-semibold leading-3 text-slate-800">{{ $item->name }}</p><p class="mt-1 text-sm font-extrabold text-slate-900">{{ \App\Domain\Catalog\Price::fromCents($item->price_cents)->brl() }}</p><p class="mt-1 text-[10px] font-medium text-amber-500">★ {{ number_format((float) $item->rating_average, 1, ',', '.') }} <span class="text-slate-400">({{ $item->rating_count }})</span></p></article>
+            <section class="home-benefits" aria-label="Informações de compra">
+                <div class="home-benefit home-benefit--blue">
+                    <x-icon name="truck" />
+                    <div><h2>Opções de entrega</h2><p>Consulte modalidades e valores no checkout.</p></div>
+                </div>
+                <div class="home-benefit home-benefit--green">
+                    <x-icon name="credit-card" />
+                    <div><h2>Pagamento de demonstração</h2><p>Ambiente fictício, sem cobrança real.</p></div>
+                </div>
+                <div class="home-benefit home-benefit--orange">
+                    <x-icon name="lock-closed" />
+                    <div><h2>Compra com segurança</h2><p>Acesse sua conta para acompanhar seus pedidos.</p></div>
+                </div>
+            </section>
+
+            <section class="home-section" aria-labelledby="bestsellers-title">
+                <div class="home-section__heading">
+                    <h2 id="bestsellers-title">Mais vendidos</h2>
+                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="home-products">
+                    @forelse ($bestSellers as $item)
+                        <x-home-product-card :product="$item" />
+                    @empty
+                        <p class="ds-card home-empty">Explore o catálogo para conhecer os produtos disponíveis.</p>
+                    @endforelse
+                </div>
+            </section>
+
+            <section class="home-section" aria-labelledby="categories-title">
+                <div class="home-section__heading">
+                    <h2 id="categories-title">Categorias em destaque</h2>
+                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="home-categories">
+                    @foreach (array_slice($shortcutCategories, 0, 6) as $category)
+                        <a href="{{ route('catalog.index') }}" class="home-category">
+                            <div class="home-category__art"><img src="{{ asset('images/demo-products/'.$category['image']) }}" alt="" width="640" height="480" loading="lazy"></div>
+                            <h3>{{ $category['name'] }}</h3>
+                            <span>Ver produtos <span aria-hidden="true">→</span></span>
+                        </a>
                     @endforeach
                 </div>
             </section>
 
-            <section class="mt-4 grid gap-3 sm:grid-cols-3"><div class="flex items-center gap-3 rounded-lg bg-indigo-50 px-4 py-3"><x-icon name="truck" class="size-7 text-blue-600" /><div><p class="text-sm font-bold text-blue-700">Frete Grátis</p><p class="text-[10px] text-indigo-500">em compras acima de R$ 199</p></div></div><div class="flex items-center gap-3 rounded-lg bg-emerald-50 px-4 py-3"><x-icon name="credit-card" class="size-7 text-emerald-600" /><div><p class="text-sm font-bold text-emerald-700">Até 12x sem juros</p><p class="text-[10px] text-emerald-600">em produtos selecionados</p></div></div><div class="flex items-center gap-3 rounded-lg bg-orange-50 px-4 py-3"><x-icon name="lock-closed" class="size-7 text-orange-500" /><div><p class="text-sm font-bold text-orange-600">Compra Segura</p><p class="text-[10px] text-orange-500">seus dados protegidos</p></div></div></section>
+            <section class="home-responsive" aria-labelledby="responsive-title">
+                <div class="home-responsive__art">
+                    <img src="{{ asset('images/home/responsive-shop.svg') }}" alt="Ilustração da vitrine ShopPlus em um computador e um celular" width="640" height="480" loading="lazy">
+                </div>
+                <div class="home-responsive__copy">
+                    <span class="home-eyebrow">No celular, no tablet ou no computador</span>
+                    <h2 id="responsive-title">ShopPlus em qualquer tela</h2>
+                    <p>Explore produtos e acompanhe seus pedidos pelo navegador, onde você estiver.</p>
+                    <a href="{{ route('catalog.index') }}" class="ds-button ds-button--primary">Explorar o catálogo <span aria-hidden="true">→</span></a>
+                </div>
+            </section>
 
-            <section class="mt-6"><div class="mb-2 flex items-center justify-between"><h2 class="text-lg font-bold tracking-tight text-slate-900">Mais vendidos</h2><a href="{{ route('catalog.index') }}" class="text-xs font-bold text-blue-600">Ver todas&nbsp; →</a></div><div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">@foreach($bestSellers as $item)<article class="overflow-hidden rounded-lg border border-slate-200 bg-white p-2.5"><a href="{{ route('catalog.show', $item->slug) }}" class="relative flex aspect-[1.15] items-center justify-center overflow-hidden rounded-md bg-slate-50 text-slate-500">@if($item->images->isNotEmpty())<img src="{{ Storage::disk('public')->url($item->images->first()->path) }}" alt="{{ $item->images->first()->alt_text }}" class="h-full w-full object-cover">@else<x-icon name="shopping-bag" class="size-12" />@endif<x-icon name="heart" class="absolute right-1.5 top-1 size-4 text-slate-400" /></a><p class="mt-2 h-7 text-[10px] font-semibold leading-3 text-slate-800">{{ $item->name }}</p><p class="mt-1 text-sm font-extrabold text-slate-900">{{ \App\Domain\Catalog\Price::fromCents($item->price_cents)->brl() }}</p><p class="mt-1 text-[10px] font-medium text-amber-500">★ {{ number_format((float) $item->rating_average, 1, ',', '.') }} <span class="text-slate-400">({{ $item->rating_count }})</span></p></article>@endforeach</div></section>
-
-            <section class="mt-6"><div class="mb-2 flex items-center justify-between"><h2 class="text-lg font-bold tracking-tight text-slate-900">Categorias em destaque</h2><a href="{{ route('catalog.index') }}" class="text-xs font-bold text-blue-600">Ver todas&nbsp; →</a></div><div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">@foreach(array_slice($shortcutCategories, 0, 6) as $category)<a href="{{ route('catalog.index') }}" class="overflow-hidden rounded-lg border border-slate-200 p-2.5 transition hover:border-blue-200 hover:shadow-sm"><div class="flex h-20 items-center justify-center rounded-md bg-gradient-to-br from-blue-50 to-slate-100 text-slate-600"><x-icon :name="$category['icon']" class="size-10" /></div><p class="mt-2 text-[10px] font-bold text-slate-800">{{ $category['name'] }}</p><p class="mt-1 text-[10px] font-semibold text-blue-600">Ver produtos →</p></a>@endforeach</div></section>
-
-            <section class="mt-6 grid overflow-hidden rounded-xl bg-gradient-to-r from-blue-100 via-sky-50 to-indigo-100 md:grid-cols-[1.1fr_1.3fr_.65fr]"><div class="hidden min-h-40 items-end justify-center md:flex"><div class="mb-0 flex h-36 w-28 rotate-[-10deg] items-center justify-center rounded-t-2xl bg-slate-900 text-xs font-bold text-white shadow-xl">ShopPlus</div><div class="-ml-3 h-32 w-28 rotate-[9deg] rounded-t-2xl bg-white p-3 text-xs font-bold text-blue-700 shadow-xl">Ofertas<br>do dia</div></div><div class="p-6"><h2 class="text-2xl font-bold leading-6 tracking-tight text-blue-950">Leve a ShopPlus<br>sempre com você</h2><p class="mt-2 text-xs text-blue-900">Baixe nosso aplicativo e aproveite ofertas exclusivas, notificações e uma experiência ainda mais completa.</p><div class="mt-4 flex gap-2"><span class="rounded-md bg-slate-950 px-3 py-2 text-[10px] font-semibold text-white">Baixar na App Store</span><span class="rounded-md bg-slate-950 px-3 py-2 text-[10px] font-semibold text-white">Disponível no Google Play</span></div></div><div class="m-5 hidden items-center justify-center rounded-lg bg-white p-3 text-center md:flex"><x-icon name="credit-card" class="size-12 text-slate-800" /><p class="mt-2 text-[10px] font-semibold text-slate-600">Escaneie o QR Code<br>e baixe agora</p></div></section>
-
-            <section class="mt-4 rounded-xl bg-slate-50 p-4"><div class="flex flex-col gap-3 sm:flex-row sm:items-center"><div class="flex items-center gap-3"><x-icon name="envelope" class="size-7 text-blue-600" /><div><h2 class="text-sm font-bold text-slate-900">Receba ofertas exclusivas</h2><p class="text-[10px] text-slate-500">Cadastre-se e seja o primeiro a saber das novidades.</p></div></div><form class="flex flex-1 gap-2"><input type="email" class="h-9 min-w-0 flex-1 rounded-md border border-slate-200 px-3 text-xs" placeholder="Seu melhor e-mail"><button class="rounded-md bg-blue-600 px-6 text-xs font-bold text-white hover:bg-blue-700">Cadastrar</button></form></div></section>
+            <section class="home-newsletter" aria-labelledby="newsletter-title">
+                <x-icon name="envelope" />
+                <div class="home-newsletter__copy">
+                    <h2 id="newsletter-title">Novidades por e-mail</h2>
+                    <p>Inscrições indisponíveis. Este canal ainda não está ativo.</p>
+                </div>
+                <div class="home-newsletter__preview">
+                    <x-label for="home-newsletter-email" class="sr-only" value="E-mail — inscrições indisponíveis" />
+                    <x-input id="home-newsletter-email" type="email" placeholder="Seu e-mail" :disabled="true" aria-describedby="newsletter-unavailable" />
+                    <x-button type="button" disabled>Cadastrar</x-button>
+                    <p id="newsletter-unavailable" class="home-newsletter__status">Sem coleta ou envio de e-mails nesta versão.</p>
+                </div>
+            </section>
         </div>
     </main>
-
-    <footer class="border-t border-slate-200 bg-white"><div class="mx-auto max-w-[1120px] px-4 py-6 sm:px-6"><div class="grid gap-6 text-[10px] text-slate-500 sm:grid-cols-2 lg:grid-cols-5"><div><x-shop-logo class="text-base" /><p class="mt-2 leading-4">Sua loja online completa com as melhores ofertas e uma experiência segura.</p></div><div><p class="font-bold text-slate-800">Institucional</p><p class="mt-2 leading-5">Sobre a ShopPlus<br>Trabalhe Conosco<br>Blog<br>Imprensa</p></div><div><p class="font-bold text-slate-800">Atendimento</p><p class="mt-2 leading-5">Central de Ajuda<br>Fale Conosco<br>Trocas e Devoluções<br>Acompanhar Pedido</p></div><div><p class="font-bold text-slate-800">Minha Conta</p><p class="mt-2 leading-5">Meus Pedidos<br>Meus Dados<br>Lista de Desejos<br>Meus Cupons</p></div><div><p class="font-bold text-slate-800">Categorias</p><p class="mt-2 leading-5">Eletrônicos<br>Informática<br>Casa e Decoração<br>Moda e Esportes</p></div></div><div class="mt-6 border-t border-slate-100 pt-3 text-[9px] text-slate-400">© {{ now()->year }} ShopPlus. Dados e produtos exclusivamente fictícios.</div></div></footer>
-</x-guest-layout>
+</x-storefront-layout>
