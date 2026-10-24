@@ -11,6 +11,12 @@ export default {
         './resources/views/**/*.blade.php',
     ],
 
+    // Blade badge/alert variants are assembled dynamically; retain every public variant.
+    safelist: [
+        'ds-badge--neutral', 'ds-badge--info', 'ds-badge--success', 'ds-badge--danger', 'ds-badge--warning',
+        'ds-alert--neutral', 'ds-alert--info', 'ds-alert--success', 'ds-alert--danger', 'ds-alert--warning',
+    ],
+
     theme: {
         extend: {
             fontFamily: {

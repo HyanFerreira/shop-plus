@@ -1,9 +1,35 @@
-<header class="border-b border-slate-100 bg-white">
-    <div class="mx-auto flex h-14 max-w-[1120px] items-center gap-5 px-4 sm:px-6">
-        <x-shop-logo class="shrink-0 text-lg" />
-        <form action="{{ route('catalog.index') }}" class="hidden max-w-[390px] flex-1 md:block"><label class="sr-only" for="storefront-search">Buscar produtos</label><div class="relative"><input id="storefront-search" name="q" value="{{ request('q') }}" class="h-8 w-full rounded-full border-0 bg-slate-100 px-4 text-[10px] text-slate-700 shadow-none placeholder:text-slate-400 focus:bg-white focus:ring-1 focus:ring-blue-300" placeholder="Buscar produtos, marcas ou categorias..."><x-icon name="magnifying-glass" class="absolute right-3 top-2 size-3.5 text-slate-400" /></div></form>
-        <nav class="ml-auto hidden items-center gap-6 text-[11px] font-semibold text-slate-700 md:flex"><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-blue-600' : 'hover:text-blue-600' }}">Início</a><a href="{{ route('catalog.index') }}" class="{{ request()->routeIs('catalog.*') ? 'text-blue-600' : 'hover:text-blue-600' }}">Categorias</a><a href="{{ route('home') }}#ofertas" class="hover:text-blue-600">Ofertas</a><a href="{{ route('catalog.index') }}" class="hover:text-blue-600">Vender</a></nav>
-        <a href="{{ route('cart.show') }}" class="relative ml-auto text-slate-800 md:ml-0" aria-label="Carrinho"><x-icon name="shopping-cart" class="size-5" /><span class="absolute -right-1 -top-1 size-2 rounded-full bg-red-500"></span></a><x-icon name="bell" class="hidden size-5 text-slate-700 lg:block" />
-        @auth <a href="{{ route('dashboard') }}" class="hidden text-[11px] font-semibold text-slate-700 sm:block">Olá, {{ Str::before(Auth::user()->name, ' ') }}</a> @else <a href="{{ route('login') }}" class="text-[11px] font-semibold text-slate-700 hover:text-blue-600">Entrar</a> @endauth
+<header class="storefront-header">
+    <a href="#storefront-content" class="storefront-skip-link">Pular para o conteúdo</a>
+    <div class="ds-storefront-container storefront-header__inner">
+        <x-shop-logo class="storefront-header__logo text-lg" />
+
+        <form action="{{ route('catalog.index') }}" method="get" role="search" class="storefront-search">
+            <label class="sr-only" for="storefront-search">Buscar produtos, marcas ou categorias</label>
+            <x-input id="storefront-search" type="search" name="q" :value="request('q', '')" class="storefront-search__input" placeholder="Buscar produtos, marcas ou categorias..." />
+            <x-button type="submit" variant="secondary" class="storefront-search__submit" aria-label="Buscar produtos">
+                <x-icon name="magnifying-glass" class="size-5" />
+            </x-button>
+        </form>
+
+        <nav class="storefront-nav" aria-label="Navegação principal">
+            <a href="{{ route('home') }}" @if(request()->routeIs('home')) aria-current="page" @endif>Início</a>
+            <a href="{{ route('catalog.index') }}" @if(request()->routeIs('catalog.index')) aria-current="page" @endif>Categorias</a>
+            <a href="{{ route('home') }}#ofertas">Ofertas</a>
+            <a href="{{ route('catalog.index') }}">Vender</a>
+        </nav>
+
+        <div class="storefront-header__actions">
+            <a href="{{ route('cart.show') }}" class="storefront-action storefront-cart" aria-label="Carrinho">
+                <x-icon name="shopping-cart" class="size-5" />
+                <span class="storefront-cart__dot" aria-hidden="true"></span>
+            </a>
+            @auth
+                <a href="{{ route('dashboard') }}" class="storefront-action storefront-account" aria-label="Minha conta: {{ Auth::user()->name }}" title="{{ Auth::user()->name }}">
+                    <span>Olá, {{ Str::before(Auth::user()->name, ' ') }}</span>
+                </a>
+            @else
+                <a href="{{ route('login') }}" class="storefront-action storefront-account">Entrar</a>
+            @endauth
+        </div>
     </div>
 </header>

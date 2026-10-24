@@ -1,5 +1,7 @@
 <x-guest-layout>
-    <x-storefront-header />
-    {{ $slot }}
-    <x-storefront-footer />
+    <div class="storefront-shell">
+        <x-storefront-header />
+        {{ $slot }}
+        <x-storefront-footer />
+    </div>
 </x-guest-layout>

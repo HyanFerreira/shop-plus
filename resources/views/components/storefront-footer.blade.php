@@ -1,1 +1,27 @@
-<footer class="border-t border-slate-200 bg-white"><div class="mx-auto max-w-[1120px] px-4 py-6 sm:px-6"><div class="grid gap-6 text-[10px] text-slate-500 sm:grid-cols-2 lg:grid-cols-5"><div><x-shop-logo class="text-base" /><p class="mt-2 leading-4">Sua loja online completa com as melhores ofertas e uma experiência segura.</p></div><div><p class="font-bold text-slate-800">Institucional</p><p class="mt-2 leading-5">Sobre a ShopPlus<br>Trabalhe Conosco<br>Blog<br>Imprensa</p></div><div><p class="font-bold text-slate-800">Atendimento</p><p class="mt-2 leading-5">Central de Ajuda<br>Fale Conosco<br>Trocas e Devoluções<br>Acompanhar Pedido</p></div><div><p class="font-bold text-slate-800">Minha Conta</p><p class="mt-2 leading-5">Meus Pedidos<br>Meus Dados<br>Lista de Desejos<br>Meus Cupons</p></div><div><p class="font-bold text-slate-800">Categorias</p><p class="mt-2 leading-5">Eletrônicos<br>Informática<br>Casa e Decoração<br>Moda e Esportes</p></div></div><div class="mt-6 border-t border-slate-100 pt-3 text-[9px] text-slate-400">© {{ now()->year }} ShopPlus. Dados e produtos exclusivamente fictícios.</div></div></footer>
+<footer class="storefront-footer">
+    <div class="ds-storefront-container">
+        <div class="storefront-footer__columns">
+            <div>
+                <x-shop-logo class="text-lg" />
+                <p class="mt-3">Sua loja online completa com as melhores ofertas e uma experiência segura.</p>
+            </div>
+            <div>
+                <h2>Institucional</h2>
+                <ul><li>Sobre a ShopPlus</li><li>Trabalhe Conosco</li><li>Blog</li><li>Imprensa</li></ul>
+            </div>
+            <div>
+                <h2>Atendimento</h2>
+                <ul><li>Central de Ajuda</li><li>Fale Conosco</li><li>Trocas e Devoluções</li><li>Acompanhar Pedido</li></ul>
+            </div>
+            <div>
+                <h2>Minha Conta</h2>
+                <ul><li>Meus Pedidos</li><li>Meus Dados</li><li>Lista de Desejos</li><li>Meus Cupons</li></ul>
+            </div>
+            <div>
+                <h2>Categorias</h2>
+                <ul><li>Eletrônicos</li><li>Informática</li><li>Casa e Decoração</li><li>Moda e Esportes</li></ul>
+            </div>
+        </div>
+        <p class="storefront-footer__copyright">© {{ now()->year }} ShopPlus. Dados e produtos exclusivamente fictícios.</p>
+    </div>
+</footer>
