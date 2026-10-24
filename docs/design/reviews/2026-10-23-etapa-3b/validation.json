@@ -1,0 +1,1640 @@
+{
+  "reports": [
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 1,
+      "overlaps": 0,
+      "filterOpen": false,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 16,
+        "y": 361,
+        "width": 273,
+        "height": 58,
+        "right": 289,
+        "bottom": 419
+      },
+      "results": {
+        "x": 16,
+        "y": 443,
+        "width": 273,
+        "height": 4900,
+        "right": 289,
+        "bottom": 5343
+      },
+      "role": "visitor",
+      "screenshot": "catalog-visitor-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 2,
+      "overlaps": 0,
+      "filterOpen": false,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 16,
+        "y": 361,
+        "width": 328,
+        "height": 58,
+        "right": 344,
+        "bottom": 419
+      },
+      "results": {
+        "x": 16,
+        "y": 443,
+        "width": 328,
+        "height": 2087,
+        "right": 344,
+        "bottom": 2530
+      },
+      "role": "visitor",
+      "screenshot": "catalog-visitor-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": false,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 24,
+        "y": 289,
+        "width": 705,
+        "height": 58,
+        "right": 729,
+        "bottom": 347
+      },
+      "results": {
+        "x": 24,
+        "y": 371,
+        "width": 705,
+        "height": 1603.9375,
+        "right": 729,
+        "bottom": 1974.9375
+      },
+      "role": "visitor",
+      "screenshot": "catalog-visitor-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": true,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 24,
+        "y": 237,
+        "width": 240,
+        "height": 1499,
+        "right": 264,
+        "bottom": 1736
+      },
+      "results": {
+        "x": 288,
+        "y": 237,
+        "width": 697,
+        "height": 1604,
+        "right": 985,
+        "bottom": 1841
+      },
+      "role": "visitor",
+      "screenshot": "catalog-visitor-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": true,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 96.5,
+        "y": 237,
+        "width": 240,
+        "height": 1499,
+        "right": 336.5,
+        "bottom": 1736
+      },
+      "results": {
+        "x": 360.5,
+        "y": 237,
+        "width": 808,
+        "height": 1695,
+        "right": 1168.5,
+        "bottom": 1932
+      },
+      "role": "visitor",
+      "screenshot": "catalog-visitor-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": true,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 176.5,
+        "y": 237,
+        "width": 240,
+        "height": 1499,
+        "right": 416.5,
+        "bottom": 1736
+      },
+      "results": {
+        "x": 440.5,
+        "y": 237,
+        "width": 808,
+        "height": 1695,
+        "right": 1248.5,
+        "bottom": 1932
+      },
+      "role": "visitor",
+      "screenshot": "catalog-visitor-1440.png"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 1,
+      "overlaps": 0,
+      "filterOpen": false,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 16,
+        "y": 361,
+        "width": 273,
+        "height": 58,
+        "right": 289,
+        "bottom": 419
+      },
+      "results": {
+        "x": 16,
+        "y": 443,
+        "width": 273,
+        "height": 4900,
+        "right": 289,
+        "bottom": 5343
+      },
+      "role": "authenticated",
+      "screenshot": "catalog-authenticated-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 2,
+      "overlaps": 0,
+      "filterOpen": false,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 16,
+        "y": 361,
+        "width": 328,
+        "height": 58,
+        "right": 344,
+        "bottom": 419
+      },
+      "results": {
+        "x": 16,
+        "y": 443,
+        "width": 328,
+        "height": 2087,
+        "right": 344,
+        "bottom": 2530
+      },
+      "role": "authenticated",
+      "screenshot": "catalog-authenticated-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": false,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 24,
+        "y": 289,
+        "width": 705,
+        "height": 58,
+        "right": 729,
+        "bottom": 347
+      },
+      "results": {
+        "x": 24,
+        "y": 371,
+        "width": 705,
+        "height": 1603.9375,
+        "right": 729,
+        "bottom": 1974.9375
+      },
+      "role": "authenticated",
+      "screenshot": "catalog-authenticated-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": true,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 24,
+        "y": 237,
+        "width": 240,
+        "height": 1499,
+        "right": 264,
+        "bottom": 1736
+      },
+      "results": {
+        "x": 288,
+        "y": 237,
+        "width": 697,
+        "height": 1604,
+        "right": 985,
+        "bottom": 1841
+      },
+      "role": "authenticated",
+      "screenshot": "catalog-authenticated-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": true,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 96.5,
+        "y": 237,
+        "width": 240,
+        "height": 1499,
+        "right": 336.5,
+        "bottom": 1736
+      },
+      "results": {
+        "x": 360.5,
+        "y": 237,
+        "width": 808,
+        "height": 1695,
+        "right": 1168.5,
+        "bottom": 1932
+      },
+      "role": "authenticated",
+      "screenshot": "catalog-authenticated-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "cards": 12,
+      "columns": 3,
+      "overlaps": 0,
+      "filterOpen": true,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "brandFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/notebook.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/speaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/yoga.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/coffee.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/mouse.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/sneaker.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/monitor.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/perfume.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/watch.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19084/storage/products/demo/keyboard.svg"
+        }
+      ],
+      "headers": 1,
+      "footers": 1,
+      "sidebar": {
+        "x": 176.5,
+        "y": 237,
+        "width": 240,
+        "height": 1499,
+        "right": 416.5,
+        "bottom": 1736
+      },
+      "results": {
+        "x": 440.5,
+        "y": 237,
+        "width": 808,
+        "height": 1695,
+        "right": 1248.5,
+        "bottom": 1932
+      },
+      "role": "authenticated",
+      "screenshot": "catalog-authenticated-1440.png"
+    }
+  ],
+  "functional": [
+    "All five ordering choices",
+    "Next/previous and perPage 12/24/48",
+    "Search, selectedCategories, brands, min/max, rating, stock, shipping and active chips",
+    "Mobile native disclosure, Enter/Escape, state across morph and close/reopen, sort keyboard",
+    "Long title, long search chips and runtime image fallback"
+  ],
+  "long": {
+    "overflow": false,
+    "clipped": false
+  },
+  "fallback": {
+    "hidden": true,
+    "visible": true
+  },
+  "conditions": "Real Laravel/Livewire routes, synthetic temporary database/disk, Chrome headless, CSS widths, DPR 1, zoom 100%, real login"
+}

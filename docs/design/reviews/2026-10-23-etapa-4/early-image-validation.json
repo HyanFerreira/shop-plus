@@ -1,0 +1,12 @@
+{
+  "before": {
+    "width": 0,
+    "alpine": false
+  },
+  "after": {
+    "failed": true,
+    "fallback": true,
+    "image": "none"
+  },
+  "result": "PASS: broken registered image failed before delayed Alpine script initialized"
+}

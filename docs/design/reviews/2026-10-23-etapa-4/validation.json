@@ -1,0 +1,749 @@
+{
+  "reports": [
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 33,
+        "y": 278,
+        "right": 272,
+        "bottom": 457.25,
+        "width": 239,
+        "height": 179.25
+      },
+      "summary": {
+        "x": 33,
+        "y": 575.25,
+        "right": 272,
+        "bottom": 1240.25,
+        "width": 239,
+        "height": 665
+      },
+      "add": {
+        "x": 33,
+        "y": 953.25,
+        "right": 272,
+        "bottom": 1003.25,
+        "width": 239,
+        "height": 50
+      },
+      "quantity": {
+        "x": 85,
+        "y": 891.25,
+        "right": 149,
+        "bottom": 941.25,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "24px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 1,
+      "role": "visitor"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 33,
+        "y": 278,
+        "right": 327,
+        "bottom": 498.5,
+        "width": 294,
+        "height": 220.5
+      },
+      "summary": {
+        "x": 33,
+        "y": 616.5,
+        "right": 327,
+        "bottom": 1281.5,
+        "width": 294,
+        "height": 665
+      },
+      "add": {
+        "x": 33,
+        "y": 994.5,
+        "right": 327,
+        "bottom": 1044.5,
+        "width": 294,
+        "height": 50
+      },
+      "quantity": {
+        "x": 85,
+        "y": 932.5,
+        "right": 149,
+        "bottom": 982.5,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "24px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 2,
+      "role": "visitor"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 49,
+        "y": 234,
+        "right": 704,
+        "bottom": 725.25,
+        "width": 655,
+        "height": 491.25
+      },
+      "summary": {
+        "x": 49,
+        "y": 843.25,
+        "right": 704,
+        "bottom": 1334.25,
+        "width": 655,
+        "height": 491
+      },
+      "add": {
+        "x": 229,
+        "y": 1147.25,
+        "right": 704,
+        "bottom": 1197.25,
+        "width": 475,
+        "height": 50
+      },
+      "quantity": {
+        "x": 101,
+        "y": 1147.25,
+        "right": 165,
+        "bottom": 1197.25,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 3,
+      "role": "visitor"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 49,
+        "y": 182,
+        "right": 488.5,
+        "bottom": 621.5,
+        "width": 439.5,
+        "height": 439.5
+      },
+      "summary": {
+        "x": 520.5,
+        "y": 182,
+        "right": 960,
+        "bottom": 775,
+        "width": 439.5,
+        "height": 593
+      },
+      "add": {
+        "x": 520.5,
+        "y": 568,
+        "right": 960,
+        "bottom": 618,
+        "width": 439.5,
+        "height": 50
+      },
+      "quantity": {
+        "x": 572.5,
+        "y": 506,
+        "right": 636.5,
+        "bottom": 556,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 4,
+      "role": "visitor"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 121.5,
+        "y": 182,
+        "right": 616.5,
+        "bottom": 677,
+        "width": 495,
+        "height": 495
+      },
+      "summary": {
+        "x": 648.5,
+        "y": 182,
+        "right": 1143.5,
+        "bottom": 735,
+        "width": 495,
+        "height": 553
+      },
+      "add": {
+        "x": 648.5,
+        "y": 548,
+        "right": 1143.5,
+        "bottom": 598,
+        "width": 495,
+        "height": 50
+      },
+      "quantity": {
+        "x": 700.5,
+        "y": 486,
+        "right": 764.5,
+        "bottom": 536,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 4,
+      "role": "visitor"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 201.5,
+        "y": 182,
+        "right": 696.5,
+        "bottom": 677,
+        "width": 495,
+        "height": 495
+      },
+      "summary": {
+        "x": 728.5,
+        "y": 182,
+        "right": 1223.5,
+        "bottom": 735,
+        "width": 495,
+        "height": 553
+      },
+      "add": {
+        "x": 728.5,
+        "y": 548,
+        "right": 1223.5,
+        "bottom": 598,
+        "width": 495,
+        "height": 50
+      },
+      "quantity": {
+        "x": 780.5,
+        "y": 486,
+        "right": 844.5,
+        "bottom": 536,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 4,
+      "role": "visitor"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 33,
+        "y": 278,
+        "right": 272,
+        "bottom": 457.25,
+        "width": 239,
+        "height": 179.25
+      },
+      "summary": {
+        "x": 33,
+        "y": 575.25,
+        "right": 272,
+        "bottom": 1240.25,
+        "width": 239,
+        "height": 665
+      },
+      "add": {
+        "x": 33,
+        "y": 953.25,
+        "right": 272,
+        "bottom": 1003.25,
+        "width": 239,
+        "height": 50
+      },
+      "quantity": {
+        "x": 85,
+        "y": 891.25,
+        "right": 149,
+        "bottom": 941.25,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "24px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 1,
+      "role": "authenticated"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 33,
+        "y": 278,
+        "right": 327,
+        "bottom": 498.5,
+        "width": 294,
+        "height": 220.5
+      },
+      "summary": {
+        "x": 33,
+        "y": 616.5,
+        "right": 327,
+        "bottom": 1281.5,
+        "width": 294,
+        "height": 665
+      },
+      "add": {
+        "x": 33,
+        "y": 994.5,
+        "right": 327,
+        "bottom": 1044.5,
+        "width": 294,
+        "height": 50
+      },
+      "quantity": {
+        "x": 85,
+        "y": 932.5,
+        "right": 149,
+        "bottom": 982.5,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "24px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 2,
+      "role": "authenticated"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 49,
+        "y": 234,
+        "right": 704,
+        "bottom": 725.25,
+        "width": 655,
+        "height": 491.25
+      },
+      "summary": {
+        "x": 49,
+        "y": 843.25,
+        "right": 704,
+        "bottom": 1334.25,
+        "width": 655,
+        "height": 491
+      },
+      "add": {
+        "x": 229,
+        "y": 1147.25,
+        "right": 704,
+        "bottom": 1197.25,
+        "width": 475,
+        "height": 50
+      },
+      "quantity": {
+        "x": 101,
+        "y": 1147.25,
+        "right": 165,
+        "bottom": 1197.25,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 3,
+      "role": "authenticated"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 49,
+        "y": 182,
+        "right": 488.5,
+        "bottom": 621.5,
+        "width": 439.5,
+        "height": 439.5
+      },
+      "summary": {
+        "x": 520.5,
+        "y": 182,
+        "right": 960,
+        "bottom": 775,
+        "width": 439.5,
+        "height": 593
+      },
+      "add": {
+        "x": 520.5,
+        "y": 568,
+        "right": 960,
+        "bottom": 618,
+        "width": 439.5,
+        "height": 50
+      },
+      "quantity": {
+        "x": 572.5,
+        "y": 506,
+        "right": 636.5,
+        "bottom": 556,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 4,
+      "role": "authenticated"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 121.5,
+        "y": 182,
+        "right": 616.5,
+        "bottom": 677,
+        "width": 495,
+        "height": 495
+      },
+      "summary": {
+        "x": 648.5,
+        "y": 182,
+        "right": 1143.5,
+        "bottom": 735,
+        "width": 495,
+        "height": 553
+      },
+      "add": {
+        "x": 648.5,
+        "y": 548,
+        "right": 1143.5,
+        "bottom": 598,
+        "width": 495,
+        "height": 50
+      },
+      "quantity": {
+        "x": 700.5,
+        "y": 486,
+        "right": 764.5,
+        "bottom": 536,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 4,
+      "role": "authenticated"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "stage": {
+        "x": 201.5,
+        "y": 182,
+        "right": 696.5,
+        "bottom": 677,
+        "width": 495,
+        "height": 495
+      },
+      "summary": {
+        "x": 728.5,
+        "y": 182,
+        "right": 1223.5,
+        "bottom": 735,
+        "width": 495,
+        "height": 553
+      },
+      "add": {
+        "x": 728.5,
+        "y": 548,
+        "right": 1223.5,
+        "bottom": 598,
+        "width": 495,
+        "height": 50
+      },
+      "quantity": {
+        "x": 780.5,
+        "y": 486,
+        "right": 844.5,
+        "bottom": 536,
+        "width": 64,
+        "height": 50
+      },
+      "titleFont": "32px",
+      "priceFont": "32px",
+      "images": [
+        {
+          "src": "http://127.0.0.1:19094/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": true
+        },
+        {
+          "src": "http://127.0.0.1:19094/storage/fixtures/phone-back.svg",
+          "loaded": true,
+          "fit": "contain",
+          "visible": false
+        }
+      ],
+      "thumbnails": 2,
+      "related": 4,
+      "relatedColumns": 4,
+      "role": "authenticated"
+    }
+  ],
+  "functional": [
+    "Gallery click, Left/Right wrap, Home/End, Space and focus",
+    "Increment/decrement stock limits, native quantity max and real server error",
+    "Real add: loading/disabled, redirect to cart and success flash",
+    "Server stock guard includes quantities already in cart",
+    "Single demo image without thumbnails and unavailable stock disabled",
+    "No-image unknown SKU and long name/description including unbroken words at all six widths",
+    "Runtime image failure fallback",
+    "Guest add preserves login redirect"
+  ],
+  "loading": true,
+  "fallback": true,
+  "conditions": "Chrome headless, CSS viewports, DPR1, zoom100%, real Laravel/Livewire routes/login, isolated synthetic SQLite/storage/sessions"
+}

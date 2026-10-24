@@ -1,0 +1,3652 @@
+{
+  "reports": [
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 1,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 16,
+            "y": 517,
+            "width": 273,
+            "height": 153.640625,
+            "right": 289,
+            "bottom": 670.640625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1159.640625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 1346.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1510.890625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 1698.140625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1862.140625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 2049.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2213.390625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 2400.640625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2564.640625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 2751.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3395.890625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 3583.140625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3747.140625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 3934.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 4098.390625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 4285.640625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 4449.640625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 4636.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 4800.890625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 4988.140625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 5268.140625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 131.5,
+            "bottom": 5345.015625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 173.5,
+            "y": 5268.140625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 276,
+            "bottom": 5345.015625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 5447.015625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 131.5,
+            "bottom": 5523.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 173.5,
+            "y": 5447.015625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 276,
+            "bottom": 5523.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 5645.890625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 131.5,
+            "bottom": 5722.765625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 173.5,
+            "y": 5645.890625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 276,
+            "bottom": 5722.765625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 40,
+            "y": 5851.765625,
+            "width": 225,
+            "height": 168.75,
+            "right": 265,
+            "bottom": 6020.515625
+          }
+        }
+      ],
+      "hero": {
+        "x": 16,
+        "y": 193,
+        "width": 273,
+        "height": 477.640625,
+        "right": 289,
+        "bottom": 670.640625
+      },
+      "heroCopy": {
+        "x": 16,
+        "y": 193,
+        "width": 273,
+        "height": 324,
+        "right": 289,
+        "bottom": 517
+      },
+      "heroCTA": {
+        "x": 40,
+        "y": 449,
+        "width": 126.0625,
+        "height": 44,
+        "right": 166.0625,
+        "bottom": 493
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "visitor",
+      "screenshot": "home-visitor-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 2,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 16,
+            "y": 453,
+            "width": 328,
+            "height": 184.59375,
+            "right": 344,
+            "bottom": 637.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1086.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 1187.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 1086.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 1187.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1347.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 1448.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 1347.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 1448.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1608.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 1709.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2309.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 2410.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 2309.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 2410.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2570.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 2671.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 2570.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 2671.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2831.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 2932.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3212.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 159,
+            "bottom": 3310.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 201,
+            "y": 3212.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 331,
+            "bottom": 3310.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3412.09375,
+            "width": 130,
+            "height": 97.5,
+            "right": 159,
+            "bottom": 3509.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 201,
+            "y": 3412.09375,
+            "width": 130,
+            "height": 97.5,
+            "right": 331,
+            "bottom": 3509.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3611.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 159,
+            "bottom": 3709.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 201,
+            "y": 3611.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 331,
+            "bottom": 3709.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 40,
+            "y": 3838.09375,
+            "width": 280,
+            "height": 210,
+            "right": 320,
+            "bottom": 4048.09375
+          }
+        }
+      ],
+      "hero": {
+        "x": 16,
+        "y": 193,
+        "width": 328,
+        "height": 444.59375,
+        "right": 344,
+        "bottom": 637.59375
+      },
+      "heroCopy": {
+        "x": 16,
+        "y": 193,
+        "width": 328,
+        "height": 260,
+        "right": 344,
+        "bottom": 453
+      },
+      "heroCTA": {
+        "x": 40,
+        "y": 385,
+        "width": 126.0625,
+        "height": 44,
+        "right": 166.0625,
+        "bottom": 429
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "visitor",
+      "screenshot": "home-visitor-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 3,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 235.5,
+            "y": 141,
+            "width": 493.5,
+            "height": 340,
+            "right": 729,
+            "bottom": 481
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 806,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 956.734375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 806,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 956.734375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 806,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 715.984375,
+            "bottom": 956.734375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1120.734375,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 1271.46875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 1120.734375,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 1271.46875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1723.46875,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 1874.203125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 1723.46875,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 1874.203125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 1723.46875,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 715.984375,
+            "bottom": 1874.203125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2038.203125,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 2188.9375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 2038.203125,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 2188.9375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2428.9375,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 235.328125,
+            "bottom": 2577.671875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 2428.9375,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 475.65625,
+            "bottom": 2577.671875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 2428.9375,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 715.984375,
+            "bottom": 2577.671875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2679.671875,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 235.328125,
+            "bottom": 2828.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 2679.671875,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 475.65625,
+            "bottom": 2828.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 2679.671875,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 715.984375,
+            "bottom": 2828.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 56,
+            "y": 2965.40625,
+            "width": 296.875,
+            "height": 222.65625,
+            "right": 352.875,
+            "bottom": 3188.0625
+          }
+        }
+      ],
+      "hero": {
+        "x": 24,
+        "y": 141,
+        "width": 705,
+        "height": 340,
+        "right": 729,
+        "bottom": 481
+      },
+      "heroCopy": {
+        "x": 24,
+        "y": 141,
+        "width": 423,
+        "height": 276,
+        "right": 447,
+        "bottom": 417
+      },
+      "heroCTA": {
+        "x": 56,
+        "y": 341,
+        "width": 126.0625,
+        "height": 44,
+        "right": 182.0625,
+        "bottom": 385
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "visitor",
+      "screenshot": "home-visitor-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 4,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 312.3125,
+            "y": 89,
+            "width": 672.6875,
+            "height": 340,
+            "right": 985,
+            "bottom": 429
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 281.25,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 483.5,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 525.5,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 727.75,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 769.75,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 972,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 993.6875,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 1147.375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 281.25,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 483.5,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 525.5,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 727.75,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 769.75,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 972,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1897.0625,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 2050.75
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 157.828125,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199.828125,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 320.65625,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 362.65625,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 483.484375,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 525.484375,
+            "y": 2292.75,
+            "width": 120.84375,
+            "height": 90.625,
+            "right": 646.328125,
+            "bottom": 2383.375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 688.328125,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 809.15625,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 851.15625,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 971.984375,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 56,
+            "y": 2520.375,
+            "width": 418.46875,
+            "height": 304,
+            "right": 474.46875,
+            "bottom": 2824.375
+          }
+        }
+      ],
+      "hero": {
+        "x": 24,
+        "y": 89,
+        "width": 961,
+        "height": 340,
+        "right": 985,
+        "bottom": 429
+      },
+      "heroCopy": {
+        "x": 24,
+        "y": 89,
+        "width": 547.765625,
+        "height": 316,
+        "right": 571.765625,
+        "bottom": 405
+      },
+      "heroCTA": {
+        "x": 64,
+        "y": 321,
+        "width": 126.0625,
+        "height": 44,
+        "right": 190.0625,
+        "bottom": 365
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "visitor",
+      "screenshot": "home-visitor-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 5,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 418.109375,
+            "y": 89,
+            "width": 750.390625,
+            "height": 340,
+            "right": 1168.5,
+            "bottom": 429
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 109.5,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 285.09375,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 327.09375,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 502.6875,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 544.6875,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 720.296875,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 762.296875,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 937.890625,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 979.890625,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1155.5,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 109.5,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 285.09375,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 327.09375,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 502.6875,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 544.6875,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 720.296875,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 762.296875,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 937.890625,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 979.890625,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1155.5,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 109.5,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 248.828125,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 290.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 430.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 472.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 611.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 653.484375,
+            "y": 1565.40625,
+            "width": 139.34375,
+            "height": 104.5,
+            "right": 792.828125,
+            "bottom": 1669.90625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 834.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 974.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1016.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 1155.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 128.5,
+            "y": 1806.90625,
+            "width": 471.1875,
+            "height": 304,
+            "right": 599.6875,
+            "bottom": 2110.90625
+          }
+        }
+      ],
+      "hero": {
+        "x": 96.5,
+        "y": 89,
+        "width": 1072,
+        "height": 340,
+        "right": 1168.5,
+        "bottom": 429
+      },
+      "heroCopy": {
+        "x": 96.5,
+        "y": 89,
+        "width": 611.03125,
+        "height": 316,
+        "right": 707.53125,
+        "bottom": 405
+      },
+      "heroCTA": {
+        "x": 136.5,
+        "y": 321,
+        "width": 126.0625,
+        "height": 44,
+        "right": 262.5625,
+        "bottom": 365
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "visitor",
+      "screenshot": "home-visitor-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 5,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 498.109375,
+            "y": 89,
+            "width": 750.390625,
+            "height": 340,
+            "right": 1248.5,
+            "bottom": 429
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 189.5,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 365.09375,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 407.09375,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 582.6875,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 624.6875,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 800.296875,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 842.296875,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 1017.890625,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1059.890625,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1235.5,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 189.5,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 365.09375,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 407.09375,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 582.6875,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 624.6875,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 800.296875,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 842.296875,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 1017.890625,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1059.890625,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1235.5,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 189.5,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 328.828125,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 370.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 510.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 552.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 691.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 733.484375,
+            "y": 1565.40625,
+            "width": 139.34375,
+            "height": 104.5,
+            "right": 872.828125,
+            "bottom": 1669.90625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 914.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 1054.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1096.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 1235.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 208.5,
+            "y": 1806.90625,
+            "width": 471.1875,
+            "height": 304,
+            "right": 679.6875,
+            "bottom": 2110.90625
+          }
+        }
+      ],
+      "hero": {
+        "x": 176.5,
+        "y": 89,
+        "width": 1072,
+        "height": 340,
+        "right": 1248.5,
+        "bottom": 429
+      },
+      "heroCopy": {
+        "x": 176.5,
+        "y": 89,
+        "width": 611.03125,
+        "height": 316,
+        "right": 787.53125,
+        "bottom": 405
+      },
+      "heroCTA": {
+        "x": 216.5,
+        "y": 321,
+        "width": 126.0625,
+        "height": 44,
+        "right": 342.5625,
+        "bottom": 365
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "visitor",
+      "screenshot": "home-visitor-1440.png"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 1,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 16,
+            "y": 517,
+            "width": 273,
+            "height": 153.640625,
+            "right": 289,
+            "bottom": 670.640625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1159.640625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 1346.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1510.890625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 1698.140625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1862.140625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 2049.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2213.390625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 2400.640625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2564.640625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 2751.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3395.890625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 3583.140625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3747.140625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 3934.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 4098.390625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 4285.640625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 4449.640625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 4636.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 4800.890625,
+            "width": 247,
+            "height": 187.25,
+            "right": 276,
+            "bottom": 4988.140625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 5268.140625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 131.5,
+            "bottom": 5345.015625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 173.5,
+            "y": 5268.140625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 276,
+            "bottom": 5345.015625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 5447.015625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 131.5,
+            "bottom": 5523.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 173.5,
+            "y": 5447.015625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 276,
+            "bottom": 5523.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 5645.890625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 131.5,
+            "bottom": 5722.765625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 173.5,
+            "y": 5645.890625,
+            "width": 102.5,
+            "height": 76.875,
+            "right": 276,
+            "bottom": 5722.765625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 40,
+            "y": 5851.765625,
+            "width": 225,
+            "height": 168.75,
+            "right": 265,
+            "bottom": 6020.515625
+          }
+        }
+      ],
+      "hero": {
+        "x": 16,
+        "y": 193,
+        "width": 273,
+        "height": 477.640625,
+        "right": 289,
+        "bottom": 670.640625
+      },
+      "heroCopy": {
+        "x": 16,
+        "y": 193,
+        "width": 273,
+        "height": 324,
+        "right": 289,
+        "bottom": 517
+      },
+      "heroCTA": {
+        "x": 40,
+        "y": 449,
+        "width": 126.0625,
+        "height": 44,
+        "right": 166.0625,
+        "bottom": 493
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "authenticated",
+      "screenshot": "home-authenticated-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 2,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 16,
+            "y": 453,
+            "width": 328,
+            "height": 184.59375,
+            "right": 344,
+            "bottom": 637.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1086.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 1187.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 1086.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 1187.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1347.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 1448.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 1347.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 1448.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 1608.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 1709.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2309.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 2410.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 2309.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 2410.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2570.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 2671.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199,
+            "y": 2570.59375,
+            "width": 132,
+            "height": 101,
+            "right": 331,
+            "bottom": 2671.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 2831.59375,
+            "width": 132,
+            "height": 101,
+            "right": 161,
+            "bottom": 2932.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3212.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 159,
+            "bottom": 3310.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 201,
+            "y": 3212.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 331,
+            "bottom": 3310.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3412.09375,
+            "width": 130,
+            "height": 97.5,
+            "right": 159,
+            "bottom": 3509.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 201,
+            "y": 3412.09375,
+            "width": 130,
+            "height": 97.5,
+            "right": 331,
+            "bottom": 3509.59375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 29,
+            "y": 3611.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 159,
+            "bottom": 3709.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 201,
+            "y": 3611.59375,
+            "width": 130,
+            "height": 97.5,
+            "right": 331,
+            "bottom": 3709.09375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 40,
+            "y": 3838.09375,
+            "width": 280,
+            "height": 210,
+            "right": 320,
+            "bottom": 4048.09375
+          }
+        }
+      ],
+      "hero": {
+        "x": 16,
+        "y": 193,
+        "width": 328,
+        "height": 444.59375,
+        "right": 344,
+        "bottom": 637.59375
+      },
+      "heroCopy": {
+        "x": 16,
+        "y": 193,
+        "width": 328,
+        "height": 260,
+        "right": 344,
+        "bottom": 453
+      },
+      "heroCTA": {
+        "x": 40,
+        "y": 385,
+        "width": 126.0625,
+        "height": 44,
+        "right": 166.0625,
+        "bottom": 429
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "authenticated",
+      "screenshot": "home-authenticated-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 3,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 235.5,
+            "y": 141,
+            "width": 493.5,
+            "height": 340,
+            "right": 729,
+            "bottom": 481
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 806,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 956.734375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 806,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 956.734375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 806,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 715.984375,
+            "bottom": 956.734375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1120.734375,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 1271.46875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 1120.734375,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 1271.46875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1723.46875,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 1874.203125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 1723.46875,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 1874.203125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 1723.46875,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 715.984375,
+            "bottom": 1874.203125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2038.203125,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 235.328125,
+            "bottom": 2188.9375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 2038.203125,
+            "width": 198.328125,
+            "height": 150.734375,
+            "right": 475.65625,
+            "bottom": 2188.9375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2428.9375,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 235.328125,
+            "bottom": 2577.671875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 2428.9375,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 475.65625,
+            "bottom": 2577.671875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 2428.9375,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 715.984375,
+            "bottom": 2577.671875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2679.671875,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 235.328125,
+            "bottom": 2828.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 277.328125,
+            "y": 2679.671875,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 475.65625,
+            "bottom": 2828.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 517.65625,
+            "y": 2679.671875,
+            "width": 198.328125,
+            "height": 148.734375,
+            "right": 715.984375,
+            "bottom": 2828.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 56,
+            "y": 2965.40625,
+            "width": 296.875,
+            "height": 222.65625,
+            "right": 352.875,
+            "bottom": 3188.0625
+          }
+        }
+      ],
+      "hero": {
+        "x": 24,
+        "y": 141,
+        "width": 705,
+        "height": 340,
+        "right": 729,
+        "bottom": 481
+      },
+      "heroCopy": {
+        "x": 24,
+        "y": 141,
+        "width": 423,
+        "height": 276,
+        "right": 447,
+        "bottom": 417
+      },
+      "heroCTA": {
+        "x": 56,
+        "y": 341,
+        "width": 126.0625,
+        "height": 44,
+        "right": 182.0625,
+        "bottom": 385
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "authenticated",
+      "screenshot": "home-authenticated-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 4,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 312.3125,
+            "y": 89,
+            "width": 672.6875,
+            "height": 340,
+            "right": 985,
+            "bottom": 429
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 281.25,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 483.5,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 525.5,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 727.75,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 769.75,
+            "y": 674,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 972,
+            "bottom": 827.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 993.6875,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 1147.375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 281.25,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 483.5,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 525.5,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 727.75,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 769.75,
+            "y": 1577.375,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 972,
+            "bottom": 1731.0625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 1897.0625,
+            "width": 202.25,
+            "height": 153.6875,
+            "right": 239.25,
+            "bottom": 2050.75
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 37,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 157.828125,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 199.828125,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 320.65625,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 362.65625,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 483.484375,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 525.484375,
+            "y": 2292.75,
+            "width": 120.84375,
+            "height": 90.625,
+            "right": 646.328125,
+            "bottom": 2383.375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 688.328125,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 809.15625,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 851.15625,
+            "y": 2292.75,
+            "width": 120.828125,
+            "height": 90.609375,
+            "right": 971.984375,
+            "bottom": 2383.359375
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 56,
+            "y": 2520.375,
+            "width": 418.46875,
+            "height": 304,
+            "right": 474.46875,
+            "bottom": 2824.375
+          }
+        }
+      ],
+      "hero": {
+        "x": 24,
+        "y": 89,
+        "width": 961,
+        "height": 340,
+        "right": 985,
+        "bottom": 429
+      },
+      "heroCopy": {
+        "x": 24,
+        "y": 89,
+        "width": 547.765625,
+        "height": 316,
+        "right": 571.765625,
+        "bottom": 405
+      },
+      "heroCTA": {
+        "x": 64,
+        "y": 321,
+        "width": 126.0625,
+        "height": 44,
+        "right": 190.0625,
+        "bottom": 365
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "authenticated",
+      "screenshot": "home-authenticated-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 5,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 418.109375,
+            "y": 89,
+            "width": 750.390625,
+            "height": 340,
+            "right": 1168.5,
+            "bottom": 429
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 109.5,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 285.09375,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 327.09375,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 502.6875,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 544.6875,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 720.296875,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 762.296875,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 937.890625,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 979.890625,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1155.5,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 109.5,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 285.09375,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 327.09375,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 502.6875,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 544.6875,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 720.296875,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 762.296875,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 937.890625,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 979.890625,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1155.5,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 109.5,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 248.828125,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 290.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 430.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 472.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 611.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 653.484375,
+            "y": 1565.40625,
+            "width": 139.34375,
+            "height": 104.5,
+            "right": 792.828125,
+            "bottom": 1669.90625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 834.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 974.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1016.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 1155.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 128.5,
+            "y": 1806.90625,
+            "width": 471.1875,
+            "height": 304,
+            "right": 599.6875,
+            "bottom": 2110.90625
+          }
+        }
+      ],
+      "hero": {
+        "x": 96.5,
+        "y": 89,
+        "width": 1072,
+        "height": 340,
+        "right": 1168.5,
+        "bottom": 429
+      },
+      "heroCopy": {
+        "x": 96.5,
+        "y": 89,
+        "width": 611.03125,
+        "height": 316,
+        "right": 707.53125,
+        "bottom": 405
+      },
+      "heroCTA": {
+        "x": 136.5,
+        "y": 321,
+        "width": 126.0625,
+        "height": 44,
+        "right": 262.5625,
+        "bottom": 365
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "authenticated",
+      "screenshot": "home-authenticated-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "cards": 10,
+      "columns": 5,
+      "cardOverlaps": 0,
+      "nameFonts": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "priceFonts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:19083/images/hero-headphones.png",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 498.109375,
+            "y": 89,
+            "width": 750.390625,
+            "height": 340,
+            "right": 1248.5,
+            "bottom": 429
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 189.5,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 365.09375,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 407.09375,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 582.6875,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 624.6875,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 800.296875,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/skincare.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 842.296875,
+            "y": 674,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 1017.890625,
+            "bottom": 807.6875
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1059.890625,
+            "y": 674,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1235.5,
+            "bottom": 807.703125
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 189.5,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 365.09375,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 407.09375,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 582.6875,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/speaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 624.6875,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 800.296875,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/earbuds.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 842.296875,
+            "y": 1189.703125,
+            "width": 175.59375,
+            "height": 133.6875,
+            "right": 1017.890625,
+            "bottom": 1323.390625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/storage/products/demo/yoga.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1059.890625,
+            "y": 1189.703125,
+            "width": 175.609375,
+            "height": 133.703125,
+            "right": 1235.5,
+            "bottom": 1323.40625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/phone.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 189.5,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 328.828125,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/notebook.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 370.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 510.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/lamp.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 552.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 691.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/sneaker.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 733.484375,
+            "y": 1565.40625,
+            "width": 139.34375,
+            "height": 104.5,
+            "right": 872.828125,
+            "bottom": 1669.90625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/dumbbells.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 914.828125,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 1054.15625,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/demo-products/perfume.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 1096.15625,
+            "y": 1565.40625,
+            "width": 139.328125,
+            "height": 104.484375,
+            "right": 1235.484375,
+            "bottom": 1669.890625
+          }
+        },
+        {
+          "src": "http://127.0.0.1:19083/images/home/responsive-shop.svg",
+          "loaded": true,
+          "fit": "contain",
+          "rect": {
+            "x": 208.5,
+            "y": 1806.90625,
+            "width": 471.1875,
+            "height": 304,
+            "right": 679.6875,
+            "bottom": 2110.90625
+          }
+        }
+      ],
+      "hero": {
+        "x": 176.5,
+        "y": 89,
+        "width": 1072,
+        "height": 340,
+        "right": 1248.5,
+        "bottom": 429
+      },
+      "heroCopy": {
+        "x": 176.5,
+        "y": 89,
+        "width": 611.03125,
+        "height": 316,
+        "right": 787.53125,
+        "bottom": 405
+      },
+      "heroCTA": {
+        "x": 216.5,
+        "y": 321,
+        "width": 126.0625,
+        "height": 44,
+        "right": 342.5625,
+        "bottom": 365
+      },
+      "shortcuts": 10,
+      "smallText": [],
+      "newsletterForms": 0,
+      "newsletterDisabled": true,
+      "appStoreText": false,
+      "role": "authenticated",
+      "screenshot": "home-authenticated-1440.png"
+    }
+  ],
+  "longName": {
+    "overflow": false,
+    "clipped": false,
+    "text": "Produto fictício com um nome propositalmente muito longo para validar leitura completa e expansão natural do cartão sem cortes"
+  },
+  "fallback": {
+    "hidden": true,
+    "fallbackVisible": true
+  },
+  "keyboard": "passed",
+  "assets": 16,
+  "conditions": "Chrome headless, zoom 100%, CSS viewports, DPR 1, isolated seeded database, real login, all lazy images decoded"
+}

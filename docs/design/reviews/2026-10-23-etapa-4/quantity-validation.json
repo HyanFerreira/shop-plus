@@ -1,0 +1,35 @@
+{
+  "reports": [
+    {
+      "value": "2",
+      "minus": false,
+      "plus": true
+    },
+    {
+      "value": "1",
+      "minus": true,
+      "plus": false
+    },
+    {
+      "value": "2",
+      "minus": false,
+      "plus": true
+    },
+    {
+      "value": "1",
+      "minus": true,
+      "plus": false
+    },
+    {
+      "value": "1",
+      "minus": true,
+      "plus": false
+    },
+    {
+      "value": "3",
+      "minus": false,
+      "plus": true
+    }
+  ],
+  "result": "Passed: deferred wire:model retained, disabled follows reactive client quantity and server renders"
+}

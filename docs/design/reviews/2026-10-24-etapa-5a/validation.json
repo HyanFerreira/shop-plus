@@ -1,0 +1,2947 @@
+{
+  "reports": [
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 3,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 289,
+        "bottom": 1521,
+        "width": 273,
+        "height": 1160
+      },
+      "summary": {
+        "x": 16,
+        "y": 1545,
+        "right": 289,
+        "bottom": 2008,
+        "width": 273,
+        "height": 463
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1859,
+        "right": 268,
+        "bottom": 1903,
+        "width": 231,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 704,
+          "right": 77,
+          "bottom": 748,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 704,
+          "right": 145,
+          "bottom": 748,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 704,
+          "right": 193,
+          "bottom": 748,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 764,
+          "right": 123.515625,
+          "bottom": 808,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 764,
+          "right": 246.3125,
+          "bottom": 808,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1064,
+          "right": 77,
+          "bottom": 1108,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 1064,
+          "right": 145,
+          "bottom": 1108,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 1064,
+          "right": 193,
+          "bottom": 1108,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1124,
+          "right": 123.515625,
+          "bottom": 1168,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 1124,
+          "right": 246.3125,
+          "bottom": 1168,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1400,
+          "right": 77,
+          "bottom": 1444,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 1400,
+          "right": 145,
+          "bottom": 1444,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 1400,
+          "right": 193,
+          "bottom": 1444,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1460,
+          "right": 123.515625,
+          "bottom": 1504,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 1460,
+          "right": 246.3125,
+          "bottom": 1504,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/images/demo-products/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/watch.svg"
+        }
+      ],
+      "role": "multi"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 3,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 344,
+        "bottom": 1445,
+        "width": 328,
+        "height": 1084
+      },
+      "summary": {
+        "x": 16,
+        "y": 1469,
+        "right": 344,
+        "bottom": 1884,
+        "width": 328,
+        "height": 415
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1735,
+        "right": 323,
+        "bottom": 1779,
+        "width": 286,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 652,
+          "right": 77,
+          "bottom": 696,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 652,
+          "right": 145,
+          "bottom": 696,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 652,
+          "right": 193,
+          "bottom": 696,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 712,
+          "right": 123.515625,
+          "bottom": 756,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 712,
+          "right": 246.3125,
+          "bottom": 756,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 988,
+          "right": 77,
+          "bottom": 1032,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 988,
+          "right": 145,
+          "bottom": 1032,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 988,
+          "right": 193,
+          "bottom": 1032,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1048,
+          "right": 123.515625,
+          "bottom": 1092,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 1048,
+          "right": 246.3125,
+          "bottom": 1092,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1324,
+          "right": 77,
+          "bottom": 1368,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 1324,
+          "right": 145,
+          "bottom": 1368,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 1324,
+          "right": 193,
+          "bottom": 1368,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1384,
+          "right": 123.515625,
+          "bottom": 1428,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 1384,
+          "right": 246.3125,
+          "bottom": 1428,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/images/demo-products/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/watch.svg"
+        }
+      ],
+      "role": "multi"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 3,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 289,
+        "right": 729,
+        "bottom": 1119,
+        "width": 705,
+        "height": 830
+      },
+      "summary": {
+        "x": 24,
+        "y": 1143,
+        "right": 729,
+        "bottom": 1546,
+        "width": 705,
+        "height": 403
+      },
+      "checkout": {
+        "x": 49,
+        "y": 1393,
+        "right": 704,
+        "bottom": 1437,
+        "width": 655,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 538,
+          "right": 217,
+          "bottom": 582,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 538,
+          "right": 285,
+          "bottom": 582,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 538,
+          "right": 333,
+          "bottom": 582,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 538,
+          "right": 439.515625,
+          "bottom": 582,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 538,
+          "right": 562.3125,
+          "bottom": 582,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 173,
+          "y": 796,
+          "right": 217,
+          "bottom": 840,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 796,
+          "right": 285,
+          "bottom": 840,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 796,
+          "right": 333,
+          "bottom": 840,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 796,
+          "right": 439.515625,
+          "bottom": 840,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 796,
+          "right": 562.3125,
+          "bottom": 840,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 173,
+          "y": 1054,
+          "right": 217,
+          "bottom": 1098,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 1054,
+          "right": 285,
+          "bottom": 1098,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 1054,
+          "right": 333,
+          "bottom": 1098,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 1054,
+          "right": 439.515625,
+          "bottom": 1098,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 1054,
+          "right": 562.3125,
+          "bottom": 1098,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/images/demo-products/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/watch.svg"
+        }
+      ],
+      "role": "multi"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 3,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 237,
+        "right": 641,
+        "bottom": 1067,
+        "width": 617,
+        "height": 830
+      },
+      "summary": {
+        "x": 665,
+        "y": 237,
+        "right": 985,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 690,
+        "y": 535,
+        "right": 960,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 486,
+          "right": 217,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 486,
+          "right": 285,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 486,
+          "right": 333,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 486,
+          "right": 439.515625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 486,
+          "right": 562.3125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 173,
+          "y": 744,
+          "right": 217,
+          "bottom": 788,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 744,
+          "right": 285,
+          "bottom": 788,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 744,
+          "right": 333,
+          "bottom": 788,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 744,
+          "right": 439.515625,
+          "bottom": 788,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 744,
+          "right": 562.3125,
+          "bottom": 788,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 173,
+          "y": 1002,
+          "right": 217,
+          "bottom": 1046,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 1002,
+          "right": 285,
+          "bottom": 1046,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 1002,
+          "right": 333,
+          "bottom": 1046,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 1002,
+          "right": 439.515625,
+          "bottom": 1046,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 1002,
+          "right": 562.3125,
+          "bottom": 1046,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/images/demo-products/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/watch.svg"
+        }
+      ],
+      "role": "multi"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 3,
+      "empty": false,
+      "list": {
+        "x": 96.5,
+        "y": 237,
+        "right": 824.5,
+        "bottom": 1067,
+        "width": 728,
+        "height": 830
+      },
+      "summary": {
+        "x": 848.5,
+        "y": 237,
+        "right": 1168.5,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 873.5,
+        "y": 535,
+        "right": 1143.5,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 245.5,
+          "y": 486,
+          "right": 289.5,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 293.5,
+          "y": 486,
+          "right": 357.5,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 361.5,
+          "y": 486,
+          "right": 405.5,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 421.5,
+          "y": 486,
+          "right": 512.015625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 520.015625,
+          "y": 486,
+          "right": 634.8125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 245.5,
+          "y": 744,
+          "right": 289.5,
+          "bottom": 788,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 293.5,
+          "y": 744,
+          "right": 357.5,
+          "bottom": 788,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 361.5,
+          "y": 744,
+          "right": 405.5,
+          "bottom": 788,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 421.5,
+          "y": 744,
+          "right": 512.015625,
+          "bottom": 788,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 520.015625,
+          "y": 744,
+          "right": 634.8125,
+          "bottom": 788,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 245.5,
+          "y": 1002,
+          "right": 289.5,
+          "bottom": 1046,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 293.5,
+          "y": 1002,
+          "right": 357.5,
+          "bottom": 1046,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 361.5,
+          "y": 1002,
+          "right": 405.5,
+          "bottom": 1046,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 421.5,
+          "y": 1002,
+          "right": 512.015625,
+          "bottom": 1046,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 520.015625,
+          "y": 1002,
+          "right": 634.8125,
+          "bottom": 1046,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/images/demo-products/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/watch.svg"
+        }
+      ],
+      "role": "multi"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 3,
+      "empty": false,
+      "list": {
+        "x": 176.5,
+        "y": 237,
+        "right": 904.5,
+        "bottom": 1067,
+        "width": 728,
+        "height": 830
+      },
+      "summary": {
+        "x": 928.5,
+        "y": 237,
+        "right": 1248.5,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 953.5,
+        "y": 535,
+        "right": 1223.5,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        },
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px",
+        "18px",
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 325.5,
+          "y": 486,
+          "right": 369.5,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 373.5,
+          "y": 486,
+          "right": 437.5,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 441.5,
+          "y": 486,
+          "right": 485.5,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 501.5,
+          "y": 486,
+          "right": 592.015625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 600.015625,
+          "y": 486,
+          "right": 714.8125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 325.5,
+          "y": 744,
+          "right": 369.5,
+          "bottom": 788,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 373.5,
+          "y": 744,
+          "right": 437.5,
+          "bottom": 788,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 441.5,
+          "y": 744,
+          "right": 485.5,
+          "bottom": 788,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 501.5,
+          "y": 744,
+          "right": 592.015625,
+          "bottom": 788,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 600.015625,
+          "y": 744,
+          "right": 714.8125,
+          "bottom": 788,
+          "width": 114.796875,
+          "height": 44
+        },
+        {
+          "x": 325.5,
+          "y": 1002,
+          "right": 369.5,
+          "bottom": 1046,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 373.5,
+          "y": 1002,
+          "right": 437.5,
+          "bottom": 1046,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 441.5,
+          "y": 1002,
+          "right": 485.5,
+          "bottom": 1046,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 501.5,
+          "y": 1002,
+          "right": 592.015625,
+          "bottom": 1046,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 600.015625,
+          "y": 1002,
+          "right": 714.8125,
+          "bottom": 1046,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/images/demo-products/earbuds.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/watch.svg"
+        }
+      ],
+      "role": "multi"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 289,
+        "bottom": 825,
+        "width": 273,
+        "height": 464
+      },
+      "summary": {
+        "x": 16,
+        "y": 849,
+        "right": 289,
+        "bottom": 1312,
+        "width": 273,
+        "height": 463
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1163,
+        "right": 268,
+        "bottom": 1207,
+        "width": 231,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 704,
+          "right": 77,
+          "bottom": 748,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 704,
+          "right": 145,
+          "bottom": 748,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 704,
+          "right": 193,
+          "bottom": 748,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 764,
+          "right": 123.515625,
+          "bottom": 808,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 764,
+          "right": 246.3125,
+          "bottom": 808,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        }
+      ],
+      "role": "single"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 344,
+        "bottom": 773,
+        "width": 328,
+        "height": 412
+      },
+      "summary": {
+        "x": 16,
+        "y": 797,
+        "right": 344,
+        "bottom": 1212,
+        "width": 328,
+        "height": 415
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1063,
+        "right": 323,
+        "bottom": 1107,
+        "width": 286,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 652,
+          "right": 77,
+          "bottom": 696,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 652,
+          "right": 145,
+          "bottom": 696,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 652,
+          "right": 193,
+          "bottom": 696,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 712,
+          "right": 123.515625,
+          "bottom": 756,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 712,
+          "right": 246.3125,
+          "bottom": 756,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        }
+      ],
+      "role": "single"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 289,
+        "right": 729,
+        "bottom": 603,
+        "width": 705,
+        "height": 314
+      },
+      "summary": {
+        "x": 24,
+        "y": 627,
+        "right": 729,
+        "bottom": 1030,
+        "width": 705,
+        "height": 403
+      },
+      "checkout": {
+        "x": 49,
+        "y": 877,
+        "right": 704,
+        "bottom": 921,
+        "width": 655,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 538,
+          "right": 217,
+          "bottom": 582,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 538,
+          "right": 285,
+          "bottom": 582,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 538,
+          "right": 333,
+          "bottom": 582,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 538,
+          "right": 439.515625,
+          "bottom": 582,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 538,
+          "right": 562.3125,
+          "bottom": 582,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        }
+      ],
+      "role": "single"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1024,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 237,
+        "right": 656,
+        "bottom": 551,
+        "width": 632,
+        "height": 314
+      },
+      "summary": {
+        "x": 680,
+        "y": 237,
+        "right": 1000,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 705,
+        "y": 535,
+        "right": 975,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 486,
+          "right": 217,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 486,
+          "right": 285,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 486,
+          "right": 333,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 486,
+          "right": 439.515625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 486,
+          "right": 562.3125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        }
+      ],
+      "role": "single"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1280,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 104,
+        "y": 237,
+        "right": 832,
+        "bottom": 551,
+        "width": 728,
+        "height": 314
+      },
+      "summary": {
+        "x": 856,
+        "y": 237,
+        "right": 1176,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 881,
+        "y": 535,
+        "right": 1151,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 253,
+          "y": 486,
+          "right": 297,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 301,
+          "y": 486,
+          "right": 365,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 369,
+          "y": 486,
+          "right": 413,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 429,
+          "y": 486,
+          "right": 519.515625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 527.515625,
+          "y": 486,
+          "right": 642.3125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        }
+      ],
+      "role": "single"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1440,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 184,
+        "y": 237,
+        "right": 912,
+        "bottom": 551,
+        "width": 728,
+        "height": 314
+      },
+      "summary": {
+        "x": 936,
+        "y": 237,
+        "right": 1256,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 961,
+        "y": 535,
+        "right": 1231,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 333,
+          "y": 486,
+          "right": 377,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 381,
+          "y": 486,
+          "right": 445,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 449,
+          "y": 486,
+          "right": 493,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 509,
+          "y": 486,
+          "right": 599.515625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 607.515625,
+          "y": 486,
+          "right": 722.3125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19104/storage/products/demo/phone.svg"
+        }
+      ],
+      "role": "single"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 0,
+      "empty": true,
+      "list": null,
+      "summary": null,
+      "checkout": null,
+      "names": [],
+      "prices": [],
+      "controls": [],
+      "images": [],
+      "role": "empty"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 0,
+      "empty": true,
+      "list": null,
+      "summary": null,
+      "checkout": null,
+      "names": [],
+      "prices": [],
+      "controls": [],
+      "images": [],
+      "role": "empty"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 0,
+      "empty": true,
+      "list": null,
+      "summary": null,
+      "checkout": null,
+      "names": [],
+      "prices": [],
+      "controls": [],
+      "images": [],
+      "role": "empty"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1024,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 0,
+      "empty": true,
+      "list": null,
+      "summary": null,
+      "checkout": null,
+      "names": [],
+      "prices": [],
+      "controls": [],
+      "images": [],
+      "role": "empty"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1280,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 0,
+      "empty": true,
+      "list": null,
+      "summary": null,
+      "checkout": null,
+      "names": [],
+      "prices": [],
+      "controls": [],
+      "images": [],
+      "role": "empty"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1440,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 0,
+      "empty": true,
+      "list": null,
+      "summary": null,
+      "checkout": null,
+      "names": [],
+      "prices": [],
+      "controls": [],
+      "images": [],
+      "role": "empty"
+    }
+  ],
+  "stateReports": [
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 289,
+        "bottom": 1361,
+        "width": 273,
+        "height": 1000
+      },
+      "summary": {
+        "x": 16,
+        "y": 1385,
+        "right": 289,
+        "bottom": 1828,
+        "width": 273,
+        "height": 443
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1679,
+        "right": 268,
+        "bottom": 1723,
+        "width": 231,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 1240,
+          "right": 77,
+          "bottom": 1284,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 1240,
+          "right": 145,
+          "bottom": 1284,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 1240,
+          "right": 193,
+          "bottom": 1284,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1300,
+          "right": 123.515625,
+          "bottom": 1344,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 1300,
+          "right": 246.3125,
+          "bottom": 1344,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "long"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 344,
+        "bottom": 1145,
+        "width": 328,
+        "height": 784
+      },
+      "summary": {
+        "x": 16,
+        "y": 1169,
+        "right": 344,
+        "bottom": 1584,
+        "width": 328,
+        "height": 415
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1435,
+        "right": 323,
+        "bottom": 1479,
+        "width": 286,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 1024,
+          "right": 77,
+          "bottom": 1068,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 1024,
+          "right": 145,
+          "bottom": 1068,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 1024,
+          "right": 193,
+          "bottom": 1068,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1084,
+          "right": 123.515625,
+          "bottom": 1128,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 1084,
+          "right": 246.3125,
+          "bottom": 1128,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "long"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 289,
+        "right": 729,
+        "bottom": 731,
+        "width": 705,
+        "height": 442
+      },
+      "summary": {
+        "x": 24,
+        "y": 755,
+        "right": 729,
+        "bottom": 1158,
+        "width": 705,
+        "height": 403
+      },
+      "checkout": {
+        "x": 49,
+        "y": 1005,
+        "right": 704,
+        "bottom": 1049,
+        "width": 655,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 666,
+          "right": 217,
+          "bottom": 710,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 666,
+          "right": 285,
+          "bottom": 710,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 666,
+          "right": 333,
+          "bottom": 710,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 666,
+          "right": 439.515625,
+          "bottom": 710,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 666,
+          "right": 562.3125,
+          "bottom": 710,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "long"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 237,
+        "right": 641,
+        "bottom": 727,
+        "width": 617,
+        "height": 490
+      },
+      "summary": {
+        "x": 665,
+        "y": 237,
+        "right": 985,
+        "bottom": 660,
+        "width": 320,
+        "height": 423
+      },
+      "checkout": {
+        "x": 690,
+        "y": 507,
+        "right": 960,
+        "bottom": 551,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 662,
+          "right": 217,
+          "bottom": 706,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 662,
+          "right": 285,
+          "bottom": 706,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 662,
+          "right": 333,
+          "bottom": 706,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 662,
+          "right": 439.515625,
+          "bottom": 706,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 662,
+          "right": 562.3125,
+          "bottom": 706,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "long"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1280,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 104,
+        "y": 237,
+        "right": 832,
+        "bottom": 679,
+        "width": 728,
+        "height": 442
+      },
+      "summary": {
+        "x": 856,
+        "y": 237,
+        "right": 1176,
+        "bottom": 660,
+        "width": 320,
+        "height": 423
+      },
+      "checkout": {
+        "x": 881,
+        "y": 507,
+        "right": 1151,
+        "bottom": 551,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 253,
+          "y": 614,
+          "right": 297,
+          "bottom": 658,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 301,
+          "y": 614,
+          "right": 365,
+          "bottom": 658,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 369,
+          "y": 614,
+          "right": 413,
+          "bottom": 658,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 429,
+          "y": 614,
+          "right": 519.515625,
+          "bottom": 658,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 527.515625,
+          "y": 614,
+          "right": 642.3125,
+          "bottom": 658,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "long"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1440,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 184,
+        "y": 237,
+        "right": 912,
+        "bottom": 679,
+        "width": 728,
+        "height": 442
+      },
+      "summary": {
+        "x": 936,
+        "y": 237,
+        "right": 1256,
+        "bottom": 660,
+        "width": 320,
+        "height": 423
+      },
+      "checkout": {
+        "x": 961,
+        "y": 507,
+        "right": 1231,
+        "bottom": 551,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 333,
+          "y": 614,
+          "right": 377,
+          "bottom": 658,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 381,
+          "y": 614,
+          "right": 445,
+          "bottom": 658,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 449,
+          "y": 614,
+          "right": 493,
+          "bottom": 658,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 509,
+          "y": 614,
+          "right": 599.515625,
+          "bottom": 658,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 607.515625,
+          "y": 614,
+          "right": 722.3125,
+          "bottom": 658,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "long"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 289,
+        "bottom": 949,
+        "width": 273,
+        "height": 588
+      },
+      "summary": {
+        "x": 16,
+        "y": 973,
+        "right": 289,
+        "bottom": 1416,
+        "width": 273,
+        "height": 443
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1267,
+        "right": 268,
+        "bottom": 1311,
+        "width": 231,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 752,
+          "right": 77,
+          "bottom": 796,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 752,
+          "right": 145,
+          "bottom": 796,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 752,
+          "right": 193,
+          "bottom": 796,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 812,
+          "right": 123.515625,
+          "bottom": 856,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 812,
+          "right": 246.3125,
+          "bottom": 856,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "low"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 16,
+        "y": 361,
+        "right": 344,
+        "bottom": 873,
+        "width": 328,
+        "height": 512
+      },
+      "summary": {
+        "x": 16,
+        "y": 897,
+        "right": 344,
+        "bottom": 1312,
+        "width": 328,
+        "height": 415
+      },
+      "checkout": {
+        "x": 37,
+        "y": 1163,
+        "right": 323,
+        "bottom": 1207,
+        "width": 286,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 33,
+          "y": 676,
+          "right": 77,
+          "bottom": 720,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 81,
+          "y": 676,
+          "right": 145,
+          "bottom": 720,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 149,
+          "y": 676,
+          "right": 193,
+          "bottom": 720,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 736,
+          "right": 123.515625,
+          "bottom": 780,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 131.515625,
+          "y": 736,
+          "right": 246.3125,
+          "bottom": 780,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "low"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 289,
+        "right": 729,
+        "bottom": 639,
+        "width": 705,
+        "height": 350
+      },
+      "summary": {
+        "x": 24,
+        "y": 663,
+        "right": 729,
+        "bottom": 1066,
+        "width": 705,
+        "height": 403
+      },
+      "checkout": {
+        "x": 49,
+        "y": 913,
+        "right": 704,
+        "bottom": 957,
+        "width": 655,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 538,
+          "right": 217,
+          "bottom": 582,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 538,
+          "right": 285,
+          "bottom": 582,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 538,
+          "right": 333,
+          "bottom": 582,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 538,
+          "right": 439.515625,
+          "bottom": 582,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 538,
+          "right": 562.3125,
+          "bottom": 582,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "low"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1024,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 24,
+        "y": 237,
+        "right": 656,
+        "bottom": 607,
+        "width": 632,
+        "height": 370
+      },
+      "summary": {
+        "x": 680,
+        "y": 237,
+        "right": 1000,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 705,
+        "y": 535,
+        "right": 975,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 173,
+          "y": 486,
+          "right": 217,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 221,
+          "y": 486,
+          "right": 285,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 289,
+          "y": 486,
+          "right": 333,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 349,
+          "y": 486,
+          "right": 439.515625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 447.515625,
+          "y": 486,
+          "right": 562.3125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "low"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1280,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 104,
+        "y": 237,
+        "right": 832,
+        "bottom": 587,
+        "width": 728,
+        "height": 350
+      },
+      "summary": {
+        "x": 856,
+        "y": 237,
+        "right": 1176,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 881,
+        "y": 535,
+        "right": 1151,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 253,
+          "y": 486,
+          "right": 297,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 301,
+          "y": 486,
+          "right": 365,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 369,
+          "y": 486,
+          "right": 413,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 429,
+          "y": 486,
+          "right": 519.515625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 527.515625,
+          "y": 486,
+          "right": 642.3125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "low"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1440,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "items": 1,
+      "empty": false,
+      "list": {
+        "x": 184,
+        "y": 237,
+        "right": 912,
+        "bottom": 587,
+        "width": 728,
+        "height": 350
+      },
+      "summary": {
+        "x": 936,
+        "y": 237,
+        "right": 1256,
+        "bottom": 688,
+        "width": 320,
+        "height": 451
+      },
+      "checkout": {
+        "x": 961,
+        "y": 535,
+        "right": 1231,
+        "bottom": 579,
+        "width": 270,
+        "height": 44
+      },
+      "names": [
+        {
+          "font": "16px",
+          "clipped": false
+        }
+      ],
+      "prices": [
+        "18px"
+      ],
+      "controls": [
+        {
+          "x": 333,
+          "y": 486,
+          "right": 377,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 381,
+          "y": 486,
+          "right": 445,
+          "bottom": 530,
+          "width": 64,
+          "height": 44
+        },
+        {
+          "x": 449,
+          "y": 486,
+          "right": 493,
+          "bottom": 530,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 509,
+          "y": 486,
+          "right": 599.515625,
+          "bottom": 530,
+          "width": 90.515625,
+          "height": 44
+        },
+        {
+          "x": 607.515625,
+          "y": 486,
+          "right": 722.3125,
+          "bottom": 530,
+          "width": 114.796875,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "role": "low"
+    }
+  ],
+  "functional": [
+    "Guest cart redirects to existing login",
+    "Empty/single/multi at six widths; long names/brand and missing image; reduced stock warning at all widths",
+    "Keyboard +, max stock, reactive typed quantity, minus, manual Update, server subtotals and rejected stock update",
+    "Checkout real navigation without confirming an order",
+    "Remove action and subtotal recomputed by server; image runtime fallback",
+    "Keyboard removal of last item reaches empty state",
+    "Quantity zero plus Update preserves existing removal behavior"
+  ],
+  "loading": true,
+  "fallback": true,
+  "staleErrors": "",
+  "conditions": "Chrome headless, CSS viewport widths, DPR1, zoom100%, real Laravel/Livewire/auth/actions, isolated synthetic SQLite/disk/sessions"
+}

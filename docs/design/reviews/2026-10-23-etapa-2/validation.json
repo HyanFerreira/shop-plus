@@ -1,0 +1,1375 @@
+{
+  "reports": [
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 305,
+        "height": 173,
+        "right": 305,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 305,
+          "height": 172,
+          "right": 305,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 173,
+          "width": 305,
+          "height": 3100.0625,
+          "right": 305,
+          "bottom": 3273.0625
+        },
+        {
+          "x": 0,
+          "y": 3346.0625,
+          "width": 305,
+          "height": 795.796875,
+          "right": 305,
+          "bottom": 4141.859375
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-visitor-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 173,
+        "right": 360,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 172,
+          "right": 360,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 173,
+          "width": 360,
+          "height": 3195.5,
+          "right": 360,
+          "bottom": 3368.5
+        },
+        {
+          "x": 0,
+          "y": 3441.5,
+          "width": 360,
+          "height": 795.796875,
+          "right": 360,
+          "bottom": 4237.296875
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-visitor-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 121,
+        "right": 753,
+        "bottom": 121
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 120,
+          "right": 753,
+          "bottom": 120
+        },
+        {
+          "x": 0,
+          "y": 121,
+          "width": 753,
+          "height": 2511,
+          "right": 753,
+          "bottom": 2632
+        },
+        {
+          "x": 0,
+          "y": 2705,
+          "width": 753,
+          "height": 513,
+          "right": 753,
+          "bottom": 3218
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-visitor-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 69,
+        "right": 1009,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 68,
+          "right": 1009,
+          "bottom": 68
+        },
+        {
+          "x": 0,
+          "y": 69,
+          "width": 1009,
+          "height": 1595.3125,
+          "right": 1009,
+          "bottom": 1664.3125
+        },
+        {
+          "x": 0,
+          "y": 1737.3125,
+          "width": 1009,
+          "height": 193,
+          "right": 1009,
+          "bottom": 1930.3125
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-visitor-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1265,
+        "height": 69,
+        "right": 1265,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 72.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1192.5,
+          "bottom": 68
+        },
+        {
+          "x": 72.5,
+          "y": 69,
+          "width": 1120,
+          "height": 1633.90625,
+          "right": 1192.5,
+          "bottom": 1702.90625
+        },
+        {
+          "x": 72.5,
+          "y": 1775.90625,
+          "width": 1120,
+          "height": 193,
+          "right": 1192.5,
+          "bottom": 1968.90625
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-visitor-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 69,
+        "right": 1425,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 152.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1272.5,
+          "bottom": 68
+        },
+        {
+          "x": 152.5,
+          "y": 69,
+          "width": 1120,
+          "height": 1633.90625,
+          "right": 1272.5,
+          "bottom": 1702.90625
+        },
+        {
+          "x": 152.5,
+          "y": 1775.90625,
+          "width": 1120,
+          "height": 193,
+          "right": 1272.5,
+          "bottom": 1968.90625
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-visitor-1440.png"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 305,
+        "height": 173,
+        "right": 305,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 305,
+          "height": 172,
+          "right": 305,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 197,
+          "width": 305,
+          "height": 2723.71875,
+          "right": 305,
+          "bottom": 2920.71875
+        },
+        {
+          "x": 0,
+          "y": 2977.71875,
+          "width": 305,
+          "height": 795.796875,
+          "right": 305,
+          "bottom": 3773.515625
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-visitor-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 173,
+        "right": 360,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 172,
+          "right": 360,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 197,
+          "width": 360,
+          "height": 2843.25,
+          "right": 360,
+          "bottom": 3040.25
+        },
+        {
+          "x": 0,
+          "y": 3097.25,
+          "width": 360,
+          "height": 795.796875,
+          "right": 360,
+          "bottom": 3893.046875
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-visitor-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 121,
+        "right": 753,
+        "bottom": 121
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 120,
+          "right": 753,
+          "bottom": 120
+        },
+        {
+          "x": 0,
+          "y": 153,
+          "width": 753,
+          "height": 2278.75,
+          "right": 753,
+          "bottom": 2431.75
+        },
+        {
+          "x": 0,
+          "y": 2496.75,
+          "width": 753,
+          "height": 513,
+          "right": 753,
+          "bottom": 3009.75
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-visitor-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 69,
+        "right": 1009,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 68,
+          "right": 1009,
+          "bottom": 68
+        },
+        {
+          "x": 0,
+          "y": 101,
+          "width": 1009,
+          "height": 1279.921875,
+          "right": 1009,
+          "bottom": 1380.921875
+        },
+        {
+          "x": 0,
+          "y": 1445.921875,
+          "width": 1009,
+          "height": 193,
+          "right": 1009,
+          "bottom": 1638.921875
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-visitor-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1265,
+        "height": 69,
+        "right": 1265,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 72.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1192.5,
+          "bottom": 68
+        },
+        {
+          "x": 72.5,
+          "y": 101,
+          "width": 1120,
+          "height": 1198.40625,
+          "right": 1192.5,
+          "bottom": 1299.40625
+        },
+        {
+          "x": 72.5,
+          "y": 1364.40625,
+          "width": 1120,
+          "height": 193,
+          "right": 1192.5,
+          "bottom": 1557.40625
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-visitor-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 69,
+        "right": 1425,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/login",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 152.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1272.5,
+          "bottom": 68
+        },
+        {
+          "x": 152.5,
+          "y": 101,
+          "width": 1120,
+          "height": 1198.40625,
+          "right": 1272.5,
+          "bottom": 1299.40625
+        },
+        {
+          "x": 152.5,
+          "y": 1364.40625,
+          "width": 1120,
+          "height": 193,
+          "right": 1272.5,
+          "bottom": 1557.40625
+        }
+      ],
+      "overflowing": [],
+      "role": "visitor",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-visitor-1440.png"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 305,
+        "height": 173,
+        "right": 305,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 305,
+          "height": 172,
+          "right": 305,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 173,
+          "width": 305,
+          "height": 3100.0625,
+          "right": 305,
+          "bottom": 3273.0625
+        },
+        {
+          "x": 0,
+          "y": 3346.0625,
+          "width": 305,
+          "height": 795.796875,
+          "right": 305,
+          "bottom": 4141.859375
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-authenticated-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 173,
+        "right": 360,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 172,
+          "right": 360,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 173,
+          "width": 360,
+          "height": 3195.5,
+          "right": 360,
+          "bottom": 3368.5
+        },
+        {
+          "x": 0,
+          "y": 3441.5,
+          "width": 360,
+          "height": 795.796875,
+          "right": 360,
+          "bottom": 4237.296875
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-authenticated-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 121,
+        "right": 753,
+        "bottom": 121
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 120,
+          "right": 753,
+          "bottom": 120
+        },
+        {
+          "x": 0,
+          "y": 121,
+          "width": 753,
+          "height": 2511,
+          "right": 753,
+          "bottom": 2632
+        },
+        {
+          "x": 0,
+          "y": 2705,
+          "width": 753,
+          "height": 513,
+          "right": 753,
+          "bottom": 3218
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-authenticated-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 69,
+        "right": 1009,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 68,
+          "right": 1009,
+          "bottom": 68
+        },
+        {
+          "x": 0,
+          "y": 69,
+          "width": 1009,
+          "height": 1595.3125,
+          "right": 1009,
+          "bottom": 1664.3125
+        },
+        {
+          "x": 0,
+          "y": 1737.3125,
+          "width": 1009,
+          "height": 193,
+          "right": 1009,
+          "bottom": 1930.3125
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-authenticated-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1265,
+        "height": 69,
+        "right": 1265,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 72.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1192.5,
+          "bottom": 68
+        },
+        {
+          "x": 72.5,
+          "y": 69,
+          "width": 1120,
+          "height": 1633.90625,
+          "right": 1192.5,
+          "bottom": 1702.90625
+        },
+        {
+          "x": 72.5,
+          "y": 1775.90625,
+          "width": 1120,
+          "height": 193,
+          "right": 1192.5,
+          "bottom": 1968.90625
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-authenticated-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 69,
+        "right": 1425,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 152.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1272.5,
+          "bottom": 68
+        },
+        {
+          "x": 152.5,
+          "y": 69,
+          "width": 1120,
+          "height": 1633.90625,
+          "right": 1272.5,
+          "bottom": 1702.90625
+        },
+        {
+          "x": 152.5,
+          "y": 1775.90625,
+          "width": 1120,
+          "height": 193,
+          "right": 1272.5,
+          "bottom": 1968.90625
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "home-authenticated-1440.png"
+    },
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 305,
+        "height": 173,
+        "right": 305,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 305,
+          "height": 172,
+          "right": 305,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 197,
+          "width": 305,
+          "height": 2723.71875,
+          "right": 305,
+          "bottom": 2920.71875
+        },
+        {
+          "x": 0,
+          "y": 2977.71875,
+          "width": 305,
+          "height": 795.796875,
+          "right": 305,
+          "bottom": 3773.515625
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-authenticated-320.png"
+    },
+    {
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 173,
+        "right": 360,
+        "bottom": 173
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 172,
+          "right": 360,
+          "bottom": 172
+        },
+        {
+          "x": 0,
+          "y": 197,
+          "width": 360,
+          "height": 2843.25,
+          "right": 360,
+          "bottom": 3040.25
+        },
+        {
+          "x": 0,
+          "y": 3097.25,
+          "width": 360,
+          "height": 795.796875,
+          "right": 360,
+          "bottom": 3893.046875
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-authenticated-375.png"
+    },
+    {
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 121,
+        "right": 753,
+        "bottom": 121
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 120,
+          "right": 753,
+          "bottom": 120
+        },
+        {
+          "x": 0,
+          "y": 153,
+          "width": 753,
+          "height": 2278.75,
+          "right": 753,
+          "bottom": 2431.75
+        },
+        {
+          "x": 0,
+          "y": 2496.75,
+          "width": 753,
+          "height": 513,
+          "right": 753,
+          "bottom": 3009.75
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-authenticated-768.png"
+    },
+    {
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 69,
+        "right": 1009,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 68,
+          "right": 1009,
+          "bottom": 68
+        },
+        {
+          "x": 0,
+          "y": 101,
+          "width": 1009,
+          "height": 1279.921875,
+          "right": 1009,
+          "bottom": 1380.921875
+        },
+        {
+          "x": 0,
+          "y": 1445.921875,
+          "width": 1009,
+          "height": 193,
+          "right": 1009,
+          "bottom": 1638.921875
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-authenticated-1024.png"
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1265,
+        "height": 69,
+        "right": 1265,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 72.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1192.5,
+          "bottom": 68
+        },
+        {
+          "x": 72.5,
+          "y": 101,
+          "width": 1120,
+          "height": 1198.40625,
+          "right": 1192.5,
+          "bottom": 1299.40625
+        },
+        {
+          "x": 72.5,
+          "y": 1364.40625,
+          "width": 1120,
+          "height": 193,
+          "right": 1192.5,
+          "bottom": 1557.40625
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-authenticated-1280.png"
+    },
+    {
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "overflow": false,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 69,
+        "right": 1425,
+        "bottom": 69
+      },
+      "searchVisible": true,
+      "navVisible": true,
+      "actionsVisible": true,
+      "account": "http://127.0.0.1:19082/dashboard",
+      "overlaps": [],
+      "axis": [
+        {
+          "x": 152.5,
+          "y": 0,
+          "width": 1120,
+          "height": 68,
+          "right": 1272.5,
+          "bottom": 68
+        },
+        {
+          "x": 152.5,
+          "y": 101,
+          "width": 1120,
+          "height": 1198.40625,
+          "right": 1272.5,
+          "bottom": 1299.40625
+        },
+        {
+          "x": 152.5,
+          "y": 1364.40625,
+          "width": 1120,
+          "height": 193,
+          "right": 1272.5,
+          "bottom": 1557.40625
+        }
+      ],
+      "overflowing": [],
+      "role": "authenticated",
+      "route": "/catalogo",
+      "searchStyles": {
+        "padding": 52,
+        "submitWidth": 44,
+        "inputRadius": "9999px"
+      },
+      "screenshot": "catalog-authenticated-1440.png"
+    }
+  ],
+  "issues": [],
+  "keyboardAndSearch": "passed",
+  "scale": "CSS pixels; deviceScaleFactor=1; browser page scale unchanged (100% for these captures)"
+}
