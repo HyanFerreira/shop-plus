@@ -1,14 +1,91 @@
 <x-storefront-layout>
-    @php $inStock = ($product->inventoryItem?->on_hand ?? 0) > ($product->inventoryItem?->reserved ?? 0); @endphp
-    <main class="bg-slate-50 py-5 sm:py-7"><div class="mx-auto max-w-[1120px] px-4 sm:px-6">
-        <nav class="mb-4 text-xs text-slate-500"><a href="{{ route('home') }}" class="hover:text-blue-600">Início</a><span class="mx-2">›</span><a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}" class="hover:text-blue-600">{{ $product->category->name }}</a><span class="mx-2">›</span><span>{{ $product->name }}</span></nav>
-        <article class="rounded-xl border border-slate-200 bg-white p-3 shadow-sm sm:p-5"><div class="grid gap-7 lg:grid-cols-[1fr_.95fr]">
-            <section><div class="relative flex aspect-[1.12] items-center justify-center overflow-hidden rounded-lg bg-slate-50">@if($product->images->isNotEmpty())<img src="{{ Storage::disk('public')->url($product->images->first()->path) }}" alt="{{ $product->images->first()->alt_text }}" class="h-full w-full object-contain">@else<x-icon name="shopping-bag" class="size-28 text-slate-300" /><span class="sr-only">Sem imagem</span>@endif</div><div class="mt-3 flex gap-2">@forelse($product->images as $image)<button type="button" class="flex size-14 items-center justify-center overflow-hidden rounded-md border border-blue-500 bg-white"><img src="{{ Storage::disk('public')->url($image->path) }}" alt="{{ $image->alt_text }}" class="h-full w-full object-cover"></button>@empty<button type="button" class="flex size-14 items-center justify-center rounded-md border border-blue-500 bg-slate-50"><x-icon name="shopping-bag" class="size-6 text-slate-400" /></button>@endforelse</div></section>
-            <section class="relative"><button type="button" class="absolute right-0 top-0 text-slate-500 hover:text-blue-600" aria-label="Favoritar"><x-icon name="heart" class="size-6" /></button><p class="text-sm font-semibold text-blue-600">{{ $product->brand }}</p><h1 class="mt-1 pr-8 text-2xl font-black tracking-tight text-slate-900 sm:text-3xl">{{ $product->name }}</h1><p class="mt-1 text-sm text-slate-500">{{ $product->category->name }} · SKU {{ $product->sku }}</p><p class="mt-3 text-sm font-semibold text-amber-500">★★★★★ <span class="ml-1 text-slate-500">{{ number_format((float) $product->rating_average, 1, ',', '.') }} ({{ $product->rating_count }} avaliações)</span></p><div class="mt-4 flex flex-wrap items-end gap-3"><p class="text-3xl font-black text-slate-950">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p><x-badge variant="danger">Oferta fictícia</x-badge></div><p class="mt-1 text-sm text-slate-600">Em até 12x sem juros no ambiente de demonstração.</p><p class="mt-4 flex items-center gap-2 text-sm font-bold {{ $inStock ? 'text-emerald-700' : 'text-red-700' }}"><span class="size-2 rounded-full {{ $inStock ? 'bg-emerald-500' : 'bg-red-500' }}"></span>{{ $inStock ? 'Em estoque' : 'Indisponível no momento' }}</p><livewire:product-add-to-cart :product="$product" />
-                <div class="mt-5 grid gap-3 border-t border-slate-100 pt-5 sm:grid-cols-3"><div class="flex items-center gap-2 text-xs text-slate-600"><x-icon name="truck" class="size-6 text-blue-600" /><span><strong class="block text-slate-800">Frete grátis</strong>acima de R$ 199</span></div><div class="flex items-center gap-2 text-xs text-slate-600"><x-icon name="shopping-bag" class="size-6 text-blue-600" /><span><strong class="block text-slate-800">Entrega rápida</strong>todo o Brasil</span></div><div class="flex items-center gap-2 text-xs text-slate-600"><x-icon name="lock-closed" class="size-6 text-blue-600" /><span><strong class="block text-slate-800">Compra segura</strong>dados protegidos</span></div></div>
-            </section>
-        </div></article>
-        <section class="mt-5 rounded-xl border border-slate-200 bg-white p-5"><div class="flex gap-7 border-b border-slate-100 text-sm font-semibold"><span class="border-b-2 border-blue-600 pb-3 text-slate-900">Descrição</span><span class="pb-3 text-slate-400">Especificações</span><span class="pb-3 text-slate-400">Avaliações ({{ $product->rating_count }})</span></div><p class="mt-5 whitespace-pre-line text-sm leading-6 text-slate-600">{{ $product->description }}</p><dl class="mt-5 grid gap-3 text-sm sm:grid-cols-3"><div><dt class="text-slate-400">Peso</dt><dd class="font-semibold text-slate-800">{{ $product->weight_grams }} g</dd></div><div><dt class="text-slate-400">Dimensões</dt><dd class="font-semibold text-slate-800">{{ $product->width_mm }} × {{ $product->height_mm }} × {{ $product->length_mm }} mm</dd></div><div><dt class="text-slate-400">Marca</dt><dd class="font-semibold text-slate-800">{{ $product->brand }}</dd></div></dl></section>
-        @if($relatedProducts->isNotEmpty())<section class="mt-6"><div class="mb-3 flex items-center justify-between"><h2 class="text-lg font-black tracking-tight text-slate-900">Produtos relacionados</h2><a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}" class="text-xs font-bold text-blue-600">Ver todos →</a></div><div class="grid grid-cols-2 gap-3 sm:grid-cols-4">@foreach($relatedProducts as $related)<a href="{{ route('catalog.show', $related->slug) }}" class="overflow-hidden rounded-lg border border-slate-200 bg-white p-2.5 transition hover:-translate-y-0.5 hover:shadow-md"><div class="flex aspect-[1.2] items-center justify-center rounded-md bg-slate-50">@if($related->images->isNotEmpty())<img src="{{ Storage::disk('public')->url($related->images->first()->path) }}" alt="{{ $related->images->first()->alt_text }}" class="h-full w-full object-cover">@else<x-icon name="shopping-bag" class="size-10 text-slate-300" />@endif</div><p class="mt-2 min-h-8 text-xs font-bold text-slate-900">{{ $related->name }}</p><p class="mt-1 text-sm font-black text-slate-900">{{ \App\Domain\Catalog\Price::fromCents($related->price_cents)->brl() }}</p><p class="mt-1 text-xs text-amber-500">★ {{ number_format((float) $related->rating_average, 1, ',', '.') }}</p></a>@endforeach</div></section>@endif
-    </div></main>
+    @php
+        $available = max(0, ($product->inventoryItem?->on_hand ?? 0) - ($product->inventoryItem?->reserved ?? 0));
+        $disk = Storage::disk('public');
+        $gallery = $product->images->filter(fn ($image) => $disk->exists($image->path))->unique('path')->map(fn ($image) => [
+            'url' => $disk->url($image->path), 'alt' => $image->alt_text ?: $product->name,
+        ])->values()->all();
+        $demo = config('demo-images.products')[$product->sku] ?? null;
+        if ($gallery === [] && $demo) $gallery[] = ['url' => asset('images/demo-products/'.$demo['file']), 'alt' => $demo['alt']];
+    @endphp
+    <main id="storefront-content" tabindex="-1" class="product-page">
+        <div class="ds-storefront-container product-container">
+            <nav class="product-breadcrumb" aria-label="Caminho de navegação">
+                <a href="{{ route('home') }}">Início</a><span aria-hidden="true">›</span>
+                <a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}">{{ $product->category->name }}</a><span aria-hidden="true">›</span>
+                <span aria-current="page">{{ $product->name }}</span>
+            </nav>
+            <article class="product-overview ds-panel">
+                <section class="product-gallery" aria-label="Imagens do produto" x-data="{ selected: 0, failed: {} }">
+                    <div id="product-gallery-stage" class="product-gallery__stage">
+                        @foreach($gallery as $index => $image)
+                            <img src="{{ $image['url'] }}" alt="{{ $image['alt'] }}" width="640" height="480" decoding="async"
+                                @if($index > 0) x-cloak @endif x-show="selected === {{ $index }} && !failed[{{ $index }}]" x-on:error="failed[{{ $index }}] = true"
+                                x-init="if ($el.complete && $el.naturalWidth === 0) failed[{{ $index }}] = true">
+                        @endforeach
+                        <div class="product-gallery__fallback" @if(count($gallery)) x-cloak x-show="failed[selected]" @endif>
+                            <x-icon name="shopping-bag" /><span>Imagem indisponível</span>@if($gallery === [])<span class="sr-only">Sem imagem</span>@endif
+                        </div>
+                    </div>
+                    @if(count($gallery) > 1)
+                        <div id="product-thumbnails" class="product-thumbnails" x-ref="thumbnails" role="group" aria-label="Selecionar imagem"
+                            @keydown.right.prevent="selected = (selected + 1) % {{ count($gallery) }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
+                            @keydown.left.prevent="selected = (selected + {{ count($gallery) - 1 }}) % {{ count($gallery) }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
+                            @keydown.home.prevent="selected = 0; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
+                            @keydown.end.prevent="selected = {{ count($gallery) - 1 }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()">
+                            @foreach($gallery as $index => $image)
+                                <button type="button" @click="selected = {{ $index }}" x-bind:aria-pressed="(selected === {{ $index }}).toString()" aria-controls="product-gallery-stage" aria-label="Ver imagem {{ $index + 1 }} de {{ count($gallery) }}">
+                                    <img src="{{ $image['url'] }}" alt="" width="80" height="60" decoding="async" x-show="!failed[{{ $index }}]" x-on:error="failed[{{ $index }}] = true">
+                                    <span x-cloak x-show="failed[{{ $index }}]" class="product-thumbnail-unavailable">{{ $index + 1 }}<span class="sr-only">: imagem indisponível</span></span>
+                                </button>
+                            @endforeach
+                        </div>
+                        <p class="product-gallery__status" aria-live="polite" x-text="'Imagem ' + (selected + 1) + ' de {{ count($gallery) }}'">Imagem 1 de {{ count($gallery) }}</p>
+                    @endif
+                </section>
+                <section class="product-summary" aria-labelledby="product-title">
+                    @if($product->brand !== '')<p class="product-brand">{{ $product->brand }}</p>@endif
+                    <h1 id="product-title">{{ $product->name }}</h1>
+                    <p class="product-meta">{{ $product->category->name }} <span aria-hidden="true">·</span> SKU {{ $product->sku }}</p>
+                    @if($product->rating_count > 0)
+                        <p class="product-rating"><span aria-hidden="true">★</span><span class="sr-only">Avaliação </span>{{ number_format((float) $product->rating_average, 1, ',', '.') }}<span class="sr-only"> de 5</span> <span>({{ $product->rating_count }} {{ $product->rating_count === 1 ? 'avaliação' : 'avaliações' }})</span></p>
+                    @else
+                        <p class="product-rating product-meta">Sem avaliações</p>
+                    @endif
+                    <div class="product-pricing">
+                        <p class="product-price">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p>
+                        <p class="product-payment">Pagamento simulado no ambiente de demonstração. Sem cobrança real.</p>
+                    </div>
+                    <p class="product-stock {{ $available > 0 ? 'product-stock--available' : 'product-stock--unavailable' }}"><span aria-hidden="true">●</span>{{ $available > 0 ? 'Em estoque' : 'Indisponível no momento' }}</p>
+                    <livewire:product-add-to-cart :product="$product" />
+                    <div class="product-trust">
+                        <div><x-icon name="truck" /><p><strong>Entrega e retirada</strong><span>Consulte modalidades, prazo e valor no checkout.</span></p></div>
+                        <div><x-icon name="lock-closed" /><p><strong>Compra com sua conta</strong><span>Entre para adicionar produtos e acompanhar seus pedidos.</span></p></div>
+                    </div>
+                </section>
+            </article>
+            <div class="product-information ds-panel">
+                <section aria-labelledby="product-description-title">
+                    <h2 id="product-description-title">Descrição</h2>
+                    <p class="product-description">{{ trim($product->description ?? '') !== '' ? $product->description : 'Descrição não informada.' }}</p>
+                </section>
+                <section aria-labelledby="product-specifications-title">
+                    <h2 id="product-specifications-title">Especificações</h2>
+                    <dl class="product-specifications">
+                        @if($product->brand !== '')<div><dt>Marca</dt><dd>{{ $product->brand }}</dd></div>@endif
+                        <div><dt>Categoria</dt><dd>{{ $product->category->name }}</dd></div>
+                        <div><dt>SKU</dt><dd>{{ $product->sku }}</dd></div>
+                        @if($product->weight_grams > 0)<div><dt>Peso</dt><dd>{{ $product->weight_grams }} g</dd></div>@endif
+                        @if($product->width_mm > 0 && $product->height_mm > 0 && $product->length_mm > 0)<div><dt>Dimensões (largura × altura × comprimento)</dt><dd>{{ $product->width_mm }} × {{ $product->height_mm }} × {{ $product->length_mm }} mm</dd></div>@endif
+                    </dl>
+                </section>
+            </div>
+            @if($relatedProducts->isNotEmpty())
+                <section class="product-related" aria-labelledby="product-related-title">
+                    <div class="product-related__heading"><h2 id="product-related-title">Produtos relacionados</h2><a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}">Ver todos <span aria-hidden="true">→</span></a></div>
+                    <div class="product-related__grid">@foreach($relatedProducts as $related)<x-home-product-card :product="$related" />@endforeach</div>
+                </section>
+            @endif
+        </div>
+    </main>
 </x-storefront-layout>

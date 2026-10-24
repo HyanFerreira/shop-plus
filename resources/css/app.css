@@ -1,5 +1,6 @@
 @import './home.css';
 @import './catalog.css';
+@import './product-detail.css';
 
 @tailwind base;
 @tailwind components;
