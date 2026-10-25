@@ -1,36 +1,17 @@
 <x-guest-layout>
-    <x-authentication-card>
-        <x-slot name="logo">
-            <x-authentication-card-logo />
-        </x-slot>
-
-        <x-validation-errors class="mb-4" />
-
-        <form method="POST" action="{{ route('password.update') }}">
-            @csrf
-
+    <x-auth-shell title="Redefinir senha" description="Escolha uma nova senha para acessar sua conta." >
+        <x-auth-feedback />
+        <x-auth-form :action="route('password.update')">
             <input type="hidden" name="token" value="{{ $request->route('token') }}">
-
-            <div class="block">
-                <x-label for="email" value="{{ __('Email') }}" />
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email', $request->email)" required autofocus autocomplete="username" />
+            <div>
+                <x-label for="email" value="E-mail" />
+                <x-input id="email" type="email" name="email" :value="old('email', $request->email)" required autofocus autocomplete="username" placeholder="seu@email.com" :aria-invalid="$errors->has('email') ? 'true' : 'false'" :aria-describedby="$errors->has('email') ? 'email-error' : null" />
+                <x-input-error for="email" id="email-error" />
             </div>
-
-            <div class="mt-4">
-                <x-label for="password" value="{{ __('Password') }}" />
-                <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
-            </div>
-
-            <div class="mt-4">
-                <x-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
-                <x-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
-            </div>
-
-            <div class="flex items-center justify-end mt-4">
-                <x-button>
-                    {{ __('Reset Password') }}
-                </x-button>
-            </div>
-        </form>
-    </x-authentication-card>
+            <x-auth-password label="Nova senha" autocomplete="new-password" help="Use de 8 a 128 caracteres." />
+            <x-auth-password name="password_confirmation" label="Confirmar nova senha" autocomplete="new-password" />
+            <x-auth-submit pending="Salvando senha…">Redefinir senha</x-auth-submit>
+        </x-auth-form>
+        <p class="auth-footer"><a href="{{ route('login') }}" class="auth-link">Voltar ao login</a></p>
+    </x-auth-shell>
 </x-guest-layout>
