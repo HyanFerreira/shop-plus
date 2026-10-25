@@ -5,6 +5,8 @@
 
 @import './orders.css';
 
+@import './checkout.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

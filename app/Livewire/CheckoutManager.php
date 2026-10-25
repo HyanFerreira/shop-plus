@@ -46,12 +46,15 @@ class CheckoutManager extends Component
 
     public function render(ShippingCalculator $shipping)
     {
-        $cart = Cart::query()->where('user_id', Auth::id())->with('items.product')->first();
+        $cart = Cart::query()->where('user_id', Auth::id())->with('items.product.images')->first();
         $address = $this->addressId ? Auth::user()->addresses()->find($this->addressId) : null;
         $weight = $cart?->items->sum(fn ($item) => $item->product->weight_grams * $item->quantity) ?? 0;
         $options = $address ? $shipping->options($address->postal_code_encrypted, $weight) : [];
         $subtotal = $cart?->items->sum(fn ($item) => $item->product->price_cents * $item->quantity) ?? 0;
+        $lineTotals = $cart?->items->mapWithKeys(fn ($item) => [$item->id => $item->product->price_cents * $item->quantity])->all() ?? [];
+        $selectedOption = $options[$this->shippingMethod] ?? null;
+        $estimatedTotal = $selectedOption && $cart?->items->isNotEmpty() ? $subtotal + $selectedOption['price_cents'] : null;
 
-        return view('livewire.checkout-manager', compact('cart', 'options', 'subtotal'));
+        return view('livewire.checkout-manager', compact('cart', 'options', 'subtotal', 'lineTotals', 'selectedOption', 'estimatedTotal'));
     }
 }

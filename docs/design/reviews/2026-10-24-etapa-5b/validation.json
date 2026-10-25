@@ -1,0 +1,1656 @@
+{
+  "reports": [
+    {
+      "phase": "checkout",
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 16,
+        "y": 425,
+        "right": 289,
+        "bottom": 1546,
+        "width": 273,
+        "height": 1121
+      },
+      "summary": {
+        "x": 16,
+        "y": 1566,
+        "right": 289,
+        "bottom": 1989,
+        "width": 273,
+        "height": 423
+      },
+      "controls": [
+        {
+          "x": 33,
+          "y": 921,
+          "right": 272,
+          "bottom": 965,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1840,
+          "right": 272,
+          "bottom": 1884,
+          "width": 239,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/storage/fixtures/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout"
+    },
+    {
+      "phase": "checkout",
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 16,
+        "y": 401,
+        "right": 344,
+        "bottom": 1474,
+        "width": 328,
+        "height": 1073
+      },
+      "summary": {
+        "x": 16,
+        "y": 1494,
+        "right": 344,
+        "bottom": 1897,
+        "width": 328,
+        "height": 403
+      },
+      "controls": [
+        {
+          "x": 33,
+          "y": 873,
+          "right": 327,
+          "bottom": 917,
+          "width": 294,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1748,
+          "right": 327,
+          "bottom": 1792,
+          "width": 294,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/storage/fixtures/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout"
+    },
+    {
+      "phase": "checkout",
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 24,
+        "y": 325,
+        "right": 729,
+        "bottom": 1354,
+        "width": 705,
+        "height": 1029
+      },
+      "summary": {
+        "x": 24,
+        "y": 1374,
+        "right": 729,
+        "bottom": 1733,
+        "width": 705,
+        "height": 359
+      },
+      "controls": [
+        {
+          "x": 49,
+          "y": 821,
+          "right": 704,
+          "bottom": 865,
+          "width": 655,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 1616,
+          "right": 704,
+          "bottom": 1660,
+          "width": 655,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/storage/fixtures/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout"
+    },
+    {
+      "phase": "checkout",
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 24,
+        "y": 273,
+        "right": 641,
+        "bottom": 1302,
+        "width": 617,
+        "height": 1029
+      },
+      "summary": {
+        "x": 665,
+        "y": 273,
+        "right": 985,
+        "bottom": 692,
+        "width": 320,
+        "height": 419
+      },
+      "controls": [
+        {
+          "x": 49,
+          "y": 769,
+          "right": 616,
+          "bottom": 813,
+          "width": 567,
+          "height": 44
+        },
+        {
+          "x": 690,
+          "y": 535,
+          "right": 960,
+          "bottom": 579,
+          "width": 270,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/storage/fixtures/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout"
+    },
+    {
+      "phase": "checkout",
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 96.5,
+        "y": 273,
+        "right": 824.5,
+        "bottom": 1302,
+        "width": 728,
+        "height": 1029
+      },
+      "summary": {
+        "x": 848.5,
+        "y": 273,
+        "right": 1168.5,
+        "bottom": 692,
+        "width": 320,
+        "height": 419
+      },
+      "controls": [
+        {
+          "x": 121.5,
+          "y": 769,
+          "right": 799.5,
+          "bottom": 813,
+          "width": 678,
+          "height": 44
+        },
+        {
+          "x": 873.5,
+          "y": 535,
+          "right": 1143.5,
+          "bottom": 579,
+          "width": 270,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/storage/fixtures/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout"
+    },
+    {
+      "phase": "checkout",
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 176.5,
+        "y": 273,
+        "right": 904.5,
+        "bottom": 1302,
+        "width": 728,
+        "height": 1029
+      },
+      "summary": {
+        "x": 928.5,
+        "y": 273,
+        "right": 1248.5,
+        "bottom": 692,
+        "width": 320,
+        "height": 419
+      },
+      "controls": [
+        {
+          "x": 201.5,
+          "y": 769,
+          "right": 879.5,
+          "bottom": 813,
+          "width": 678,
+          "height": 44
+        },
+        {
+          "x": 953.5,
+          "y": 535,
+          "right": 1223.5,
+          "bottom": 579,
+          "width": 270,
+          "height": 44
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/storage/fixtures/phone.svg"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout"
+    },
+    {
+      "phase": "checkout",
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": null,
+      "summary": null,
+      "controls": [],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "empty"
+    },
+    {
+      "phase": "checkout",
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": null,
+      "summary": null,
+      "controls": [],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "empty"
+    },
+    {
+      "phase": "checkout",
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": null,
+      "summary": null,
+      "controls": [],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "empty"
+    },
+    {
+      "phase": "checkout",
+      "width": 1024,
+      "clientWidth": 1024,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": null,
+      "summary": null,
+      "controls": [],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "empty"
+    },
+    {
+      "phase": "checkout",
+      "width": 1280,
+      "clientWidth": 1280,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": null,
+      "summary": null,
+      "controls": [],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "empty"
+    },
+    {
+      "phase": "checkout",
+      "width": 1440,
+      "clientWidth": 1440,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": null,
+      "summary": null,
+      "controls": [],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "empty"
+    },
+    {
+      "phase": "checkout",
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 16,
+        "y": 425,
+        "right": 289,
+        "bottom": 1093,
+        "width": 273,
+        "height": 668
+      },
+      "summary": {
+        "x": 16,
+        "y": 1113,
+        "right": 289,
+        "bottom": 1472,
+        "width": 273,
+        "height": 359
+      },
+      "controls": [],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "noaddress"
+    },
+    {
+      "phase": "checkout",
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 16,
+        "y": 401,
+        "right": 344,
+        "bottom": 997,
+        "width": 328,
+        "height": 596
+      },
+      "summary": {
+        "x": 16,
+        "y": 1017,
+        "right": 344,
+        "bottom": 1356,
+        "width": 328,
+        "height": 339
+      },
+      "controls": [],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "noaddress"
+    },
+    {
+      "phase": "checkout",
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 24,
+        "y": 325,
+        "right": 729,
+        "bottom": 929,
+        "width": 705,
+        "height": 604
+      },
+      "summary": {
+        "x": 24,
+        "y": 949,
+        "right": 729,
+        "bottom": 1244,
+        "width": 705,
+        "height": 295
+      },
+      "controls": [],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "noaddress"
+    },
+    {
+      "phase": "checkout",
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 24,
+        "y": 273,
+        "right": 641,
+        "bottom": 877,
+        "width": 617,
+        "height": 604
+      },
+      "summary": {
+        "x": 665,
+        "y": 273,
+        "right": 985,
+        "bottom": 628,
+        "width": 320,
+        "height": 355
+      },
+      "controls": [],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "noaddress"
+    },
+    {
+      "phase": "checkout",
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 96.5,
+        "y": 273,
+        "right": 824.5,
+        "bottom": 877,
+        "width": 728,
+        "height": 604
+      },
+      "summary": {
+        "x": 848.5,
+        "y": 273,
+        "right": 1168.5,
+        "bottom": 628,
+        "width": 320,
+        "height": 355
+      },
+      "controls": [],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "noaddress"
+    },
+    {
+      "phase": "checkout",
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 176.5,
+        "y": 273,
+        "right": 904.5,
+        "bottom": 877,
+        "width": 728,
+        "height": 604
+      },
+      "summary": {
+        "x": 928.5,
+        "y": 273,
+        "right": 1248.5,
+        "bottom": 628,
+        "width": 320,
+        "height": 355
+      },
+      "controls": [],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "http://127.0.0.1:19114/images/demo-products/earbuds.svg"
+        }
+      ],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "noaddress"
+    },
+    {
+      "phase": "checkout",
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 16,
+        "y": 425,
+        "right": 289,
+        "bottom": 1455,
+        "width": 273,
+        "height": 1030
+      },
+      "summary": {
+        "x": 16,
+        "y": 1475,
+        "right": 289,
+        "bottom": 1898,
+        "width": 273,
+        "height": 423
+      },
+      "controls": [
+        {
+          "x": 33,
+          "y": 830,
+          "right": 272,
+          "bottom": 874,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1749,
+          "right": 272,
+          "bottom": 1793,
+          "width": 239,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "stock"
+    },
+    {
+      "phase": "checkout",
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 16,
+        "y": 401,
+        "right": 344,
+        "bottom": 1383,
+        "width": 328,
+        "height": 982
+      },
+      "summary": {
+        "x": 16,
+        "y": 1403,
+        "right": 344,
+        "bottom": 1806,
+        "width": 328,
+        "height": 403
+      },
+      "controls": [
+        {
+          "x": 33,
+          "y": 782,
+          "right": 327,
+          "bottom": 826,
+          "width": 294,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1657,
+          "right": 327,
+          "bottom": 1701,
+          "width": 294,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "stock"
+    },
+    {
+      "phase": "checkout",
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 24,
+        "y": 325,
+        "right": 729,
+        "bottom": 1253,
+        "width": 705,
+        "height": 928
+      },
+      "summary": {
+        "x": 24,
+        "y": 1273,
+        "right": 729,
+        "bottom": 1632,
+        "width": 705,
+        "height": 359
+      },
+      "controls": [
+        {
+          "x": 49,
+          "y": 720,
+          "right": 704,
+          "bottom": 764,
+          "width": 655,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 1515,
+          "right": 704,
+          "bottom": 1559,
+          "width": 655,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "stock"
+    },
+    {
+      "phase": "checkout",
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 24,
+        "y": 273,
+        "right": 641,
+        "bottom": 1201,
+        "width": 617,
+        "height": 928
+      },
+      "summary": {
+        "x": 665,
+        "y": 273,
+        "right": 985,
+        "bottom": 692,
+        "width": 320,
+        "height": 419
+      },
+      "controls": [
+        {
+          "x": 49,
+          "y": 668,
+          "right": 616,
+          "bottom": 712,
+          "width": 567,
+          "height": 44
+        },
+        {
+          "x": 690,
+          "y": 535,
+          "right": 960,
+          "bottom": 579,
+          "width": 270,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "stock"
+    },
+    {
+      "phase": "checkout",
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 96.5,
+        "y": 273,
+        "right": 824.5,
+        "bottom": 1201,
+        "width": 728,
+        "height": 928
+      },
+      "summary": {
+        "x": 848.5,
+        "y": 273,
+        "right": 1168.5,
+        "bottom": 692,
+        "width": 320,
+        "height": 419
+      },
+      "controls": [
+        {
+          "x": 121.5,
+          "y": 668,
+          "right": 799.5,
+          "bottom": 712,
+          "width": 678,
+          "height": 44
+        },
+        {
+          "x": 873.5,
+          "y": 535,
+          "right": 1143.5,
+          "bottom": 579,
+          "width": 270,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "stock"
+    },
+    {
+      "phase": "checkout",
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 176.5,
+        "y": 273,
+        "right": 904.5,
+        "bottom": 1201,
+        "width": 728,
+        "height": 928
+      },
+      "summary": {
+        "x": 928.5,
+        "y": 273,
+        "right": 1248.5,
+        "bottom": 692,
+        "width": 320,
+        "height": 419
+      },
+      "controls": [
+        {
+          "x": 201.5,
+          "y": 668,
+          "right": 879.5,
+          "bottom": 712,
+          "width": 678,
+          "height": 44
+        },
+        {
+          "x": 953.5,
+          "y": 535,
+          "right": 1223.5,
+          "bottom": 579,
+          "width": 270,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "stock"
+    },
+    {
+      "phase": "payment",
+      "width": 320,
+      "clientWidth": 305,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 33,
+        "y": 736,
+        "right": 272,
+        "bottom": 1326,
+        "width": 239,
+        "height": 590
+      },
+      "summary": {
+        "x": 33,
+        "y": 1350,
+        "right": 272,
+        "bottom": 1842,
+        "width": 239,
+        "height": 492
+      },
+      "controls": [
+        {
+          "x": 33,
+          "y": 764,
+          "right": 272,
+          "bottom": 808,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 852,
+          "right": 272,
+          "bottom": 896,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 940,
+          "right": 272,
+          "bottom": 984,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1028,
+          "right": 272,
+          "bottom": 1072,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1116,
+          "right": 272,
+          "bottom": 1160,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1224,
+          "right": 272,
+          "bottom": 1298,
+          "width": 239,
+          "height": 74
+        },
+        {
+          "x": 54,
+          "y": 1777,
+          "right": 251,
+          "bottom": 1821,
+          "width": 197,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout-created-order"
+    },
+    {
+      "phase": "payment",
+      "width": 375,
+      "clientWidth": 360,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 33,
+        "y": 632,
+        "right": 327,
+        "bottom": 1202,
+        "width": 294,
+        "height": 570
+      },
+      "summary": {
+        "x": 33,
+        "y": 1226,
+        "right": 327,
+        "bottom": 1652,
+        "width": 294,
+        "height": 426
+      },
+      "controls": [
+        {
+          "x": 33,
+          "y": 660,
+          "right": 327,
+          "bottom": 704,
+          "width": 294,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 748,
+          "right": 327,
+          "bottom": 792,
+          "width": 294,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 836,
+          "right": 327,
+          "bottom": 880,
+          "width": 294,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 924,
+          "right": 327,
+          "bottom": 968,
+          "width": 294,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1012,
+          "right": 327,
+          "bottom": 1056,
+          "width": 294,
+          "height": 44
+        },
+        {
+          "x": 33,
+          "y": 1100,
+          "right": 327,
+          "bottom": 1174,
+          "width": 294,
+          "height": 74
+        },
+        {
+          "x": 54,
+          "y": 1587,
+          "right": 306,
+          "bottom": 1631,
+          "width": 252,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout-created-order"
+    },
+    {
+      "phase": "payment",
+      "width": 768,
+      "clientWidth": 753,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 49,
+        "y": 468,
+        "right": 704,
+        "bottom": 926,
+        "width": 655,
+        "height": 458
+      },
+      "summary": {
+        "x": 49,
+        "y": 950,
+        "right": 704,
+        "bottom": 1296,
+        "width": 655,
+        "height": 346
+      },
+      "controls": [
+        {
+          "x": 49,
+          "y": 496,
+          "right": 704,
+          "bottom": 540,
+          "width": 655,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 584,
+          "right": 704,
+          "bottom": 628,
+          "width": 655,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 672,
+          "right": 368.5,
+          "bottom": 716,
+          "width": 319.5,
+          "height": 44
+        },
+        {
+          "x": 384.5,
+          "y": 672,
+          "right": 704,
+          "bottom": 716,
+          "width": 319.5,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 760,
+          "right": 704,
+          "bottom": 804,
+          "width": 655,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 848,
+          "right": 704,
+          "bottom": 898,
+          "width": 655,
+          "height": 50
+        },
+        {
+          "x": 70,
+          "y": 1231,
+          "right": 683,
+          "bottom": 1275,
+          "width": 613,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout-created-order"
+    },
+    {
+      "phase": "payment",
+      "width": 1024,
+      "clientWidth": 1009,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 49,
+        "y": 416,
+        "right": 648,
+        "bottom": 874,
+        "width": 599,
+        "height": 458
+      },
+      "summary": {
+        "x": 672,
+        "y": 416,
+        "right": 960,
+        "bottom": 842,
+        "width": 288,
+        "height": 426
+      },
+      "controls": [
+        {
+          "x": 49,
+          "y": 444,
+          "right": 648,
+          "bottom": 488,
+          "width": 599,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 532,
+          "right": 648,
+          "bottom": 576,
+          "width": 599,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 620,
+          "right": 340.5,
+          "bottom": 664,
+          "width": 291.5,
+          "height": 44
+        },
+        {
+          "x": 356.5,
+          "y": 620,
+          "right": 648,
+          "bottom": 664,
+          "width": 291.5,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 708,
+          "right": 648,
+          "bottom": 752,
+          "width": 599,
+          "height": 44
+        },
+        {
+          "x": 49,
+          "y": 796,
+          "right": 648,
+          "bottom": 846,
+          "width": 599,
+          "height": 50
+        },
+        {
+          "x": 693,
+          "y": 777,
+          "right": 939,
+          "bottom": 821,
+          "width": 246,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout-created-order"
+    },
+    {
+      "phase": "payment",
+      "width": 1280,
+      "clientWidth": 1265,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 121.5,
+        "y": 396,
+        "right": 831.5,
+        "bottom": 854,
+        "width": 710,
+        "height": 458
+      },
+      "summary": {
+        "x": 855.5,
+        "y": 396,
+        "right": 1143.5,
+        "bottom": 822,
+        "width": 288,
+        "height": 426
+      },
+      "controls": [
+        {
+          "x": 121.5,
+          "y": 424,
+          "right": 831.5,
+          "bottom": 468,
+          "width": 710,
+          "height": 44
+        },
+        {
+          "x": 121.5,
+          "y": 512,
+          "right": 831.5,
+          "bottom": 556,
+          "width": 710,
+          "height": 44
+        },
+        {
+          "x": 121.5,
+          "y": 600,
+          "right": 468.5,
+          "bottom": 644,
+          "width": 347,
+          "height": 44
+        },
+        {
+          "x": 484.5,
+          "y": 600,
+          "right": 831.5,
+          "bottom": 644,
+          "width": 347,
+          "height": 44
+        },
+        {
+          "x": 121.5,
+          "y": 688,
+          "right": 831.5,
+          "bottom": 732,
+          "width": 710,
+          "height": 44
+        },
+        {
+          "x": 121.5,
+          "y": 776,
+          "right": 831.5,
+          "bottom": 826,
+          "width": 710,
+          "height": 50
+        },
+        {
+          "x": 876.5,
+          "y": 757,
+          "right": 1122.5,
+          "bottom": 801,
+          "width": 246,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout-created-order"
+    },
+    {
+      "phase": "payment",
+      "width": 1440,
+      "clientWidth": 1425,
+      "dpr": 1,
+      "zoom": 1,
+      "overflow": false,
+      "headers": 1,
+      "footers": 1,
+      "mains": 1,
+      "main": {
+        "x": 201.5,
+        "y": 396,
+        "right": 911.5,
+        "bottom": 854,
+        "width": 710,
+        "height": 458
+      },
+      "summary": {
+        "x": 935.5,
+        "y": 396,
+        "right": 1223.5,
+        "bottom": 822,
+        "width": 288,
+        "height": 426
+      },
+      "controls": [
+        {
+          "x": 201.5,
+          "y": 424,
+          "right": 911.5,
+          "bottom": 468,
+          "width": 710,
+          "height": 44
+        },
+        {
+          "x": 201.5,
+          "y": 512,
+          "right": 911.5,
+          "bottom": 556,
+          "width": 710,
+          "height": 44
+        },
+        {
+          "x": 201.5,
+          "y": 600,
+          "right": 548.5,
+          "bottom": 644,
+          "width": 347,
+          "height": 44
+        },
+        {
+          "x": 564.5,
+          "y": 600,
+          "right": 911.5,
+          "bottom": 644,
+          "width": 347,
+          "height": 44
+        },
+        {
+          "x": 201.5,
+          "y": 688,
+          "right": 911.5,
+          "bottom": 732,
+          "width": 710,
+          "height": 44
+        },
+        {
+          "x": 201.5,
+          "y": 776,
+          "right": 911.5,
+          "bottom": 826,
+          "width": 710,
+          "height": 50
+        },
+        {
+          "x": 956.5,
+          "y": 757,
+          "right": 1202.5,
+          "bottom": 801,
+          "width": 246,
+          "height": 44
+        }
+      ],
+      "images": [],
+      "titles": [
+        {
+          "font": "32px",
+          "clipped": false
+        }
+      ],
+      "role": "checkout-created-order"
+    }
+  ],
+  "checks": [
+    "Final checkout and pending-payment layout: 30 combinations, six widths, no overflow/unique landmarks/usable controls",
+    "Native address selection and shipping ArrowRight retain focus after live server updates; all quotes match server fixtures",
+    "Approved/declined persisted states verified; cancellation runs existing wire:confirm/cancel with headless confirmation response simulated; native modal visual not validated",
+    "Final owner scope and guest redirect verified"
+  ],
+  "priorFlow": "Initial run completed creation, reservation-stage redirect, card validation/clearing, approval and decline; native cancellation prompt blocked headless automation. Separate completion below.",
+  "conditions": "Chrome headless, CSS viewports, DPR1, zoom100%, isolated synthetic SQLite/disk/sessions; public test card numbers only; no card/CVV input values in artifacts"
+}

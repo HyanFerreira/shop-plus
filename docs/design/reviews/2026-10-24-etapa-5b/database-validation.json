@@ -1,0 +1,33 @@
+{
+    "createdOrder": {
+        "path": "\/pedidos\/ORD-G7L1HLHMXQUPSGUZ",
+        "status": "pending_payment",
+        "total": 804590,
+        "shipping": 1890,
+        "phoneReserved": 1,
+        "earbudsReserved": 2
+    },
+    "paymentStates": {
+        "approve": {
+            "status": "paid",
+            "on_hand": 3,
+            "reserved": 0,
+            "last_four": "1111"
+        },
+        "decline": {
+            "status": "cancelled",
+            "on_hand": 5,
+            "reserved": 0,
+            "last_four": "0002"
+        },
+        "cancel": {
+            "status": "cancelled",
+            "on_hand": 5,
+            "reserved": 0,
+            "last_four": null
+        }
+    },
+    "noFullCardNumber": true,
+    "noCvvColumn": true,
+    "noCardNumberColumn": true
+}
