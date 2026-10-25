@@ -2,10 +2,9 @@
 @import './catalog.css';
 @import './product-detail.css';
 @import './cart.css';
-
-@import './orders.css';
-
 @import './checkout.css';
+@import './orders.css';
+@import './account.css';
 
 @tailwind base;
 @tailwind components;

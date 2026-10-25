@@ -21,7 +21,7 @@
         <x-banner />
 
         <div class="ds-page">
-            @if (request()->routeIs('profile.*') || request()->routeIs('api-tokens.*'))
+            @if (request()->routeIs('api-tokens.*'))
                 @livewire('navigation-menu')
             @else
                 <x-storefront-header />
@@ -40,7 +40,7 @@
             <main id="storefront-content" tabindex="-1">
                 {{ $slot }}
             </main>
-            @unless (request()->routeIs('profile.*') || request()->routeIs('api-tokens.*'))
+            @unless (request()->routeIs('api-tokens.*'))
                 <x-storefront-footer />
             @endunless
         </div>
