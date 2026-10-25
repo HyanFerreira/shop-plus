@@ -59,7 +59,7 @@ class PublicCatalogTest extends TestCase
             ->set('sort', 'price_desc')
             ->assertSeeInOrder(['PHP Moderno', 'Laravel Seguro'])
             ->set('sort', 'price desc; drop table products')
-            ->assertOk();
+            ->assertStatus(422);
 
         $this->assertDatabaseCount('products', 3);
     }

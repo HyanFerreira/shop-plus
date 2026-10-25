@@ -10,6 +10,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Livewire\Attributes\Url;
 use Livewire\Component;
 use Livewire\WithPagination;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rule;
 
 class Browser extends Component
 {
@@ -67,6 +69,25 @@ class Browser extends Component
 
     public function render(): View
     {
+        $validation = Validator::make($this->only([
+            'search', 'category', 'selectedCategories', 'brands', 'minPrice', 'maxPrice',
+            'minimumRating', 'sort', 'perPage',
+        ]), [
+            'search' => ['nullable', 'string', 'max:200'],
+            'category' => ['nullable', 'string', 'max:120'],
+            'selectedCategories' => ['array', 'max:50'],
+            'selectedCategories.*' => ['required', 'string', 'max:120'],
+            'brands' => ['array', 'max:50'],
+            'brands.*' => ['required', 'string', 'max:120'],
+            'minPrice' => ['nullable', 'numeric', 'between:0,9999999999'],
+            'maxPrice' => ['nullable', 'numeric', 'between:0,9999999999'],
+            'minimumRating' => ['integer', 'between:0,5'],
+            'sort' => [Rule::in(['relevance', 'name', 'price_asc', 'price_desc', 'rating'])],
+            'perPage' => ['integer', 'between:1,100'],
+        ]);
+        // Rendering must stop before malformed URL/hydrated data reaches SQL or Blade.
+        abort_if($validation->fails(), 422, 'Filtros de catálogo inválidos.');
+
         $query = Product::query()
             ->active()
             ->whereHas('category', fn (Builder $query) => $query->where('status', CatalogStatus::Active))

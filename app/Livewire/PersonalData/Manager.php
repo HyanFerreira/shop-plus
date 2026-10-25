@@ -69,7 +69,7 @@ class Manager extends Component
     public function saveProfile(SaveCustomerProfile $saveCustomerProfile): void
     {
         $validated = $this->validate([
-            'cpf' => ['required', 'string', new ValidCpf],
+            'cpf' => ['bail', 'required', 'string', 'max:14', new ValidCpf],
             'birthDate' => ['nullable', 'date', 'before_or_equal:today', 'after_or_equal:1900-01-01'],
         ], [], [
             'cpf' => 'CPF',
@@ -91,7 +91,7 @@ class Manager extends Component
     public function savePhone(SavePhone $savePhone): void
     {
         $validated = $this->validate([
-            'phoneNumber' => ['required', 'string', new ValidBrazilianPhone],
+            'phoneNumber' => ['bail', 'required', 'string', 'max:20', new ValidBrazilianPhone],
             'phoneType' => ['required', Rule::enum(PhoneType::class)],
             'phoneIsPrimary' => ['boolean'],
         ], [], [

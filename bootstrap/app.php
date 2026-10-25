@@ -5,7 +5,6 @@ use App\Http\Middleware\EnsureUserIsActive;
 use App\Http\Middleware\EnsureUserIsAdmin;
 use App\Http\Middleware\PreventSensitiveResponseCaching;
 use App\Http\Middleware\ThrottleSensitiveAuthRequests;
-use Illuminate\Contracts\Auth\Middleware\AuthenticatesRequests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -27,13 +26,13 @@ return Application::configure(basePath: dirname(__DIR__))
             'no-store' => PreventSensitiveResponseCaching::class,
         ]);
 
+        $middleware->append(AddSecurityHeaders::class);
         $middleware->prependToPriorityList(
-            AuthenticatesRequests::class,
-            AddSecurityHeaders::class,
+            \Illuminate\Routing\Middleware\ThrottleRequests::class,
+            ThrottleSensitiveAuthRequests::class,
         );
 
         $middleware->web(append: [
-            AddSecurityHeaders::class,
             EnsureUserIsActive::class,
             ThrottleSensitiveAuthRequests::class,
         ]);

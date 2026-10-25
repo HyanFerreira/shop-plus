@@ -31,7 +31,12 @@ class ProcessPayment
                 throw ValidationException::withMessages(['payment' => 'Chave de pagamento inválida.']);
             }
 
-            $existing = Payment::query()->with('order')->where('idempotency_key', $idempotencyKey)->first();
+            // A locking current read after the order lock sees a concurrent payment's result.
+            $order = Order::query()->where('user_id', $user->id)->lockForUpdate()->find($order->id);
+            if (! $order) {
+                throw ValidationException::withMessages(['payment' => 'Este pedido não pode ser pago.']);
+            }
+            $existing = Payment::query()->with('order')->where('idempotency_key', $idempotencyKey)->lockForUpdate()->first();
             if ($existing) {
                 if ($existing->order_id === $order->id && $existing->order->user_id === $user->id) {
                     return $existing;
@@ -40,8 +45,7 @@ class ProcessPayment
                 throw ValidationException::withMessages(['payment' => 'Chave de pagamento inválida.']);
             }
 
-            $order = Order::query()->where('user_id', $user->id)->lockForUpdate()->find($order->id);
-            if (! $order || $order->status !== OrderStatus::PendingPayment) {
+            if (! $order || $order->status !== OrderStatus::PendingPayment || $order->payment_expires_at?->isPast()) {
                 throw ValidationException::withMessages(['payment' => 'Este pedido não pode ser pago.']);
             }
 

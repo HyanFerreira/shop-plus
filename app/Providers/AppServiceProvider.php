@@ -26,6 +26,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        $inputGuard = new \App\Support\LivewireInputGuard;
+        \Livewire\Livewire::listen('update', [$inputGuard, 'update']);
+        \Livewire\Livewire::listen('call', [$inputGuard, 'call']);
+
         RateLimiter::for('admin', fn ($request) => Limit::perMinute(60)->by((string) ($request->user()?->id ?? $request->ip())));
 
         Event::listen(Login::class, function (Login $event) {

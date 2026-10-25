@@ -24,8 +24,14 @@ class PlaceOrder
     public function execute(User $user, int $addressId, string $shippingMethod, string $checkoutKey): Order
     {
         return DB::transaction(function () use ($user, $addressId, $shippingMethod, $checkoutKey) {
-            $existing = Order::query()->where('user_id', $user->id)->where('checkout_key', $checkoutKey)->first();
+            // Serialize submissions from this cart before reading a prior result.
+            $cart = Cart::query()->where('user_id', $user->id)->lockForUpdate()->first();
+            $existing = Order::query()->where('checkout_key', $checkoutKey)->lockForUpdate()->first();
             if ($existing) {
+                if ($existing->user_id !== $user->id) {
+                    throw ValidationException::withMessages(['checkout' => 'Chave de checkout inválida.']);
+                }
+
                 return $existing;
             }
 
@@ -34,7 +40,6 @@ class PlaceOrder
             }
 
             $address = Address::query()->where('user_id', $user->id)->find($addressId);
-            $cart = Cart::query()->where('user_id', $user->id)->lockForUpdate()->first();
             $items = $cart?->items()->with(['product.category'])->orderBy('product_id')->lockForUpdate()->get();
             if (! $address || ! $items || $items->isEmpty()) {
                 throw ValidationException::withMessages(['checkout' => 'Carrinho ou endereço inválido.']);

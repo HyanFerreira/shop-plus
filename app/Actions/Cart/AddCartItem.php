@@ -30,7 +30,7 @@ class AddCartItem
             $newQuantity = ($item?->quantity ?? 0) + $quantity;
             $available = InventoryItem::query()->where('product_id', $product->id)->value(DB::raw('on_hand - reserved')) ?? 0;
 
-            if ($newQuantity > $available) {
+            if ($newQuantity > 99 || $newQuantity > $available) {
                 throw ValidationException::withMessages(['quantity' => 'Quantidade indisponível em estoque.']);
             }
 

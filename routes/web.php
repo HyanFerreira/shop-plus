@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', HomeController::class)->name('home');
 
-Route::view('/catalogo', 'catalog.index')->name('catalog.index');
+Route::view('/catalogo', 'catalog.index')->middleware(\App\Http\Middleware\ValidateCatalogQuery::class)->name('catalog.index');
 Route::get('/catalogo/{slug}', CatalogProductController::class)->name('catalog.show');
 
 Route::middleware([
