@@ -1,0 +1,21 @@
+{
+  "result": "16 pre-existing formatting findings; all files unchanged from HEAD 69a616f",
+  "files": [
+    "app/Livewire/Catalog/Browser.php",
+    "app/Providers/AppServiceProvider.php",
+    "bootstrap/app.php",
+    "bootstrap/providers.php",
+    "config/auth.php",
+    "database/factories/UserFactory.php",
+    "database/migrations/2026_09_28_233000_create_procurement_inventory_tables.php",
+    "database/seeders/DatabaseSeeder.php",
+    "routes/api.php",
+    "routes/web.php",
+    "tests/Feature/Catalog/CatalogPresentationTest.php",
+    "tests/Feature/Catalog/ProductDetailPresentationTest.php",
+    "tests/Feature/Checkout/CartPresentationTest.php",
+    "tests/Feature/Checkout/CheckoutPresentationTest.php",
+    "tests/Feature/Payment/PaymentPresentationTest.php",
+    "tests/TestCase.php"
+  ]
+}

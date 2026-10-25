@@ -1,5 +1,7 @@
 # ShopPlus — inicialização e ensaio no IF
 
+> **Atualização de 25/10/2026:** para a instalação a partir da `main` publicada, usar o [guia atual de clone limpo](../../installation/ifsp-vm.md). O texto abaixo registra o procedimento da Etapa 7C, anterior à publicação da Etapa 8; a necessidade histórica de ZIP com alterações não commitadas não se aplica à versão final. Os assets compilados agora fazem parte do Git.
+
 **A VM não foi inspecionada nesta sessão.** Use este roteiro no computador da faculdade antes de conectar a turma. Os comandos Linux são exemplos para uma VM Linux; identifique o SO e o servidor antes de executá-los. Não reutilize o banco original nem o `.env` do Windows.
 
 ## 1. Levar os arquivos certos

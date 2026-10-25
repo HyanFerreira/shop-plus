@@ -1,4 +1,4 @@
-# Sistema de Comércio
+# ShopPlus
 
 Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 8.4, MySQL, Jetstream, Livewire e Tailwind CSS.
 
@@ -23,49 +23,38 @@ Aplicação monolítica acadêmica de comércio construída com Laravel 12, PHP 
 - entrega simulada com rastreio, máquina de estados e eventos imutáveis;
 - acompanhamento privado do cliente e operação administrativa dos pedidos.
 
-O fluxo funcional completo está implementado, incluindo expiração de pedidos, reembolso, entrega, gestão de administradores, auditoria e dados de demonstração. Permanecem apenas refinamentos visuais e integrações explicitamente fora do escopo acadêmico.
+O fluxo funcional e o refinamento visual até a Etapa 8 estão implementados, incluindo autenticação, expiração de pedidos, reembolso, entrega, gestão de administradores, auditoria e dados fictícios de demonstração.
 
-A referência para a próxima etapa de interface está em [docs/design](docs/design/README.md).
+A referência visual e os relatórios estão em [docs/design](docs/design/README.md). A apresentação de SDS está prevista para **26/10/2026**; a VM precisa passar pelo inventário e ensaio próprios antes de ser liberada.
 
-## Instalação local
+## Instalação nova na VM do IFSP
 
-```powershell
-composer install
-npm.cmd install
-Copy-Item .env.example .env
-php artisan key:generate
-```
+Siga o **[guia de instalação limpa](docs/installation/ifsp-vm.md)**. Ele separa a preparação no Windows das ações que dependem da VM: PHP corrigido e extensões, Composer, schema MySQL novo, contas de migração/runtime/leitura, chaves privadas, seed, servidor com webroot `public/`, permissões, scheduler e Workbench.
 
-Configure no `.env` sua conexão MySQL sem versionar credenciais. Gere também uma chave exclusiva para `PII_BLIND_INDEX_KEY`:
+O clone inclui **`public/build` compilado**, SVGs, imagens, fontes Blade/CSS/JS, testes e lockfiles. Instale as dependências Composer no destino; não copie `vendor` ou PHP Windows para Linux. Node/Vite não é necessário para servir o build incluído. Para reconstruir, use `npm ci` e `npm run build` (`npm.cmd` no Windows).
 
-```powershell
-php -r "echo bin2hex(random_bytes(32)), PHP_EOL;"
-```
+`.env.example` e `.env.vm.example` contêm apenas modelos sem segredos. Configure `.env` privadamente e gere chaves próprias para a base nova. Não reutilize chaves sintéticas de `.env.testing`, credenciais locais ou dados existentes. Não execute migrations/seeders no banco local atual para seguir este README.
 
-Depois execute:
-
-```powershell
-php artisan migrate
-npm.cmd run build
-php artisan serve
-```
-
-Para popular o cenário inteiramente fictício, defina `DEMO_PASSWORD` no ambiente local e execute:
-
-```powershell
-php artisan db:seed
-```
-
-Usuários de demonstração: `admin@comercio.example.test` e `cliente@comercio.example.test`. A senha não é versionada; se `DEMO_PASSWORD` estiver vazia, o seeder gera e exibe uma senha efêmera.
+O modo de demonstração usa `MAIL_MAILER=array`: cadastro e compra não exigem SMTP na configuração atual; mensagens de recuperação não são entregues nesse modo. Não alterar as etapas de segurança para a apresentação.
 
 ## Qualidade e segurança
 
 ```powershell
-php artisan test
+$env:APP_ENV='testing'
+$env:DB_CONNECTION='sqlite'
+$env:DB_DATABASE=':memory:'
+$env:DB_URL=''
+php vendor/phpunit/phpunit/phpunit
+php tests/Safety/verify-isolation.php
+php tests/Safety/verify-bootstrap.php
+php tests/Safety/verify-dotenv-cache.php
+php vendor/bin/pint --test
 composer validate --strict
 composer audit
 npm.cmd audit
 npm.cmd run build
 ```
+
+Execute validações num checkout de testes com dependências dev e sem cache de configuração, nunca sobre o MySQL de desenvolvimento. O [relatório final](docs/release/2026-10-25-sds.md) registra build, baseline de **262 aprovados, 7 ignorados, zero falhas**, avisos NPM e divergências preexistentes do Pint. Não apresenta esses avisos como resolvidos.
 
 Detalhes dos controles estão em [proteção de dados pessoais](docs/security/personal-data.md), [segurança do catálogo](docs/security/catalog.md), [integridade de estoque](docs/security/inventory.md), [segurança do checkout](docs/security/checkout.md), [segurança do pagamento simulado](docs/security/payment.md), [segurança da entrega](docs/security/shipping.md) e no [checklist de execução segura](docs/security/deployment.md). A arquitetura aprovada está em [docs/superpowers/specs/2026-09-28-ecommerce-system-design.md](docs/superpowers/specs/2026-09-28-ecommerce-system-design.md).

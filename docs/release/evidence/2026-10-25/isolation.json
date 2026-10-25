@@ -1,0 +1,155 @@
+{
+    "status": "PASS",
+    "checks": [
+        {
+            "scenario": "mysql",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "pgsql",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "sqlite-file",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "sqlite-uri",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "conflicting-url",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "read-write-override",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "pdo-options",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "alternative-alias",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "set-default",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "dynamic-build",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "connect-using",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "custom-resolver",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "changed-default-config",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "changed-config-cached-connection",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "changed-config-reconnect",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "changed-config-lazy-pdo",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "persistent-sql-0",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "persistent-sql-1",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "persistent-sql-2",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "environment-DB_CONNECTION",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "environment-DB_DATABASE",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "environment-DB_URL",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "environment-APP_ENV",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        },
+        {
+            "scenario": "safe-memory-validation",
+            "accepted_without_pdo": true
+        },
+        {
+            "scenario": "static-sqlite-resolver",
+            "blocked": true,
+            "pdo_attempts": 0,
+            "preparations": 0
+        }
+    ],
+    "pdo_attempts": 0,
+    "preparations": 0
+}

@@ -26,9 +26,12 @@ O CVV pode ter três ou quatro dígitos e nunca é persistido.
 ## Verificação antes da entrega
 
 ```powershell
-php artisan migrate --force
+# Migrations/seeders: somente no schema NOVO da VM, conforme guia de instalação.
+# Nunca executar essas operações no banco local atual.
 php artisan test
 composer audit
 npm.cmd audit
 npm.cmd run build
 ```
+
+Procedimento atual completo: [instalação limpa na VM do IFSP](../installation/ifsp-vm.md). Validação e pendências conhecidas: [finalização do repositório](../release/2026-10-25-sds.md).

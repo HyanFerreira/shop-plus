@@ -1,0 +1,87 @@
+{
+    "status": "PASS",
+    "checks": [
+        {
+            "scenario": "direct-mysql",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "direct-file",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "direct-url",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "without-project-bootstrap",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "missing-explicit-config",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "custom-cache",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "artisan-parent-mysql",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "artisan-global-env",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        },
+        {
+            "scenario": "artisan-abbreviation",
+            "exit_nonzero": true,
+            "guard_message": true,
+            "pdo_attempts": 0,
+            "preparations": 0,
+            "cache_executed": false,
+            "parent_guard_when_artisan": true
+        }
+    ],
+    "persistent_probe_created": false
+}
