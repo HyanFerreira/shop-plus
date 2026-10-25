@@ -1,0 +1,22 @@
+[
+    {
+        "File":  "tests/Support/TestEnvironment.php",
+        "Unchanged":  true
+    },
+    {
+        "File":  "tests/TestCase.php",
+        "Unchanged":  true
+    },
+    {
+        "File":  "tests/bootstrap.php",
+        "Unchanged":  true
+    },
+    {
+        "File":  "phpunit.xml",
+        "Unchanged":  true
+    },
+    {
+        "File":  "artisan",
+        "Unchanged":  true
+    }
+]

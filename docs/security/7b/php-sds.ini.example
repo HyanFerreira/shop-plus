@@ -1,0 +1,4 @@
+; Apply to the effective HTTP SAPI configuration, after backup.
+; Restart workers and verify the values in that SAPI, not only CLI.
+session.upload_progress.enabled=0
+zend.exception_ignore_args=On

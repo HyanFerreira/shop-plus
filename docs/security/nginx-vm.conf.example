@@ -1,0 +1,26 @@
+# Template HTTP para VM Linux com PHP-FPM 8.4 corrigido.
+# Habilite TLS antes de usar o .env.vm.example com cookies Secure.
+server {
+    listen 80;
+    server_name shopplus.test;
+    root /var/www/shop-plus/public;
+    index index.php;
+    server_tokens off;
+    client_max_body_size 3m;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ ^/index\.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root/index.php;
+        fastcgi_param HTTP_PROXY "";
+        fastcgi_pass unix:/run/php/php8.4-fpm.sock;
+    }
+
+    # Never execute uploads or expose dotfiles, logs or database dumps.
+    location ~ \.php$ { return 404; }
+    location ~ /\. { deny all; }
+    location ~* \.(?:sql|bak|log|ini|env)$ { deny all; }
+}

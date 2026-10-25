@@ -1,0 +1,14 @@
+{
+  "container_id": "6c67a76e0b45233ca14b923f72a38af2e85625a3d6046aa1233d369d2f35c4e5",
+  "image_id": "sha256:76f0358884cb92d9a086d24e5671c38048d3fef40f2588703d73eb55392d6b69",
+  "network_internal": true,
+  "published_ports": {},
+  "bind_mounts": null,
+  "data_mounts": [
+    {
+      "type": "tmpfs",
+      "destination": "/var/lib/mysql"
+    }
+  ],
+  "host_proxy": "127.0.0.1:33077 via docker exec, not a container port publication"
+}
