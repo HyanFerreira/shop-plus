@@ -1,18 +1,52 @@
 #!/usr/bin/env php
 <?php
 
+use Dotenv\Dotenv;
 use Illuminate\Foundation\Application;
+use Illuminate\Support\Env;
 use Symfony\Component\Console\Input\ArgvInput;
+use Tests\Support\TestEnvironment;
 
 define('LARAVEL_START', microtime(true));
 
 // Register the Composer autoloader...
 require __DIR__.'/vendor/autoload.php';
 
+$input = new ArgvInput;
+// ArgvInput is not bound to global options yet: --env VALUE needs explicit skipping.
+$isTestCommand = false;
+$skipEnvironmentValue = false;
+foreach (array_slice($_SERVER['argv'], 1) as $argument) {
+    if ($skipEnvironmentValue) {
+        $skipEnvironmentValue = false;
+
+        continue;
+    }
+    if (in_array($argument, ['--env', '--en', '--e'], true)) {
+        $skipEnvironmentValue = true;
+
+        continue;
+    }
+    if (str_starts_with($argument, '-')) {
+        continue;
+    }
+    // Symfony also resolves these unambiguous prefixes to the test command.
+    $isTestCommand = in_array($argument, ['t', 'te', 'tes', 'test'], true);
+    break;
+}
+if ($isTestCommand) {
+    // Protect the parent Artisan process too, before providers can access a database.
+    Dotenv::create(Env::getRepository(), __DIR__, '.env.testing')->safeLoad();
+    TestEnvironment::preflight(__DIR__);
+}
+
 // Bootstrap Laravel and handle the command...
 /** @var Application $app */
 $app = require_once __DIR__.'/bootstrap/app.php';
+if ($isTestCommand) {
+    TestEnvironment::protect($app);
+}
 
-$status = $app->handleCommand(new ArgvInput);
+$status = $app->handleCommand($input);
 
 exit($status);
