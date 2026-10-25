@@ -21,12 +21,18 @@ class DemoSeederTest extends TestCase
             'orders' => DB::table('orders')->count(),
             'suppliers' => DB::table('suppliers')->count(),
         ];
+        $inventory = DB::table('inventory_items')->orderBy('product_id')
+            ->get(['product_id', 'on_hand', 'reserved'])->map(fn ($row) => (array) $row)->all();
+        $movements = DB::table('stock_movements')->count();
         $this->seed();
 
         $this->assertSame($counts['users'], DB::table('users')->count());
         $this->assertSame($counts['products'], DB::table('products')->count());
         $this->assertSame($counts['orders'], DB::table('orders')->count());
         $this->assertSame($counts['suppliers'], DB::table('suppliers')->count());
+        $this->assertSame($inventory, DB::table('inventory_items')->orderBy('product_id')
+            ->get(['product_id', 'on_hand', 'reserved'])->map(fn ($row) => (array) $row)->all());
+        $this->assertSame($movements, DB::table('stock_movements')->count());
         $this->assertDatabaseHas('users', ['email' => 'admin@comercio.example.test']);
         $this->assertDatabaseHas('users', ['email' => 'cliente@comercio.example.test']);
         $this->assertTrue(Order::where('status', OrderStatus::PendingPayment)->exists());

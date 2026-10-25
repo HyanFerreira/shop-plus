@@ -85,7 +85,7 @@ class DatabaseSeeder extends Seeder
                     'weight_grams' => 850, 'width_mm' => 240, 'height_mm' => 120, 'length_mm' => 320,
                     'status' => CatalogStatus::Active, 'deleted_at' => null,
                 ]);
-                InventoryItem::updateOrCreate(['product_id' => $product->id], ['on_hand' => 12 + ($product->id % 24), 'reserved' => 0, 'minimum_level' => 5]);
+                InventoryItem::firstOrCreate(['product_id' => $product->id], ['on_hand' => 12 + ($product->id % 24), 'reserved' => 0, 'minimum_level' => 5]);
                 return $product;
             })->values();
 
