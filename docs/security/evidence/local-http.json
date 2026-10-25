@@ -1,0 +1,27 @@
+[
+    {
+        "Path":  "/up",
+        "Status":  200,
+        "Nosniff":  "nosniff"
+    },
+    {
+        "Path":  "/.env",
+        "Status":  404
+    },
+    {
+        "Path":  "/.git/config",
+        "Status":  404
+    },
+    {
+        "Path":  "/composer.json",
+        "Status":  404
+    },
+    {
+        "Path":  "/storage/logs/laravel.log",
+        "Status":  403
+    },
+    {
+        "Path":  "/artisan",
+        "Status":  404
+    }
+]

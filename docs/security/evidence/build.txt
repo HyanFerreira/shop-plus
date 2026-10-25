@@ -1,0 +1,13 @@
+Comando executado nesta auditoria: npm.cmd run build
+Exit code: 0
+Vite: 6.4.5
+58 módulos transformados.
+public/build/manifest.json: 0.27 kB
+public/build/assets/app-Cg1ia2sK.css: 157.74 kB (gzip 23.16 kB)
+public/build/assets/app-DMsN-rLE.js: 51.52 kB (gzip 19.51 kB)
+Build concluído em 2.14s.
+Resumo transcrito da saída real da ferramenta; nenhum ajuste CSS/JS ou redesign realizado.
+
+Pint --test nos oito novos arquivos de aplicação/testes de segurança selecionados: passed.
+PHP -l nos arquivos novos e script de inventário: sem erros de sintaxe.
+git diff --check: sem erros de whitespace (aviso preexistente CRLF no profile/show.blade.php).

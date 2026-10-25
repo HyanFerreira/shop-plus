@@ -1,0 +1,19 @@
+ShopPlus SDS — baseline antes das correções, 2026-10-24
+HEAD: d9b63f93332091a422b690abac22e890d90e09b7
+Runtime: PHP 8.4.22
+Comando: php vendor/phpunit/phpunit/phpunit
+Bootstrap: tests/bootstrap.php; SQLite :memory: exclusivamente.
+227 testes, 1234 assertions, 218 aprovados, 7 ignorados, 2 falhas.
+Falhas: Tests\Feature\ExampleTest::test_the_application_returns_a_successful_response
+         Tests\Feature\SecurityHeadersTest::test_successful_web_responses_include_baseline_security_headers
+Causa reproduzida: no such table: categories ao consultar a home sem RefreshDatabase.
+JUnit original local: %TEMP%\shopplus-security-baseline.xml
+
+Regressões antes das correções:
+- AdversarialInputTest + CommercialIntegrityTest: 12 testes, 9 falhas confirmadas.
+- RequestBoundaryTest inicial: CSRF passou; arrays em propriedades/argumentos causaram 500 (2 falhas).
+- Checkout com chave de outro cliente: UniqueConstraintViolationException reproduzida.
+- ApiAndInfrastructureTest: 3 falhas (token de usuário disabled aceito; headers ausentes em API/health).
+- Revisão independente: paginação com pageName array e campo numérico vazio reproduzidos; 11 testes, 1 erro +1 falha antes da correção do guard.
+Saídas RED brutas preservadas localmente em %TEMP%\shopplus-*-red.txt; não copiadas por incluírem traces/SQL sintéticos desnecessários.
+Todas as regressões acima estão incluídas nos testes finais. Casos que já eram seguros passaram sem mudança artificial de produção.

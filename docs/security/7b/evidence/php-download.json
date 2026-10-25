@@ -1,0 +1,6 @@
+{
+    "Url":  "https://downloads.php.net/~windows/releases/php-8.4.27-nts-Win32-vs17-x64.zip",
+    "ExpectedSHA256":  "93bd8a815a52156606fb906d0573437908c61f96e2cc52c03a51e36a41bf5236",
+    "ActualSHA256":  "93bd8a815a52156606fb906d0573437908c61f96e2cc52c03a51e36a41bf5236",
+    "StagedAt":  "C:\\Users\\HYANFE~1\\AppData\\Local\\Temp\\shopplus-php8427-official\\candidate"
+}

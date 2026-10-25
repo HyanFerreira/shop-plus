@@ -1,0 +1,18 @@
+[
+    {
+        "Log":  "laravel.log",
+        "Line":  162,
+        "CpfPattern":  true,
+        "TestCardPattern":  false,
+        "ContainsSql":  false,
+        "ContainsTestTrace":  false
+    },
+    {
+        "Log":  "laravel.log",
+        "Line":  163,
+        "CpfPattern":  true,
+        "TestCardPattern":  false,
+        "ContainsSql":  false,
+        "ContainsTestTrace":  false
+    }
+]
