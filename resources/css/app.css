@@ -3,6 +3,8 @@
 @import './product-detail.css';
 @import './cart.css';
 
+@import './orders.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

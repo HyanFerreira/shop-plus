@@ -10,7 +10,7 @@ class OrderController extends Controller
 {
     public function index(): View
     {
-        $orders = Order::query()->where('user_id', Auth::id())->with('shipment')->latest()->paginate(10);
+        $orders = Order::query()->where('user_id', Auth::id())->with(['shipment', 'items.product.images'])->latest()->paginate(10);
 
         return view('orders.index', compact('orders'));
     }
@@ -20,7 +20,7 @@ class OrderController extends Controller
         $order = Order::query()
             ->where('user_id', Auth::id())
             ->where('public_number', $publicNumber)
-            ->with(['items', 'statusHistories', 'payments', 'shipment.events'])
+            ->with(['items.product.images', 'statusHistories', 'payments', 'shipment.events'])
             ->firstOrFail();
 
         return view('orders.show', compact('order'));

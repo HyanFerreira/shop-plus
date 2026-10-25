@@ -1,17 +1,42 @@
 <x-app-layout>
-    <x-slot name="header"><h2 class="text-xl font-bold tracking-tight text-slate-900">Pedido {{ $order->public_number }}</h2></x-slot>
-    <div class="py-10"><div class="ds-container max-w-4xl space-y-6">
-        @if (session('payment-status')) <x-alert variant="info">{{ session('payment-status') }}</x-alert> @endif
-        <div class="ds-card flex flex-wrap items-center justify-between gap-3"><div><p class="text-sm text-slate-500">Status do pedido</p><p class="mt-1 font-semibold text-slate-900">{{ $order->status->value }}</p></div><x-badge variant="{{ $order->status === \App\Enums\OrderStatus::Paid ? 'success' : ($order->status === \App\Enums\OrderStatus::Cancelled ? 'neutral' : 'warning') }}">{{ $order->status->value }}</x-badge></div>
-        <section class="ds-card"><h3 class="font-semibold text-slate-900">Itens</h3><ul class="mt-3 divide-y divide-slate-100">@foreach ($order->items as $item)<li class="flex justify-between gap-4 py-3"><span class="text-slate-700">{{ $item->quantity }}× {{ $item->product_name }} <small class="text-slate-500">{{ $item->sku }}</small></span><span class="font-medium text-slate-900">{{ \App\Domain\Catalog\Price::fromCents($item->total_cents)->brl() }}</span></li>@endforeach</ul><div class="mt-4 text-right text-slate-700"><p>Frete: {{ \App\Domain\Catalog\Price::fromCents($order->shipping_cents)->brl() }}</p><p class="mt-1 text-lg font-bold text-slate-900">Total: {{ \App\Domain\Catalog\Price::fromCents($order->total_cents)->brl() }}</p></div></section>
-        <section class="ds-card"><h3 class="font-semibold text-slate-900">Entrega</h3><p class="mt-3 text-slate-700">{{ $order->address_snapshot_encrypted['recipient'] }} — {{ $order->address_snapshot_encrypted['street'] }}, {{ $order->address_snapshot_encrypted['number'] }}</p><p class="text-slate-700">{{ $order->address_snapshot_encrypted['city'] }}/{{ $order->address_snapshot_encrypted['state'] }} — {{ $order->address_snapshot_encrypted['postal_code'] }}</p><p class="mt-3 text-sm text-slate-500">Modalidade {{ $order->shipping_method }}, prazo estimado de {{ $order->shipping_days }} dias.</p></section>
-        @if ($order->status === \App\Enums\OrderStatus::PendingPayment)
-            <livewire:payment-form :order="$order" />
-        @elseif ($order->payments->isNotEmpty())
-            <section class="ds-card"><h3 class="font-semibold text-slate-900">Pagamento</h3>@foreach ($order->payments as $payment)<p class="mt-3 text-slate-700">{{ $payment->brand }} final {{ $payment->last_four }} — {{ $payment->status->value }}</p>@endforeach</section>
-        @endif
-        @if ($order->shipment)
-            <section class="ds-card"><h3 class="font-semibold text-slate-900">Rastreio fictício {{ $order->shipment->tracking_code }}</h3><ol class="mt-5 space-y-4">@foreach ($order->shipment->events as $event)<li class="border-l-2 border-blue-300 pl-4"><p class="font-medium text-slate-900">{{ $event->to_status->value }}</p><p class="mt-1 text-sm text-slate-500">{{ $event->created_at->format('d/m/Y H:i') }}@if($event->note) · {{ $event->note }}@endif</p></li>@endforeach</ol></section>
-        @endif
+    @php
+        $pendingPayment = $order->status === \App\Enums\OrderStatus::PendingPayment;
+        $address = $order->address_snapshot_encrypted ?? [];
+        $shippingLabel = match ($order->shipping_method) { 'economy' => 'Econômica', 'express' => 'Expressa', 'pickup' => 'Retirada', default => $order->shipping_method };
+    @endphp
+    <div class="orders-page"><div class="ds-storefront-container orders-container {{ $pendingPayment ? 'payment-page' : '' }}">
+        <a href="{{ route('orders.index') }}" class="order-back-link">← Voltar para pedidos</a>
+        <div class="orders-heading"><p class="order-eyebrow">{{ $pendingPayment ? 'Etapa 2 de 2' : 'Detalhes da compra' }}</p><h1>{{ $pendingPayment ? 'Pagamento do pedido' : 'Detalhes do pedido' }}</h1><p>Pedido <strong>{{ $order->public_number }}</strong> · <time datetime="{{ ($order->placed_at ?? $order->created_at)->toIso8601String() }}">{{ ($order->placed_at ?? $order->created_at)->format('d/m/Y H:i') }}</time></p></div>
+        @if(session('payment-status'))<x-alert variant="info" class="order-flash">{{ session('payment-status') }}</x-alert>@endif
+        @if($pendingPayment)<div class="order-payment"><livewire:payment-form :order="$order" /></div>@endif
+        <div class="customer-layout">
+            <x-customer-navigation />
+            <div class="orders-content orders-detail">
+                <section class="order-panel order-overview ds-panel" aria-labelledby="order-status-title"><div><p class="order-eyebrow">Andamento da compra</p><h2 id="order-status-title">Status do pedido</h2><p>{{ $order->public_number }}</p></div><x-order-status :status="$order->status" />
+                    @if($pendingPayment)<p class="order-overview__note">Aguardando pagamento fictício. Use o formulário acima para pagar ou cancelar o pedido.</p>@elseif($order->status === \App\Enums\OrderStatus::Cancelled)<p class="order-overview__note">Este pedido foi cancelado. Consulte o histórico e os registros de pagamento abaixo.</p>@elseif($order->status === \App\Enums\OrderStatus::Refunded)<p class="order-overview__note">Este pedido foi reembolsado na simulação. O andamento logístico é informado separadamente.</p>@endif
+                </section>
+                <x-shipment-tracking :shipment="$order->shipment" />
+                <section class="order-panel ds-panel" aria-labelledby="order-items-title"><div class="order-section-heading"><h2 id="order-items-title">Itens do pedido</h2><p>{{ $order->items->sum('quantity') }} {{ $order->items->sum('quantity') === 1 ? 'unidade' : 'unidades' }}</p></div>
+                    <ul class="order-items">
+                        @forelse($order->items as $item)
+                            <li><x-order-item-image :item="$item" /><div class="order-item-description"><h3>{{ $item->product_name }}</h3><p>SKU: {{ $item->sku }}</p><p>Quantidade: {{ $item->quantity }} · Unitário: {{ \App\Domain\Catalog\Price::fromCents($item->unit_price_cents)->brl() }}</p></div><p class="order-item-total"><span>Total do item</span><strong>{{ \App\Domain\Catalog\Price::fromCents($item->total_cents)->brl() }}</strong></p></li>
+                        @empty<li><p>Nenhum item registrado neste pedido.</p></li>@endforelse
+                    </ul>
+                    <dl class="order-totals"><div><dt>Subtotal registrado</dt><dd>{{ \App\Domain\Catalog\Price::fromCents($order->subtotal_cents)->brl() }}</dd></div><div><dt>Entrega</dt><dd>{{ \App\Domain\Catalog\Price::fromCents($order->shipping_cents)->brl() }}</dd></div><div class="order-totals__grand"><dt>Total do pedido</dt><dd>{{ \App\Domain\Catalog\Price::fromCents($order->total_cents)->brl() }}</dd></div></dl>
+                </section>
+                <div class="order-detail-columns">
+                    <section class="order-panel ds-panel" aria-labelledby="order-address-title"><h2 id="order-address-title">{{ $order->shipping_method === 'pickup' ? 'Endereço informado' : 'Endereço de entrega' }}</h2>
+                        @if($address)<address class="order-address"><strong>{{ $address['recipient'] ?? '' }}</strong><span>{{ $address['street'] ?? '' }}@if(isset($address['number'])), {{ $address['number'] }}@endif</span>@if(!empty($address['complement']))<span>{{ $address['complement'] }}</span>@endif @if(!empty($address['district']))<span>{{ $address['district'] }}</span>@endif<span>{{ $address['city'] ?? '' }}/{{ $address['state'] ?? '' }}</span><span>CEP {{ $address['postal_code'] ?? '' }}</span></address>@else<p class="order-secondary">Endereço não registrado.</p>@endif
+                        <div class="order-delivery-method"><h3>Modalidade: {{ $shippingLabel }}</h3><p>Prazo contratado: {{ $order->shipping_days }} {{ $order->shipping_days === 1 ? 'dia' : 'dias' }}.</p><p>Prazo registrado na compra; não representa uma data de entrega confirmada.</p>@if($order->shipping_method === 'pickup')<p>Modalidade de retirada. Nenhum local ou instrução adicional foi registrado nesta tela.</p>@endif</div>
+                    </section>
+                    <section class="order-panel ds-panel" aria-labelledby="order-payment-title"><h2 id="order-payment-title">Registros do pagamento</h2><p class="order-secondary">Pagamento fictício, sem cobrança real.</p><ul class="order-payments">
+                        @forelse($order->payments->sortBy('created_at') as $payment)<li><x-order-status :status="$payment->status" /><p>{{ $payment->brand }} final {{ $payment->last_four }}</p><p>Valor registrado: {{ \App\Domain\Catalog\Price::fromCents($payment->amount_cents)->brl() }}</p>@if($payment->processed_at)<time datetime="{{ $payment->processed_at->toIso8601String() }}">{{ $payment->processed_at->format('d/m/Y H:i') }}</time>@endif</li>@empty<li>Nenhum pagamento registrado.@if($pendingPayment) O pedido aguarda a simulação acima.@endif</li>@endforelse
+                    </ul></section>
+                </div>
+                <section class="order-panel ds-panel" aria-labelledby="order-history-title"><div class="order-section-heading"><div><p class="order-eyebrow">Andamento da compra</p><h2 id="order-history-title">Histórico do pedido</h2></div></div><ol class="order-event-list">
+                    @forelse($order->statusHistories->sort(fn ($a, $b) => ($a->created_at <=> $b->created_at) ?: ($a->id <=> $b->id)) as $history)<li><time datetime="{{ $history->created_at->toIso8601String() }}">{{ $history->created_at->format('d/m/Y H:i') }}</time><div><x-order-status :status="$history->to_status" />@if($history->note)<p>{{ $history->note }}</p>@endif</div></li>@empty<li><p>Nenhuma alteração de status registrada.</p></li>@endforelse
+                </ol></section>
+            </div>
+        </div>
     </div></div>
 </x-app-layout>

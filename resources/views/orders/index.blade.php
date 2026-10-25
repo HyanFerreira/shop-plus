@@ -1,16 +1,28 @@
 <x-app-layout>
-    <x-slot name="header"><h2 class="text-xl font-bold tracking-tight text-slate-900">Meus pedidos</h2></x-slot>
-    <div class="py-10"><div class="ds-container max-w-5xl">
-        <div class="ds-panel overflow-hidden">
-            @forelse ($orders as $order)
-                <a href="{{ route('orders.show', $order->public_number) }}" class="flex flex-col gap-3 border-b border-slate-100 p-5 transition hover:bg-slate-50 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-                    <div><p class="font-semibold text-slate-900">{{ $order->public_number }}</p><p class="mt-1 text-sm text-slate-500">{{ $order->created_at->format('d/m/Y H:i') }}</p></div>
-                    <div class="sm:text-right"><x-badge variant="info">{{ $order->status->value }}</x-badge><p class="mt-2 font-semibold text-slate-900">{{ \App\Domain\Catalog\Price::fromCents($order->total_cents)->brl() }}</p></div>
-                </a>
-            @empty
-                <div class="p-10 text-center"><p class="font-semibold text-slate-900">Nenhum pedido encontrado.</p><a href="{{ route('catalog.index') }}" class="mt-3 inline-block text-sm font-medium text-blue-700 hover:text-blue-900">Explorar catálogo</a></div>
-            @endforelse
+    <div class="orders-page"><div class="ds-storefront-container orders-container">
+        <div class="customer-layout">
+            <x-customer-navigation />
+            <div class="orders-content">
+                <div class="orders-heading"><p class="order-eyebrow">Minha conta</p><h1>Meus pedidos</h1><p>Consulte suas compras e acompanhe cada entrega.</p></div>
+                <div class="orders-list">
+                    @forelse ($orders as $order)
+                        <article class="order-list-card ds-panel" aria-labelledby="order-{{ $order->id }}">
+                            <div class="order-list-card__heading"><div><h2 id="order-{{ $order->id }}">Pedido {{ $order->public_number }}</h2><p><time datetime="{{ ($order->placed_at ?? $order->created_at)->toIso8601String() }}">{{ ($order->placed_at ?? $order->created_at)->format('d/m/Y H:i') }}</time></p></div><div><span class="sr-only">Status do pedido: </span><x-order-status :status="$order->status" /></div></div>
+                            <div class="order-list-card__body">
+                                <x-order-item-image :item="$order->items->first()" />
+                                <div class="order-list-card__products"><p>{{ $order->items->count() }} {{ $order->items->count() === 1 ? 'item' : 'itens' }} · {{ $order->items->sum('quantity') }} {{ $order->items->sum('quantity') === 1 ? 'unidade' : 'unidades' }}</p>
+                                    @if($order->items->isNotEmpty())<h3>{{ $order->items->first()->product_name }}</h3>@if($order->items->count() > 1)<p>e mais {{ $order->items->count() - 1 }} {{ $order->items->count() === 2 ? 'item' : 'itens' }}</p>@endif @else<p>Nenhum item registrado neste pedido.</p>@endif
+                                </div>
+                                <div class="order-list-card__total"><p>Total do pedido</p><strong>{{ \App\Domain\Catalog\Price::fromCents($order->total_cents)->brl() }}</strong></div>
+                            </div>
+                            <div class="order-list-card__footer"><p>@if($order->shipment)Entrega: <x-order-status :status="$order->shipment->status" />@else Sem registro de expedição @endif</p><a href="{{ route('orders.show', $order->public_number) }}" class="ds-button ds-button--secondary ds-button--md" aria-label="Ver detalhes do pedido {{ $order->public_number }}">Ver detalhes <span aria-hidden="true">→</span></a></div>
+                        </article>
+                    @empty
+                        <section class="order-empty ds-panel"><x-icon name="shopping-bag" class="size-12" /><h2>Você ainda não tem pedidos</h2><p>Quando realizar uma compra fictícia, os detalhes e o acompanhamento aparecerão aqui.</p><a href="{{ route('catalog.index') }}" class="ds-button ds-button--primary ds-button--md">Explorar catálogo</a></section>
+                    @endforelse
+                </div>
+                @if($orders->hasPages())<div class="orders-pagination">{{ $orders->links() }}</div>@endif
+            </div>
         </div>
-        <div class="mt-5">{{ $orders->links() }}</div>
     </div></div>
 </x-app-layout>
