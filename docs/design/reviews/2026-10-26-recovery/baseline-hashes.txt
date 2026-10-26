@@ -1,0 +1,2 @@
+f06b1f8f8d7c43c59794b38f7545ecc8cbc6bfa95ea25b3bcb921f76e04bae9b  public/images/forgout-password.png
+66993ffd7fed18e1e34a07036ee66e7107ecf68dcade0c14e921727adcf2c9f0  resources/js/auth-validation.js

@@ -1,0 +1,398 @@
+[
+  {
+    "delivery": "build",
+    "scenario": "login-1024-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-1280-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-1440-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-1440-hard",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-1440-navigation",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-1440-reload",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-1440-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-320-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-375-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-375-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "login-768-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-1024-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-1280-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-1440-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-1440-hard",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-1440-navigation",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-1440-reload",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-1440-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-320-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-375-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-375-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "build",
+    "scenario": "register-768-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-1024-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-1280-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-1440-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-1440-hard",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-1440-navigation",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-1440-reload",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-1440-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-320-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-375-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-375-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "login-768-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-1024-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-1280-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-1440-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-1440-hard",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-1440-navigation",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-1440-reload",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-1440-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-320-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-375-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-375-slow",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  },
+  {
+    "delivery": "dev",
+    "scenario": "register-768-cold",
+    "initialAndFinalFont": "Figtree",
+    "fontRequests": 3,
+    "duplicateFonts": false,
+    "cls": 0,
+    "finalGeometryAndStylesPreserved": true
+  }
+]

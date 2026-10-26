@@ -1,0 +1,6281 @@
+[
+  {
+    "run": "forgot-password-320-cold",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 52.30000000074506,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 93.09375,
+            "y": 222.671875,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 33,
+            "y": 437.328125,
+            "width": 254,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 557.328125,
+            "width": 254,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 585.328125,
+            "width": 254,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 106.53125,
+            "y": 737.328125,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 641.328125,
+            "width": 254,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 705.328125,
+            "width": 254,
+            "height": 64,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 12,
+            "y": 205.671875,
+            "width": 296,
+            "height": 588.65625,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 80,
+            "y": 314.671875,
+            "width": 160,
+            "height": 106.65625,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 78.30000000074506,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 93.09375,
+            "y": 222.671875,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 33,
+            "y": 437.328125,
+            "width": 254,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 557.328125,
+            "width": 254,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 585.328125,
+            "width": 254,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 106.53125,
+            "y": 737.328125,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 641.328125,
+            "width": 254,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 33,
+            "y": 705.328125,
+            "width": 254,
+            "height": 64,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 12,
+            "y": 205.671875,
+            "width": 296,
+            "height": 588.65625,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 80,
+            "y": 314.671875,
+            "width": 160,
+            "height": 106.65625,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 68
+      }
+    ],
+    "requests": [
+      {
+        "id": "0644C1761525321B7EDF4975534AAA05",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30670.585601,
+        "wallTime": 1793015486.22404,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.597607,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.2",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30670.606256,
+        "wallTime": 1793015486.244729,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.613358,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.3",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30670.606589,
+        "wallTime": 1793015486.245042,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.613518,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.4",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30670.606673,
+        "wallTime": 1793015486.245122,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.613816,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.5",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30670.606761,
+        "wallTime": 1793015486.245207,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.613111,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.6",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30670.606851,
+        "wallTime": 1793015486.2453,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.613998,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.9",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30670.606987,
+        "wallTime": 1793015486.245445,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.627353,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.10",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30670.60707,
+        "wallTime": 1793015486.245537,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.627921,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.27",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30670.665019,
+        "wallTime": 1793015486.303481,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30670.666493,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-375-cold",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 35.69999999925494,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 120.59375,
+            "y": 234.671875,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 37,
+            "y": 449.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 569.328125,
+            "width": 301,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 597.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 207.734375,
+            "y": 725.328125,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 653.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 717.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 16,
+            "y": 217.671875,
+            "width": 343,
+            "height": 564.65625,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 107.5,
+            "y": 326.671875,
+            "width": 160,
+            "height": 106.65625,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 54.19999999925494,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 120.59375,
+            "y": 234.671875,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 37,
+            "y": 449.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 569.328125,
+            "width": 301,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 597.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 207.734375,
+            "y": 725.328125,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 653.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 717.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 16,
+            "y": 217.671875,
+            "width": 343,
+            "height": 564.65625,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 107.5,
+            "y": 326.671875,
+            "width": 160,
+            "height": 106.65625,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 60
+      }
+    ],
+    "requests": [
+      {
+        "id": "CA337B66546039E43D2589BB5362CFDF",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30671.186721,
+        "wallTime": 1793015486.825158,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.197421,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.29",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30671.20179,
+        "wallTime": 1793015486.840263,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.20759,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.30",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30671.202129,
+        "wallTime": 1793015486.840591,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.208097,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.31",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30671.202227,
+        "wallTime": 1793015486.840673,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.209057,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.32",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30671.202295,
+        "wallTime": 1793015486.840746,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.209253,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.33",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30671.202375,
+        "wallTime": 1793015486.840822,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.209641,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.36",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30671.202494,
+        "wallTime": 1793015486.840939,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.214362,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.37",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30671.202567,
+        "wallTime": 1793015486.841015,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.22094,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.54",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30671.237715,
+        "wallTime": 1793015486.876168,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.239285,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-768-cold",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 53.899999998509884,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 317.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 185,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 404.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 152,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 288,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 58.399999998509884,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 317.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 185,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 404.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 185,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 152,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 288,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 80
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 80
+      }
+    ],
+    "requests": [
+      {
+        "id": "6C877E8C6185681D303925B132E60B19",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30671.716042,
+        "wallTime": 1793015487.354481,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.725868,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.56",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30671.729285,
+        "wallTime": 1793015487.367735,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.735846,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.57",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30671.729421,
+        "wallTime": 1793015487.367868,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.736623,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.58",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30671.72948,
+        "wallTime": 1793015487.367922,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.736889,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.59",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30671.729525,
+        "wallTime": 1793015487.367965,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.73794,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.60",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30671.729579,
+        "wallTime": 1793015487.368019,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.738149,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.63",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30671.729661,
+        "wallTime": 1793015487.368104,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.740444,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.64",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30671.729717,
+        "wallTime": 1793015487.368162,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.747257,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.81",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30671.770663,
+        "wallTime": 1793015487.409119,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30671.773571,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-1024-cold",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 36.400000002235174,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 445.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 313,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 532.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 280,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 416,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 50.20000000298023,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 445.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 313,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 532.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 313,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 280,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 416,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 60
+      }
+    ],
+    "requests": [
+      {
+        "id": "DE8E27436B09383C55B0486DDEF833FB",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30672.308127,
+        "wallTime": 1793015487.946566,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.318446,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.83",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30672.323324,
+        "wallTime": 1793015487.961777,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.329315,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.84",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30672.32348,
+        "wallTime": 1793015487.961923,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.329758,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.85",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30672.323529,
+        "wallTime": 1793015487.961976,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.329943,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.86",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30672.3236,
+        "wallTime": 1793015487.962042,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.330118,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.87",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30672.323668,
+        "wallTime": 1793015487.962109,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.33131,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.90",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30672.323772,
+        "wallTime": 1793015487.962217,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.333948,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.91",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30672.323837,
+        "wallTime": 1793015487.962285,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.341793,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.108",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30672.371704,
+        "wallTime": 1793015488.010165,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30672.373553,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-1280-cold",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 57.399999998509884,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 573.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 441,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 660.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 408,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 544,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 63.100000001490116,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 573.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 441,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 660.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 441,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 408,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 544,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 84
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 84
+      }
+    ],
+    "requests": [
+      {
+        "id": "D5172C69713A0E54F5668349AA0A04D3",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30672.995675,
+        "wallTime": 1793015488.634112,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.005848,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.110",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30673.010297,
+        "wallTime": 1793015488.648753,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.017377,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.111",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30673.010466,
+        "wallTime": 1793015488.648907,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.017524,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.112",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30673.010522,
+        "wallTime": 1793015488.64897,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.017653,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.113",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30673.010584,
+        "wallTime": 1793015488.649027,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.017852,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.114",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30673.010633,
+        "wallTime": 1793015488.649073,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.018777,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.117",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30673.010714,
+        "wallTime": 1793015488.649187,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.021039,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.118",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30673.010813,
+        "wallTime": 1793015488.649254,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.028781,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.135",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30673.053691,
+        "wallTime": 1793015488.692151,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.056807,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-1440-cold",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 56.400000002235174,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 60.30000000074506,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 84
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 84
+      }
+    ],
+    "requests": [
+      {
+        "id": "D84C8CB4094B9A996E811B1871133C40",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30673.680744,
+        "wallTime": 1793015489.319181,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.69343,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.137",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30673.697591,
+        "wallTime": 1793015489.336042,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.701296,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.138",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30673.697769,
+        "wallTime": 1793015489.336218,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.703823,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.139",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30673.697827,
+        "wallTime": 1793015489.336277,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.703984,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.140",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30673.697898,
+        "wallTime": 1793015489.336338,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.704251,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.141",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30673.697956,
+        "wallTime": 1793015489.3364,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.704116,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.144",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30673.698078,
+        "wallTime": 1793015489.336519,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.707725,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.145",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30673.698133,
+        "wallTime": 1793015489.336575,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.715034,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.162",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30673.738239,
+        "wallTime": 1793015489.376694,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30673.739981,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-1440-reload",
+    "firstPlatforms": null,
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 48.899999998509884,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 61.899999998509884,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 76
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 76
+      }
+    ],
+    "requests": [
+      {
+        "id": "C839760823EC91FEA1A5A0B731980D19",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30674.379201,
+        "wallTime": 1793015490.017642,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.388852,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.164",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30674.392915,
+        "wallTime": 1793015490.031381,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.40281,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.165",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30674.393176,
+        "wallTime": 1793015490.031625,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.402045,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.166",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30674.393257,
+        "wallTime": 1793015490.031706,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.4031,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.167",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30674.393356,
+        "wallTime": 1793015490.031803,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.403372,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.168",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30674.393435,
+        "wallTime": 1793015490.031881,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.40355,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.171",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30674.393533,
+        "wallTime": 1793015490.031977,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.406044,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.172",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30674.3936,
+        "wallTime": 1793015490.032048,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.393684,
+        "bytes": 0
+      },
+      {
+        "id": "238449.189",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30674.428599,
+        "wallTime": 1793015490.06705,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.430214,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-1440-hard",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 40.600000001490116,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 56,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 80
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 80
+      }
+    ],
+    "requests": [
+      {
+        "id": "399CE583078D02C357BC3482AC3E98F3",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30674.821551,
+        "wallTime": 1793015490.459996,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.835171,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.191",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30674.839255,
+        "wallTime": 1793015490.477706,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.846741,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.192",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30674.839415,
+        "wallTime": 1793015490.477862,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.84696,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.193",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30674.839483,
+        "wallTime": 1793015490.477934,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.847156,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.194",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30674.839559,
+        "wallTime": 1793015490.478006,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.847608,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.195",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30674.839644,
+        "wallTime": 1793015490.478091,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.847365,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.198",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30674.839766,
+        "wallTime": 1793015490.478207,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.851609,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.199",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30674.839828,
+        "wallTime": 1793015490.478276,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.859225,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.216",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30674.88516,
+        "wallTime": 1793015490.523613,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30674.886874,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-1440-slow",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 2961.60000000149,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 2979.300000000745,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 2996
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 2996
+      }
+    ],
+    "requests": [
+      {
+        "id": "62AA6000E58B7B3CBC60C0A2D1D2910E",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30675.313032,
+        "wallTime": 1793015490.951478,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30675.48004,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.218",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30675.441772,
+        "wallTime": 1793015491.080248,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30675.832909,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.219",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30675.442236,
+        "wallTime": 1793015491.08071,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30675.863519,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.220",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30675.442427,
+        "wallTime": 1793015491.080921,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30675.870332,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.224",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30675.450651,
+        "wallTime": 1793015491.089106,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30678.255513,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.225",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30675.45079,
+        "wallTime": 1793015491.089237,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30676.567644,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.231",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30675.465423,
+        "wallTime": 1793015491.103885,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30685.380352,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.232",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30675.479941,
+        "wallTime": 1793015491.118419,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30681.127939,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.243",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30685.383663,
+        "wallTime": 1793015501.022132,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30685.493588,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-375-slow",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 2956.300000000745,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 120.59375,
+            "y": 234.671875,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 37,
+            "y": 449.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 569.328125,
+            "width": 301,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 597.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 207.734375,
+            "y": 725.328125,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 653.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 717.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 16,
+            "y": 217.671875,
+            "width": 343,
+            "height": 564.65625,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 107.5,
+            "y": 326.671875,
+            "width": 160,
+            "height": 106.65625,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 2979.39999999851,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 120.59375,
+            "y": 234.671875,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 37,
+            "y": 449.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 569.328125,
+            "width": 301,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 597.328125,
+            "width": 301,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 207.734375,
+            "y": 725.328125,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 653.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 37,
+            "y": 717.328125,
+            "width": 301,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 16,
+            "y": 217.671875,
+            "width": 343,
+            "height": 564.65625,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 107.5,
+            "y": 326.671875,
+            "width": 160,
+            "height": 106.65625,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 2972
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 2972
+      }
+    ],
+    "requests": [
+      {
+        "id": "70D59196C6CC5189B839DE9D9D1A6EDB",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30685.794402,
+        "wallTime": 1793015501.43284,
+        "initiator": "other",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30685.957882,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.245",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30685.915295,
+        "wallTime": 1793015501.553759,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30686.30983,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.246",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30685.915561,
+        "wallTime": 1793015501.554017,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30686.340586,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.247",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30685.915673,
+        "wallTime": 1793015501.554135,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30686.347323,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.251",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30685.928283,
+        "wallTime": 1793015501.566736,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30688.732968,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.252",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30685.928404,
+        "wallTime": 1793015501.566851,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30687.045803,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.258",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30685.943183,
+        "wallTime": 1793015501.581635,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30695.857333,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.259",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30685.957847,
+        "wallTime": 1793015501.596323,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30691.60538,
+        "bytes": 392594
+      },
+      {
+        "id": "238449.270",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30695.862057,
+        "wallTime": 1793015511.500541,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30695.97163,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "run": "forgot-password-1440-navigation",
+    "firstPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "lastPlatforms": {
+      "logo": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ],
+      "title": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Bold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ],
+      "input": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ],
+      "link": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "button": [
+        {
+          "familyName": "Figtree Light SemiBold",
+          "postScriptName": "FigtreeLight-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ],
+      "footer": [
+        {
+          "familyName": "Figtree Light",
+          "postScriptName": "FigtreeLight-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    "states": [
+      {
+        "time": 50.5,
+        "fontsStatus": "loading",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      },
+      {
+        "time": 63.400000002235174,
+        "fontsStatus": "loaded",
+        "faces": [
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "loaded"
+          },
+          {
+            "family": "Figtree",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "styles": {
+          "logo": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-0.6px",
+            "x": 653.09375,
+            "y": 224,
+            "width": 133.8125,
+            "height": 44,
+            "display": "flex"
+          },
+          "title": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-0.8px",
+            "x": 521,
+            "y": 460,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "label": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 580,
+            "width": 398,
+            "height": 24,
+            "display": "block"
+          },
+          "input": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 608,
+            "width": 398,
+            "height": 40,
+            "display": "block"
+          },
+          "link": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 740.234375,
+            "y": 736,
+            "width": 106.921875,
+            "height": 24,
+            "display": "flex"
+          },
+          "button": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 664,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "footer": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 521,
+            "y": 728,
+            "width": 398,
+            "height": 40,
+            "display": "flex"
+          },
+          "card": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 488,
+            "y": 207,
+            "width": 464,
+            "height": 586,
+            "display": "block"
+          },
+          "image": {
+            "fontFamily": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "x": 624,
+            "y": 316,
+            "width": 192,
+            "height": 128,
+            "display": "block"
+          }
+        },
+        "zoom": 1,
+        "dpr": 1
+      }
+    ],
+    "shifts": [],
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 84
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 84
+      }
+    ],
+    "requests": [
+      {
+        "id": "0033E3535F7A728372EDB44AA3FD8133",
+        "url": "http://127.0.0.1:19118/forgot-password",
+        "type": "Document",
+        "priority": "VeryHigh",
+        "start": 30696.366576,
+        "wallTime": 1793015512.005032,
+        "initiator": "script",
+        "mime": "text/html",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.377042,
+        "bytes": 13205
+      },
+      {
+        "id": "238449.301",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-400-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30696.380173,
+        "wallTime": 1793015512.018624,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.390395,
+        "bytes": 11548
+      },
+      {
+        "id": "238449.302",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-600-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30696.380389,
+        "wallTime": 1793015512.01884,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.389774,
+        "bytes": 11708
+      },
+      {
+        "id": "238449.303",
+        "url": "http://127.0.0.1:19118/fonts/figtree/figtree-latin-700-normal.woff2",
+        "type": "Font",
+        "priority": "High",
+        "start": 30696.380469,
+        "wallTime": 1793015512.018919,
+        "initiator": "parser",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.390098,
+        "bytes": 11540
+      },
+      {
+        "id": "238449.304",
+        "url": "http://127.0.0.1:19118/build/assets/app-BYuPSK5V.css",
+        "type": "Stylesheet",
+        "priority": "VeryHigh",
+        "start": 30696.38056,
+        "wallTime": 1793015512.019007,
+        "initiator": "parser",
+        "mime": "text/css",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.391656,
+        "bytes": 172526
+      },
+      {
+        "id": "238449.305",
+        "url": "http://127.0.0.1:19118/build/assets/app-BwVb2cst.js",
+        "type": "Script",
+        "priority": "High",
+        "start": 30696.380641,
+        "wallTime": 1793015512.019092,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.390652,
+        "bytes": 55830
+      },
+      {
+        "id": "238449.308",
+        "url": "http://127.0.0.1:19118/images/forgout-password.png",
+        "type": "Image",
+        "priority": "High",
+        "start": 30696.380767,
+        "wallTime": 1793015512.019207,
+        "initiator": "parser",
+        "mime": "image/png",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.394803,
+        "bytes": 1306665
+      },
+      {
+        "id": "238449.309",
+        "url": "http://127.0.0.1:19118/livewire/livewire.js?id=dfa5f5ee",
+        "type": "Script",
+        "priority": "Medium",
+        "start": 30696.380827,
+        "wallTime": 1793015512.019274,
+        "initiator": "parser",
+        "mime": "application/javascript",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.380897,
+        "bytes": 0
+      },
+      {
+        "id": "238449.326",
+        "url": "http://127.0.0.1:19118/favicon.ico",
+        "type": "Other",
+        "priority": "High",
+        "start": 30696.415261,
+        "wallTime": 1793015512.053726,
+        "initiator": "other",
+        "mime": "application/octet-stream",
+        "status": 200,
+        "diskCache": false,
+        "end": 30696.417203,
+        "bytes": 164
+      }
+    ]
+  }
+]

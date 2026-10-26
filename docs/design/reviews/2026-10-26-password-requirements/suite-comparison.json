@@ -1,0 +1,20 @@
+{
+  "baselineTests": 281,
+  "finalTests": 294,
+  "existingResultsUnchanged": true,
+  "addedPassingCases": [
+    "test_direct_registration_rejects_unmet_password_policy with data set \"empty\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"under eight characters\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"no lowercase\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"no uppercase\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"no letters\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"no special character\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"over maximum\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"missing confirmation\"",
+    "test_direct_registration_rejects_unmet_password_policy with data set \"different confirmation\"",
+    "test_valid_registration_persists_hash_and_authenticates_without_requiring_digits with data set \"minimum without digits\"",
+    "test_valid_registration_persists_hash_and_authenticates_without_requiring_digits with data set \"unicode letters and symbol\"",
+    "test_valid_registration_persists_hash_and_authenticates_without_requiring_digits with data set \"maximum\"",
+    "test_requirements_are_visible_without_javascript_and_only_on_registration"
+  ]
+}

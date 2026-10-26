@@ -1,0 +1,15 @@
+PHPUnit 11.5.56 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.21
+Configuration: /tmp/shopplus-shared-auth/app/phpunit.xml
+
+FFFF.                                                               5 / 5 (100%)
+
+Time: 00:01.663, Memory: 50.50 MB
+
+There were 4 failures:
+
+/tmp/shopplus-shared-auth/app/tests/Feature/RecoveryPresentationTest.php:74
+
+FAILURES!
+Tests: 5, Assertions: 29, Failures: 4.

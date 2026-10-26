@@ -1,0 +1,28 @@
+PHPUnit 11.5.56 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.21
+Configuration: /tmp/shopplus-shared-auth/app/phpunit.xml
+
+FFF.                                                                4 / 4 (100%)
+
+Time: 00:00.427, Memory: 48.50 MB
+
+There were 3 failures:
+
+1) Tests\Feature\RegistrationPresentationTest::test_registration_and_login_render_the_same_brand_panel_and_asset
+Failed asserting that 0 is identical to 1.
+
+/tmp/shopplus-shared-auth/app/tests/Feature/RegistrationPresentationTest.php:34
+
+2) Tests\Feature\RegistrationPresentationTest::test_registration_has_accessible_icon_fields_limits_and_error_targets
+Failed asserting that 0 is identical to 1.
+
+/tmp/shopplus-shared-auth/app/tests/Feature/RegistrationPresentationTest.php:43
+
+3) Tests\Feature\RegistrationPresentationTest::test_server_errors_are_escaped_and_associated_without_reflecting_passwords
+Failed asserting that 0 is identical to 1.
+
+/tmp/shopplus-shared-auth/app/tests/Feature/RegistrationPresentationTest.php:60
+
+FAILURES!
+Tests: 4, Assertions: 19, Failures: 3.

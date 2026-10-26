@@ -1,0 +1,3 @@
+AuthFontLoadingTest before implementation: 2 failures, 4 assertions.
+- Auth pages still referenced fonts.bunny.net.
+- Error weight 500 had no preload.

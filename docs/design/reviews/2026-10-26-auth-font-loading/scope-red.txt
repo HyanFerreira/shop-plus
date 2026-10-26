@@ -1,0 +1,3 @@
+Scope regression before gating: 1 failure, 2 assertions.
+Home no longer included its original external Figtree stylesheet.
+After request()->routeIs(login, register), all 299 tests passed.

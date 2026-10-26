@@ -1,0 +1,2 @@
+PASS client validation: untouched, required, correction, email format, policy, confirmation dependency, max limits, toggles, login smoke
+PASS after: 14 captures

@@ -1,0 +1,52 @@
+PHPUnit 11.5.56 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.21
+Configuration: /tmp/shopplus-shared-auth/app/phpunit.xml
+
+..FFFF......F                                                     13 / 13 (100%)
+
+Time: 00:02.333, Memory: 48.50 MB
+
+There were 5 failures:
+
+1) Tests\Feature\RegistrationPasswordPolicyTest::test_direct_registration_rejects_unmet_password_policy with data set "no lowercase" ('ABCDEFG!', 'ABCDEFG!')
+Session is missing expected key [errors].
+Failed asserting that false is true.
+
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1547
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1634
+/tmp/shopplus-shared-auth/app/tests/Feature/RegistrationPasswordPolicyTest.php:38
+
+2) Tests\Feature\RegistrationPasswordPolicyTest::test_direct_registration_rejects_unmet_password_policy with data set "no uppercase" ('abcdefg!', 'abcdefg!')
+Session is missing expected key [errors].
+Failed asserting that false is true.
+
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1547
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1634
+/tmp/shopplus-shared-auth/app/tests/Feature/RegistrationPasswordPolicyTest.php:38
+
+3) Tests\Feature\RegistrationPasswordPolicyTest::test_direct_registration_rejects_unmet_password_policy with data set "no letters" ('1234567!', '1234567!')
+Session is missing expected key [errors].
+Failed asserting that false is true.
+
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1547
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1634
+/tmp/shopplus-shared-auth/app/tests/Feature/RegistrationPasswordPolicyTest.php:38
+
+4) Tests\Feature\RegistrationPasswordPolicyTest::test_direct_registration_rejects_unmet_password_policy with data set "no special character" ('Abcdefgh', 'Abcdefgh')
+Session is missing expected key [errors].
+Failed asserting that false is true.
+
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponseAssert.php:45
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1547
+/tmp/shopplus-shared-auth/app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:1634
+/tmp/shopplus-shared-auth/app/tests/Feature/RegistrationPasswordPolicyTest.php:38
+
+
+[Remaining failure: requirements card was absent from rendered registration view.]
+
+FAILURES!
+Tests: 13, Assertions: 50, Failures: 5.

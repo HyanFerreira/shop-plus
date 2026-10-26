@@ -1,0 +1,492 @@
+[
+  {
+    "width": 320,
+    "clientWidth": 305,
+    "height": 640,
+    "scrollHeight": 940,
+    "overflow": false,
+    "card": {
+      "x": 12,
+      "y": 16,
+      "width": 281,
+      "height": 908,
+      "right": 293,
+      "bottom": 924
+    },
+    "panel": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "form": {
+      "x": 33,
+      "y": 229,
+      "width": 239,
+      "height": 582,
+      "right": 272,
+      "bottom": 811
+    },
+    "checklist": {
+      "x": 33,
+      "y": 565,
+      "width": 239,
+      "height": 190,
+      "right": 272,
+      "bottom": 755
+    },
+    "confirmation": {
+      "x": 33,
+      "y": 509,
+      "width": 239,
+      "height": 40,
+      "right": 272,
+      "bottom": 549
+    },
+    "submit": {
+      "x": 33,
+      "y": 771,
+      "width": 239,
+      "height": 40,
+      "right": 272,
+      "bottom": 811
+    },
+    "inputs": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "columns": "213px"
+  },
+  {
+    "width": 375,
+    "clientWidth": 360,
+    "height": 812,
+    "scrollHeight": 904,
+    "overflow": false,
+    "card": {
+      "x": 16,
+      "y": 32,
+      "width": 328,
+      "height": 840,
+      "right": 344,
+      "bottom": 872
+    },
+    "panel": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "form": {
+      "x": 33,
+      "y": 221,
+      "width": 294,
+      "height": 562,
+      "right": 327,
+      "bottom": 783
+    },
+    "checklist": {
+      "x": 33,
+      "y": 557,
+      "width": 294,
+      "height": 170,
+      "right": 327,
+      "bottom": 727
+    },
+    "confirmation": {
+      "x": 33,
+      "y": 501,
+      "width": 294,
+      "height": 40,
+      "right": 327,
+      "bottom": 541
+    },
+    "submit": {
+      "x": 33,
+      "y": 743,
+      "width": 294,
+      "height": 40,
+      "right": 327,
+      "bottom": 783
+    },
+    "inputs": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "columns": "268px"
+  },
+  {
+    "width": 768,
+    "clientWidth": 768,
+    "height": 900,
+    "scrollHeight": 900,
+    "overflow": false,
+    "card": {
+      "x": 152,
+      "y": 38,
+      "width": 464,
+      "height": 824,
+      "right": 616,
+      "bottom": 862
+    },
+    "panel": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "image": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "form": {
+      "x": 185,
+      "y": 243,
+      "width": 398,
+      "height": 514,
+      "right": 583,
+      "bottom": 757
+    },
+    "checklist": {
+      "x": 185,
+      "y": 579,
+      "width": 398,
+      "height": 122,
+      "right": 583,
+      "bottom": 701
+    },
+    "confirmation": {
+      "x": 185,
+      "y": 523,
+      "width": 398,
+      "height": 40,
+      "right": 583,
+      "bottom": 563
+    },
+    "submit": {
+      "x": 185,
+      "y": 717,
+      "width": 398,
+      "height": 40,
+      "right": 583,
+      "bottom": 757
+    },
+    "inputs": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "columns": "180px 180px"
+  },
+  {
+    "width": 1024,
+    "clientWidth": 1009,
+    "height": 768,
+    "scrollHeight": 812,
+    "overflow": false,
+    "card": {
+      "x": 32,
+      "y": 16,
+      "width": 945,
+      "height": 780,
+      "right": 977,
+      "bottom": 796
+    },
+    "panel": {
+      "x": 33,
+      "y": 17,
+      "width": 558.640625,
+      "height": 778,
+      "right": 591.640625,
+      "bottom": 795
+    },
+    "image": {
+      "x": 65,
+      "y": 567.6875,
+      "width": 454.640625,
+      "height": 227.3125,
+      "right": 519.640625,
+      "bottom": 795
+    },
+    "form": {
+      "x": 583.640625,
+      "y": 145,
+      "width": 360.359375,
+      "height": 554,
+      "right": 944,
+      "bottom": 699
+    },
+    "checklist": {
+      "x": 583.640625,
+      "y": 481,
+      "width": 360.359375,
+      "height": 162,
+      "right": 944,
+      "bottom": 643
+    },
+    "confirmation": {
+      "x": 583.640625,
+      "y": 425,
+      "width": 360.359375,
+      "height": 40,
+      "right": 944,
+      "bottom": 465
+    },
+    "submit": {
+      "x": 583.640625,
+      "y": 659,
+      "width": 360.359375,
+      "height": 40,
+      "right": 944,
+      "bottom": 699
+    },
+    "inputs": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "columns": "161.172px 161.188px"
+  },
+  {
+    "width": 1280,
+    "clientWidth": 1265,
+    "height": 720,
+    "scrollHeight": 772,
+    "overflow": false,
+    "card": {
+      "x": 40.5,
+      "y": 16,
+      "width": 1184,
+      "height": 740,
+      "right": 1224.5,
+      "bottom": 756
+    },
+    "panel": {
+      "x": 41.5,
+      "y": 17,
+      "width": 690.09375,
+      "height": 738,
+      "right": 731.59375,
+      "bottom": 755
+    },
+    "image": {
+      "x": 126.546875,
+      "y": 515,
+      "width": 480,
+      "height": 240,
+      "right": 606.546875,
+      "bottom": 755
+    },
+    "form": {
+      "x": 749.546875,
+      "y": 145,
+      "width": 416,
+      "height": 514,
+      "right": 1165.546875,
+      "bottom": 659
+    },
+    "checklist": {
+      "x": 749.546875,
+      "y": 481,
+      "width": 416,
+      "height": 122,
+      "right": 1165.546875,
+      "bottom": 603
+    },
+    "confirmation": {
+      "x": 749.546875,
+      "y": 425,
+      "width": 416,
+      "height": 40,
+      "right": 1165.546875,
+      "bottom": 465
+    },
+    "submit": {
+      "x": 749.546875,
+      "y": 619,
+      "width": 416,
+      "height": 40,
+      "right": 1165.546875,
+      "bottom": 659
+    },
+    "inputs": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "columns": "189px 189px"
+  },
+  {
+    "width": 1440,
+    "clientWidth": 1440,
+    "height": 800,
+    "scrollHeight": 800,
+    "overflow": false,
+    "card": {
+      "x": 128,
+      "y": 30,
+      "width": 1184,
+      "height": 740,
+      "right": 1312,
+      "bottom": 770
+    },
+    "panel": {
+      "x": 129,
+      "y": 31,
+      "width": 690.09375,
+      "height": 738,
+      "right": 819.09375,
+      "bottom": 769
+    },
+    "image": {
+      "x": 214.046875,
+      "y": 529,
+      "width": 480,
+      "height": 240,
+      "right": 694.046875,
+      "bottom": 769
+    },
+    "form": {
+      "x": 837.046875,
+      "y": 159,
+      "width": 416,
+      "height": 514,
+      "right": 1253.046875,
+      "bottom": 673
+    },
+    "checklist": {
+      "x": 837.046875,
+      "y": 495,
+      "width": 416,
+      "height": 122,
+      "right": 1253.046875,
+      "bottom": 617
+    },
+    "confirmation": {
+      "x": 837.046875,
+      "y": 439,
+      "width": 416,
+      "height": 40,
+      "right": 1253.046875,
+      "bottom": 479
+    },
+    "submit": {
+      "x": 837.046875,
+      "y": 633,
+      "width": 416,
+      "height": 40,
+      "right": 1253.046875,
+      "bottom": 673
+    },
+    "inputs": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "columns": "189px 189px"
+  },
+  {
+    "width": 1440,
+    "clientWidth": 1425,
+    "height": 600,
+    "scrollHeight": 772,
+    "overflow": false,
+    "card": {
+      "x": 120.5,
+      "y": 16,
+      "width": 1184,
+      "height": 740,
+      "right": 1304.5,
+      "bottom": 756
+    },
+    "panel": {
+      "x": 121.5,
+      "y": 17,
+      "width": 690.09375,
+      "height": 738,
+      "right": 811.59375,
+      "bottom": 755
+    },
+    "image": {
+      "x": 206.546875,
+      "y": 515,
+      "width": 480,
+      "height": 240,
+      "right": 686.546875,
+      "bottom": 755
+    },
+    "form": {
+      "x": 829.546875,
+      "y": 145,
+      "width": 416,
+      "height": 514,
+      "right": 1245.546875,
+      "bottom": 659
+    },
+    "checklist": {
+      "x": 829.546875,
+      "y": 481,
+      "width": 416,
+      "height": 122,
+      "right": 1245.546875,
+      "bottom": 603
+    },
+    "confirmation": {
+      "x": 829.546875,
+      "y": 425,
+      "width": 416,
+      "height": 40,
+      "right": 1245.546875,
+      "bottom": 465
+    },
+    "submit": {
+      "x": 829.546875,
+      "y": 619,
+      "width": 416,
+      "height": 40,
+      "right": 1245.546875,
+      "bottom": 659
+    },
+    "inputs": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "columns": "189px 189px"
+  }
+]

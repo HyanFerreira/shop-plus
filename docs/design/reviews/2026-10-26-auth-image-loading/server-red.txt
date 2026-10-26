@@ -1,0 +1,18 @@
+PHPUnit 11.5.56 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.21
+Configuration: /tmp/shopplus-shared-auth/app/phpunit.xml
+
+F.                                                                  2 / 2 (100%)
+
+Time: 00:00.126, Memory: 34.50 MB
+
+There was 1 failure:
+
+1) Tests\Feature\AuthImageLoadingTest::test_both_auth_pages_preload_the_same_eager_image_in_the_head
+Failed asserting that 0 is identical to 1.
+
+/tmp/shopplus-shared-auth/app/tests/Feature/AuthImageLoadingTest.php:18
+
+FAILURES!
+Tests: 2, Assertions: 4, Failures: 1.

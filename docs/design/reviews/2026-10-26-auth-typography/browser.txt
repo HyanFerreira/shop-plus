@@ -1,0 +1,83 @@
+[
+  {
+    "width": 320,
+    "page": "/login",
+    "button": [
+      "16px",
+      "600",
+      "24px",
+      "7px"
+    ],
+    "footer": [
+      "16px",
+      "24px",
+      64
+    ],
+    "input": [
+      "16px",
+      "24px"
+    ],
+    "card": 598
+  },
+  {
+    "width": 320,
+    "page": "/register",
+    "button": [
+      "16px",
+      "600",
+      "24px",
+      "7px"
+    ],
+    "footer": [
+      "16px",
+      "24px",
+      64
+    ],
+    "input": [
+      "16px",
+      "24px"
+    ],
+    "card": 888
+  },
+  {
+    "width": 1440,
+    "page": "/login",
+    "button": [
+      "16px",
+      "600",
+      "24px",
+      "7px"
+    ],
+    "footer": [
+      "16px",
+      "24px",
+      40
+    ],
+    "input": [
+      "16px",
+      "24px"
+    ],
+    "card": 642
+  },
+  {
+    "width": 1440,
+    "page": "/register",
+    "button": [
+      "16px",
+      "600",
+      "24px",
+      "7px"
+    ],
+    "footer": [
+      "16px",
+      "24px",
+      40
+    ],
+    "input": [
+      "16px",
+      "24px"
+    ],
+    "card": 740
+  }
+]
+PASS after

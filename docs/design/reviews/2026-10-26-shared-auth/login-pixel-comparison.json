@@ -1,0 +1,58 @@
+[
+  {
+    "capture": "login-1024x768.png",
+    "changedPixels": 0,
+    "size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "capture": "login-1280x720.png",
+    "changedPixels": 0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "capture": "login-1440x600.png",
+    "changedPixels": 0,
+    "size": [
+      1425,
+      674
+    ]
+  },
+  {
+    "capture": "login-1440x800.png",
+    "changedPixels": 0,
+    "size": [
+      1440,
+      800
+    ]
+  },
+  {
+    "capture": "login-320x640.png",
+    "changedPixels": 0,
+    "size": [
+      305,
+      646
+    ]
+  },
+  {
+    "capture": "login-375x812.png",
+    "changedPixels": 0,
+    "size": [
+      375,
+      812
+    ]
+  },
+  {
+    "capture": "login-768x900.png",
+    "changedPixels": 0,
+    "size": [
+      768,
+      900
+    ]
+  }
+]

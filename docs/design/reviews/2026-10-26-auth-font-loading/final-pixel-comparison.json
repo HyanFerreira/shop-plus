@@ -1,0 +1,206 @@
+[
+  {
+    "image": "login-1024-cold-final.png",
+    "beforeSize": [
+      1024,
+      1000
+    ],
+    "afterSize": [
+      1024,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "login-1280-cold-final.png",
+    "beforeSize": [
+      1280,
+      1000
+    ],
+    "afterSize": [
+      1280,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "login-1440-cold-final.png",
+    "beforeSize": [
+      1440,
+      1000
+    ],
+    "afterSize": [
+      1440,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "login-320-cold-final.png",
+    "beforeSize": [
+      320,
+      1000
+    ],
+    "afterSize": [
+      320,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "login-375-cold-final.png",
+    "beforeSize": [
+      375,
+      1000
+    ],
+    "afterSize": [
+      375,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "login-768-cold-final.png",
+    "beforeSize": [
+      768,
+      1000
+    ],
+    "afterSize": [
+      768,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "register-1024-cold-final.png",
+    "beforeSize": [
+      1024,
+      1000
+    ],
+    "afterSize": [
+      1024,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "register-1280-cold-final.png",
+    "beforeSize": [
+      1280,
+      1000
+    ],
+    "afterSize": [
+      1280,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "register-1440-cold-final.png",
+    "beforeSize": [
+      1440,
+      1000
+    ],
+    "afterSize": [
+      1440,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "register-320-cold-final.png",
+    "beforeSize": [
+      320,
+      1000
+    ],
+    "afterSize": [
+      320,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "register-375-cold-final.png",
+    "beforeSize": [
+      375,
+      1000
+    ],
+    "afterSize": [
+      375,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "image": "register-768-cold-final.png",
+    "beforeSize": [
+      768,
+      1000
+    ],
+    "afterSize": [
+      768,
+      1000
+    ],
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "login-1024-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "login-1280-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "login-1440-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "login-320-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "login-375-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "login-768-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "register-1024-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "register-1280-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "register-1440-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "register-320-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "register-375-cold-final.png",
+    "identical": true
+  },
+  {
+    "delivery": "dev",
+    "image": "register-768-cold-final.png",
+    "identical": true
+  }
+]

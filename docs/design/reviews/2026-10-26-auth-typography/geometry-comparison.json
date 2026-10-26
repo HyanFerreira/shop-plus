@@ -1,0 +1,86 @@
+[
+  {
+    "page": "/login",
+    "viewportWidth": 320,
+    "cardHeightBefore": 570,
+    "cardHeightAfter": 598,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/register",
+    "viewportWidth": 320,
+    "cardHeightBefore": 888,
+    "cardHeightAfter": 888,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/login",
+    "viewportWidth": 375,
+    "cardHeightBefore": 538,
+    "cardHeightAfter": 542,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/register",
+    "viewportWidth": 375,
+    "cardHeightBefore": 840,
+    "cardHeightAfter": 840,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/login",
+    "viewportWidth": 768,
+    "cardHeightBefore": 570,
+    "cardHeightAfter": 574,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/register",
+    "viewportWidth": 768,
+    "cardHeightBefore": 824,
+    "cardHeightAfter": 824,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/login",
+    "viewportWidth": 1024,
+    "cardHeightBefore": 633.4375,
+    "cardHeightAfter": 633.4375,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/register",
+    "viewportWidth": 1024,
+    "cardHeightBefore": 780,
+    "cardHeightAfter": 780,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/login",
+    "viewportWidth": 1280,
+    "cardHeightBefore": 642,
+    "cardHeightAfter": 642,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/register",
+    "viewportWidth": 1280,
+    "cardHeightBefore": 740,
+    "cardHeightAfter": 740,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/login",
+    "viewportWidth": 1440,
+    "cardHeightBefore": 642,
+    "cardHeightAfter": 642,
+    "cardWidthUnchanged": true
+  },
+  {
+    "page": "/register",
+    "viewportWidth": 1440,
+    "cardHeightBefore": 740,
+    "cardHeightAfter": 740,
+    "cardWidthUnchanged": true
+  }
+]

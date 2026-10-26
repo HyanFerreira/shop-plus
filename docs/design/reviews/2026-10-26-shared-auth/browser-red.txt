@@ -1,0 +1,17 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: name required
+
+'false' !== 'true'
+
+    at file:///home/hyanferreira/GitHub/shop-plus/docs/design/reviews/2026-10-26-shared-auth/verify.mjs:47:86 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'false',
+  expected: 'true',
+  operator: 'strictEqual'
+}
+
+Node.js v24.5.0

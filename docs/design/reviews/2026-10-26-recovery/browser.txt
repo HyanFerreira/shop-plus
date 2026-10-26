@@ -1,0 +1,59 @@
+PASS: six widths, short viewport, 200% equivalent reflow, single card/curve/PNG, shared typography and 40px controls, all email error transitions, server messages, loading state, native fallback.
+[
+  {
+    "viewport": "320x640",
+    "dpr": 1,
+    "cardHeight": 588.65625,
+    "image": "160x106.65625",
+    "scrollHeight": 640
+  },
+  {
+    "viewport": "375x812",
+    "dpr": 1,
+    "cardHeight": 564.65625,
+    "image": "160x106.65625",
+    "scrollHeight": 812
+  },
+  {
+    "viewport": "768x900",
+    "dpr": 1,
+    "cardHeight": 586,
+    "image": "192x128",
+    "scrollHeight": 900
+  },
+  {
+    "viewport": "1024x768",
+    "dpr": 1,
+    "cardHeight": 586,
+    "image": "192x128",
+    "scrollHeight": 768
+  },
+  {
+    "viewport": "1280x720",
+    "dpr": 1,
+    "cardHeight": 586,
+    "image": "192x128",
+    "scrollHeight": 720
+  },
+  {
+    "viewport": "1440x900",
+    "dpr": 1,
+    "cardHeight": 586,
+    "image": "192x128",
+    "scrollHeight": 900
+  },
+  {
+    "viewport": "1440x600",
+    "dpr": 1,
+    "cardHeight": 586,
+    "image": "192x128",
+    "scrollHeight": 618
+  },
+  {
+    "viewport": "720x450",
+    "dpr": 2,
+    "cardHeight": 564.65625,
+    "image": "160x106.65625",
+    "scrollHeight": 629
+  }
+]

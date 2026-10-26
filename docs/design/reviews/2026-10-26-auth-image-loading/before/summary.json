@@ -1,0 +1,627 @@
+[
+  {
+    "scenario": "register-cold",
+    "resource": [
+      {
+        "name": "http://127.0.0.1:19118/images/login.png",
+        "entryType": "resource",
+        "startTime": 25.399999998509884,
+        "duration": 9.5,
+        "initiatorType": "img",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "image/png",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 25.399999998509884,
+        "domainLookupStart": 27.699999999254942,
+        "domainLookupEnd": 27.699999999254942,
+        "connectStart": 27.699999999254942,
+        "secureConnectionStart": 0,
+        "connectEnd": 27.800000000745058,
+        "requestStart": 28.300000000745058,
+        "responseStart": 29.399999998509884,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 29.399999998509884,
+        "responseEnd": 34.899999998509884,
+        "transferSize": 880481,
+        "encodedBodySize": 880181,
+        "decodedBodySize": 880181,
+        "responseStatus": 200,
+        "serverTiming": []
+      }
+    ],
+    "events": [
+      {
+        "type": "image-state",
+        "time": 86.30000000074506,
+        "loaded": true,
+        "x": 214.046875,
+        "y": 589,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 760,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      },
+      {
+        "type": "image-state",
+        "time": 115.80000000074506,
+        "loaded": true,
+        "x": 214.046875,
+        "y": 579,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 740,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      },
+      {
+        "type": "paint",
+        "name": "first-paint",
+        "time": 132
+      },
+      {
+        "type": "paint",
+        "name": "first-contentful-paint",
+        "time": 132
+      },
+      {
+        "type": "lcp",
+        "time": 132,
+        "url": "http://127.0.0.1:19118/images/login.png"
+      }
+    ],
+    "shifts": [
+      {
+        "time": 98.19999999925494,
+        "value": 0.0023104413319026493,
+        "sources": [
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          }
+        ]
+      },
+      {
+        "time": 116.39999999850988,
+        "value": 0.013935185185185186,
+        "sources": [
+          {
+            "node": "auth-card auth-card--split",
+            "previous": {},
+            "current": {}
+          }
+        ]
+      }
+    ],
+    "image": {
+      "url": "http://127.0.0.1:19118/images/login.png",
+      "loaded": true,
+      "loading": "auto",
+      "decoding": "async",
+      "priority": "high",
+      "width": 480,
+      "height": 240,
+      "animation": "none",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "preloads": [],
+    "cardHeight": 740
+  },
+  {
+    "scenario": "register-reload",
+    "resource": [
+      {
+        "name": "http://127.0.0.1:19118/images/login.png",
+        "entryType": "resource",
+        "startTime": 20.300000000745058,
+        "duration": 5.300000000745058,
+        "initiatorType": "img",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "image/png",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 20.300000000745058,
+        "domainLookupStart": 21.100000001490116,
+        "domainLookupEnd": 21.100000001490116,
+        "connectStart": 21.100000001490116,
+        "secureConnectionStart": 0,
+        "connectEnd": 21.199999999254942,
+        "requestStart": 21.5,
+        "responseStart": 22.699999999254942,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 22.699999999254942,
+        "responseEnd": 25.600000001490116,
+        "transferSize": 880481,
+        "encodedBodySize": 880181,
+        "decodedBodySize": 880181,
+        "responseStatus": 200,
+        "serverTiming": []
+      }
+    ],
+    "events": [
+      {
+        "type": "image-state",
+        "time": 53.5,
+        "loaded": true,
+        "x": 214.046875,
+        "y": 579,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 740,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      },
+      {
+        "type": "paint",
+        "name": "first-paint",
+        "time": 68
+      },
+      {
+        "type": "paint",
+        "name": "first-contentful-paint",
+        "time": 68
+      },
+      {
+        "type": "lcp",
+        "time": 68,
+        "url": "http://127.0.0.1:19118/images/login.png"
+      }
+    ],
+    "shifts": [],
+    "image": {
+      "url": "http://127.0.0.1:19118/images/login.png",
+      "loaded": true,
+      "loading": "auto",
+      "decoding": "async",
+      "priority": "high",
+      "width": 480,
+      "height": 240,
+      "animation": "none",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "preloads": [],
+    "cardHeight": 740
+  },
+  {
+    "scenario": "register-hard-reload",
+    "resource": [
+      {
+        "name": "http://127.0.0.1:19118/images/login.png",
+        "entryType": "resource",
+        "startTime": 20.900000002235174,
+        "duration": 9,
+        "initiatorType": "img",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "image/png",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 20.900000002235174,
+        "domainLookupStart": 22.300000000745058,
+        "domainLookupEnd": 22.300000000745058,
+        "connectStart": 22.300000000745058,
+        "secureConnectionStart": 0,
+        "connectEnd": 22.400000002235174,
+        "requestStart": 24.100000001490116,
+        "responseStart": 25.100000001490116,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 25.100000001490116,
+        "responseEnd": 29.900000002235174,
+        "transferSize": 880481,
+        "encodedBodySize": 880181,
+        "decodedBodySize": 880181,
+        "responseStatus": 200,
+        "serverTiming": []
+      }
+    ],
+    "events": [
+      {
+        "type": "image-state",
+        "time": 61.80000000074506,
+        "loaded": true,
+        "x": 214.046875,
+        "y": 589,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 760,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      },
+      {
+        "type": "paint",
+        "name": "first-paint",
+        "time": 88
+      },
+      {
+        "type": "paint",
+        "name": "first-contentful-paint",
+        "time": 88
+      },
+      {
+        "type": "lcp",
+        "time": 88,
+        "url": "http://127.0.0.1:19118/images/login.png"
+      },
+      {
+        "type": "image-state",
+        "time": 107.30000000074506,
+        "loaded": true,
+        "x": 214.046875,
+        "y": 579,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 740,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      }
+    ],
+    "shifts": [
+      {
+        "time": 93.5,
+        "value": 0.0023104413319026493,
+        "sources": [
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          }
+        ]
+      },
+      {
+        "time": 107.90000000223517,
+        "value": 0.013935185185185186,
+        "sources": [
+          {
+            "node": "auth-card auth-card--split",
+            "previous": {},
+            "current": {}
+          }
+        ]
+      }
+    ],
+    "image": {
+      "url": "http://127.0.0.1:19118/images/login.png",
+      "loaded": true,
+      "loading": "auto",
+      "decoding": "async",
+      "priority": "high",
+      "width": 480,
+      "height": 240,
+      "animation": "none",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "preloads": [],
+    "cardHeight": 740
+  },
+  {
+    "scenario": "register-navigation",
+    "resource": [
+      {
+        "name": "http://127.0.0.1:19118/images/login.png",
+        "entryType": "resource",
+        "startTime": 23.899999998509884,
+        "duration": 6.400000002235174,
+        "initiatorType": "img",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "image/png",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 23.899999998509884,
+        "domainLookupStart": 24.899999998509884,
+        "domainLookupEnd": 24.899999998509884,
+        "connectStart": 24.899999998509884,
+        "secureConnectionStart": 0,
+        "connectEnd": 25,
+        "requestStart": 25.100000001490116,
+        "responseStart": 26.800000000745058,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 26.800000000745058,
+        "responseEnd": 30.300000000745058,
+        "transferSize": 880481,
+        "encodedBodySize": 880181,
+        "decodedBodySize": 880181,
+        "responseStatus": 200,
+        "serverTiming": []
+      }
+    ],
+    "events": [
+      {
+        "type": "image-state",
+        "time": 53.600000001490116,
+        "loaded": true,
+        "x": 214.046875,
+        "y": 579,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 740,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      },
+      {
+        "type": "paint",
+        "name": "first-paint",
+        "time": 68
+      },
+      {
+        "type": "paint",
+        "name": "first-contentful-paint",
+        "time": 68
+      },
+      {
+        "type": "lcp",
+        "time": 68,
+        "url": "http://127.0.0.1:19118/images/login.png"
+      }
+    ],
+    "shifts": [],
+    "image": {
+      "url": "http://127.0.0.1:19118/images/login.png",
+      "loaded": true,
+      "loading": "auto",
+      "decoding": "async",
+      "priority": "high",
+      "width": 480,
+      "height": 240,
+      "animation": "none",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "preloads": [],
+    "cardHeight": 740
+  },
+  {
+    "scenario": "register-slow",
+    "resource": [
+      {
+        "name": "http://127.0.0.1:19118/images/login.png",
+        "entryType": "resource",
+        "startTime": 147.89999999850988,
+        "duration": 7807.199999999255,
+        "initiatorType": "img",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "image/png",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 147.89999999850988,
+        "domainLookupStart": 148.59999999776483,
+        "domainLookupEnd": 148.59999999776483,
+        "connectStart": 148.59999999776483,
+        "secureConnectionStart": 0,
+        "connectEnd": 148.69999999925494,
+        "requestStart": 148.80000000074506,
+        "responseStart": 149.30000000074506,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 149.30000000074506,
+        "responseEnd": 7955.099999997765,
+        "transferSize": 880481,
+        "encodedBodySize": 880181,
+        "decodedBodySize": 880181,
+        "responseStatus": 200,
+        "serverTiming": []
+      }
+    ],
+    "events": [
+      {
+        "type": "paint",
+        "name": "first-paint",
+        "time": 3112
+      },
+      {
+        "type": "paint",
+        "name": "first-contentful-paint",
+        "time": 3112
+      },
+      {
+        "type": "lcp",
+        "time": 3112,
+        "url": ""
+      },
+      {
+        "type": "image-state",
+        "time": 5562.800000000745,
+        "loaded": false,
+        "x": 214.046875,
+        "y": 579,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 740,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      },
+      {
+        "type": "image-load",
+        "time": 7955.599999997765
+      },
+      {
+        "type": "image-state",
+        "time": 7962.699999999255,
+        "loaded": true,
+        "x": 214.046875,
+        "y": 579,
+        "width": 480,
+        "height": 240,
+        "cardHeight": 740,
+        "display": "block",
+        "parentDisplay": "block",
+        "opacity": "1",
+        "visibility": "visible",
+        "transform": "none",
+        "animation": "none",
+        "transition": "all"
+      },
+      {
+        "type": "lcp",
+        "time": 7980,
+        "url": "http://127.0.0.1:19118/images/login.png"
+      }
+    ],
+    "shifts": [
+      {
+        "time": 3496.300000000745,
+        "value": 0.0023104413319026493,
+        "sources": [
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "#text",
+            "previous": {},
+            "current": {}
+          }
+        ]
+      },
+      {
+        "time": 3506.699999999255,
+        "value": 0.013935185185185186,
+        "sources": [
+          {
+            "node": "auth-card auth-card--split",
+            "previous": {},
+            "current": {}
+          }
+        ]
+      },
+      {
+        "time": 3519.599999997765,
+        "value": 0.000048586998456790125,
+        "sources": [
+          {
+            "node": "SPAN",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "SPAN",
+            "previous": {},
+            "current": {}
+          },
+          {
+            "node": "auth-link",
+            "previous": {},
+            "current": {}
+          }
+        ]
+      }
+    ],
+    "image": {
+      "url": "http://127.0.0.1:19118/images/login.png",
+      "loaded": true,
+      "loading": "auto",
+      "decoding": "async",
+      "priority": "high",
+      "width": 480,
+      "height": 240,
+      "animation": "none",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "preloads": [],
+    "cardHeight": 740
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "route": "login",
+    "scenario": "cold",
+    "beforeStartMs": 26.3,
+    "afterStartMs": 23.5,
+    "beforeEndMs": 37,
+    "afterEndMs": 28.1,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 642,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "login-cold-00.jpg",
+      "login-cold-01.jpg",
+      "login-cold-02.jpg",
+      "login-cold-03.jpg",
+      "login-cold-04.jpg",
+      "login-cold-05.jpg"
+    ],
+    "afterFrames": [
+      "login-cold-00.jpg",
+      "login-cold-01.jpg",
+      "login-cold-02.jpg",
+      "login-cold-03.jpg",
+      "login-cold-04.jpg"
+    ]
+  },
+  {
+    "route": "login",
+    "scenario": "reload",
+    "beforeStartMs": 20.8,
+    "afterStartMs": 18.4,
+    "beforeEndMs": 26.9,
+    "afterEndMs": 23.7,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 642,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "login-reload-00.jpg",
+      "login-reload-01.jpg",
+      "login-reload-02.jpg",
+      "login-reload-03.jpg"
+    ],
+    "afterFrames": [
+      "login-reload-00.jpg",
+      "login-reload-01.jpg",
+      "login-reload-02.jpg"
+    ]
+  },
+  {
+    "route": "login",
+    "scenario": "hard-reload",
+    "beforeStartMs": 21.4,
+    "afterStartMs": 15.1,
+    "beforeEndMs": 32.4,
+    "afterEndMs": 29.1,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 642,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "login-hard-reload-00.jpg",
+      "login-hard-reload-01.jpg",
+      "login-hard-reload-02.jpg",
+      "login-hard-reload-03.jpg",
+      "login-hard-reload-04.jpg"
+    ],
+    "afterFrames": [
+      "login-hard-reload-00.jpg",
+      "login-hard-reload-01.jpg",
+      "login-hard-reload-02.jpg",
+      "login-hard-reload-03.jpg",
+      "login-hard-reload-04.jpg",
+      "login-hard-reload-05.jpg"
+    ]
+  },
+  {
+    "route": "login",
+    "scenario": "navigation",
+    "beforeStartMs": 21.3,
+    "afterStartMs": 16.9,
+    "beforeEndMs": 27.9,
+    "afterEndMs": 24.9,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 642,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "login-navigation-00.jpg",
+      "login-navigation-01.jpg",
+      "login-navigation-02.jpg",
+      "login-navigation-03.jpg",
+      "login-navigation-04.jpg",
+      "login-navigation-05.jpg"
+    ],
+    "afterFrames": [
+      "login-navigation-00.jpg",
+      "login-navigation-01.jpg",
+      "login-navigation-02.jpg",
+      "login-navigation-03.jpg"
+    ]
+  },
+  {
+    "route": "login",
+    "scenario": "slow",
+    "beforeStartMs": 149,
+    "afterStartMs": 122.8,
+    "beforeEndMs": 7956.1,
+    "afterEndMs": 7310.9,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 642,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "login-slow-00.jpg",
+      "login-slow-01.jpg",
+      "login-slow-02.jpg",
+      "login-slow-03.jpg",
+      "login-slow-04.jpg",
+      "login-slow-05.jpg",
+      "login-slow-06.jpg",
+      "login-slow-07.jpg",
+      "login-slow-08.jpg",
+      "login-slow-09.jpg",
+      "login-slow-10.jpg",
+      "login-slow-11.jpg"
+    ],
+    "afterFrames": [
+      "login-slow-00.jpg",
+      "login-slow-01.jpg",
+      "login-slow-02.jpg",
+      "login-slow-03.jpg",
+      "login-slow-04.jpg",
+      "login-slow-05.jpg",
+      "login-slow-06.jpg",
+      "login-slow-07.jpg",
+      "login-slow-08.jpg",
+      "login-slow-09.jpg",
+      "login-slow-10.jpg",
+      "login-slow-11.jpg"
+    ]
+  },
+  {
+    "route": "register",
+    "scenario": "cold",
+    "beforeStartMs": 25.4,
+    "afterStartMs": 19.2,
+    "beforeEndMs": 34.9,
+    "afterEndMs": 26.7,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 740,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "register-cold-00.jpg",
+      "register-cold-01.jpg",
+      "register-cold-02.jpg",
+      "register-cold-03.jpg",
+      "register-cold-04.jpg"
+    ],
+    "afterFrames": [
+      "register-cold-00.jpg",
+      "register-cold-01.jpg",
+      "register-cold-02.jpg",
+      "register-cold-03.jpg"
+    ]
+  },
+  {
+    "route": "register",
+    "scenario": "reload",
+    "beforeStartMs": 20.3,
+    "afterStartMs": 17.2,
+    "beforeEndMs": 25.6,
+    "afterEndMs": 22.7,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 740,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "register-reload-00.jpg",
+      "register-reload-01.jpg",
+      "register-reload-02.jpg",
+      "register-reload-03.jpg"
+    ],
+    "afterFrames": [
+      "register-reload-00.jpg",
+      "register-reload-01.jpg"
+    ]
+  },
+  {
+    "route": "register",
+    "scenario": "hard-reload",
+    "beforeStartMs": 20.9,
+    "afterStartMs": 20.5,
+    "beforeEndMs": 29.9,
+    "afterEndMs": 27.9,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 740,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "register-hard-reload-00.jpg",
+      "register-hard-reload-01.jpg",
+      "register-hard-reload-02.jpg",
+      "register-hard-reload-03.jpg",
+      "register-hard-reload-04.jpg"
+    ],
+    "afterFrames": [
+      "register-hard-reload-00.jpg",
+      "register-hard-reload-01.jpg",
+      "register-hard-reload-02.jpg",
+      "register-hard-reload-03.jpg",
+      "register-hard-reload-04.jpg"
+    ]
+  },
+  {
+    "route": "register",
+    "scenario": "navigation",
+    "beforeStartMs": 23.9,
+    "afterStartMs": 22.1,
+    "beforeEndMs": 30.3,
+    "afterEndMs": 26.8,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 740,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "register-navigation-00.jpg",
+      "register-navigation-01.jpg",
+      "register-navigation-02.jpg",
+      "register-navigation-03.jpg",
+      "register-navigation-04.jpg",
+      "register-navigation-05.jpg"
+    ],
+    "afterFrames": [
+      "register-navigation-00.jpg",
+      "register-navigation-01.jpg",
+      "register-navigation-02.jpg",
+      "register-navigation-03.jpg"
+    ]
+  },
+  {
+    "route": "register",
+    "scenario": "slow",
+    "beforeStartMs": 147.9,
+    "afterStartMs": 130.5,
+    "beforeEndMs": 7955.1,
+    "afterEndMs": 7317.4,
+    "beforeBodyBytes": 880181,
+    "afterBodyBytes": 752578,
+    "imageRequestsPerNavigation": 1,
+    "priority": "High",
+    "cardHeightUnchanged": 740,
+    "beforeInitiator": "img",
+    "afterInitiator": "link",
+    "beforeFrames": [
+      "register-slow-00.jpg",
+      "register-slow-01.jpg",
+      "register-slow-02.jpg",
+      "register-slow-03.jpg",
+      "register-slow-04.jpg",
+      "register-slow-05.jpg",
+      "register-slow-06.jpg",
+      "register-slow-07.jpg",
+      "register-slow-08.jpg",
+      "register-slow-09.jpg",
+      "register-slow-10.jpg",
+      "register-slow-11.jpg"
+    ],
+    "afterFrames": [
+      "register-slow-00.jpg",
+      "register-slow-01.jpg",
+      "register-slow-02.jpg",
+      "register-slow-03.jpg",
+      "register-slow-04.jpg",
+      "register-slow-05.jpg",
+      "register-slow-06.jpg",
+      "register-slow-07.jpg",
+      "register-slow-08.jpg",
+      "register-slow-09.jpg",
+      "register-slow-10.jpg",
+      "register-slow-11.jpg"
+    ]
+  }
+]

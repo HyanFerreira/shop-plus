@@ -1,0 +1,205 @@
+[
+  {
+    "delivery": "build",
+    "page": "login",
+    "width": 1440,
+    "scenario": "hard",
+    "beforeFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.0028983039912471066,
+    "afterCls": 0,
+    "beforeFcp": 128,
+    "afterFcp": 112
+  },
+  {
+    "delivery": "build",
+    "page": "login",
+    "width": 1440,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.0028983039912471066,
+    "afterCls": 0,
+    "beforeFcp": 3116,
+    "afterFcp": 3236
+  },
+  {
+    "delivery": "build",
+    "page": "login",
+    "width": 375,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.12357026837500001,
+    "afterCls": 0,
+    "beforeFcp": 3080,
+    "afterFcp": 3220
+  },
+  {
+    "delivery": "build",
+    "page": "register",
+    "width": 1440,
+    "scenario": "hard",
+    "beforeFirstFaces": [],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.01534569349500868,
+    "afterCls": 0,
+    "beforeFcp": 140,
+    "afterFcp": 112
+  },
+  {
+    "delivery": "build",
+    "page": "register",
+    "width": 1440,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.061109851466049386,
+    "afterCls": 0,
+    "beforeFcp": 3140,
+    "afterFcp": 3232
+  },
+  {
+    "delivery": "build",
+    "page": "register",
+    "width": 375,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.001581392125,
+    "afterCls": 0,
+    "beforeFcp": 3080,
+    "afterFcp": 3196
+  },
+  {
+    "delivery": "dev",
+    "page": "login",
+    "width": 1440,
+    "scenario": "hard",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.0028738942690248845,
+    "afterCls": 0,
+    "beforeFcp": 148,
+    "afterFcp": 100
+  },
+  {
+    "delivery": "dev",
+    "page": "login",
+    "width": 1440,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.0028738942690248845,
+    "afterCls": 0,
+    "beforeFcp": 5116,
+    "afterFcp": 5292
+  },
+  {
+    "delivery": "dev",
+    "page": "login",
+    "width": 375,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.18218883087499999,
+    "afterCls": 0,
+    "beforeFcp": 5076,
+    "afterFcp": 5260
+  },
+  {
+    "delivery": "dev",
+    "page": "register",
+    "width": 1440,
+    "scenario": "hard",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.015389421793619792,
+    "afterCls": 0,
+    "beforeFcp": 332,
+    "afterFcp": 92
+  },
+  {
+    "delivery": "dev",
+    "page": "register",
+    "width": 1440,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.015389421793619792,
+    "afterCls": 0,
+    "beforeFcp": 5112,
+    "afterFcp": 5292
+  },
+  {
+    "delivery": "dev",
+    "page": "register",
+    "width": 375,
+    "scenario": "slow",
+    "beforeFirstFaces": [
+      "DejaVu Sans"
+    ],
+    "afterFirstFaces": [
+      "Figtree Light",
+      "Figtree Light SemiBold"
+    ],
+    "beforeCls": 0.0016757365,
+    "afterCls": 0,
+    "beforeFcp": 5048,
+    "afterFcp": 5268
+  }
+]

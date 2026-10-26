@@ -1,0 +1,32 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
++ {}
+- {
+-   confirmation: false,
+-   length: false,
+-   lowercase: false,
+-   symbols: false,
+-   uppercase: false
+- }
+
+    at expected (file:///home/hyanferreira/GitHub/shop-plus/docs/design/reviews/2026-10-26-password-requirements/verify.mjs:25:40)
+    at async file:///home/hyanferreira/GitHub/shop-plus/docs/design/reviews/2026-10-26-password-requirements/verify.mjs:33:32 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: {},
+  expected: {
+    length: false,
+    lowercase: false,
+    uppercase: false,
+    symbols: false,
+    confirmation: false
+  },
+  operator: 'deepStrictEqual'
+}
+
+Node.js v24.5.0

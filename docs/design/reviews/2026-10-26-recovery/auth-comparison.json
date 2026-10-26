@@ -1,0 +1,21 @@
+{
+  "screenshots": [
+    {
+      "file": "login-1440.png",
+      "changedPixels": 0
+    },
+    {
+      "file": "login-375.png",
+      "changedPixels": 0
+    },
+    {
+      "file": "register-1440.png",
+      "changedPixels": 0
+    },
+    {
+      "file": "register-375.png",
+      "changedPixels": 0
+    }
+  ],
+  "computedStylesAndGeometryUnchangedAtSixWidths": true
+}

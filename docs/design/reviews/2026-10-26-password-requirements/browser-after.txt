@@ -1,0 +1,45 @@
+PASS: empty/partial/complete indicators, all policy criteria, Unicode, empty/mismatched/matching confirmation, edits, submit, errors, desktop/mobile, control heights and natural layout.
+[
+  {
+    "viewport": "320x640",
+    "cardHeight": 908,
+    "formWidth": 239,
+    "scrollHeight": 940
+  },
+  {
+    "viewport": "375x812",
+    "cardHeight": 840,
+    "formWidth": 294,
+    "scrollHeight": 904
+  },
+  {
+    "viewport": "768x900",
+    "cardHeight": 824,
+    "formWidth": 398,
+    "scrollHeight": 900
+  },
+  {
+    "viewport": "1024x768",
+    "cardHeight": 780,
+    "formWidth": 360.359375,
+    "scrollHeight": 812
+  },
+  {
+    "viewport": "1280x720",
+    "cardHeight": 740,
+    "formWidth": 416,
+    "scrollHeight": 772
+  },
+  {
+    "viewport": "1440x800",
+    "cardHeight": 740,
+    "formWidth": 416,
+    "scrollHeight": 800
+  },
+  {
+    "viewport": "1440x600",
+    "cardHeight": 740,
+    "formWidth": 416,
+    "scrollHeight": 772
+  }
+]

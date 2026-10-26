@@ -1,0 +1,13 @@
+{
+  "existingTests": 275,
+  "finalTests": 281,
+  "existingResultsUnchanged": true,
+  "addedPassingTests": [
+    "test_registration_and_login_render_the_same_brand_panel_and_asset",
+    "test_registration_has_accessible_icon_fields_limits_and_error_targets",
+    "test_server_errors_are_escaped_and_associated_without_reflecting_passwords",
+    "test_authoritative_registration_validation_still_rejects_duplicate_email_and_invalid_fields",
+    "test_confirmation_errors_from_fortify_are_shown_at_confirmation",
+    "test_registration_backend_still_enforces_required_format_policy_and_maximums"
+  ]
+}
