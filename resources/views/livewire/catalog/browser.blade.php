@@ -112,13 +112,33 @@
                 <p class="catalog-total" role="status">{{ $products->total() }} {{ $products->total() === 1 ? 'produto encontrado' : 'produtos encontrados' }}</p>
                 <div class="catalog-sort">
                     <span id="catalog-sort-label">Ordenar por</span>
-                    <div class="catalog-dropdown" x-data="{ open: false }" @click.away="open = false" @keydown.escape.stop="open = false; $refs.sortTrigger.focus()">
-                        <x-button id="catalog-sort-trigger" x-ref="sortTrigger" type="button" variant="secondary" @click="open = !open" x-bind:aria-expanded="open.toString()" aria-controls="catalog-sort-options" aria-labelledby="catalog-sort-label catalog-sort-value">
-                            <span id="catalog-sort-value">{{ $sortOptions[$sort] ?? 'Mais relevantes' }}</span><span aria-hidden="true">⌄</span>
+                    <div class="catalog-dropdown" x-data="{
+                        open: false,
+                        show(index = null) {
+                            this.open = true;
+                            this.$nextTick(() => {
+                                const options = Array.from(this.$refs.sortOptions.querySelectorAll('button'));
+                                (index === null ? this.$refs.sortOptions.querySelector('[aria-checked=true]') : options.at(index))?.focus();
+                            });
+                        },
+                        move(step) {
+                            const options = Array.from(this.$refs.sortOptions.querySelectorAll('button'));
+                            options[(options.indexOf(document.activeElement) + step + options.length) % options.length].focus();
+                        }
+                    }" @click.outside="open = false"
+                        @focusout="if (!$el.contains($event.relatedTarget)) open = false"
+                        @keydown.escape.stop.prevent="if (open) { open = false; $refs.sortTrigger.focus() }">
+                        <x-button id="catalog-sort-trigger" x-ref="sortTrigger" type="button" variant="secondary" @click="open ? (open = false) : show()"
+                            @keydown.arrow-down.prevent="show()" @keydown.arrow-up.prevent="show(-1)"
+                            aria-haspopup="menu" aria-expanded="false" x-bind:aria-expanded="open.toString()" aria-controls="catalog-sort-options" aria-labelledby="catalog-sort-label catalog-sort-value">
+                            <span id="catalog-sort-value">{{ $sortOptions[$sort] ?? 'Mais relevantes' }}</span><x-icon name="chevron-down" class="size-5" />
                         </x-button>
-                        <div id="catalog-sort-options" class="catalog-dropdown__options" x-cloak x-show="open" role="group" aria-label="Opções de ordenação">
+                        <div id="catalog-sort-options" class="catalog-dropdown__options" x-ref="sortOptions" x-cloak x-show="open" x-transition.opacity.duration.150ms
+                            role="menu" aria-labelledby="catalog-sort-label"
+                            @keydown.arrow-down.stop.prevent="move(1)" @keydown.arrow-up.stop.prevent="move(-1)"
+                            @keydown.home.prevent="$refs.sortOptions.firstElementChild.focus()" @keydown.end.prevent="$refs.sortOptions.lastElementChild.focus()">
                             @foreach($sortOptions as $value => $label)
-                                <button type="button" wire:click="$set('sort', '{{ $value }}')" @click="open = false; $refs.sortTrigger.focus()" aria-pressed="{{ $sort === $value ? 'true' : 'false' }}">{{ $label }}</button>
+                                <button type="button" role="menuitemradio" tabindex="-1" wire:click="$set('sort', '{{ $value }}')" @click="open = false; $refs.sortTrigger.focus()" aria-checked="{{ $sort === $value ? 'true' : 'false' }}">{{ $label }}</button>
                             @endforeach
                         </div>
                     </div>

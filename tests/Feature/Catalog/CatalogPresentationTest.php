@@ -82,6 +82,28 @@ class CatalogPresentationTest extends TestCase
         $this->assertDatabaseCount('products', 13);
     }
 
+    public function test_sort_menu_exposes_the_existing_choices_and_selected_state(): void
+    {
+        $component = Livewire::test(Browser::class);
+        foreach (['relevance' => 'Mais relevantes', 'rating' => 'Melhor avaliados', 'name' => 'Nome', 'price_asc' => 'Menor preço', 'price_desc' => 'Maior preço'] as $value => $label) {
+            $component->set('sort', $value)->assertSet('sort', $value);
+            $dom = $this->dom($component->html());
+            $trigger = $dom->getElementById('catalog-sort-trigger');
+            $this->assertSame('menu', $trigger->getAttribute('aria-haspopup'));
+            $this->assertSame('false', $trigger->getAttribute('aria-expanded'));
+            $this->assertStringContainsString($label, $trigger->textContent);
+            $menu = $dom->getElementById('catalog-sort-options');
+            $this->assertSame('menu', $menu->getAttribute('role'));
+            $options = (new \DOMXPath($dom))->query('.//button[@role="menuitemradio"]', $menu);
+            $this->assertCount(5, $options);
+            foreach ($options as $option) {
+                $this->assertSame(trim($option->textContent) === $label ? 'true' : 'false', $option->getAttribute('aria-checked'));
+                $this->assertSame('-1', $option->getAttribute('tabindex'));
+                $this->assertStringContainsString("\$set('sort', '", $option->getAttribute('wire:click'));
+            }
+        }
+    }
+
     private function dom(string $html): \DOMDocument
     {
         $dom = new \DOMDocument;
