@@ -1,4 +1,7 @@
 <div class="account-manager">
+    <section id="dados-pessoais" class="account-manager" aria-labelledby="personal-data-title" tabindex="-1">
+        <h2 id="personal-data-title">Dados pessoais</h2>
+        <section class="account-identity ds-panel" aria-label="Identificação da conta"><span class="customer-navigation__avatar" aria-hidden="true">{{ mb_substr(Auth::user()->name, 0, 1) }}</span><div><h3>{{ Auth::user()->name }}</h3><p>{{ Auth::user()->email }}</p><a href="#seguranca" class="account-text-link">Editar nome e e-mail →</a></div></section>
     <section class="account-panel ds-panel" aria-labelledby="personal-profile-title">
         <form wire:submit="saveProfile" class="account-section-body">
             <div>
@@ -103,6 +106,9 @@
         </div>
     </section>
 
+    </section>
+    <section id="enderecos" class="account-manager" aria-labelledby="profile-addresses-title" tabindex="-1">
+        <h2 id="profile-addresses-title">Endereços</h2>
     <section class="account-panel ds-panel" aria-labelledby="addresses-title">
         <div class="account-section-body">
             <div>
@@ -207,5 +213,6 @@
                 </div>
             <p class="account-loading" role="status"><span wire:loading>Atualizando seus dados…</span></p></form>
         </div>
+    </section>
     </section>
 </div>

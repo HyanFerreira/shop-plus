@@ -26,7 +26,7 @@ class OrderPresentationTest extends TestCase
         $this->item($orders->first(), ['product_name' => 'Segundo item histórico']);
         $response = $this->actingAs($user)->get(route('orders.index'))->assertOk()
             ->assertSeeText('Pago')->assertDontSee($other->public_number)
-            ->assertSee('page=2', false)->assertSee(route('personal-data.show'))
+            ->assertSee('page=2', false)->assertSee(route('profile.show'))->assertDontSee('<aside', false)
             ->assertSee('aria-current="page"', false);
         $this->assertCount(10, $response->viewData('orders')->items());
         $page2 = $this->get(route('orders.index', ['page' => 2]))->assertOk();
@@ -157,9 +157,11 @@ class OrderPresentationTest extends TestCase
         $order = Order::factory()->create(['status' => OrderStatus::Refunded]);
         $order->payments()->create(['amount_cents' => 2500, 'status' => PaymentStatus::Refunded, 'brand' => 'visa', 'last_four' => '1111', 'token' => 'SEGREDO-TOKEN', 'idempotency_key' => 'SEGREDO-IDEMPOTENCIA', 'authorization_code' => 'SEGREDO-AUTORIZACAO', 'processed_at' => now()]);
         $order->statusHistories()->create(['from_status' => OrderStatus::Paid, 'to_status' => OrderStatus::Refunded, 'note' => 'Reembolso fictício registrado']);
-        $this->actingAs($order->user)->get(route('orders.show', $order->public_number))->assertOk()->assertSeeText('final 1111')
+        $response = $this->actingAs($order->user)->get(route('orders.show', $order->public_number))->assertOk()->assertSeeText('final 1111')
             ->assertSeeText('Histórico do pedido')->assertSeeText('Reembolso fictício registrado')->assertDontSee('SEGREDO-')
-            ->assertHeader('Cache-Control', 'no-store, private');
+            ->assertHeader('Cache-Control');
+        $this->assertTrue($response->headers->hasCacheControlDirective('no-store'));
+        $this->assertTrue($response->headers->hasCacheControlDirective('private'));
         $this->actingAs(User::factory()->create())->get(route('orders.show', $order->public_number))->assertNotFound();
         $this->app['auth']->forgetGuards();
         $this->app['auth']->shouldUse('web');

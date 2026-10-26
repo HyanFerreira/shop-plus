@@ -36,7 +36,7 @@ class AccountPresentationTest extends TestCase
         $customer = User::factory()->create();
         foreach (['dashboard', 'personal-data.show', 'profile.show', 'orders.index'] as $route) {
             $response = $this->actingAs($customer)->get(route($route))->assertOk()
-                ->assertSee('customer-navigation__disclosure', false)->assertSee(route('profile.show'))
+                ->assertDontSee('<aside', false)->assertSee(route('profile.show'))
                 ->assertSee('action="'.route('logout').'"', false)->assertSee('aria-current="page"', false)
                 ->assertDontSee(route('admin.dashboard'));
             $this->assertSame(1, substr_count($response->getContent(), '<header'));
@@ -68,7 +68,9 @@ class AccountPresentationTest extends TestCase
     public function test_profile_keeps_existing_jetstream_actions_and_conditions_in_storefront_shell(): void
     {
         $this->actingAs(User::factory()->create())->get(route('profile.show'))->assertOk()
-            ->assertSeeText('Perfil e segurança')->assertSeeText('Autenticação de dois fatores')
+            ->assertSeeText('Dados pessoais')->assertSeeText('Endereços')->assertSeeText('Segurança')
+            ->assertSee('href="#dados-pessoais"', false)->assertSee('href="#enderecos"', false)
+            ->assertSee('href="#seguranca"', false)->assertSeeText('Autenticação de dois fatores')
             ->assertSee('wire:submit="updateProfileInformation"', false)->assertSee('wire:submit="updatePassword"', false)
             ->assertSee('wire:click="confirmLogout"', false)->assertSee('wire:click="confirmUserDeletion"', false)
             ->assertSee('wire:then="enableTwoFactorAuthentication"', false);

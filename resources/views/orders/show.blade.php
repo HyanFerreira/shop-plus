@@ -10,7 +10,6 @@
         @if(session('payment-status'))<x-alert variant="info" class="order-flash">{{ session('payment-status') }}</x-alert>@endif
         @if($pendingPayment)<div class="order-payment"><livewire:payment-form :order="$order" /></div>@endif
         <div class="customer-layout">
-            <x-customer-navigation />
             <div class="orders-content orders-detail">
                 <section class="order-panel order-overview ds-panel" aria-labelledby="order-status-title"><div><p class="order-eyebrow">Andamento da compra</p><h2 id="order-status-title">Status do pedido</h2><p>{{ $order->public_number }}</p></div><x-order-status :status="$order->status" />
                     @if($pendingPayment)<p class="order-overview__note">Aguardando pagamento fictício. Use o formulário acima para pagar ou cancelar o pedido.</p>@elseif($order->status === \App\Enums\OrderStatus::Cancelled)<p class="order-overview__note">Este pedido foi cancelado. Consulte o histórico e os registros de pagamento abaixo.</p>@elseif($order->status === \App\Enums\OrderStatus::Refunded)<p class="order-overview__note">Este pedido foi reembolsado na simulação. O andamento logístico é informado separadamente.</p>@endif

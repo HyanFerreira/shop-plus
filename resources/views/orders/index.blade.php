@@ -1,7 +1,6 @@
 <x-app-layout>
     <div class="orders-page"><div class="ds-storefront-container orders-container">
         <div class="customer-layout">
-            <x-customer-navigation />
             <div class="orders-content">
                 <div class="orders-heading"><p class="order-eyebrow">Minha conta</p><h1>Meus pedidos</h1><p>Consulte suas compras e acompanhe cada entrega.</p></div>
                 <div class="orders-list">

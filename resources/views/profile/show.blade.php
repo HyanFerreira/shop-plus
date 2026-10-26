@@ -1,5 +1,12 @@
-<x-account-shell title="Perfil e segurança" description="Gerencie seu perfil e os recursos de proteção disponíveis para a sua conta.">
-    <div class="account-security">
+<x-account-shell title="Perfil" description="Gerencie seus dados pessoais, endereços e a segurança da sua conta.">
+    <nav class="account-profile-nav" aria-label="Seções do perfil">
+        <a href="#dados-pessoais" class="ds-button ds-button--secondary ds-button--md">Dados pessoais</a>
+        <a href="#enderecos" class="ds-button ds-button--secondary ds-button--md">Endereços</a>
+        <a href="#seguranca" class="ds-button ds-button--secondary ds-button--md">Segurança</a>
+    </nav>
+    <livewire:personal-data.manager />
+    <section id="seguranca" class="account-security" aria-labelledby="security-title" tabindex="-1">
+        <h2 id="security-title">Segurança</h2>
             @if (Laravel\Fortify\Features::canUpdateProfileInformation())
                 @livewire('profile.update-profile-information-form')
 
@@ -33,5 +40,5 @@
                     @livewire('profile.delete-user-form')
                 </div>
             @endif
-    </div>
+    </section>
 </x-account-shell>

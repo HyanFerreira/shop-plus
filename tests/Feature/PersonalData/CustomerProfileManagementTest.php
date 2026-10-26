@@ -25,7 +25,7 @@ class CustomerProfileManagementTest extends TestCase
         $this->actingAs(User::factory()->create())
             ->get('/meus-dados')
             ->assertOk()
-            ->assertSeeText('Meus dados')
+            ->assertSeeText('Dados pessoais')
             ->assertSeeLivewire(Manager::class);
     }
 

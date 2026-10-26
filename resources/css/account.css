@@ -2,6 +2,9 @@
     .account-page { background: rgb(var(--ds-canvas)); color: rgb(var(--ds-ink)); }
     .account-container { padding-block: var(--ds-space-6) var(--ds-space-10); }
     .account-content, .account-overview, .account-manager, .account-security { display: grid; gap: var(--ds-space-5); min-width: 0; }
+    .account-profile-nav { display: flex; flex-wrap: wrap; gap: var(--ds-space-2); }
+    .account-manager > section[id], .account-security[id] { scroll-margin-top: var(--ds-space-6); }
+    .account-favorites { display: grid; gap: var(--ds-space-5); min-width: 0; }
     .account-heading { display: grid; gap: var(--ds-space-2); }
     .account-heading h1 { color: rgb(var(--ds-navy)); font-size: var(--ds-text-3xl); line-height: var(--ds-leading-3xl); font-weight: var(--ds-weight-bold); letter-spacing: -.025em; }
     .account-eyebrow { color: rgb(var(--ds-brand-active)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); font-weight: var(--ds-weight-semibold); }

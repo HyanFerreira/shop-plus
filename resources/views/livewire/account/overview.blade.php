@@ -19,8 +19,11 @@
         </div>
     </section>
     <section class="account-shortcuts" aria-label="Acessos rápidos">
-        <a href="{{ route('personal-data.show') }}" class="account-shortcut ds-panel"><x-icon name="user" class="size-6" /><div><h2>Meus dados</h2><p>Identificação, telefones e endereços.</p></div><span aria-hidden="true">→</span></a>
+        <a href="{{ route('personal-data.show') }}" class="account-shortcut ds-panel"><x-icon name="user" class="size-6" /><div><h2>Dados pessoais e endereços</h2><p>Identificação, telefones e endereços.</p></div><span aria-hidden="true">→</span></a>
         <a href="{{ route('profile.show') }}" class="account-shortcut ds-panel"><x-icon name="lock-closed" class="size-6" /><div><h2>Perfil e segurança</h2><p>Perfil, senha e proteção da conta.</p></div><span aria-hidden="true">→</span></a>
         <a href="{{ route('catalog.index') }}" class="account-shortcut ds-panel"><x-icon name="shopping-bag" class="size-6" /><div><h2>Continuar comprando</h2><p>Conheça os produtos do ShopPlus.</p></div><span aria-hidden="true">→</span></a>
     </section>
+    @if(Auth::user()->isAdmin())
+        <a href="{{ route('admin.dashboard') }}" class="account-shortcut ds-panel"><x-icon name="computer-desktop" class="size-6" /><div><h2>Administração</h2><p>Acessar a gestão da loja.</p></div><span aria-hidden="true">→</span></a>
+    @endif
 </div>

@@ -98,7 +98,7 @@
         .order-event-list li { grid-template-columns: 140px minmax(0, 1fr); gap: var(--ds-space-4); }
     }
     @media (min-width: 1024px) {
-        .customer-layout { grid-template-columns: 208px minmax(0, 1fr); }
+        .customer-layout { grid-template-columns: minmax(0, 1fr); }
         .customer-navigation nav { display: grid; }
         .shipment-progress { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; }
         .shipment-progress li { display: block; padding: 0 var(--ds-space-2) 0 0; }
