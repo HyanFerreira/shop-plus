@@ -13,7 +13,7 @@
     .account-section-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: start; gap: var(--ds-space-3); }
     .account-section-heading > div { min-width: 0; }
     .account-section-heading p, .account-section-body > div:first-child > p { margin-top: var(--ds-space-2); color: rgb(var(--ds-secondary)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
-    .account-text-link { display: inline-flex; align-items: center; min-height: var(--ds-control-md); gap: var(--ds-space-2); color: rgb(var(--ds-brand-active)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); font-weight: var(--ds-weight-semibold); }
+    .account-text-link { display: inline-flex; align-items: center; gap: var(--ds-space-2); color: rgb(var(--ds-brand-active)); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); }
     .account-text-link:hover { color: rgb(var(--ds-brand-strong)); text-decoration: underline; }
     .account-stats { display: grid; gap: var(--ds-space-3); }
     .account-stat { display: flex; align-items: center; gap: var(--ds-space-3); padding: var(--ds-space-4); min-width: 0; }
@@ -56,7 +56,7 @@
     .account-address-card__body > div { min-width: 0; }
     .account-address-card .ds-badge { margin-top: var(--ds-space-2); }
     .account-record-form { display: grid; gap: var(--ds-space-5); padding-top: var(--ds-space-5); border-top: 1px solid rgb(var(--ds-line)); }
-    .account-manager label:has(input[type='checkbox']) { min-height: var(--ds-control-md); align-items: center; }
+    .account-manager label:has(input[type='checkbox']) { min-height: var(--ds-target-md); align-items: center; }
     .account-manager .ds-input { width: 100%; min-width: 0; }
     .account-success { color: rgb(var(--ds-success-active)); border: 1px solid rgb(var(--ds-success-line)); background: rgb(var(--ds-success-soft)); border-radius: var(--ds-radius-sm); padding: var(--ds-space-3); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .account-loading { color: rgb(var(--ds-secondary)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
@@ -78,7 +78,7 @@
     .account-security .jetstream-modal input { width: 100%; }
     .account-security [role='status'], .account-security .text-sm, .account-manager .text-sm { font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .account-security .text-gray-500, .account-security .text-gray-600, .account-manager .text-gray-500, .account-manager .text-gray-600 { color: rgb(var(--ds-secondary)); }
-    .account-page a:focus-visible, .customer-navigation summary:focus-visible, .customer-navigation button:focus-visible { outline: var(--ds-focus-width) solid rgb(var(--ds-brand)); outline-offset: var(--ds-focus-offset); border-radius: var(--ds-radius-xs); }
+    .account-page a:focus-visible, .customer-navigation summary:focus-visible, .customer-navigation button:focus-visible { outline: var(--ds-focus-width) solid rgb(var(--ds-brand)); outline-offset: var(--ds-focus-offset); }
     .customer-navigation nav a { gap: var(--ds-space-2); }
     .customer-navigation__disclosure summary { display: flex; align-items: center; justify-content: space-between; min-height: 44px; cursor: pointer; gap: var(--ds-space-3); list-style: none; }
     .customer-navigation__disclosure summary::-webkit-details-marker { display: none; }

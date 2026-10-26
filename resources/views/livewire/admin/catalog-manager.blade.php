@@ -1,6 +1,6 @@
 <div class="space-y-8">
     @if (session('catalogMessage'))
-        <p class="rounded-md bg-green-50 p-4 text-sm text-green-800" role="status">{{ session('catalogMessage') }}</p>
+        <p class="rounded-lg bg-green-50 p-4 text-sm text-green-800" role="status">{{ session('catalogMessage') }}</p>
     @endif
 
     <section class="bg-white shadow-xl sm:rounded-lg" aria-labelledby="categories-title">
@@ -43,12 +43,12 @@
                 </div>
                 <div>
                     <x-label for="categoryDescription" value="Descrição" />
-                    <textarea id="categoryDescription" wire:model="categoryDescription" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"></textarea>
+                    <textarea id="categoryDescription" wire:model="categoryDescription" rows="3" class="ds-focus mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"></textarea>
                     <x-input-error for="categoryDescription" class="mt-2" />
                 </div>
                 <div>
                     <x-label for="categoryStatus" value="Status" />
-                    <select id="categoryStatus" wire:model="categoryStatus" class="mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                    <select id="categoryStatus" wire:model="categoryStatus" class="ds-field mt-1 rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                         <option value="active">Ativa</option><option value="inactive">Inativa</option>
                     </select>
                 </div>
@@ -98,7 +98,7 @@
                 <div class="grid gap-5 md:grid-cols-2">
                     <div>
                         <x-label for="productCategoryId" value="Categoria" />
-                        <select id="productCategoryId" wire:model="productCategoryId" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                        <select id="productCategoryId" wire:model="productCategoryId" class="ds-field mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                             <option value="">Selecione</option>
                             @foreach ($categories->whereNull('deleted_at') as $category)
                                 <option value="{{ $category->id }}">{{ $category->name }}</option>
@@ -110,12 +110,12 @@
                     <div><x-label for="productSku" value="SKU" /><x-input id="productSku" class="mt-1 block w-full" wire:model="productSku" /><x-input-error for="productSku" class="mt-2" /></div>
                     <div><x-label for="productPrice" value="Preço (R$)" /><x-input id="productPrice" class="mt-1 block w-full" wire:model="productPrice" inputmode="decimal" placeholder="0,00" /><x-input-error for="productPrice" class="mt-2" /></div>
                     <div><x-label for="productWeight" value="Peso (g)" /><x-input id="productWeight" type="number" min="1" class="mt-1 block w-full" wire:model="productWeight" /><x-input-error for="productWeight" class="mt-2" /></div>
-                    <div><x-label for="productStatus" value="Status" /><select id="productStatus" wire:model="productStatus" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"><option value="active">Ativo</option><option value="inactive">Inativo</option></select></div>
+                    <div><x-label for="productStatus" value="Status" /><select id="productStatus" wire:model="productStatus" class="ds-field mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"><option value="active">Ativo</option><option value="inactive">Inativo</option></select></div>
                     <div><x-label for="productWidth" value="Largura (mm)" /><x-input id="productWidth" type="number" min="1" class="mt-1 block w-full" wire:model="productWidth" /><x-input-error for="productWidth" class="mt-2" /></div>
                     <div><x-label for="productHeight" value="Altura (mm)" /><x-input id="productHeight" type="number" min="1" class="mt-1 block w-full" wire:model="productHeight" /><x-input-error for="productHeight" class="mt-2" /></div>
                     <div><x-label for="productLength" value="Comprimento (mm)" /><x-input id="productLength" type="number" min="1" class="mt-1 block w-full" wire:model="productLength" /><x-input-error for="productLength" class="mt-2" /></div>
                 </div>
-                <div><x-label for="productDescription" value="Descrição" /><textarea id="productDescription" wire:model="productDescription" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"></textarea><x-input-error for="productDescription" class="mt-2" /></div>
+                <div><x-label for="productDescription" value="Descrição" /><textarea id="productDescription" wire:model="productDescription" rows="4" class="ds-focus mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"></textarea><x-input-error for="productDescription" class="mt-2" /></div>
                 <div class="flex justify-end gap-3">
                     @if ($productId)<x-secondary-button type="button" wire:click="cancelProductEdit">Cancelar</x-secondary-button>@endif
                     <x-button type="submit">Salvar produto</x-button>
@@ -138,8 +138,8 @@
                             <h4 class="mb-2 font-medium text-gray-900">{{ $product->name }}</h4>
                             <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                                 @foreach ($product->images as $image)
-                                    <li wire:key="image-{{ $image->id }}" class="rounded-md border border-gray-200 p-3">
-                                        <img src="{{ Storage::disk('public')->url($image->path) }}" alt="{{ $image->alt_text }}" class="h-28 w-full rounded object-cover">
+                                    <li wire:key="image-{{ $image->id }}" class="rounded-lg border border-gray-200 p-3">
+                                        <img src="{{ Storage::disk('public')->url($image->path) }}" alt="{{ $image->alt_text }}" class="h-28 w-full rounded-lg object-cover">
                                         <p class="mt-2 text-sm text-gray-600">{{ $image->alt_text ?: 'Sem texto alternativo' }}</p>
                                         <p class="text-xs text-gray-500">Ordem {{ $image->sort_order }}</p>
                                         <x-danger-button type="button" class="mt-2" wire:click="deleteProductImage({{ $image->id }})" wire:confirm="Remover esta imagem?">Remover</x-danger-button>
@@ -155,7 +155,7 @@
                 <div class="grid gap-5 md:grid-cols-2">
                     <div>
                         <x-label for="imageProductId" value="Produto" />
-                        <select id="imageProductId" wire:model="imageProductId" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                        <select id="imageProductId" wire:model="imageProductId" class="ds-field mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
                             <option value="">Selecione</option>
                             @foreach ($products->whereNull('deleted_at') as $product)<option value="{{ $product->id }}">{{ $product->name }}</option>@endforeach
                         </select>

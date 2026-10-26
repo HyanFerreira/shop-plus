@@ -69,7 +69,7 @@
                 <p class="text-sm mt-2">
                     {{ __('Seu e-mail ainda não foi verificado.') }}
 
-                    <button type="button" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" wire:click.prevent="sendEmailVerification">
+                    <button type="button" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" wire:click.prevent="sendEmailVerification">
                         {{ __('Reenviar o e-mail de verificação.') }}
                     </button>
                 </p>
