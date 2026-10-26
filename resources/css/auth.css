@@ -83,7 +83,8 @@
     }
     @media (min-width: 1024px) {
         .auth-page--branded { padding: var(--ds-space-4) var(--ds-space-8); }
-        .auth-page--branded .auth-card--split { max-width: calc(var(--ds-storefront-width) + var(--ds-space-16)); grid-template-columns: minmax(0, .55fr) minmax(0, .45fr); border-radius: var(--ds-space-12); background: rgb(var(--ds-navy)); }
+        /* Keep the approved authentication width independent of the storefront. */
+        .auth-page--branded .auth-card--split { max-width: calc(70rem + var(--ds-space-16)); grid-template-columns: minmax(0, .55fr) minmax(0, .45fr); border-radius: var(--ds-space-12); background: rgb(var(--ds-navy)); }
         .auth-page--branded .auth-content { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: var(--ds-space-8); border-radius: var(--ds-space-10) 0 0 var(--ds-space-10); background: linear-gradient(135deg, rgb(var(--ds-surface)), rgb(var(--ds-canvas))); }
         .auth-page--branded .auth-content > :is(.auth-heading, .auth-feedback, .auth-form, .auth-footer) { width: 100%; max-width: 26rem; }
         .auth-page--branded .auth-heading h1 { font-size: var(--ds-text-3xl); line-height: var(--ds-leading-3xl); }

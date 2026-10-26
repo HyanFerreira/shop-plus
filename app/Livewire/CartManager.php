@@ -27,12 +27,14 @@ class CartManager extends Component
         }
         $action->execute(Auth::user(), $itemId, $quantity);
         $this->loadQuantities();
+        $this->dispatch('cart-updated');
     }
 
     public function removeItem(UpdateCartItem $action, int $itemId): void
     {
         $action->execute(Auth::user(), $itemId, 0);
         $this->loadQuantities();
+        $this->dispatch('cart-updated');
     }
 
     private function loadQuantities(): void

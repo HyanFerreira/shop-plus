@@ -39,11 +39,11 @@ class StorefrontStructureTest extends TestCase
         $this->assertSame(1, $xpath->query('//footer')->length);
         $this->assertSame(1, $xpath->query('//main')->length);
         $this->assertSame(1, $xpath->query('//header//nav[@aria-label="Navegação principal"]')->length);
-        $this->assertSame(4, $xpath->query('//header//nav/a')->length);
+        $this->assertSame(4, $xpath->query('//header//nav[@aria-label="Navegação principal"]/a')->length);
         $this->assertSame(1, $xpath->query('//header//form[@role="search"]')->length);
         $this->assertSame(1, $xpath->query('//header//input[@name="q"]')->length);
         $this->assertSame(1, $xpath->query('//header//button[@type="submit"][@aria-label="Buscar produtos"]')->length);
-        $this->assertSame(1, $xpath->query('//header//a[@aria-label="Carrinho"]')->length);
+        $this->assertSame($authenticated ? 1 : 0, $xpath->query('//header//a[@aria-label="Carrinho"]')->length);
 
         $accountUrl = route($authenticated ? 'dashboard' : 'login');
         $this->assertSame(1, $xpath->query('//header//a[@href="'.$accountUrl.'"]')->length);
