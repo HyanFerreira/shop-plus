@@ -1,0 +1,57 @@
+{
+  "route": "/admin/pedidos",
+  "width": 375,
+  "current": {
+    "client": 360,
+    "scroll": 362,
+    "fields": [
+      {
+        "width": 280,
+        "height": 40,
+        "right": 320
+      },
+      {
+        "width": 280,
+        "height": 40,
+        "right": 320
+      },
+      {
+        "width": 198,
+        "height": 40,
+        "right": 238
+      },
+      {
+        "width": 198,
+        "height": 40,
+        "right": 238
+      }
+    ]
+  },
+  "baseline": {
+    "client": 360,
+    "scroll": 362,
+    "fields": [
+      {
+        "width": 280,
+        "height": 42,
+        "right": 320
+      },
+      {
+        "width": 280,
+        "height": 42,
+        "right": 320
+      },
+      {
+        "width": 198,
+        "height": 42,
+        "right": 238
+      },
+      {
+        "width": 198,
+        "height": 42,
+        "right": 238
+      }
+    ]
+  },
+  "baselineSource": "HEAD compiled CSS; original administrative raw field paint/width, without geometry opt-in rules"
+}

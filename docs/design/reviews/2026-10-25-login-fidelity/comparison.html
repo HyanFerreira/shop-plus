@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShopPlus — comparação do login</title>
+<style>
+    body { margin: 0; padding: 24px; background: #f8fafc; color: #0f172a; font: 16px/1.5 system-ui, sans-serif; }
+    h1 { margin: 0 0 8px; font-size: 24px; } p { margin: 0 0 24px; }
+    .comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    figure { margin: 0; } figcaption { margin: 0 0 8px; font-weight: 600; }
+    img { width: 100%; height: auto; display: block; }
+    a { color: #1d4ed8; } .mobile { max-width: 375px; }
+    @media(max-width: 800px) { .comparison { grid-template-columns: 1fr; } }
+</style>
+<h1>ShopPlus — correção da fidelidade visual</h1>
+<p>Capturas reais, mesma viewport CSS e DPR 1. A referência enviada tem 1672×941px incluindo 98px de interface do navegador; a comparação usa a área de página 1672×843px.</p>
+<div class="comparison">
+    <figure><figcaption>Antes — 1672×843 CSS</figcaption><a href="before/login-1672.png"><img src="before/login-1672.png" width="1672" height="843" alt="Login anterior, com card simples e sacolas vetoriais pequenas."></a></figure>
+    <figure><figcaption>Depois — 1672×843 CSS</figcaption><a href="login-1672.png"><img src="login-1672.png" width="1672" height="843" alt="Login corrigido, com curvas, selo, imagem fornecida e formulário com ícones."></a></figure>
+    <figure><figcaption>Antes — desktop 1440×900 CSS</figcaption><a href="before/login-1440.png"><img src="before/login-1440.png" width="1440" height="900" alt="Login antes em desktop de 1440px."></a></figure>
+    <figure><figcaption>Depois — desktop 1440×900 CSS</figcaption><a href="login-1440.png"><img src="login-1440.png" width="1440" height="900" alt="Login depois em desktop de 1440px."></a></figure>
+    <figure class="mobile"><figcaption>Antes — mobile 375×900 CSS</figcaption><a href="before/login-375.png"><img src="before/login-375.png" width="375" height="900" alt="Login anterior no mobile."></a></figure>
+    <figure class="mobile"><figcaption>Depois — mobile 375×900 CSS</figcaption><a href="login-375.png"><img src="login-375.png" width="375" height="900" alt="Login corrigido no mobile."></a></figure>
+</div>
+</html>

@@ -1,0 +1,86 @@
+{
+  "result": "PASS",
+  "conditions": "Guarded SQLite :memory:, fictional fixtures recreated per request; same compiled assets as auth",
+  "smoke": [
+    {
+      "path": "/",
+      "width": 375,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    },
+    {
+      "path": "/catalogo",
+      "width": 375,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    },
+    {
+      "path": "/catalogo",
+      "width": 1440,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    },
+    {
+      "path": "/dashboard",
+      "width": 375,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    },
+    {
+      "path": "/dashboard",
+      "width": 1440,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    },
+    {
+      "path": "/user/profile",
+      "width": 375,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    },
+    {
+      "path": "/user/profile",
+      "width": 1440,
+      "h1": 1,
+      "header": 1,
+      "footer": 1,
+      "overflow": false,
+      "authStyles": false,
+      "alpine": "object"
+    }
+  ]
+}

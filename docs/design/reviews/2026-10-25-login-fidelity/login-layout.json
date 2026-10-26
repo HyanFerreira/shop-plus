@@ -1,0 +1,352 @@
+{
+  "result": "PASS",
+  "reports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "panelVisible": false,
+      "card": {
+        "x": 12,
+        "width": 296,
+        "height": 702
+      },
+      "panel": {
+        "x": 0,
+        "width": 0,
+        "height": 0
+      },
+      "content": {
+        "x": 13,
+        "width": 294,
+        "height": 700
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "16px",
+        "height": "56px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "18px",
+        "height": "64px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "16px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "24px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "48px",
+        "decorative": "\"\""
+      }
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "panelVisible": false,
+      "card": {
+        "x": 16,
+        "width": 343,
+        "height": 674
+      },
+      "panel": {
+        "x": 0,
+        "width": 0,
+        "height": 0
+      },
+      "content": {
+        "x": 17,
+        "width": 341,
+        "height": 672
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "16px",
+        "height": "56px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "18px",
+        "height": "64px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "16px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "24px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "48px",
+        "decorative": "\"\""
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "panelVisible": false,
+      "card": {
+        "x": 152,
+        "width": 464,
+        "height": 690
+      },
+      "panel": {
+        "x": 0,
+        "width": 0,
+        "height": 0
+      },
+      "content": {
+        "x": 153,
+        "width": 462,
+        "height": 688
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "16px",
+        "height": "56px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "18px",
+        "height": "64px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "16px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "24px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "48px",
+        "decorative": "\"\""
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "panelVisible": true,
+      "card": {
+        "x": 32,
+        "width": 960,
+        "height": 738
+      },
+      "panel": {
+        "x": 33,
+        "width": 459.828125,
+        "height": 736
+      },
+      "content": {
+        "x": 492.828125,
+        "width": 498.15625,
+        "height": 736
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "16px",
+        "height": "56px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "18px",
+        "height": "64px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "16px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "32px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "48px",
+        "decorative": "\"\""
+      }
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "panelVisible": true,
+      "card": {
+        "x": 48,
+        "width": 1184,
+        "height": 774
+      },
+      "panel": {
+        "x": 49,
+        "width": 567.359375,
+        "height": 772
+      },
+      "content": {
+        "x": 616.359375,
+        "width": 614.625,
+        "height": 772
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "18px",
+        "height": "56px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "20px",
+        "height": "64px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "16px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "44px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "64px",
+        "decorative": "\"\""
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "panelVisible": true,
+      "card": {
+        "x": 128,
+        "width": 1184,
+        "height": 774
+      },
+      "panel": {
+        "x": 129,
+        "width": 567.359375,
+        "height": 772
+      },
+      "content": {
+        "x": 696.359375,
+        "width": 614.625,
+        "height": 772
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "18px",
+        "height": "56px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "20px",
+        "height": "64px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "16px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "44px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "64px",
+        "decorative": "\"\""
+      }
+    },
+    {
+      "width": 1672,
+      "overflow": false,
+      "panelVisible": true,
+      "card": {
+        "x": 244,
+        "width": 1184,
+        "height": 774
+      },
+      "panel": {
+        "x": 245,
+        "width": 567.359375,
+        "height": 772
+      },
+      "content": {
+        "x": 812.359375,
+        "width": 614.625,
+        "height": 772
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "18px",
+        "height": "56px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "20px",
+        "height": "64px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "16px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "44px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "64px",
+        "decorative": "\"\""
+      }
+    }
+  ],
+  "reflow": {
+    "overflow": false,
+    "width": 640
+  },
+  "checks": [
+    "Password icon toggle: keyboard Enter, input type, aria-pressed, accessible label and visible focus pass",
+    "Existing POST/CSRF, email validation, remember checkbox and loading presentation pass; no submit sent",
+    "Synthetic server error states at 375/1440: associated errors and no overflow",
+    "Without JavaScript: native password/submit usable and inactive toggle hidden",
+    "Register/reset/recovery default presentation stays intact, including textual password toggle and original logo"
+  ]
+}

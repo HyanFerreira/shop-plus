@@ -1,0 +1,796 @@
+{
+  "result": "PASS",
+  "reports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "panelVisible": false,
+      "card": {
+        "x": 12,
+        "width": 296,
+        "height": 598
+      },
+      "panel": {
+        "x": 0,
+        "width": 0,
+        "height": 0
+      },
+      "content": {
+        "x": 13,
+        "width": 294,
+        "height": 596
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "8px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "8px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "24px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "40px",
+        "decorative": "none"
+      },
+      "details": {
+        "inputHeight": 40,
+        "passwordHeight": 40,
+        "buttonHeight": 40,
+        "checkbox": {
+          "width": 16,
+          "height": 16
+        },
+        "link": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "remember": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "fonts": [
+          "16px",
+          "16px",
+          "14px",
+          "14px",
+          "16px"
+        ],
+        "heading": "24px",
+        "institutionalHeading": null,
+        "benefit": null,
+        "detail": null,
+        "removed": [
+          "none",
+          "none",
+          "none"
+        ],
+        "gaps": {
+          "passwordToOptions": 16,
+          "optionsToButton": 16,
+          "buttonToFooter": 24
+        },
+        "rowAligned": false
+      },
+      "proportions": {
+        "font": "14px",
+        "radius": "8px",
+        "padding": "40px",
+        "icon": {
+          "width": 20,
+          "height": 20,
+          "left": 12
+        },
+        "labelGap": 4,
+        "labelWeight": "600",
+        "buttonRadius": "8px",
+        "buttonIcon": 20,
+        "buttonGap": "8px",
+        "cardRadius": "32px"
+      }
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "panelVisible": false,
+      "card": {
+        "x": 16,
+        "width": 343,
+        "height": 542
+      },
+      "panel": {
+        "x": 0,
+        "width": 0,
+        "height": 0
+      },
+      "content": {
+        "x": 17,
+        "width": 341,
+        "height": 540
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "8px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "8px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "24px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "40px",
+        "decorative": "none"
+      },
+      "details": {
+        "inputHeight": 40,
+        "passwordHeight": 40,
+        "buttonHeight": 40,
+        "checkbox": {
+          "width": 16,
+          "height": 16
+        },
+        "link": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "remember": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "fonts": [
+          "16px",
+          "16px",
+          "14px",
+          "14px",
+          "16px"
+        ],
+        "heading": "24px",
+        "institutionalHeading": null,
+        "benefit": null,
+        "detail": null,
+        "removed": [
+          "none",
+          "none",
+          "none"
+        ],
+        "gaps": {
+          "passwordToOptions": 16,
+          "optionsToButton": 16,
+          "buttonToFooter": 24
+        },
+        "rowAligned": true
+      },
+      "proportions": {
+        "font": "14px",
+        "radius": "8px",
+        "padding": "40px",
+        "icon": {
+          "width": 20,
+          "height": 20,
+          "left": 12
+        },
+        "labelGap": 4,
+        "labelWeight": "600",
+        "buttonRadius": "8px",
+        "buttonIcon": 20,
+        "buttonGap": "8px",
+        "cardRadius": "32px"
+      }
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "panelVisible": false,
+      "card": {
+        "x": 152,
+        "width": 464,
+        "height": 574
+      },
+      "panel": {
+        "x": 0,
+        "width": 0,
+        "height": 0
+      },
+      "content": {
+        "x": 153,
+        "width": 462,
+        "height": 572
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "8px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "8px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "24px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "40px",
+        "decorative": "none"
+      },
+      "details": {
+        "inputHeight": 40,
+        "passwordHeight": 40,
+        "buttonHeight": 40,
+        "checkbox": {
+          "width": 16,
+          "height": 16
+        },
+        "link": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "remember": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "fonts": [
+          "16px",
+          "16px",
+          "14px",
+          "14px",
+          "16px"
+        ],
+        "heading": "24px",
+        "institutionalHeading": null,
+        "benefit": null,
+        "detail": null,
+        "removed": [
+          "none",
+          "none",
+          "none"
+        ],
+        "gaps": {
+          "passwordToOptions": 16,
+          "optionsToButton": 16,
+          "buttonToFooter": 24
+        },
+        "rowAligned": true
+      },
+      "proportions": {
+        "font": "14px",
+        "radius": "8px",
+        "padding": "40px",
+        "icon": {
+          "width": 20,
+          "height": 20,
+          "left": 12
+        },
+        "labelGap": 4,
+        "labelWeight": "600",
+        "buttonRadius": "8px",
+        "buttonIcon": 20,
+        "buttonGap": "8px",
+        "cardRadius": "32px"
+      }
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "panelVisible": true,
+      "card": {
+        "x": 32,
+        "width": 960,
+        "height": 738
+      },
+      "panel": {
+        "x": 33,
+        "width": 459.828125,
+        "height": 736
+      },
+      "content": {
+        "x": 492.828125,
+        "width": 498.15625,
+        "height": 736
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "8px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "8px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "32px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "40px",
+        "decorative": "none"
+      },
+      "details": {
+        "inputHeight": 40,
+        "passwordHeight": 40,
+        "buttonHeight": 40,
+        "checkbox": {
+          "width": 16,
+          "height": 16
+        },
+        "link": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "remember": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "fonts": [
+          "16px",
+          "16px",
+          "14px",
+          "14px",
+          "16px"
+        ],
+        "heading": "32px",
+        "institutionalHeading": "32px",
+        "benefit": "16px",
+        "detail": "14px",
+        "removed": [
+          "none",
+          "none",
+          "none"
+        ],
+        "gaps": {
+          "passwordToOptions": 16,
+          "optionsToButton": 16,
+          "buttonToFooter": 24
+        },
+        "rowAligned": true
+      },
+      "proportions": {
+        "font": "14px",
+        "radius": "8px",
+        "padding": "40px",
+        "icon": {
+          "width": 20,
+          "height": 20,
+          "left": 12
+        },
+        "labelGap": 4,
+        "labelWeight": "600",
+        "buttonRadius": "8px",
+        "buttonIcon": 20,
+        "buttonGap": "8px",
+        "cardRadius": "48px"
+      }
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "panelVisible": true,
+      "card": {
+        "x": 48,
+        "width": 1184,
+        "height": 746
+      },
+      "panel": {
+        "x": 49,
+        "width": 567.359375,
+        "height": 744
+      },
+      "content": {
+        "x": 616.359375,
+        "width": 614.625,
+        "height": 744
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "8px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "8px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "32px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "40px",
+        "decorative": "none"
+      },
+      "details": {
+        "inputHeight": 40,
+        "passwordHeight": 40,
+        "buttonHeight": 40,
+        "checkbox": {
+          "width": 16,
+          "height": 16
+        },
+        "link": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "remember": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "fonts": [
+          "16px",
+          "16px",
+          "14px",
+          "14px",
+          "16px"
+        ],
+        "heading": "32px",
+        "institutionalHeading": "32px",
+        "benefit": "16px",
+        "detail": "14px",
+        "removed": [
+          "none",
+          "none",
+          "none"
+        ],
+        "gaps": {
+          "passwordToOptions": 16,
+          "optionsToButton": 16,
+          "buttonToFooter": 24
+        },
+        "rowAligned": true
+      },
+      "proportions": {
+        "font": "14px",
+        "radius": "8px",
+        "padding": "40px",
+        "icon": {
+          "width": 20,
+          "height": 20,
+          "left": 12
+        },
+        "labelGap": 4,
+        "labelWeight": "600",
+        "buttonRadius": "8px",
+        "buttonIcon": 20,
+        "buttonGap": "8px",
+        "cardRadius": "48px"
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "panelVisible": true,
+      "card": {
+        "x": 128,
+        "width": 1184,
+        "height": 746
+      },
+      "panel": {
+        "x": 129,
+        "width": 567.359375,
+        "height": 744
+      },
+      "content": {
+        "x": 696.359375,
+        "width": 614.625,
+        "height": 744
+      },
+      "input": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(255, 255, 255)",
+        "radius": "8px"
+      },
+      "button": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "14px",
+        "height": "40px",
+        "background": "rgb(37, 99, 235)",
+        "radius": "8px"
+      },
+      "title": {
+        "font": "Figtree, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "size": "32px",
+        "height": "0px",
+        "background": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      "geometry": {
+        "controlsInside": true,
+        "imageLoaded": true,
+        "titleCount": 1,
+        "emailPadding": "40px",
+        "decorative": "none"
+      },
+      "details": {
+        "inputHeight": 40,
+        "passwordHeight": 40,
+        "buttonHeight": 40,
+        "checkbox": {
+          "width": 16,
+          "height": 16
+        },
+        "link": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "remember": {
+          "font": "16px",
+          "height": 24,
+          "minHeight": "auto"
+        },
+        "fonts": [
+          "16px",
+          "16px",
+          "14px",
+          "14px",
+          "16px"
+        ],
+        "heading": "32px",
+        "institutionalHeading": "32px",
+        "benefit": "16px",
+        "detail": "14px",
+        "removed": [
+          "none",
+          "none",
+          "none"
+        ],
+        "gaps": {
+          "passwordToOptions": 16,
+          "optionsToButton": 16,
+          "buttonToFooter": 24
+        },
+        "rowAligned": true
+      },
+      "proportions": {
+        "font": "14px",
+        "radius": "8px",
+        "padding": "40px",
+        "icon": {
+          "width": 20,
+          "height": 20,
+          "left": 12
+        },
+        "labelGap": 4,
+        "labelWeight": "600",
+        "buttonRadius": "8px",
+        "buttonIcon": 20,
+        "buttonGap": "8px",
+        "cardRadius": "48px"
+      }
+    }
+  ],
+  "reflow": {
+    "overflow": false,
+    "width": 640
+  },
+  "focus": {
+    "clicked": {
+      "id": "email",
+      "modality": "pointer",
+      "outline": "none",
+      "width": "3px",
+      "offset": "0px",
+      "border": "1px",
+      "shadow": "rgb(37, 99, 235) 0px 0px 0px 1px inset",
+      "color": "rgb(37, 99, 235)",
+      "height": 40
+    },
+    "keyboard": {
+      "id": "email",
+      "modality": "keyboard",
+      "outline": "solid",
+      "width": "1px",
+      "offset": "0px",
+      "border": "1px",
+      "shadow": "rgba(15, 23, 42, 0.04) 0px 1px 2px 0px",
+      "color": "rgb(37, 99, 235)",
+      "height": 40
+    },
+    "passwordFocus": {
+      "id": "password",
+      "modality": "keyboard",
+      "outline": "solid",
+      "width": "1px",
+      "offset": "0px",
+      "border": "1px",
+      "shadow": "rgba(15, 23, 42, 0.04) 0px 1px 2px 0px",
+      "color": "rgba(100, 116, 139, 0.4)",
+      "height": 40
+    }
+  },
+  "components": {
+    "controls": [
+      {
+        "id": "probe-input",
+        "height": 40
+      },
+      {
+        "id": "probe-select",
+        "height": 40
+      },
+      {
+        "id": "legacy-input",
+        "height": 40
+      },
+      {
+        "id": "legacy-select",
+        "height": 40
+      },
+      {
+        "id": "primary sm",
+        "height": 40
+      },
+      {
+        "id": "primary md",
+        "height": 40
+      },
+      {
+        "id": "primary lg",
+        "height": 40
+      },
+      {
+        "id": "secondary sm",
+        "height": 40
+      },
+      {
+        "id": "secondary md",
+        "height": 40
+      },
+      {
+        "id": "secondary lg",
+        "height": 40
+      },
+      {
+        "id": "danger sm",
+        "height": 40
+      },
+      {
+        "id": "danger md",
+        "height": 40
+      },
+      {
+        "id": "danger lg",
+        "height": 40
+      },
+      {
+        "id": "success sm",
+        "height": 40
+      },
+      {
+        "id": "success md",
+        "height": 40
+      },
+      {
+        "id": "success lg",
+        "height": 40
+      },
+      {
+        "id": "Desabilitado",
+        "height": 40
+      },
+      {
+        "id": "disabled-input",
+        "height": 40
+      },
+      {
+        "id": "readonly-input",
+        "height": 40
+      },
+      {
+        "id": "Ação em link",
+        "height": 40
+      }
+    ],
+    "textarea": 90,
+    "checkbox": {
+      "width": 16,
+      "height": 16
+    },
+    "radio": {
+      "width": 16,
+      "height": 16
+    },
+    "icon": {
+      "width": 44,
+      "height": 44
+    },
+    "link": 24,
+    "wrapped": 100,
+    "zoomButton": 68,
+    "zoomInput": 68
+  },
+  "contrast": {
+    "button": 5.168555560022562,
+    "buttonHover": 6.701618401398807,
+    "body": 7.577663953533317,
+    "placeholder": 4.758842787868666,
+    "error": 4.829404522659002,
+    "largeLogo": 3.361865797914661,
+    "benefit": 14.094947643762568
+  },
+  "checks": [
+    "Password icon toggle: keyboard Enter, input type, aria-pressed, accessible label and visible focus pass",
+    "Real pointer click has no outline; Tab/Shift+Tab sets keyboard mode with border1px plus outline1px and offset0, no layout change; pointer removes outline again",
+    "Pointer focus uses border1px plus inset1px for the requested thick border; keyboard uses outline1px attached to border instead, so no3px stacking",
+    "Existing POST/CSRF, email validation, remember checkbox and loading presentation pass; no submit sent",
+    "Synthetic server error states at 375/1440: associated errors and no overflow",
+    "Without JavaScript: native password/submit usable and inactive toggle hidden",
+    "Register/reset/recovery default presentation stays intact, including textual password toggle and original logo",
+    "Real Blade components: all button variants/sizes, inputs, selects, disabled/readonly and legacy geometry40px; checkbox/radio16px, icon44px, text link24px, textarea and enlarged/wrapped text expand",
+    "Reduced-motion preference preserves zero-duration control transitions",
+    "Token color pairs meet normal4.5:1 and large-logo3:1 contrast thresholds, including both gradient ends"
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "result": "PASS",
+  "reports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "y": 165,
+        "bottom": 735,
+        "width": 296,
+        "height": 570
+      },
+      "panel": {
+        "x": 0,
+        "right": 0,
+        "y": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "form": {
+        "x": 13,
+        "right": 307,
+        "y": 166,
+        "bottom": 734,
+        "width": 294,
+        "height": 568
+      },
+      "input": {
+        "x": 33,
+        "right": 287,
+        "y": 398,
+        "bottom": 438,
+        "width": 254,
+        "height": 40
+      },
+      "background": "none",
+      "formRadius": "0px"
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "y": 181,
+        "bottom": 719,
+        "width": 343,
+        "height": 538
+      },
+      "panel": {
+        "x": 0,
+        "right": 0,
+        "y": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "form": {
+        "x": 17,
+        "right": 358,
+        "y": 182,
+        "bottom": 718,
+        "width": 341,
+        "height": 536
+      },
+      "input": {
+        "x": 33,
+        "right": 342,
+        "y": 414,
+        "bottom": 454,
+        "width": 309,
+        "height": 40
+      },
+      "background": "none",
+      "formRadius": "0px"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "y": 165,
+        "bottom": 735,
+        "width": 464,
+        "height": 570
+      },
+      "panel": {
+        "x": 0,
+        "right": 0,
+        "y": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "form": {
+        "x": 153,
+        "right": 615,
+        "y": 166,
+        "bottom": 734,
+        "width": 462,
+        "height": 568
+      },
+      "input": {
+        "x": 185,
+        "right": 583,
+        "y": 414,
+        "bottom": 454,
+        "width": 398,
+        "height": 40
+      },
+      "background": "radial-gradient(at 100% 100%, rgba(37, 99, 235, 0.22), rgba(0, 0, 0, 0) 70%), none",
+      "formRadius": "0px"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "card": {
+        "x": 32,
+        "right": 992,
+        "y": 97,
+        "bottom": 835,
+        "width": 960,
+        "height": 738
+      },
+      "panel": {
+        "x": 33,
+        "right": 532.828125,
+        "y": 98,
+        "bottom": 834,
+        "width": 499.828125,
+        "height": 736
+      },
+      "form": {
+        "x": 492.828125,
+        "right": 990.984375,
+        "y": 98,
+        "bottom": 834,
+        "width": 498.15625,
+        "height": 736
+      },
+      "input": {
+        "x": 540.828125,
+        "right": 942.984375,
+        "y": 400,
+        "bottom": 440,
+        "width": 402.15625,
+        "height": 40
+      },
+      "background": "radial-gradient(at 90% 100%, rgba(37, 99, 235, 0.85), rgba(0, 0, 0, 0) 55%), linear-gradient(135deg, rgb(11, 23, 63), rgba(30, 64, 175, 0.4))",
+      "formRadius": "40px"
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "card": {
+        "x": 48,
+        "right": 1232,
+        "y": 93,
+        "bottom": 839,
+        "width": 1184,
+        "height": 746
+      },
+      "panel": {
+        "x": 49,
+        "right": 656.359375,
+        "y": 94,
+        "bottom": 838,
+        "width": 607.359375,
+        "height": 744
+      },
+      "form": {
+        "x": 616.359375,
+        "right": 1230.984375,
+        "y": 94,
+        "bottom": 838,
+        "width": 614.625,
+        "height": 744
+      },
+      "input": {
+        "x": 680.359375,
+        "right": 1166.984375,
+        "y": 400,
+        "bottom": 440,
+        "width": 486.625,
+        "height": 40
+      },
+      "background": "radial-gradient(at 90% 100%, rgba(37, 99, 235, 0.85), rgba(0, 0, 0, 0) 55%), linear-gradient(135deg, rgb(11, 23, 63), rgba(30, 64, 175, 0.4))",
+      "formRadius": "40px"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "card": {
+        "x": 128,
+        "right": 1312,
+        "y": 93,
+        "bottom": 839,
+        "width": 1184,
+        "height": 746
+      },
+      "panel": {
+        "x": 129,
+        "right": 736.359375,
+        "y": 94,
+        "bottom": 838,
+        "width": 607.359375,
+        "height": 744
+      },
+      "form": {
+        "x": 696.359375,
+        "right": 1310.984375,
+        "y": 94,
+        "bottom": 838,
+        "width": 614.625,
+        "height": 744
+      },
+      "input": {
+        "x": 760.359375,
+        "right": 1246.984375,
+        "y": 400,
+        "bottom": 440,
+        "width": 486.625,
+        "height": 40
+      },
+      "background": "radial-gradient(at 90% 100%, rgba(37, 99, 235, 0.85), rgba(0, 0, 0, 0) 55%), linear-gradient(135deg, rgb(11, 23, 63), rgba(30, 64, 175, 0.4))",
+      "formRadius": "40px"
+    }
+  ]
+}

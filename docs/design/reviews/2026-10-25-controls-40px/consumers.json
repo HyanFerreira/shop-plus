@@ -1,0 +1,3314 @@
+{
+  "result": "PASS (no new regressions)",
+  "conditions": "Guarded SQLite :memory:, fictional fixtures, readonly real routes; normal single-line action/field geometry and preserved special controls.",
+  "reports": [
+    {
+      "path": "/",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "home-newsletter-email",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Ver ofertas →",
+          "tag": "A",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Explorar o catálogo →",
+          "tag": "A",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Cadastrar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Tecnologia comas melhores ofertas",
+          "font": 32
+        },
+        {
+          "text": "Ofertas em destaque",
+          "font": 24
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 14
+        },
+        {
+          "text": "Opções de entrega",
+          "font": 16
+        },
+        {
+          "text": "Pagamento de demonstração",
+          "font": 16
+        },
+        {
+          "text": "Compra com segurança",
+          "font": 16
+        },
+        {
+          "text": "Mais vendidos",
+          "font": 24
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 14
+        },
+        {
+          "text": "Categorias em destaque",
+          "font": 24
+        },
+        {
+          "text": "Eletrônicos",
+          "font": 14
+        },
+        {
+          "text": "Informática",
+          "font": 14
+        },
+        {
+          "text": "Casa e Decoração",
+          "font": 14
+        },
+        {
+          "text": "Moda",
+          "font": 14
+        },
+        {
+          "text": "Esportes",
+          "font": 14
+        },
+        {
+          "text": "Beleza",
+          "font": 14
+        },
+        {
+          "text": "ShopPlus em qualquer tela",
+          "font": 24
+        },
+        {
+          "text": "Novidades por e-mail",
+          "font": 18
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "home-newsletter-email",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Ver ofertas →",
+          "tag": "A",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Explorar o catálogo →",
+          "tag": "A",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Cadastrar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Tecnologia comas melhores ofertas",
+          "font": 32
+        },
+        {
+          "text": "Ofertas em destaque",
+          "font": 24
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 14
+        },
+        {
+          "text": "Opções de entrega",
+          "font": 16
+        },
+        {
+          "text": "Pagamento de demonstração",
+          "font": 16
+        },
+        {
+          "text": "Compra com segurança",
+          "font": 16
+        },
+        {
+          "text": "Mais vendidos",
+          "font": 24
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 14
+        },
+        {
+          "text": "Categorias em destaque",
+          "font": 24
+        },
+        {
+          "text": "Eletrônicos",
+          "font": 14
+        },
+        {
+          "text": "Informática",
+          "font": 14
+        },
+        {
+          "text": "Casa e Decoração",
+          "font": 14
+        },
+        {
+          "text": "Moda",
+          "font": 14
+        },
+        {
+          "text": "Esportes",
+          "font": 14
+        },
+        {
+          "text": "Beleza",
+          "font": 14
+        },
+        {
+          "text": "ShopPlus em qualquer tela",
+          "font": 24
+        },
+        {
+          "text": "Novidades por e-mail",
+          "font": 18
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/catalogo",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "catalogSearch",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "catalogMinPrice",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "catalogMaxPrice",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "catalog-sort-trigger",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "catalog-per-page-trigger",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Catálogo",
+          "font": 32
+        },
+        {
+          "text": "Produtos encontrados",
+          "font": 16
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 14
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/catalogo",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "catalogSearch",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "catalogMinPrice",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "catalogMaxPrice",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "catalog-sort-trigger",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "catalog-per-page-trigger",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Catálogo",
+          "font": 32
+        },
+        {
+          "text": "Produtos encontrados",
+          "font": 16
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 14
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/catalogo/produto-controles",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "product-quantity",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "product-add-submit",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 24
+        },
+        {
+          "text": "Descrição",
+          "font": 24
+        },
+        {
+          "text": "Especificações",
+          "font": 24
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": [
+        {
+          "input": 40,
+          "button": 48,
+          "centerDifference": 0
+        }
+      ]
+    },
+    {
+      "path": "/catalogo/produto-controles",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "product-quantity",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "product-add-submit",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 32
+        },
+        {
+          "text": "Descrição",
+          "font": 24
+        },
+        {
+          "text": "Especificações",
+          "font": 24
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": [
+        {
+          "input": 40,
+          "button": 48,
+          "centerDifference": 0
+        }
+      ]
+    },
+    {
+      "path": "/carrinho",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "cart-quantity-1",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Atualizar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "cart-checkout",
+          "tag": "A",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Meu carrinho",
+          "font": 32
+        },
+        {
+          "text": "Produtos selecionados",
+          "font": 20
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 16
+        },
+        {
+          "text": "Resumo do pedido",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": [
+        {
+          "input": 40,
+          "button": 44,
+          "centerDifference": 0
+        }
+      ]
+    },
+    {
+      "path": "/carrinho",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "cart-quantity-1",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Atualizar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "cart-checkout",
+          "tag": "A",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Meu carrinho",
+          "font": 32
+        },
+        {
+          "text": "Produtos selecionados",
+          "font": 20
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 16
+        },
+        {
+          "text": "Resumo do pedido",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": [
+        {
+          "input": 40,
+          "button": 44,
+          "centerDifference": 0
+        }
+      ]
+    },
+    {
+      "path": "/checkout",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "address",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "checkout-confirm",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Finalizar pedido",
+          "font": 32
+        },
+        {
+          "text": "Produtos selecionados",
+          "font": 20
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 16
+        },
+        {
+          "text": "Endereço de entrega",
+          "font": 20
+        },
+        {
+          "text": "Modalidade de entrega",
+          "font": 20
+        },
+        {
+          "text": "Resumo do pedido",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/checkout",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "address",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "checkout-confirm",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Finalizar pedido",
+          "font": 32
+        },
+        {
+          "text": "Produtos selecionados",
+          "font": 20
+        },
+        {
+          "text": "Smartphone fictício de teste",
+          "font": 16
+        },
+        {
+          "text": "Endereço de entrega",
+          "font": 20
+        },
+        {
+          "text": "Modalidade de entrega",
+          "font": 20
+        },
+        {
+          "text": "Resumo do pedido",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/dashboard",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [],
+      "headings": [
+        {
+          "text": "Olá, Cliente",
+          "font": 32
+        },
+        {
+          "text": "Pedidos recentes",
+          "font": 20
+        },
+        {
+          "text": "ORD-ACCOUNT-3",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-2",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-1",
+          "font": 16
+        },
+        {
+          "text": "Meus dados",
+          "font": 16
+        },
+        {
+          "text": "Perfil e segurança",
+          "font": 16
+        },
+        {
+          "text": "Continuar comprando",
+          "font": 16
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/dashboard",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [],
+      "headings": [
+        {
+          "text": "Olá, Cliente",
+          "font": 32
+        },
+        {
+          "text": "Pedidos recentes",
+          "font": 20
+        },
+        {
+          "text": "ORD-ACCOUNT-3",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-2",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-1",
+          "font": 16
+        },
+        {
+          "text": "Meus dados",
+          "font": 16
+        },
+        {
+          "text": "Perfil e segurança",
+          "font": 16
+        },
+        {
+          "text": "Continuar comprando",
+          "font": 16
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/meus-dados",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "cpf",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "birthDate",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "phoneNumber",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "phoneType",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressLabel",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressRecipient",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressPostalCode",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressStreet",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressNumber",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressComplement",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressDistrict",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressCity",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressState",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Salvar identificação",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar telefone",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar endereço",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Meus dados",
+          "font": 32
+        },
+        {
+          "text": "Cliente Fictício de Teste",
+          "font": 18
+        },
+        {
+          "text": "Identificação",
+          "font": 20
+        },
+        {
+          "text": "Telefones",
+          "font": 20
+        },
+        {
+          "text": "Endereços",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/meus-dados",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "cpf",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "birthDate",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "phoneNumber",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "phoneType",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressLabel",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressRecipient",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressPostalCode",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressStreet",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressNumber",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressComplement",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressDistrict",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressCity",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "addressState",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Salvar identificação",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar telefone",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar endereço",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Meus dados",
+          "font": 32
+        },
+        {
+          "text": "Cliente Fictício de Teste",
+          "font": 18
+        },
+        {
+          "text": "Identificação",
+          "font": 20
+        },
+        {
+          "text": "Telefones",
+          "font": 20
+        },
+        {
+          "text": "Endereços",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/user/profile",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "current_password",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Salvar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Ativar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Encerrar outras sessões",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Excluir conta",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Perfil e segurança",
+          "font": 32
+        },
+        {
+          "text": "Informações do perfil",
+          "font": 20
+        },
+        {
+          "text": "Atualizar senha",
+          "font": 20
+        },
+        {
+          "text": "Autenticação de dois fatores",
+          "font": 20
+        },
+        {
+          "text": "A autenticação de dois fatores ainda não está ativada.",
+          "font": 20
+        },
+        {
+          "text": "Sessões do navegador",
+          "font": 20
+        },
+        {
+          "text": "Excluir conta",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/user/profile",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "current_password",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Salvar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Ativar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Encerrar outras sessões",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Excluir conta",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Perfil e segurança",
+          "font": 32
+        },
+        {
+          "text": "Informações do perfil",
+          "font": 20
+        },
+        {
+          "text": "Atualizar senha",
+          "font": 20
+        },
+        {
+          "text": "Autenticação de dois fatores",
+          "font": 20
+        },
+        {
+          "text": "A autenticação de dois fatores ainda não está ativada.",
+          "font": 20
+        },
+        {
+          "text": "Sessões do navegador",
+          "font": 20
+        },
+        {
+          "text": "Excluir conta",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/catalogo",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "categoryName",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "categoryStatus",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productCategoryId",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productName",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productSku",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productPrice",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productWeight",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productStatus",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productWidth",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productHeight",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productLength",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "imageProductId",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "imageAltText",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "imageSortOrder",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 64,
+          "rows": 2,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar categoria",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 88,
+          "rows": 3,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 184,
+          "rows": 7,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar produto",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar imagem",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Gerenciar catálogo",
+          "font": 20
+        },
+        {
+          "text": "Categorias",
+          "font": 18
+        },
+        {
+          "text": "Produtos",
+          "font": 18
+        },
+        {
+          "text": "Imagens dos produtos",
+          "font": 18
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/catalogo",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "categoryName",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "categoryStatus",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productCategoryId",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productName",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productSku",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productPrice",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productWeight",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productStatus",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productWidth",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productHeight",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "productLength",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "imageProductId",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "imageAltText",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "imageSortOrder",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar categoria",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Editar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Remover",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar produto",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar imagem",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Gerenciar catálogo",
+          "font": 20
+        },
+        {
+          "text": "Categorias",
+          "font": 18
+        },
+        {
+          "text": "Produtos",
+          "font": 18
+        },
+        {
+          "text": "Imagens dos produtos",
+          "font": 18
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/abastecimento",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierName",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierDocument",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierEmail",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierPhone",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierAddress",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Fornecedor",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "ProdutoSmartphone fictício de teste",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Fornecedor",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Produto vinculadoSmartphone fictício de teste",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Ordem emitida",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Item",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "ProdutoSmartphone fictício de teste",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Salvar fornecedor",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar custo",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Criar rascunho",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Registrar recebimento",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Ajustar estoque",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Abastecimento e estoque",
+          "font": 20
+        },
+        {
+          "text": "Fornecedores fictícios",
+          "font": 18
+        },
+        {
+          "text": "Custos por fornecedor",
+          "font": 18
+        },
+        {
+          "text": "Ordens de compra",
+          "font": 18
+        },
+        {
+          "text": "Estoque",
+          "font": 18
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/abastecimento",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierName",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierDocument",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierEmail",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierPhone",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "supplierAddress",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Fornecedor",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "ProdutoSmartphone fictício de teste",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Fornecedor",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Produto vinculadoSmartphone fictício de teste",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Ordem emitida",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Item",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "ProdutoSmartphone fictício de teste",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Salvar fornecedor",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Salvar custo",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Criar rascunho",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Registrar recebimento",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Ajustar estoque",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Abastecimento e estoque",
+          "font": 20
+        },
+        {
+          "text": "Fornecedores fictícios",
+          "font": 18
+        },
+        {
+          "text": "Custos por fornecedor",
+          "font": 18
+        },
+        {
+          "text": "Ordens de compra",
+          "font": 18
+        },
+        {
+          "text": "Estoque",
+          "font": 18
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/pedidos",
+      "width": 375,
+      "overflow": true,
+      "overflowBy": 2,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Próximo estadoout_for_deliveryfailedreturned",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Atualizar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Reembolsar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Reembolsar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Pedidos e entregas",
+          "font": 20
+        },
+        {
+          "text": "ORD-ACCOUNT-1",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-2",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-3",
+          "font": 16
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": [],
+      "note": "Existing 2px admin-orders overflow reproduced with baseline CSS; unchanged by control geometry"
+    },
+    {
+      "path": "/admin/pedidos",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "Próximo estadoout_for_deliveryfailedreturned",
+          "tag": "SELECT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Atualizar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Reembolsar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        },
+        {
+          "id": "Reembolsar",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Pedidos e entregas",
+          "font": 20
+        },
+        {
+          "text": "ORD-ACCOUNT-1",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-2",
+          "font": 16
+        },
+        {
+          "text": "ORD-ACCOUNT-3",
+          "font": 16
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/auditoria",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [],
+      "headings": [
+        {
+          "text": "Auditoria",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/auditoria",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [],
+      "headings": [
+        {
+          "text": "Auditoria",
+          "font": 20
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/usuarios",
+      "width": 375,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Criar administrador",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Usuários e administradores",
+          "font": 20
+        },
+        {
+          "text": "Novo administrador",
+          "font": 16
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    },
+    {
+      "path": "/admin/usuarios",
+      "width": 1440,
+      "overflow": false,
+      "overflowBy": 0,
+      "fields": [
+        {
+          "id": "storefront-search",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        },
+        {
+          "id": "",
+          "tag": "INPUT",
+          "height": 40,
+          "rows": 0,
+          "font": "16px"
+        }
+      ],
+      "actions": [
+        {
+          "id": "Criar administrador",
+          "tag": "BUTTON",
+          "height": 40,
+          "rows": 1,
+          "font": "16px"
+        }
+      ],
+      "headings": [
+        {
+          "text": "Usuários e administradores",
+          "font": 20
+        },
+        {
+          "text": "Novo administrador",
+          "font": 16
+        },
+        {
+          "text": "Institucional",
+          "font": 14
+        },
+        {
+          "text": "Atendimento",
+          "font": 14
+        },
+        {
+          "text": "Minha Conta",
+          "font": 14
+        },
+        {
+          "text": "Categorias",
+          "font": 14
+        }
+      ],
+      "search": {
+        "width": 44,
+        "height": 44
+      },
+      "nav": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "quantity": []
+    }
+  ],
+  "baselineLimitations": [
+    "Existing 2px overflow at /admin/pedidos375, unchanged against baseline CSS; see admin-orders-baseline.json"
+  ]
+}

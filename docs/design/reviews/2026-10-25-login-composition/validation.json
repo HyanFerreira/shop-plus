@@ -1,0 +1,8694 @@
+{
+  "conditions": "Chrome headless real; CSS widths; DPR1. Guarded SQLite :memory: recreated per request. Preview-only routes render actual auth views with synthetic errors; no production feature toggles or backend changes.",
+  "reports": [
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 656
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 167.84375,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 190.59375,
+          "right": 268.484375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 628
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 191.15625,
+          "right": 326,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 218.09375,
+          "right": 295.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 644
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 448.15625,
+          "right": 583,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 414.59375,
+          "right": 492.484375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 32,
+        "right": 992,
+        "width": 960,
+        "height": 730
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 81,
+          "right": 214.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 873.390625,
+          "right": 939,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 808.15625,
+          "right": 943,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 782.09375,
+          "right": 859.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 80,
+        "right": 1200,
+        "width": 1120,
+        "height": 706
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 129,
+          "right": 262.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1081.390625,
+          "right": 1147,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1016.15625,
+          "right": 1151,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 950.09375,
+          "right": 1027.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 160,
+        "right": 1280,
+        "width": 1120,
+        "height": 706
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 209,
+          "right": 342.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1161.390625,
+          "right": 1227,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1096.15625,
+          "right": 1231,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1030.09375,
+          "right": 1107.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 886
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 167.84375,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 190.59375,
+          "right": 268.484375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "login",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 838
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 191.15625,
+          "right": 326,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 218.09375,
+          "right": 295.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "login",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 834
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 448.15625,
+          "right": 583,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 414.59375,
+          "right": 492.484375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "login",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 32,
+        "right": 992,
+        "width": 960,
+        "height": 806
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 81,
+          "right": 214.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 873.390625,
+          "right": 939,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 808.15625,
+          "right": 943,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 782.09375,
+          "right": 859.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "login",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 80,
+        "right": 1200,
+        "width": 1120,
+        "height": 762
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 129,
+          "right": 262.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1081.390625,
+          "right": 1147,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1016.15625,
+          "right": 1151,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 950.09375,
+          "right": 1027.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "login",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 160,
+        "right": 1280,
+        "width": 1120,
+        "height": 762
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 209,
+          "right": 342.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1161.390625,
+          "right": 1227,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1096.15625,
+          "right": 1231,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1030.09375,
+          "right": 1107.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "login",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 762
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 167.84375,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 190.59375,
+          "right": 268.484375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 734
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 191.15625,
+          "right": 326,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 218.09375,
+          "right": 295.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 730
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 448.15625,
+          "right": 583,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 414.59375,
+          "right": 492.484375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 32,
+        "right": 992,
+        "width": 960,
+        "height": 730
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 81,
+          "right": 214.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 873.390625,
+          "right": 939,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 808.15625,
+          "right": 943,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 560,
+          "right": 943,
+          "width": 383,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 782.09375,
+          "right": 859.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 80,
+        "right": 1200,
+        "width": 1120,
+        "height": 706
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 129,
+          "right": 262.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1081.390625,
+          "right": 1147,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1016.15625,
+          "right": 1151,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 688,
+          "right": 1151,
+          "width": 463,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 950.09375,
+          "right": 1027.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 160,
+        "right": 1280,
+        "width": 1120,
+        "height": 706
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 209,
+          "right": 342.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1161.390625,
+          "right": 1227,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1096.15625,
+          "right": 1231,
+          "width": 134.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 768,
+          "right": 1231,
+          "width": 463,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 1030.09375,
+          "right": 1107.984375,
+          "width": 77.890625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "login",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 789
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 186.859375,
+          "right": 255.921875,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 781
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 214.359375,
+          "right": 283.421875,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 752,
+        "width": 736,
+        "height": 729
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 182.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 649.390625,
+          "right": 715,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 649.390625,
+          "right": 715,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 566.828125,
+          "right": 635.890625,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 112,
+        "right": 912,
+        "width": 800,
+        "height": 729
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 145,
+          "right": 278.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 809.390625,
+          "right": 875,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 809.390625,
+          "right": 875,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 708.4375,
+          "right": 777.5,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 240,
+        "right": 1040,
+        "width": 800,
+        "height": 729
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 273,
+          "right": 406.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 937.390625,
+          "right": 1003,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 937.390625,
+          "right": 1003,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 836.4375,
+          "right": 905.5,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 320,
+        "right": 1120,
+        "width": 800,
+        "height": 729
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 353,
+          "right": 486.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1017.390625,
+          "right": 1083,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1017.390625,
+          "right": 1083,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 916.4375,
+          "right": 985.5,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 305,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 293,
+        "width": 281,
+        "height": 1127
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 272,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 272,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 272,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 202.390625,
+          "right": 268,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 272,
+          "width": 239,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 202.390625,
+          "right": 268,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 272,
+          "width": 239,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 179.359375,
+          "right": 248.421875,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "name",
+          "associated": true
+        },
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "register",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 360,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 344,
+        "width": 328,
+        "height": 1123
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 311,
+          "width": 262,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 311,
+          "width": 262,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 311,
+          "width": 262,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 241.390625,
+          "right": 307,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 311,
+          "width": 262,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 241.390625,
+          "right": 307,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 311,
+          "width": 262,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 206.859375,
+          "right": 275.921875,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "name",
+          "associated": true
+        },
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "register",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 753,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 737,
+        "width": 721,
+        "height": 967
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 182.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 354.5625,
+          "right": 704,
+          "width": 349.4375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 354.5625,
+          "right": 704,
+          "width": 349.4375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 354.5625,
+          "right": 704,
+          "width": 349.4375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 634.390625,
+          "right": 700,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 354.5625,
+          "right": 704,
+          "width": 349.4375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 634.390625,
+          "right": 700,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 354.5625,
+          "right": 704,
+          "width": 349.4375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 556.140625,
+          "right": 625.203125,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "name",
+          "associated": true
+        },
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "register",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1009,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 104.5,
+        "right": 904.5,
+        "width": 800,
+        "height": 967
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 137.5,
+          "right": 271.3125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 476.640625,
+          "right": 871.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 476.640625,
+          "right": 871.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 476.640625,
+          "right": 871.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 801.890625,
+          "right": 867.5,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 476.640625,
+          "right": 871.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 801.890625,
+          "right": 867.5,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 476.640625,
+          "right": 871.5,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 700.9375,
+          "right": 770,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "name",
+          "associated": true
+        },
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "register",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1265,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 232.5,
+        "right": 1032.5,
+        "width": 800,
+        "height": 967
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 265.5,
+          "right": 399.3125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 604.640625,
+          "right": 999.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 604.640625,
+          "right": 999.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 604.640625,
+          "right": 999.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 929.890625,
+          "right": 995.5,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 604.640625,
+          "right": 999.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 929.890625,
+          "right": 995.5,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 604.640625,
+          "right": 999.5,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 828.9375,
+          "right": 898,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "name",
+          "associated": true
+        },
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "register",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1425,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 312.5,
+        "right": 1112.5,
+        "width": 800,
+        "height": 967
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 345.5,
+          "right": 479.3125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 684.640625,
+          "right": 1079.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 684.640625,
+          "right": 1079.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 684.640625,
+          "right": 1079.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1009.890625,
+          "right": 1075.5,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 684.640625,
+          "right": 1079.5,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1009.890625,
+          "right": 1075.5,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 684.640625,
+          "right": 1079.5,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 908.9375,
+          "right": 978,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "name",
+          "associated": true
+        },
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "register",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 895
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 186.859375,
+          "right": 255.921875,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 887
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 214.359375,
+          "right": 283.421875,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 752,
+        "width": 736,
+        "height": 815
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 182.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 649.390625,
+          "right": 715,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 649.390625,
+          "right": 715,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 360.9375,
+          "right": 719,
+          "width": 358.0625,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 566.828125,
+          "right": 635.890625,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 112,
+        "right": 912,
+        "width": 800,
+        "height": 815
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 145,
+          "right": 278.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 809.390625,
+          "right": 875,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 809.390625,
+          "right": 875,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 484.140625,
+          "right": 879,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 708.4375,
+          "right": 777.5,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 240,
+        "right": 1040,
+        "width": 800,
+        "height": 815
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 273,
+          "right": 406.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 937.390625,
+          "right": 1003,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 937.390625,
+          "right": 1003,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 612.140625,
+          "right": 1007,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 836.4375,
+          "right": 905.5,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 320,
+        "right": 1120,
+        "width": 800,
+        "height": 815
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 353,
+          "right": 486.8125,
+          "width": 133.8125,
+          "height": 44
+        },
+        {
+          "id": "name",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1017.390625,
+          "right": 1083,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 1017.390625,
+          "right": 1083,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 692.140625,
+          "right": 1087,
+          "width": 394.859375,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 916.4375,
+          "right": 985.5,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "register",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 592.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 188.171875,
+          "right": 257.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 608.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 215.671875,
+          "right": 284.734375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 608.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 412.171875,
+          "right": 481.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 608.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 540.171875,
+          "right": 609.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 608.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 668.171875,
+          "right": 737.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 608.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 748.171875,
+          "right": 817.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 754.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 188.171875,
+          "right": 257.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        }
+      ],
+      "screen": "forgot-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 770.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 215.671875,
+          "right": 284.734375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        }
+      ],
+      "screen": "forgot-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 750.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 412.171875,
+          "right": 481.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        }
+      ],
+      "screen": "forgot-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 750.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 540.171875,
+          "right": 609.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        }
+      ],
+      "screen": "forgot-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 750.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 668.171875,
+          "right": 737.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        }
+      ],
+      "screen": "forgot-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 750.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 748.171875,
+          "right": 817.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        }
+      ],
+      "screen": "forgot-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 698.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 188.171875,
+          "right": 257.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 714.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 215.671875,
+          "right": 284.734375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 694.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 412.171875,
+          "right": 481.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 694.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 540.171875,
+          "right": 609.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 694.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 668.171875,
+          "right": 737.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 694.59375
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 748.171875,
+          "right": 817.234375,
+          "width": 69.0625,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "forgot-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 669
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 113.953125,
+          "right": 206.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 685
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 141.453125,
+          "right": 233.53125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 661
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 337.953125,
+          "right": 430.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 661
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 465.953125,
+          "right": 558.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 661
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 593.953125,
+          "right": 686.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 661
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 673.953125,
+          "right": 766.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 899
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 113.953125,
+          "right": 206.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "reset-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 895
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 141.453125,
+          "right": 233.53125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "reset-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 851
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 337.953125,
+          "right": 430.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "reset-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 851
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 465.953125,
+          "right": 558.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "reset-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 851
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 593.953125,
+          "right": 686.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "reset-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 851
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 673.953125,
+          "right": 766.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "email",
+          "associated": true
+        },
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "reset-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 775
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 113.953125,
+          "right": 206.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 791
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 141.453125,
+          "right": 233.53125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 747
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 337.953125,
+          "right": 430.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 747
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 465.953125,
+          "right": 558.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 747
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 593.953125,
+          "right": 686.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 747
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "email",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "password_confirmation",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 673.953125,
+          "right": 766.03125,
+          "width": 92.078125,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "reset-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 372
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 388
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 388
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 388
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 388
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 388
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 554
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        }
+      ],
+      "invalid": [
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "confirm-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 550
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        }
+      ],
+      "invalid": [
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "confirm-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 550
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "confirm-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 550
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "confirm-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 550
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "confirm-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 550
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [
+        {
+          "id": "password",
+          "associated": true
+        }
+      ],
+      "screen": "confirm-password",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 478
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 217.390625,
+          "right": 283,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 494
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 256.390625,
+          "right": 322,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 474
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 513.390625,
+          "right": 579,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 474
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 641.390625,
+          "right": 707,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 474
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 769.390625,
+          "right": 835,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 474
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "password",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 849.390625,
+          "right": 915,
+          "width": 65.609375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        }
+      ],
+      "invalid": [],
+      "screen": "confirm-password",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 452
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 74
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 107.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 203.78125,
+          "right": 287,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 444
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 123.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 242.78125,
+          "right": 326,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 420
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 259.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 499.78125,
+          "right": 583,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 420
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 387.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 627.78125,
+          "right": 711,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 420
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 515.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 755.78125,
+          "right": 839,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 420
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 595.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 835.78125,
+          "right": 919,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 578
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 74
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 107.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 203.78125,
+          "right": 287,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 550
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 123.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 242.78125,
+          "right": 326,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 526
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 259.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 499.78125,
+          "right": 583,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 526
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 387.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 627.78125,
+          "right": 711,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 526
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 515.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 755.78125,
+          "right": 839,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 526
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 595.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 835.78125,
+          "right": 919,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 558
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 74
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 107.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 203.78125,
+          "right": 287,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 550
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 123.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 242.78125,
+          "right": 326,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 506
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 259.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 499.78125,
+          "right": 583,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 506
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 387.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 627.78125,
+          "right": 711,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 506
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 515.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 755.78125,
+          "right": 839,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 506
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 595.578125,
+          "width": 74.578125,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 835.78125,
+          "right": 919,
+          "width": 83.21875,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "verify-email",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 512
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 528
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 496
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 496
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 496
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 496
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "initial"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 674
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "code",
+          "associated": true
+        }
+      ],
+      "screen": "two-factor-challenge",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 690
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "code",
+          "associated": true
+        }
+      ],
+      "screen": "two-factor-challenge",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 618
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "code",
+          "associated": true
+        }
+      ],
+      "screen": "two-factor-challenge",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 618
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "code",
+          "associated": true
+        }
+      ],
+      "screen": "two-factor-challenge",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 618
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "code",
+          "associated": true
+        }
+      ],
+      "screen": "two-factor-challenge",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 618
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [
+        {
+          "id": "code",
+          "associated": true
+        }
+      ],
+      "screen": "two-factor-challenge",
+      "state": "error"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 12,
+        "right": 308,
+        "width": 296,
+        "height": 618
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 33,
+          "right": 145.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 33,
+          "right": 287,
+          "width": 254,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 16,
+        "right": 359,
+        "width": 343,
+        "height": 634
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 49,
+          "right": 161.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 49,
+          "right": 326,
+          "width": 277,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 152,
+        "right": 616,
+        "width": 464,
+        "height": 582
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 185,
+          "right": 297.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 185,
+          "right": 583,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1024,
+      "clientWidth": 1024,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 280,
+        "right": 744,
+        "width": 464,
+        "height": 582
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 313,
+          "right": 425.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 313,
+          "right": 711,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1280,
+      "clientWidth": 1280,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 408,
+        "right": 872,
+        "width": 464,
+        "height": 582
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 441,
+          "right": 553.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 441,
+          "right": 839,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "success"
+    },
+    {
+      "title": "ShopPlus",
+      "h1": 1,
+      "headers": 0,
+      "footers": 0,
+      "width": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "logos": 1,
+      "card": {
+        "x": 488,
+        "right": 952,
+        "width": 464,
+        "height": 582
+      },
+      "controls": [
+        {
+          "id": "",
+          "tag": "A",
+          "x": 521,
+          "right": 633.84375,
+          "width": 112.84375,
+          "height": 44
+        },
+        {
+          "id": "code",
+          "tag": "INPUT",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 50
+        },
+        {
+          "id": "",
+          "tag": "BUTTON",
+          "x": 521,
+          "right": 919,
+          "width": 398,
+          "height": 44
+        }
+      ],
+      "invalid": [],
+      "screen": "two-factor-challenge",
+      "state": "success"
+    }
+  ],
+  "checks": [
+    "7 screens x3 states x6 widths =126 render checks; no overflow; one heading/visible logo; no store header/footer; controls >=44px; error associations",
+    "Real /login: keyboard Enter toggles password, aria-pressed, visible focus",
+    "Loading state disables submit and exposes aria-busy; inputs and CSRF remain enabled",
+    "Without JavaScript bundles: password input and submit remain usable; native required/email validation and real navigation links checked",
+    "Password accessible label changes to Ocultar senha: Senha after toggling"
+  ]
+}
