@@ -7,12 +7,17 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600,700,800,900&display=swap" rel="stylesheet" />
+        @if (request()->routeIs('login', 'register', 'password.request'))
+            @include('partials.auth-fonts')
+        @else
+            <link rel="preconnect" href="https://fonts.bunny.net">
+            <link href="https://fonts.bunny.net/css?family=figtree:400,500,600,700,800,900&display=swap" rel="stylesheet" />
+        @endif
 
-        <!-- Scripts -->
+        <!-- Render-blocking CSS stays in the head in both Vite delivery modes. -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        @stack('auth-image-preload')
 
         <!-- Styles -->
         @livewireStyles
