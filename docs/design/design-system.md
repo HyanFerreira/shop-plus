@@ -49,20 +49,23 @@ Os componentes centrais usam `--ds-weight-regular/medium/semibold/bold` (400/500
 | `xl` | 1.25 / 1.75 | 20/28px | Logo, preço ou subtítulo |
 | `2xl` | 1.5 / 2 | 24/32px | Título de seção |
 | `3xl` | 2 / 2.5 | 32/40px | Título de página e preço principal |
-| `hero` | 2.75 / 3.25 | 44/52px | Hero desktop; reduzir para 3xl em telas menores |
+| `hero` | alias de 3xl | 32/40px | Nome legado, respeitando o limite de títulos |
 
 A escala é reutilizável via propriedades CSS, por exemplo `font-size: var(--ds-text-2xl); line-height: var(--ds-leading-2xl)`. Não altera automaticamente os títulos de todas as páginas. **Não usar 9, 10 ou 11px em informação relevante**; ocorrências locais existentes ficam pendentes de migração. Preços e nomes importantes devem ter pelo menos 14px. Não reduzir fontes para preservar colunas.
+
+**Revisão de 25/10/2026:** títulos de conteúdo têm limite de **2rem (32px)**. Títulos menores continuam permitidos em telas pequenas. O token hero agora é alias de 3xl; seus consumidores conhecidos (Home e login) respeitam o limite sem seletor global de headings. Marca, ícones e elementos gráficos não são headings e mantêm suas proporções.
 
 ## Geometria e interação
 
 - Espaços `--ds-space-1/2/3/4/5/6/8/10/12/16`: 4/8/12/16/20/24/32/40/48/64px equivalentes, em rem.
-- Raios `--ds-radius-xs/sm/md/lg`: 4/8/12/16px; `--ds-radius-pill`: 9999px.
+- Raios `--ds-radius-xs/sm/md/lg`: 4/8/8/8px; `--ds-radius-pill`: 9999px. Superfícies e controles retangulares usam8px (`rounded-lg`); o card externo e os painéis do login preservam32/48/40px. Checkbox pequeno, círculos, avatares e badges mantêm sua geometria própria.
 - `--ds-border-width`: 1px.
 - `--ds-shadow-control`: 0 1px 2px com ink a 4%.
 - `--ds-shadow-card`: 0 1px 2px a 4% e 0 8px 24px a 5%; geometria legada preservada.
 - `--ds-shadow-raised`: 0 8px 24px a 8%, disponível para superfícies elevadas.
-- `--ds-control-sm/md/lg`: 36/44/48px equivalentes, como **altura mínima**, permitindo texto em múltiplas linhas.
-- Foco: `--ds-focus-width` 2px, `--ds-focus-offset` 2px, azul principal.
+- `--ds-control-sm/md/lg`: **40px (2.5rem)** para controles tradicionais de formulário, em apresentação normal. A altura usa mínimo e padding calculado com line-height/borda; texto ampliado ou em múltiplas linhas pode expandir, sem cortes.
+- `--ds-target-sm/md/lg`: 36/44/48px para escolhas, navegação, paginação e ícones isolados que já usavam essas medidas. Não aplicar a links textuais; não confundir com altura de inputs/botões tradicionais.
+- Foco: `--ds-focus-width` **1px**, `--ds-focus-offset` **0px**, azul principal. No campo, a borda nativa de1px soma-se ao outline de1px colado ao usar Tab/Shift+Tab; clique usa reforço interno de1px, sem outline externo. Os dois estados têm aparência de2px sem alterar os40px do controle. `focus-modality.js` registra somente Tab/ponteiro para distinguir os estados; não interfere em submissão, validações ou atalhos. Sem JavaScript, permanece o fallback nativo `:focus-visible`, com1px/offset0.
 - Transições: `--ds-duration` 150ms, `--ds-easing` ease-in-out; removidas em botões/campos com preferência por movimento reduzido.
 - `--ds-disabled-opacity`: .6 em botões e checkboxes; campos desabilitados usam superfície alternativa e texto muted.
 
@@ -79,7 +82,9 @@ Reutilize `x-button` para ações e seus aliases existentes. Não duplique cores
 <x-button variant="success">Confirmar recebimento</x-button>
 ```
 
-As quatro variantes são `primary` (azul), `secondary` (branco com borda), `danger` (vermelho) e `success` (verde escuro). Tamanhos: `sm` 36px, `md` 44px (padrão) e `lg` 48px mínimos. Texto: 14px em sm/md e 16px em lg; padding vertical/horizontal: 4/12, 8/16 e 12/20px respectivamente.
+As quatro variantes são `primary` (azul), `secondary` (branco com borda), `danger` (vermelho) e `success` (verde escuro). Os tamanhos `sm`, `md` (padrão) e `lg` têm **40px de altura visual normal**, com texto14/20px e ícones20px, proporcionais à altura. Padding horizontal: sm/md12px e lg16px. O padding vertical inclui a borda no cálculo: `(altura - line-height) / 2 - borda`, evitando que40px mínimos resultem em alturas reais maiores. A altura é natural, com mínimo de40px, permitindo quebra/zoom sem cortar conteúdo. `ds-action` aplica a tipografia/geometria aos botões administrativos legados, preservando suas cores e eventos.
+
+Botões tradicionais incluem Entrar, Salvar, Confirmar, Cadastrar e Finalizar; links com aparência de botão seguem o mesmo contrato. Botões que parecem links, checkboxes, radios, ícones isolados, badges, chips, navegação e textareas não recebem esse tamanho automaticamente. Quantidade preserva seus botões especiais de 44/48px, alinhados ao centro do input de 40px.
 
 O tipo padrão de `x-button` continua `submit`; os aliases continuam `button`. Variante inválida mantém fallback primary; tamanho inválido mantém md. Atributos, eventos e bindings são encaminhados sem alterações.
 
@@ -91,21 +96,23 @@ Para navegação, preserve `<a>` com `ds-button ds-button--primary` (ou outra va
 
 Use `x-label`, `x-input` e `x-input-error for="campo"`. Para texto auxiliar, aplique `ds-help`.
 
-- `x-input`: API `disabled=false` preservada; altura mínima 44px, texto 16/24px, padding 8/12px, largura padrão 100%, limite de 100% e min-width zero. Utilitários como `w-20` continuam podendo sobrescrever a largura.
+- `x-input` e selects com `ds-input`: API `disabled=false` preservada; **40px de altura visual normal**, texto14/20px, padding vertical calculado (9px com raiz16px e borda1px), horizontal12px, largura padrão100%, limite100% e min-width zero. `ds-field` oferece a mesma geometria/tipografia aos campos/selects administrativos legados, preservando larguras/pintura. Textarea, select múltiplo e arquivo mantêm dimensões próprias e texto16/24px. No login, prefixo20px a12px da esquerda e padding do texto40px: gap visual próximo de8px, igual em todos os breakpoints. Toggle20px dentro de32px; ícone da ação20px e gap8px.
 - Hover destaca a borda; focus usa borda e outline azul. Readonly mantém leitura com fundo canvas; disabled usa fundo alternativo. `aria-invalid="true"` aplica borda de perigo.
-- `x-label`: 14/20px, peso 500, distância inferior 8px.
+- `x-label`: 14/20px, **peso600**, distância inferior **4px**. No login, fonte16px e peso600. Margens explícitas dos consumidores podem somar seu próprio espaçamento.
 - `x-input-error`: continua recebendo `for` e exibindo a mensagem do error bag; 14/20px, peso 500, perigo e margem superior 8px.
 - `ds-help`: 14/20px, muted e margem superior 8px.
 - A etapa não injeta atributos ARIA, IDs ou bindings automaticamente. Consumidores devem associar label, ajuda e erro ao campo quando apropriado.
-- `x-checkbox`: API de atributos preservada, controle 16px, raio 4px, seleção azul, foco de teclado e disabled. A área clicável deve ser ampliada pelo label nas telas; não é garantida pelo checkbox isolado.
+- `x-checkbox`: API de atributos preservada, controle **16×16px**, raio4px, seleção azul, foco de teclado e disabled. Label continua clicável; a linha do login tem altura natural24px, sem mínimo de botão.
+
+Links textuais de ação/recuperação usam16/24px e altura natural, sem `min-height` de controle. Isso inclui `auth-link` e classes explícitas de links de texto/breadcrumbs, sem alterar navegação. No login: títulos32/40px no desktop (24/32px no mobile); textos, labels, links e lembrar16/24px; campos, botão e bloco de cadastro14/20px (ícone20px); benefícios16/24px e descrições14/20px. Marca e ilustração preservadas.
 
 ### Estrutura e estados
 
 - `ds-page` aplica fundo canvas e altura mínima da viewport.
 - `ds-container` mantém max-width 1280px e gutters 16/24/32px nos breakpoints existentes, preservando consumidores da Etapa 1.
 - `ds-storefront-container` usa `--ds-storefront-width: 70rem` (1120px com raiz 16px), largura incluindo gutters de 16px e 24px a partir de 640px. Header, home, catálogo, produto e footer compartilham esse eixo externo; blocos internos podem permanecer mais estreitos.
-- `ds-panel`: superfície branca, borda estrutural, raio 16px e sombra card; sem padding implícito.
-- `ds-card`: mesmo contrato, raio 12px e padding 20px. Ambos usam min-width zero; sem altura/largura fixa ou hover automático.
+- `ds-panel`: superfície branca, borda estrutural, raio8px e sombra card; sem padding implícito.
+- `ds-card`: mesmo contrato, raio8px e padding20px. Ambos usam min-width zero; sem altura/largura fixa ou hover automático. Os cards/painéis do login têm exceção local de raio.
 - `x-badge` usa `neutral`, `info`, `success`, `danger` ou `warning`;
 - `x-alert` usa os mesmos estados para mensagens persistentes.
 
@@ -117,13 +124,15 @@ Badges usam texto 12/16px, peso 600, padding 4/8px e raio pill. Alerts usam text
 
 Validar build, renderização Blade, encaminhamento de atributos/aliases e testes existentes com banco isolado. No navegador, conferir foco, contraste, texto longo, zoom de 200%, movimento reduzido e viewports de 320 a 1440px. Texto normal deve atingir contraste 4.5:1; foco e limites essenciais, 3:1.
 
+Exceção visual solicitada para os campos em25/10/2026: borda neutra usa `rgb(var(--ds-control-line) / .4)` (aproximadamente#C1C7D1 sobre branco), hover com alpha.65, para aproximar a aparência suave do portal fornecido pelo usuário. Essa borda neutra tem contraste aproximado de1.69:1 sobre branco, abaixo da meta geral de3:1; o foco azul permanece em5.17:1. A escolha não deve ser descrita como uma auditoria WCAG integral aprovada.
+
 Controles maiores e pesos reais podem mudar altura, quebra de linhas e densidade das telas consumidoras. Estilos locais continuam prevalecendo pela camada de utilities: fontes pequenas ou cores duplicadas nas páginas ainda precisam de revisão específica. Home, catálogo, detalhe do produto, carrinho, checkout e pagamento simulado foram refinados nas Etapas 3A/3B/4/5A/5B; área geral de pedidos, rastreio e autenticação individual permanecem fora dessa revisão.
 
 ## Estrutura compartilhada — Etapa 2
 
 - Home reutiliza `x-storefront-layout`, que contém um único `x-storefront-header` e um único `x-storefront-footer`. O slot continua responsável pelo elemento main; o shell organiza o footer após o conteúdo e preenche no mínimo a viewport.
 - Wrappers principais de home, catálogo e produto usam `id="storefront-content" tabindex="-1"`. O main do layout app também oferece esse destino ao header compartilhado. O atalho “Pular para o conteúdo” aparece ao receber foco e permite ultrapassar a navegação por teclado.
-- Header usa tokens da fundação, texto de 14px e controles com altura mínima de 44px. Logo continua consumindo `x-shop-logo`; busca usa `x-input` e `x-button`.
+- Header usa tokens da fundação e texto de 14px na navegação. Campo de busca segue o contrato de 40px; ícone de busca e alvos de navegação mantêm 44px. Logo continua consumindo `x-shop-logo`; busca usa `x-input` e `x-button`.
 - Abaixo de 640px: logo/ações, busca e navegação ocupam três linhas. De 640px a 1023px: logo/busca/ações na primeira linha e navegação na segunda. A partir de 1024px: todos na mesma linha.
 - Busca, quatro links de navegação, carrinho e conta permanecem visíveis em todas as larguras. Não há menu oculto, overlay, novo estado Alpine ou breakpoint baseado na resolução da captura.
 - Busca é formulário GET para `catalog.index`, com parâmetro `q`, valor atual escapado pelo Blade e submit com nome acessível. A home passa a usar o mesmo contrato já existente no catálogo; a lógica de filtros permanece intacta.
