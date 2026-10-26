@@ -2,18 +2,18 @@
     .auth-page { min-height: 100svh; display: flex; align-items: center; justify-content: center; padding: var(--ds-space-8) var(--ds-space-4); }
     .auth-card { width: 100%; max-width: 29rem; min-width: 0; background: rgb(var(--ds-surface)); border: 1px solid rgb(var(--ds-line)); border-radius: var(--ds-radius-lg); box-shadow: var(--ds-shadow-raised); overflow: hidden; }
     .auth-content { min-width: 0; padding: var(--ds-space-8); }
-    .auth-page .ds-shop-logo { min-height: var(--ds-control-md); }
+    .auth-page .ds-shop-logo { min-height: var(--ds-target-md); }
     .auth-logo { margin-bottom: var(--ds-space-6); }
     .auth-heading h1 { font-size: var(--ds-text-2xl); line-height: var(--ds-leading-2xl); font-weight: var(--ds-weight-bold); color: rgb(var(--ds-ink)); letter-spacing: -.025em; }
     .auth-heading p { margin-top: var(--ds-space-2); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); color: rgb(var(--ds-secondary)); }
     .auth-form { display: flex; flex-direction: column; gap: var(--ds-space-5); margin-top: var(--ds-space-6); min-width: 0; }
     .auth-submit { width: 100%; }
     .auth-feedback { margin-top: var(--ds-space-5); overflow-wrap: anywhere; }
-    .auth-link { color: rgb(var(--ds-brand-strong)); font-weight: var(--ds-weight-semibold); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); display: inline-flex; align-items: center; justify-content: center; min-height: var(--ds-control-md); gap: var(--ds-space-2); border-radius: var(--ds-radius-xs); text-align: center; }
+    .auth-link { color: rgb(var(--ds-brand-strong)); font-weight: var(--ds-weight-semibold); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); display: inline-flex; align-items: center; justify-content: center; gap: var(--ds-space-2); border-radius: var(--ds-radius-xs); text-align: center; }
     .auth-link:hover { text-decoration: underline; color: rgb(var(--ds-brand-active)); }
     .auth-page :is(a, button):focus-visible { outline: var(--ds-focus-width) solid rgb(var(--ds-brand)); outline-offset: var(--ds-focus-offset); }
     .auth-options { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 var(--ds-space-3); }
-    .auth-remember { display: inline-flex; align-items: center; gap: var(--ds-space-2); min-height: var(--ds-control-md); font-size: var(--ds-text-sm); color: rgb(var(--ds-secondary)); cursor: pointer; }
+    .auth-remember { display: inline-flex; align-items: center; gap: var(--ds-space-2); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); color: rgb(var(--ds-secondary)); cursor: pointer; }
     .auth-footer { border-top: 1px solid rgb(var(--ds-line)); margin-top: var(--ds-space-6); padding-top: var(--ds-space-4); text-align: center; font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); color: rgb(var(--ds-secondary)); }
     .auth-password { position: relative; }
     .auth-password .ds-input { padding-right: 5.25rem; }
@@ -40,6 +40,78 @@
         .auth-benefits__list li { display: flex; align-items: center; gap: var(--ds-space-2); }
         .auth-benefits__list svg { width: 1.25rem; height: 1.25rem; flex-shrink: 0; }
         .auth-bags { width: 100%; height: auto; max-height: 12rem; margin-top: var(--ds-space-5); }
+    }
+    /* Login-only presentation: palette, focus, feedback and shared defaults stay intact. */
+    .auth-page--login { position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(ellipse at 30% 50%, rgb(var(--ds-brand-line) / .65), transparent 70%), linear-gradient(135deg, rgb(var(--ds-brand-soft)), rgb(var(--ds-canvas))); }
+    .auth-page--login .auth-card { position: relative; border-color: rgb(var(--ds-surface)); border-radius: var(--ds-space-8); box-shadow: 0 var(--ds-space-6) var(--ds-space-16) rgb(var(--ds-brand) / .16), 0 var(--ds-space-2) var(--ds-space-6) rgb(var(--ds-navy) / .1); }
+    .auth-page--login .auth-heading { text-align: center; }
+    .auth-page--login .auth-heading h1 span, .auth-page--login .auth-heading strong, .auth-page--login .ds-shop-logo__accent { color: rgb(var(--ds-brand)); }
+    .auth-login-intro-break { display: none; }
+    .auth-page--login .ds-label { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
+    .auth-page--login :is(.ds-error, .ds-alert) { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
+    .auth-page--login .auth-form .auth-login-error { display: flex; align-items: flex-start; gap: var(--ds-space-1); margin-top: var(--ds-space-1); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); overflow-wrap: anywhere; }
+    .auth-page--login .auth-login-error > svg { width: var(--ds-space-4); height: var(--ds-leading-sm); flex-shrink: 0; }
+    .auth-page--login .auth-login-alert { display: flex; align-items: flex-start; gap: var(--ds-space-2); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
+    .auth-page--login .auth-login-alert > svg { width: var(--ds-space-5); height: var(--ds-space-5); flex-shrink: 0; }
+    .auth-page--login :is(.auth-login-error, .auth-login-alert)[hidden] { display: none; }
+    .auth-page--login .auth-form .ds-input[aria-invalid='true']:focus { border-color: rgb(var(--ds-danger)); outline-color: rgb(var(--ds-danger)); box-shadow: inset 0 0 0 var(--ds-focus-width) rgb(var(--ds-danger)); }
+    .auth-page--login .auth-form .ds-input[aria-invalid='true']:focus-visible { outline: var(--ds-focus-width) solid rgb(var(--ds-danger)); outline-offset: var(--ds-focus-offset); box-shadow: var(--ds-shadow-control); }
+    :root[data-focus-modality='pointer'] .auth-page--login .auth-form .ds-input[aria-invalid='true']:focus-visible { outline: none; box-shadow: inset 0 0 0 var(--ds-focus-width) rgb(var(--ds-danger)); }
+    .auth-login-field, .auth-page--login .auth-password { position: relative; }
+    .auth-page--login .ds-input { padding-left: var(--ds-space-10); border-radius: var(--ds-radius-sm); }
+    .auth-login-field-icon { position: absolute; z-index: 1; pointer-events: none; width: var(--ds-space-5); height: var(--ds-space-5); left: var(--ds-space-3); top: 50%; transform: translateY(-50%); color: rgb(var(--ds-muted)); }
+    .auth-page--login .auth-password .ds-input { padding-right: var(--ds-space-10); }
+    .auth-page--login .auth-password__toggle { display: grid; place-items: center; width: var(--ds-space-8); padding: 0; color: rgb(var(--ds-secondary)); }
+    .auth-page--login .auth-password__toggle svg { width: var(--ds-space-5); height: var(--ds-space-5); }
+    .auth-page--login .auth-submit { border-radius: var(--ds-radius-lg); background-image: linear-gradient(110deg, rgb(var(--ds-brand)), rgb(var(--ds-brand-strong))); box-shadow: 0 var(--ds-space-2) var(--ds-space-3) rgb(var(--ds-brand) / .2); }
+    .auth-page--login .auth-submit:hover:not(:disabled) { background-image: linear-gradient(110deg, rgb(var(--ds-brand-strong)), rgb(var(--ds-brand-active))); }
+    .auth-page--login .auth-submit:active:not(:disabled) { background-image: none; }
+    .auth-page--login .auth-submit > span { display: inline-flex; align-items: center; justify-content: center; gap: var(--ds-space-2); }
+    .auth-page--login .auth-submit svg, .auth-page--login .auth-footer > svg { width: var(--ds-space-5); height: var(--ds-space-5); flex-shrink: 0; }
+    .auth-page--login .auth-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0 var(--ds-space-2); margin-top: var(--ds-space-6); padding: var(--ds-space-2) var(--ds-space-4); border: 0; border-radius: var(--ds-radius-md); background: rgb(var(--ds-brand-line) / .55); color: rgb(var(--ds-ink)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
+    .auth-page--login .auth-footer .auth-link { font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
+    .auth-page--login .auth-form { gap: var(--ds-space-4); }
+    .auth-page--login .auth-options { gap: var(--ds-space-2); }
+    .auth-page--login .auth-footer > svg { color: rgb(var(--ds-brand)); }
+    @media (max-width: 639px) { .auth-page--login .auth-footer > svg { display: none; } }
+    @media (min-width: 375px) and (max-width: 767px) { .auth-page--login .auth-content { padding: var(--ds-space-6) var(--ds-space-4); } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .auth-page--login .auth-card--split { max-width: 29rem; display: block; }
+        .auth-page--login .auth-benefits { display: none; }
+        .auth-page--login .auth-logo--mobile { display: block; }
+    }
+    @media (min-width: 1024px) {
+        .auth-page--login { padding: var(--ds-space-4) var(--ds-space-8); }
+        .auth-page--login .auth-card--split { max-width: calc(var(--ds-storefront-width) + var(--ds-space-16)); grid-template-columns: minmax(0, .55fr) minmax(0, .45fr); border-radius: var(--ds-space-12); background: rgb(var(--ds-navy)); }
+        .auth-page--login .auth-content { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: var(--ds-space-8); border-radius: var(--ds-space-10) 0 0 var(--ds-space-10); background: linear-gradient(135deg, rgb(var(--ds-surface)), rgb(var(--ds-canvas))); }
+        .auth-page--login .auth-content > :is(.auth-heading, .auth-feedback, .auth-form, .auth-footer) { width: 100%; max-width: 26rem; }
+        .auth-page--login .auth-heading h1 { font-size: var(--ds-text-3xl); line-height: var(--ds-leading-3xl); }
+        .auth-page--login .auth-form { margin-top: var(--ds-space-6); }
+        /* Continue the painted panel beneath the form's rounded left corners. */
+        .auth-page--login .auth-benefits { position: relative; isolation: isolate; width: calc(100% + var(--ds-space-10)); padding: var(--ds-space-4) calc(var(--ds-space-8) + var(--ds-space-10)) 0 var(--ds-space-8); color: rgb(var(--ds-surface)); background: radial-gradient(ellipse at 90% 100%, rgb(var(--ds-brand) / .85), transparent 55%), linear-gradient(135deg, rgb(var(--ds-navy)), rgb(var(--ds-brand-active) / .4)); }
+        .auth-page--login .auth-benefits::after { content: ''; position: absolute; z-index: -1; pointer-events: none; border-radius: 50%; height: 94%; aspect-ratio: 1; left: 55%; bottom: -20%; background: linear-gradient(135deg, rgb(var(--ds-brand) / .5), rgb(var(--ds-brand-active) / .2)); box-shadow: -28rem 16rem 0 0 rgb(var(--ds-brand) / .2); }
+        .auth-login-brand { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--ds-space-3); }
+        .auth-page--login .auth-benefits__logo { font-size: var(--ds-text-3xl); line-height: var(--ds-leading-3xl); }
+        .auth-page--login .auth-benefits__logo .ds-shop-logo__icon { width: 1.5em; height: 1.5em; }
+        .auth-login-seal { display: inline-flex; align-items: center; gap: var(--ds-space-2); padding: var(--ds-space-1) var(--ds-space-4); border: var(--ds-border-width) solid rgb(var(--ds-brand-line) / .7); border-radius: var(--ds-radius-pill); background: rgb(var(--ds-brand) / .22); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
+        .auth-login-seal svg { width: var(--ds-space-5); height: var(--ds-space-5); }
+        .auth-page--login .auth-benefits__welcome { margin-top: var(--ds-space-4); font-size: var(--ds-text-3xl); line-height: var(--ds-leading-3xl); font-weight: var(--ds-weight-bold); white-space: nowrap; }
+        .auth-page--login .auth-benefits__welcome span { color: rgb(var(--ds-brand)); }
+        .auth-page--login .auth-benefits__description { margin-top: var(--ds-space-5); }
+        .auth-page--login .auth-benefits__list { gap: var(--ds-space-3); margin-top: var(--ds-space-5); }
+        .auth-page--login .auth-benefits__list li { gap: var(--ds-space-4); }
+        .auth-page--login .auth-benefits__icon { display: grid; place-items: center; flex-shrink: 0; width: var(--ds-target-lg); height: var(--ds-target-lg); border-radius: var(--ds-radius-md); background: linear-gradient(135deg, rgb(var(--ds-brand) / .4), rgb(var(--ds-brand-line) / .12)); box-shadow: inset 0 1px 0 rgb(var(--ds-surface) / .08); }
+        .auth-page--login .auth-benefits__icon svg { width: var(--ds-space-6); height: var(--ds-space-6); }
+        .auth-page--login .auth-benefits__list strong { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); }
+        .auth-page--login .auth-benefits__detail { display: block; color: rgb(var(--ds-line)); }
+        .auth-login-art { margin: var(--ds-space-1) 0 0; }
+        .auth-login-art img { display: block; width: 100%; max-width: calc(var(--ds-space-16) * 8 - var(--ds-space-8)); height: auto; margin-inline: auto; }
+    }
+    @media (min-width: 1280px) {
+        .auth-page--login .auth-benefits { padding: var(--ds-space-4) calc(var(--ds-space-12) + var(--ds-space-10)) 0 var(--ds-space-12); }
+        .auth-page--login .auth-content { padding: var(--ds-space-8) var(--ds-space-10); }
+        .auth-page--login .auth-remember, .auth-page--login .auth-options .auth-link { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
+        .auth-login-intro-break { display: block; }
     }
     @media (max-width: 374px) { .auth-content { padding: var(--ds-space-6) var(--ds-space-5); } .auth-page { padding: var(--ds-space-4) var(--ds-space-3); } }
 }
