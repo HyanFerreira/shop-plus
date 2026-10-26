@@ -78,9 +78,9 @@ class StorefrontHeaderTest extends TestCase
         $menu = '//*[@id="storefront-account-menu"]';
         $links = fn ($scope) => array_map(fn ($link) => [$link->getAttribute('href'), $link->getAttribute('aria-current'), trim($link->textContent)], iterator_to_array($xpath->query($scope.'//nav/a')));
         $this->assertSame(0, $xpath->query('//aside')->length);
-        $this->assertSame(['Perfil', 'Pedidos', 'Favoritos', 'Visão geral'], array_column($links($menu), 2));
-        $this->assertSame([route('profile.show'), route('orders.index'), route('favorites.index'), route('dashboard')], array_column($links($menu), 0));
-        $this->assertSame('page', $links($menu)[3][1]);
+        $this->assertSame(['Visão geral', 'Perfil', 'Pedidos', 'Favoritos'], array_column($links($menu), 2));
+        $this->assertSame([route('dashboard'), route('profile.show'), route('orders.index'), route('favorites.index')], array_column($links($menu), 0));
+        $this->assertSame('page', $links($menu)[0][1]);
         $this->assertSame(0, $xpath->query($menu.'//a[@href="'.route('admin.dashboard').'"]')->length);
         $this->assertSame(1, $xpath->query($menu.'//form[@method="POST" and @action="'.route('logout').'"]//input[@name="_token"]')->length);
         $this->assertSame(1, $xpath->query($menu.'//form//button[@type="submit"]//svg')->length);
