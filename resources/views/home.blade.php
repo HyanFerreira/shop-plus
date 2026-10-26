@@ -1,15 +1,18 @@
 @php
-    $shortcutCategories = [
-        ['name' => 'Eletrônicos', 'icon' => 'device-phone-mobile', 'image' => 'phone.svg'],
-        ['name' => 'Informática', 'icon' => 'computer-desktop', 'image' => 'notebook.svg'],
-        ['name' => 'Casa e Decoração', 'icon' => 'home', 'image' => 'lamp.svg'],
-        ['name' => 'Moda', 'icon' => 'shirt', 'image' => 'sneaker.svg'],
-        ['name' => 'Esportes', 'icon' => 'trophy', 'image' => 'dumbbells.svg'],
-        ['name' => 'Beleza', 'icon' => 'sparkles', 'image' => 'perfume.svg'],
-        ['name' => 'Automotivo', 'icon' => 'truck'],
-        ['name' => 'Brinquedos', 'icon' => 'sparkles'],
-        ['name' => 'Livros', 'icon' => 'book-open'],
-        ['name' => 'Mais', 'icon' => 'ellipsis-horizontal'],
+    $categoryNames = [
+        'eletronicos' => 'Eletrônicos', 'informatica' => 'Informática',
+        'casa-decoracao' => 'Casa e Decoração', 'moda' => 'Moda', 'esportes' => 'Esportes',
+        'beleza' => 'Beleza', 'automotivo' => 'Automotivo', 'brinquedos' => 'Brinquedos', 'livros' => 'Livros',
+    ];
+    $categoryImages = [
+        'eletronicos' => 'eletronicos.png', 'informatica' => 'informatica.png',
+        'casa-decoracao' => 'casa-decoracao.png', 'moda' => 'moda.png', 'esportes' => 'esportes.png',
+        'beleza' => 'beleza.png', 'automotivo' => 'automotivo.png', 'brinquedos' => 'brinquedos.png', 'livros' => 'livros.png',
+    ];
+    $categoryIcons = [
+        'eletronicos' => 'device-phone-mobile', 'informatica' => 'computer-desktop',
+        'casa-decoracao' => 'home', 'moda' => 'shirt', 'esportes' => 'trophy',
+        'beleza' => 'sparkles', 'automotivo' => 'truck', 'brinquedos' => 'sparkles', 'livros' => 'book-open',
     ];
 @endphp
 
@@ -18,23 +21,45 @@
         <div class="ds-storefront-container home-content">
             <section class="home-hero" aria-labelledby="home-title">
                 <div class="home-hero__copy">
-                    <h1 id="home-title">Tecnologia com<br>as melhores ofertas</h1>
+                    <span class="home-hero__tag"><x-icon name="tag" />Ofertas incríveis para você</span>
+                    <h1 id="home-title">Tudo o que você precisa<br>em <span class="home-hero__highlight">um só lugar.</span></h1>
                     <p>Produtos incríveis para o seu dia a dia<br class="hidden sm:block"> com entrega em todo o Brasil.</p>
-                    <a href="#ofertas" class="ds-button ds-button--secondary home-hero__cta">Ver ofertas <span aria-hidden="true">→</span></a>
+                    <a href="#ofertas" class="ds-button ds-button--secondary home-hero__cta">Ver ofertas <span class="home-hero__arrow" aria-hidden="true"><span>→</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m-7-7 7 7-7 7" /></svg></span></a>
                 </div>
                 <div class="home-hero__art">
                     <img src="{{ asset('images/hero-headphones.png') }}" alt="Headphone fictício em cenário navy e azul" width="1672" height="941" fetchpriority="high">
                 </div>
             </section>
 
-            <nav class="home-shortcuts" aria-label="Atalhos de categorias">
-                @foreach ($shortcutCategories as $shortcut)
+            <section class="home-section" aria-labelledby="categories-title">
+                <div class="home-section__heading">
+                    <h2 id="categories-title">Categorias</h2>
+                </div>
+                <nav class="home-shortcuts" aria-label="Atalhos de categorias">
+                    @foreach ($categoryNames as $slug => $name)
+                        <a href="{{ route('catalog.index', ['category' => $slug]) }}">
+                            <span class="home-shortcuts__circle home-shortcuts__circle--{{ $slug }}" aria-hidden="true">
+                                @if (isset($categoryImages[$slug]) && is_file(public_path('images/categories/'.$categoryImages[$slug])))
+                                    <img src="{{ asset('images/categories/'.$categoryImages[$slug]) }}" alt="" width="480" height="480" decoding="async">
+                                @else
+                                    <x-icon :name="$categoryIcons[$slug] ?? 'shopping-bag'" />
+                                @endif
+                            </span>
+                            <span>{{ $name }}</span>
+                        </a>
+                    @endforeach
                     <a href="{{ route('catalog.index') }}">
-                        <span class="home-shortcuts__circle"><x-icon :name="$shortcut['icon']" /></span>
-                        <span>{{ $shortcut['name'] }}</span>
+                        <span class="home-shortcuts__circle home-shortcuts__circle--mais" aria-hidden="true">
+                            @if (is_file(public_path('images/categories/mais.png')))
+                                <img src="{{ asset('images/categories/mais.png') }}" alt="" width="480" height="480" decoding="async">
+                            @else
+                                <x-icon name="ellipsis-horizontal" />
+                            @endif
+                        </span>
+                        <span>Mais</span>
                     </a>
-                @endforeach
-            </nav>
+                </nav>
+            </section>
 
             <section id="ofertas" class="home-section" aria-labelledby="offers-title">
                 <div class="home-section__heading">
@@ -43,7 +68,7 @@
                 </div>
                 <div class="home-products">
                     @forelse ($products as $item)
-                        <x-home-product-card :product="$item" />
+                        <x-home-product-card :product="$item" :quick-actions="true" cart-context="offers" />
                     @empty
                         <p class="ds-card home-empty">Os produtos aparecerão aqui quando estiverem disponíveis.</p>
                     @endforelse
@@ -72,26 +97,10 @@
                 </div>
                 <div class="home-products">
                     @forelse ($bestSellers as $item)
-                        <x-home-product-card :product="$item" />
+                        <x-home-product-card :product="$item" :quick-actions="true" cart-context="bestsellers" />
                     @empty
                         <p class="ds-card home-empty">Explore o catálogo para conhecer os produtos disponíveis.</p>
                     @endforelse
-                </div>
-            </section>
-
-            <section class="home-section" aria-labelledby="categories-title">
-                <div class="home-section__heading">
-                    <h2 id="categories-title">Categorias em destaque</h2>
-                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <span aria-hidden="true">→</span></a>
-                </div>
-                <div class="home-categories">
-                    @foreach (array_slice($shortcutCategories, 0, 6) as $category)
-                        <a href="{{ route('catalog.index') }}" class="home-category">
-                            <div class="home-category__art"><img src="{{ asset('images/demo-products/'.$category['image']) }}" alt="" width="640" height="480" loading="lazy"></div>
-                            <h3>{{ $category['name'] }}</h3>
-                            <span>Ver produtos <span aria-hidden="true">→</span></span>
-                        </a>
-                    @endforeach
                 </div>
             </section>
 
