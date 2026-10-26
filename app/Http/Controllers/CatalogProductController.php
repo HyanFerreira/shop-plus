@@ -11,14 +11,14 @@ class CatalogProductController extends Controller
 {
     public function __invoke(string $slug): View
     {
-        $product = Product::query()
+        $product = Product::query()->withFavoriteState()
             ->active()
             ->where('slug', $slug)
             ->whereHas('category', fn (Builder $query) => $query->where('status', CatalogStatus::Active))
             ->with(['category', 'images', 'inventoryItem'])
             ->firstOrFail();
 
-        $relatedProducts = Product::query()
+        $relatedProducts = Product::query()->withFavoriteState()
             ->active()
             ->where('category_id', $product->category_id)
             ->whereKeyNot($product->id)

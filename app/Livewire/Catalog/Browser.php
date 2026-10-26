@@ -88,7 +88,7 @@ class Browser extends Component
         // Rendering must stop before malformed URL/hydrated data reaches SQL or Blade.
         abort_if($validation->fails(), 422, 'Filtros de catálogo inválidos.');
 
-        $query = Product::query()
+        $query = Product::query()->withFavoriteState()
             ->active()
             ->whereHas('category', fn (Builder $query) => $query->where('status', CatalogStatus::Active))
             ->with(['category', 'images', 'inventoryItem']);

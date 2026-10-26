@@ -57,6 +57,7 @@
                         <p class="product-payment">Pagamento simulado no ambiente de demonstração. Sem cobrança real.</p>
                     </div>
                     <p class="product-stock {{ $available > 0 ? 'product-stock--available' : 'product-stock--unavailable' }}"><span aria-hidden="true">●</span>{{ $available > 0 ? 'Em estoque' : 'Indisponível no momento' }}</p>
+                    <x-favorite-button :product="$product" />
                     <livewire:product-add-to-cart :product="$product" />
                     <div class="product-trust">
                         <div><x-icon name="truck" /><p><strong>Entrega e retirada</strong><span>Consulte modalidades, prazo e valor no checkout.</span></p></div>

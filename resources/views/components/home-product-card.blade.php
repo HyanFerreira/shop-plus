@@ -1,4 +1,4 @@
-@props(['product', 'showBrand' => false])
+@props(['product', 'showBrand' => false, 'showAvailability' => false])
 
 @php
     $disk = Storage::disk('public');
@@ -12,6 +12,7 @@
 @endphp
 
 <article {{ $attributes->class(['home-product-card']) }}>
+    <x-favorite-button :product="$product" class="favorite-control--card" />
     <a href="{{ route('catalog.show', $product->slug) }}" class="home-product-card__link">
         <div class="home-product-card__media" x-data="{ imageFailed: false }">
             @if ($imageUrl)
@@ -28,6 +29,9 @@
             @endif
             <h3>{{ $product->name }}</h3>
             <p class="home-product-card__price">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p>
+            @if($showAvailability && max(0, ($product->inventoryItem?->on_hand ?? 0) - ($product->inventoryItem?->reserved ?? 0)) === 0)
+                <p class="home-product-card__count">Indisponível no momento</p>
+            @endif
             @if ($product->rating_count > 0)
                 <p class="home-product-card__rating">
                     <span aria-hidden="true">★</span>

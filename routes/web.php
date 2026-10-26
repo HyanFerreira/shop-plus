@@ -15,6 +15,10 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
+    Route::get('/favoritos', [\App\Http\Controllers\FavoriteController::class, 'index'])->middleware('no-store')->name('favorites.index');
+    Route::post('/favoritos/{product}', [\App\Http\Controllers\FavoriteController::class, 'store'])->whereNumber('product')->middleware('no-store')->name('favorites.store');
+    Route::delete('/favoritos/{product}', [\App\Http\Controllers\FavoriteController::class, 'destroy'])->whereNumber('product')->middleware('no-store')->name('favorites.destroy');
+
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');

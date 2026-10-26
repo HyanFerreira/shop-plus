@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -58,6 +59,23 @@ class Product extends Model
     public function scopeActive(Builder $query): void
     {
         $query->where('status', CatalogStatus::Active);
+    }
+
+    public function favoritedBy(): BelongsToMany
+    {
+        return $this->belongsToMany(User::class, 'favorites')->withTimestamps();
+    }
+
+    public function scopeVisibleInStorefront(Builder $query): void
+    {
+        $query->active()->whereHas('category', fn (Builder $category) => $category->where('status', CatalogStatus::Active));
+    }
+
+    public function scopeWithFavoriteState(Builder $query): void
+    {
+        if (auth()->check()) {
+            $query->withExists(['favoritedBy as is_favorited' => fn (Builder $users) => $users->whereKey(auth()->id())]);
+        }
     }
 
     /** @return BelongsTo<Category, $this> */

@@ -18,7 +18,7 @@ class HomeController extends Controller
             ->limit(9)
             ->get();
 
-        $products = Product::query()
+        $products = Product::query()->withFavoriteState()
             ->active()
             ->whereHas('category', fn (Builder $query) => $query->where('status', CatalogStatus::Active))
             ->with(['category', 'images'])
@@ -26,7 +26,7 @@ class HomeController extends Controller
             ->limit(5)
             ->get();
 
-        $bestSellers = Product::query()
+        $bestSellers = Product::query()->withFavoriteState()
             ->active()
             ->whereHas('category', fn (Builder $query) => $query->where('status', CatalogStatus::Active))
             ->with(['category', 'images'])
