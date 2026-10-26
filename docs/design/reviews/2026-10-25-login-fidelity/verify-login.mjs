@@ -1,7 +1,8 @@
 // Requires the isolated preview from Etapa 8 at :19118 and Chrome CDP at :19398.
 // Run from repository root: node <this-file> <evidence-directory>
+import { visualReviewOutput } from '../../../../scripts/visual-review-output.mjs';
 import fs from 'node:fs';
-const out = process.argv[2];
+const out = visualReviewOutput('2026-10-25-login-fidelity', '', process.argv[2]);
 const target = await (await fetch('http://127.0.0.1:19398/json/new?about:blank', { method: 'PUT' })).json();
 const ws = new WebSocket(target.webSocketDebuggerUrl);
 await new Promise(resolve => { ws.onopen = resolve; });

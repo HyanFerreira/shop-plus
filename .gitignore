@@ -59,3 +59,6 @@ binlog.*
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Local browser evidence, filmstrips, traces and recovery copies.
+.artifacts/
