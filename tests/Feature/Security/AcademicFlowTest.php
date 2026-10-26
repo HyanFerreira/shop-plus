@@ -51,7 +51,7 @@ class AcademicFlowTest extends TestCase
         $product = Product::factory()->create(['price_cents' => 2500]);
         $stock = InventoryItem::factory()->for($product)->create(['on_hand' => 5]);
         $this->get('/catalogo')->assertOk()->assertSee($product->name);
-        Livewire::test(ProductAddToCart::class, ['product' => $product])->set('quantity', 2)->call('add')->assertRedirect('/carrinho');
+        Livewire::test(ProductAddToCart::class, ['product' => $product])->set('quantity', 2)->call('add')->assertNoRedirect()->assertDispatched('cart-updated');
         Livewire::test(CheckoutManager::class)->set('shippingMethod', 'pickup')->call('confirm')
             ->assertRedirect(route('orders.show', Order::firstOrFail()->public_number));
         $order = $user->orders()->firstOrFail();

@@ -46,13 +46,13 @@ class HeaderCartTest extends TestCase
         Livewire::test(HeaderCart::class)->assertViewHas('quantity', 0)->assertDontSee('storefront-cart__badge', false);
     }
 
-    public function test_product_addition_keeps_redirect_and_header_reads_the_saved_quantity(): void
+    public function test_product_addition_notifies_header_and_header_reads_the_saved_quantity(): void
     {
         $user = User::factory()->create();
         $product = Product::factory()->create();
         InventoryItem::factory()->for($product)->create(['on_hand' => 20, 'reserved' => 0]);
         Livewire::actingAs($user)->test(ProductAddToCart::class, ['product' => $product])
-            ->set('quantity', 1)->call('add')->assertRedirect(route('cart.show'));
+            ->set('quantity', 1)->call('add')->assertNoRedirect()->assertDispatched('cart-updated');
         $this->get(route('cart.show'))->assertOk()->assertSee('aria-label="Carrinho, 1 item"', false);
     }
 

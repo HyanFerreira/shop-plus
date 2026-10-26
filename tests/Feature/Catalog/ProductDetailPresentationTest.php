@@ -34,18 +34,43 @@ class ProductDetailPresentationTest extends TestCase
         $this->assertStringContainsString('front.svg', $xpath->query('//*[@id="product-gallery-stage"]/img')->item(0)->getAttribute('src'));
     }
 
-    public function test_demo_image_is_single_without_fake_thumbnails_and_unknown_sku_has_fallback(): void
+    public function test_demo_image_has_one_thumbnail_and_unknown_sku_has_fallback(): void
     {
         Storage::fake('public');
         $product = Product::factory()->create(['sku' => 'NIM-PHONE-01', 'rating_count' => 0]);
         ProductImage::factory()->for($product)->create(['path' => 'missing.jpg']);
         $this->get(route('catalog.show', $product->slug))->assertOk()
-            ->assertSee('images/demo-products/phone.svg', false)->assertDontSee('id="product-thumbnails"', false)
+            ->assertSee('images/demo-products/phone.svg', false)->assertSee('id="product-thumbnails"', false)
             ->assertSeeText('Sem avaliações')->assertDontSeeText('12x')->assertDontSeeText('Oferta fictícia')
-            ->assertDontSee('aria-label="Favoritar"', false)->assertDontSeeText('Comprar agora');
+            ->assertDontSee('aria-label="Favoritar"', false)->assertSeeText('Comprar agora');
         $product->update(['sku' => 'UNKNOWN-IMAGE']);
         $this->get(route('catalog.show', $product->slug))->assertOk()->assertSeeText('Imagem indisponível')
             ->assertDontSee('id="product-thumbnails"', false);
+    }
+
+    public function test_every_available_image_has_exactly_one_thumbnail_including_single_image(): void
+    {
+        Storage::fake('public');
+        foreach ([1, 2, 5, 8] as $count) {
+            $product = Product::factory()->create();
+            for ($index = 0; $index < $count; $index++) {
+                $path = 'gallery-'.$count.'-'.$index.'.svg';
+                Storage::disk('public')->put($path, file_get_contents(public_path('images/demo-products/phone.svg')));
+                ProductImage::factory()->for($product)->create(['path' => $path, 'sort_order' => $index]);
+            }
+            $response = $this->get(route('catalog.show', $product->slug))->assertOk();
+            $xpath = new \DOMXPath($this->dom($response->getContent()));
+            $thumbnails = $xpath->query('//*[@id="product-thumbnails"]/button');
+            $this->assertSame($count, $thumbnails->length);
+            $this->assertSame($count, $xpath->query('//*[@id="product-gallery-stage"]/img')->length);
+            foreach ($thumbnails as $index => $thumbnail) {
+                $this->assertSame($index === 0 ? 'true' : 'false', $thumbnail->getAttribute('aria-pressed'));
+                $this->assertSame(
+                    $xpath->query('//*[@id="product-gallery-stage"]/img')->item($index)->getAttribute('src'),
+                    $thumbnail->getElementsByTagName('img')->item(0)->getAttribute('src')
+                );
+            }
+        }
     }
 
     public function test_real_content_and_related_products_reuse_the_shared_card(): void
@@ -84,9 +109,8 @@ class ProductDetailPresentationTest extends TestCase
         Livewire::actingAs($user)->test(ProductAddToCart::class, ['product' => $product])
             ->set('quantity', 3)->call('add')->assertHasErrors('quantity')->assertSeeText('Quantidade indisponível em estoque.');
         Livewire::actingAs($user)->test(ProductAddToCart::class, ['product' => $product])
-            ->set('quantity', 2)->call('add')->assertHasNoErrors()->assertRedirect(route('cart.show'));
+            ->set('quantity', 2)->call('add')->assertHasNoErrors()->assertNoRedirect()->assertDispatched('cart-updated');
         $this->assertDatabaseHas('cart_items', ['product_id' => $product->id, 'quantity' => 2]);
-        $this->assertSame('Produto adicionado ao carrinho.', session('cart-status'));
         Livewire::actingAs($user)->test(ProductAddToCart::class, ['product' => $product])
             ->call('add')->assertHasErrors('quantity');
     }
@@ -95,6 +119,7 @@ class ProductDetailPresentationTest extends TestCase
     {
         $dom = new \DOMDocument;
         @$dom->loadHTML('<?xml encoding="UTF-8">'.$html);
+
         return $dom;
     }
 }

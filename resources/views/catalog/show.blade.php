@@ -1,6 +1,5 @@
 <x-storefront-layout>
     @php
-        $available = max(0, ($product->inventoryItem?->on_hand ?? 0) - ($product->inventoryItem?->reserved ?? 0));
         $disk = Storage::disk('public');
         $gallery = $product->images->filter(fn ($image) => $disk->exists($image->path))->unique('path')->map(fn ($image) => [
             'url' => $disk->url($image->path), 'alt' => $image->alt_text ?: $product->name,
@@ -16,7 +15,7 @@
                 <span aria-current="page">{{ $product->name }}</span>
             </nav>
             <article class="product-overview ds-panel">
-                <section class="product-gallery" aria-label="Imagens do produto" x-data="{ selected: 0, failed: {} }">
+                <section class="product-gallery {{ count($gallery) > 0 ? 'product-gallery--multiple' : '' }}" aria-label="Imagens do produto" x-data="{ selected: 0, failed: {} }">
                     <div id="product-gallery-stage" class="product-gallery__stage">
                         @foreach($gallery as $index => $image)
                             <img src="{{ $image['url'] }}" alt="{{ $image['alt'] }}" width="640" height="480" decoding="async"
@@ -27,14 +26,16 @@
                             <x-icon name="shopping-bag" /><span>Imagem indisponível</span>@if($gallery === [])<span class="sr-only">Sem imagem</span>@endif
                         </div>
                     </div>
-                    @if(count($gallery) > 1)
+                    @if(count($gallery) > 0)
                         <div id="product-thumbnails" class="product-thumbnails" x-ref="thumbnails" role="group" aria-label="Selecionar imagem"
                             @keydown.right.prevent="selected = (selected + 1) % {{ count($gallery) }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
                             @keydown.left.prevent="selected = (selected + {{ count($gallery) - 1 }}) % {{ count($gallery) }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
+                            @keydown.down.prevent="selected = (selected + 1) % {{ count($gallery) }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
+                            @keydown.up.prevent="selected = (selected + {{ count($gallery) - 1 }}) % {{ count($gallery) }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
                             @keydown.home.prevent="selected = 0; $refs.thumbnails.querySelectorAll('button')[selected].focus()"
                             @keydown.end.prevent="selected = {{ count($gallery) - 1 }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()">
                             @foreach($gallery as $index => $image)
-                                <button type="button" @click="selected = {{ $index }}" x-bind:aria-pressed="(selected === {{ $index }}).toString()" aria-controls="product-gallery-stage" aria-label="Ver imagem {{ $index + 1 }} de {{ count($gallery) }}">
+                                <button type="button" @click="selected = {{ $index }}" aria-pressed="{{ $index === 0 ? 'true' : 'false' }}" x-bind:aria-pressed="(selected === {{ $index }}).toString()" aria-controls="product-gallery-stage" aria-label="Ver imagem {{ $index + 1 }} de {{ count($gallery) }}">
                                     <img src="{{ $image['url'] }}" alt="" width="80" height="60" decoding="async" x-show="!failed[{{ $index }}]" x-on:error="failed[{{ $index }}] = true">
                                     <span x-cloak x-show="failed[{{ $index }}]" class="product-thumbnail-unavailable">{{ $index + 1 }}<span class="sr-only">: imagem indisponível</span></span>
                                 </button>
@@ -44,7 +45,10 @@
                     @endif
                 </section>
                 <section class="product-summary" aria-labelledby="product-title">
-                    @if($product->brand !== '')<p class="product-brand">{{ $product->brand }}</p>@endif
+                    <div class="product-brand-row">
+                        @if($product->brand !== '')<p class="product-brand">{{ $product->brand }}</p>@endif
+                        <x-favorite-button :product="$product" icon="heart-square" class="favorite-control--product" />
+                    </div>
                     <h1 id="product-title">{{ $product->name }}</h1>
                     <p class="product-meta">{{ $product->category->name }} <span aria-hidden="true">·</span> SKU {{ $product->sku }}</p>
                     @if($product->rating_count > 0)
@@ -56,8 +60,6 @@
                         <p class="product-price">{{ \App\Domain\Catalog\Price::fromCents($product->price_cents)->brl() }}</p>
                         <p class="product-payment">Pagamento simulado no ambiente de demonstração. Sem cobrança real.</p>
                     </div>
-                    <p class="product-stock {{ $available > 0 ? 'product-stock--available' : 'product-stock--unavailable' }}"><span aria-hidden="true">●</span>{{ $available > 0 ? 'Em estoque' : 'Indisponível no momento' }}</p>
-                    <x-favorite-button :product="$product" />
                     <livewire:product-add-to-cart :product="$product" />
                     <div class="product-trust">
                         <div><x-icon name="truck" /><p><strong>Entrega e retirada</strong><span>Consulte modalidades, prazo e valor no checkout.</span></p></div>

@@ -34,7 +34,7 @@ class CheckoutInterfaceTest extends TestCase
         Livewire::actingAs($user)->test(ProductAddToCart::class, ['product' => $product])
             ->set('quantity', 2)
             ->call('add')
-            ->assertRedirect(route('cart.show'));
+            ->assertNoRedirect()->assertDispatched('cart-updated');
 
         $this->assertDatabaseHas('cart_items', ['product_id' => $product->id, 'quantity' => 2]);
     }

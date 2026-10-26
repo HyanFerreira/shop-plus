@@ -8,12 +8,15 @@ use App\Enums\OrderStatus;
 use App\Enums\StockMovementType;
 use App\Models\Address;
 use App\Models\Cart;
+use App\Models\CartItem;
 use App\Models\InventoryItem;
 use App\Models\Order;
+use App\Models\Product;
 use App\Models\StockMovement;
 use App\Models\User;
 use App\Support\SecurityAudit;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
 
@@ -21,11 +24,16 @@ class PlaceOrder
 {
     public function __construct(private readonly ShippingCalculator $shipping) {}
 
-    public function execute(User $user, int $addressId, string $shippingMethod, string $checkoutKey): Order
+    public function execute(User $user, int $addressId, string $shippingMethod, string $checkoutKey, ?array $buyNow = null): Order
     {
-        return DB::transaction(function () use ($user, $addressId, $shippingMethod, $checkoutKey) {
+        return DB::transaction(function () use ($user, $addressId, $shippingMethod, $checkoutKey, $buyNow) {
+            if ($buyNow !== null) {
+                // Direct purchases have no persisted cart to serialize duplicate confirmations.
+                User::query()->whereKey($user->id)->lockForUpdate()->firstOrFail();
+                Validator::make($buyNow, ['product_id' => ['required', 'integer'], 'quantity' => ['required', 'integer', 'min:1', 'max:99']])->validate();
+            }
             // Serialize submissions from this cart before reading a prior result.
-            $cart = Cart::query()->where('user_id', $user->id)->lockForUpdate()->first();
+            $cart = $buyNow === null ? Cart::query()->where('user_id', $user->id)->lockForUpdate()->first() : null;
             $existing = Order::query()->where('checkout_key', $checkoutKey)->lockForUpdate()->first();
             if ($existing) {
                 if ($existing->user_id !== $user->id) {
@@ -41,6 +49,10 @@ class PlaceOrder
 
             $address = Address::query()->where('user_id', $user->id)->find($addressId);
             $items = $cart?->items()->with(['product.category'])->orderBy('product_id')->lockForUpdate()->get();
+            if ($buyNow !== null) {
+                $product = Product::with('category')->find($buyNow['product_id']);
+                $items = collect([(new CartItem(['product_id' => $buyNow['product_id'], 'quantity' => $buyNow['quantity']]))->setRelation('product', $product)]);
+            }
             if (! $address || ! $items || $items->isEmpty()) {
                 throw ValidationException::withMessages(['checkout' => 'Carrinho ou endereço inválido.']);
             }
@@ -51,7 +63,7 @@ class PlaceOrder
             foreach ($items as $item) {
                 $product = $item->product;
                 $stock = $inventory->get($item->product_id);
-                if (! $product || $product->status !== CatalogStatus::Active || $product->category?->status !== CatalogStatus::Active || ! $stock || $item->quantity > $stock->available()) {
+                if (! $product || $product->status !== CatalogStatus::Active || $product->category?->status !== CatalogStatus::Active || ! $stock || $item->quantity < 1 || $item->quantity > 99 || $item->quantity > $stock->available()) {
                     throw ValidationException::withMessages(['checkout' => 'Um item do carrinho ficou indisponível.']);
                 }
                 $subtotal += $product->price_cents * $item->quantity;
@@ -105,7 +117,9 @@ class PlaceOrder
             }
 
             $order->statusHistories()->create(['to_status' => OrderStatus::PendingPayment, 'actor_id' => $user->id, 'note' => 'Pedido criado']);
-            $cart->items()->delete();
+            if ($buyNow === null) {
+                $cart->items()->delete();
+            }
             app(SecurityAudit::class)->record($user, 'order.created', $order, ['total_cents' => $order->total_cents]);
 
             return $order->load('items', 'statusHistories');
