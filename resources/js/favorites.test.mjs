@@ -46,6 +46,25 @@ test('rapid repeated clicks send one request while pending', async () => {
     assert.equal(button.busy, false);
 });
 
+test('success stays available to screen readers while only failures request visible feedback', async () => {
+    for (const initial of [false, true]) {
+        const { button } = setup(initial);
+        await button.submit();
+        assert.match(button.message, initial ? /removido/ : /adicionado/);
+        assert.equal(button.hasError, false);
+        globalThis.fetch = async () => ({ ok: false, status: 500 });
+        await button.submit();
+        assert.equal(button.hasError, true);
+        assert.match(button.message, /Tente novamente/);
+        globalThis.fetch = async () => ({ ok: true, json: async () => ({ favorited: initial }) });
+        const retry = button.submit();
+        assert.equal(button.hasError, false);
+        assert.equal(button.message, '');
+        await retry;
+        assert.equal(button.hasError, false);
+    }
+});
+
 test('failed requests preserve state and announce the error; expired authentication opens login', async () => {
     for (const status of [401, 419, 404, 500]) {
         const { button, events, redirects } = setup(true);

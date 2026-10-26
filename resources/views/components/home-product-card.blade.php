@@ -1,4 +1,4 @@
-@props(['product', 'showBrand' => false, 'showAvailability' => false])
+@props(['product', 'showBrand' => false, 'showAvailability' => false, 'quickActions' => false, 'cartContext' => 'product'])
 
 @php
     $disk = Storage::disk('public');
@@ -11,8 +11,8 @@
     $imageAlt = $hasPhoto ? ($photo->alt_text ?: $product->name) : ($demo['alt'] ?? '');
 @endphp
 
-<article {{ $attributes->class(['home-product-card']) }}>
-    <x-favorite-button :product="$product" class="favorite-control--card" />
+<article {{ $attributes->class(['home-product-card', 'home-product-card--quick-actions' => $quickActions]) }}>
+    <x-favorite-button :product="$product" icon="heart-square" class="favorite-control--card" />
     <a href="{{ route('catalog.show', $product->slug) }}" class="home-product-card__link">
         <div class="home-product-card__media" x-data="{ imageFailed: false }">
             @if ($imageUrl)

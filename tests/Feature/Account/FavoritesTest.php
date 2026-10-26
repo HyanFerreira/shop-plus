@@ -151,6 +151,34 @@ class FavoritesTest extends TestCase
         $this->assertDatabaseCount('favorites', 0);
     }
 
+    public function test_card_state_survives_fresh_page_requests_after_add_and_remove(): void
+    {
+        $product = Product::factory()->create();
+        $related = Product::factory()->create(['category_id' => $product->category_id]);
+        $this->actingAs(User::factory()->create());
+
+        foreach ([true, false] as $favorited) {
+            $this->json($favorited ? 'POST' : 'DELETE', '/favoritos/'.$product->id)
+                ->assertOk()->assertJson(['favorited' => $favorited]);
+
+            foreach (['/', '/catalogo', '/catalogo/'.$related->slug] as $path) {
+                $response = $this->get($path)->assertOk();
+                $document = new \DOMDocument;
+                @$document->loadHTML('<?xml encoding="UTF-8">'.$response->getContent());
+                $xpath = new \DOMXPath($document);
+                $button = $xpath->query('//div[contains(@class,"favorite-control--card")]//form[@action="'.route('favorites.store', $product->id).'"]//button')->item(0);
+                $this->assertNotNull($button, $path);
+                $this->assertSame($favorited ? 'true' : 'false', $button->getAttribute('aria-pressed'), $path);
+            }
+            $favorites = $this->get('/favoritos')->assertOk();
+            if ($favorited) {
+                $favorites->assertSee('aria-pressed="true"', false)->assertSeeText($product->name);
+            } else {
+                $favorites->assertSeeText('Você ainda não tem favoritos disponíveis');
+            }
+        }
+    }
+
     public function test_product_and_user_hard_deletes_cascade(): void
     {
         $user = User::factory()->create();

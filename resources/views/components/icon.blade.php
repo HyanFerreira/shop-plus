@@ -2,6 +2,9 @@
 
 <svg {{ $attributes->class(['shrink-0'])->merge(['fill' => 'none', 'viewBox' => '0 0 24 24', 'stroke' => 'currentColor', 'aria-hidden' => 'true', 'stroke-width' => $strokeWidth]) }}>
     @switch($name)
+        @case('cube')<path stroke-linecap="round" stroke-linejoin="round" d="m12 3 9 4.5v9L12 21l-9-4.5v-9L12 3Zm0 9 9-4.5M12 12 3 7.5m9 4.5v9m-4.5-15.75 9 4.5" />@break
+        @case('tag')<path stroke-linecap="round" stroke-linejoin="round" d="M9 3H3v6l11.25 11.25a1.5 1.5 0 0 0 2.12 0l3.88-3.88a1.5 1.5 0 0 0 0-2.12L9 3Z" /><circle cx="6.75" cy="6.75" r=".75" />@break
+        @case('shield-check')<path stroke-linecap="round" stroke-linejoin="round" d="M12 3 3.75 6v5.25c0 4.5 3 7.5 8.25 9.75 5.25-2.25 8.25-5.25 8.25-9.75V6L12 3Zm-4.5 8.25 3 3 6-6" />@break
         @case('user')<path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM4 21a8 8 0 0 1 16 0" />@break
         @case('chevron-down')<path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6" />@break
         @case('trash')<path stroke-linecap="round" stroke-linejoin="round" d="M9 3h6m-11 4h16M6 7l1 14h10l1-14M10 11v6m4-6v6M9 7V3m6 4V3" />@break
@@ -17,6 +20,7 @@
         @case('truck')<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm10.5 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM3 4.5h11.25v12H3v-12Zm11.25 4.5h3l3 3v4.5h-6V9Z" />@break
         @case('book-open')<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a3 3 0 0 0-3-3H4.5A1.5 1.5 0 0 0 3 5.25v13.5a1.5 1.5 0 0 0 1.5 1.5H9a3 3 0 0 1 3 3m0-16.5a3 3 0 0 1 3-3h4.5A1.5 1.5 0 0 1 21 5.25v13.5a1.5 1.5 0 0 1-1.5 1.5H15a3 3 0 0 0-3 3m0-16.5v16.5" />@break
         @case('heart')<path stroke-linecap="round" stroke-linejoin="round" d="M21.435 8.98c0 4.736-9.435 9.27-9.435 9.27S2.565 13.716 2.565 8.98c0-3.043 2.468-5.51 5.511-5.51 1.793 0 3.386.86 4.424 2.19 1.038-1.33 2.63-2.19 4.424-2.19 3.043 0 5.511 2.467 5.511 5.51Z" />@break
+        @case('heart-square')<path stroke-linecap="round" stroke-linejoin="round" d="M12 6 C12 3 9.5 2.065 7 2.065 C4 2.065 2.065 4.5 2.065 7.5 C2.065 12.5 7 17 12 21.935 C17 17 21.935 12.5 21.935 7.5 C21.935 4.5 20 2.065 17 2.065 C14.5 2.065 12 3 12 6 Z" />@break
         @case('credit-card')<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5m-19.5 0A2.25 2.25 0 0 1 4.5 6h15a2.25 2.25 0 0 1 2.25 2.25m-19.5 0v7.5A2.25 2.25 0 0 0 4.5 18h15a2.25 2.25 0 0 0 2.25-2.25v-7.5m-15 5.25h3" />@break
         @case('lock-closed')<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 0 0-9 0v3.75m-3 0h15A1.5 1.5 0 0 1 21 12v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 21v-9a1.5 1.5 0 0 1 1.5-1.5Z" />@break
         @case('envelope')<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0l-7.5-4.615A2.25 2.25 0 0 1 2.25 6.993V6.75" />@break

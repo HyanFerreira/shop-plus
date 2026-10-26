@@ -1,6 +1,6 @@
 export function favoriteButton(url, favorited, name) {
     return {
-        url, favorited, busy: false, message: '',
+        url, favorited, busy: false, message: '', hasError: false,
         get label() {
             return `${this.favorited ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}: ${name}`;
         },
@@ -8,6 +8,7 @@ export function favoriteButton(url, favorited, name) {
             if (this.busy) return;
             this.busy = true;
             this.message = '';
+            this.hasError = false;
             try {
                 const response = await fetch(this.url, {
                     method: this.favorited ? 'DELETE' : 'POST',
@@ -29,6 +30,7 @@ export function favoriteButton(url, favorited, name) {
                     detail: { url: this.url, favorited: this.favorited },
                 }));
             } catch {
+                this.hasError = true;
                 this.message = 'Não foi possível atualizar os favoritos. Tente novamente.';
             } finally {
                 this.busy = false;
