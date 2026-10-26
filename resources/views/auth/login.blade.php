@@ -29,26 +29,26 @@
             </x-alert>
         @endif
         @session('status')<x-alert variant="success" class="auth-feedback">{{ $value }}</x-alert>@endsession
-        <x-auth-form :action="route('login')" data-login-validation :data-login-errors="json_encode($fieldErrors)">
-            <span class="sr-only" data-login-announcement aria-live="polite" aria-atomic="true"></span>
+        <x-auth-form :action="route('login')" data-auth-validation="login" :data-auth-errors="json_encode($fieldErrors)">
+            <span class="sr-only" data-auth-announcement aria-live="polite" aria-atomic="true"></span>
             <div>
                 <x-label for="email" value="E-mail" />
                 <div class="auth-login-field">
                     <x-icon name="envelope" class="auth-login-field-icon" />
-                    <x-input id="email" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" placeholder="seu@email.com" data-login-field="email" :aria-invalid="$fieldErrors['email'] !== '' ? 'true' : 'false'" :aria-describedby="$fieldErrors['email'] !== '' ? 'email-error' : null" />
+                    <x-input id="email" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" placeholder="seu@email.com" data-auth-field="email" :aria-invalid="$fieldErrors['email'] !== '' ? 'true' : 'false'" :aria-describedby="$fieldErrors['email'] !== '' ? 'email-error' : null" />
                 </div>
-                <x-login-field-error name="email" :message="$fieldErrors['email']" />
+                <x-auth-field-error name="email" :message="$fieldErrors['email']" />
             </div>
             <div x-data="{ visible: false }">
                 <x-label for="password" value="Senha" />
                 <div class="auth-password">
                     <x-icon name="lock-closed" class="auth-login-field-icon" />
-                    <x-input id="password" name="password" type="password" x-bind:type="visible ? 'text' : 'password'" autocomplete="current-password" required placeholder="Sua senha" data-login-field="password" :aria-invalid="$fieldErrors['password'] !== '' ? 'true' : 'false'" :aria-describedby="$fieldErrors['password'] !== '' ? 'password-error' : null" />
+                    <x-input id="password" name="password" type="password" x-bind:type="visible ? 'text' : 'password'" autocomplete="current-password" required placeholder="Sua senha" data-auth-field="password" :aria-invalid="$fieldErrors['password'] !== '' ? 'true' : 'false'" :aria-describedby="$fieldErrors['password'] !== '' ? 'password-error' : null" />
                     <button type="button" class="auth-password__toggle" x-cloak x-on:click="visible = !visible" x-bind:aria-pressed="visible" x-bind:aria-label="visible ? 'Ocultar senha: Senha' : 'Mostrar senha: Senha'" aria-controls="password" aria-label="Mostrar senha: Senha">
                         <span x-show="!visible"><x-login-icon name="eye-slash" /></span><span x-show="visible"><x-login-icon name="eye" /></span>
                     </button>
                 </div>
-                <x-login-field-error name="password" :message="$fieldErrors['password']" />
+                <x-auth-field-error name="password" :message="$fieldErrors['password']" />
             </div>
             <div class="auth-options">
                 <label for="remember_me" class="auth-remember"><x-checkbox id="remember_me" name="remember" />Lembrar de mim</label>

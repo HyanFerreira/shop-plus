@@ -12,8 +12,14 @@ trait PasswordValidationRules
      *
      * @return array<int, Rule|array<mixed>|string>
      */
-    protected function passwordRules(): array
+    protected function passwordRules(bool $forRegistration = false): array
     {
-        return ['required', 'string', 'max:128', Password::default(), 'confirmed'];
+        // Clone so registration never mutates defaults used by password reset/update.
+        $policy = clone Password::default();
+        if ($forRegistration) {
+            $policy->letters()->mixedCase()->symbols();
+        }
+
+        return ['required', 'string', 'max:128', $policy, 'confirmed'];
     }
 }

@@ -61,8 +61,8 @@ class UserRoleAndStatusTest extends TestCase
         $response = $this->post('/register', [
             'name' => 'Cliente Fictício',
             'email' => 'cliente@example.test',
-            'password' => 'password',
-            'password_confirmation' => 'password',
+            'password' => 'Abcdefg!',
+            'password_confirmation' => 'Abcdefg!',
             'role' => 'admin',
             'status' => 'disabled',
         ]);

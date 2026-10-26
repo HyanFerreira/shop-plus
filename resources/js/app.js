@@ -1,3 +1,3 @@
 import './bootstrap';
 import './focus-modality';
-import './login-validation';
+import './auth-validation';
