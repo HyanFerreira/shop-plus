@@ -18,6 +18,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\URL;
 use Livewire\Livewire;
 use Tests\TestCase;
 
@@ -39,6 +40,14 @@ class AcademicFlowTest extends TestCase
         Auth::forgetGuards();
         $this->post('/logout')->assertRedirect('/');
         $this->post('/login', ['email' => $user->email, 'password' => 'Academic-Test-42!'])->assertRedirect('/dashboard');
+
+        $this->assertFalse($user->hasVerifiedEmail());
+        $this->get('/checkout')->assertRedirect(route('verification.notice'));
+        $verificationUrl = URL::temporarySignedRoute('verification.verify', now()->addMinutes(10), [
+            'id' => $user->id, 'hash' => sha1($user->email),
+        ]);
+        $this->get($verificationUrl)->assertRedirect('/checkout');
+        $this->assertTrue($user->refresh()->hasVerifiedEmail());
 
         Livewire::actingAs($user)->test(Manager::class)
             ->set('cpf', '529.982.247-25')->set('birthDate', '1990-01-01')->call('saveProfile')->assertHasNoErrors()

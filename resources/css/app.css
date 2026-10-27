@@ -217,6 +217,9 @@
     /* Geometry-only opt-in for legacy single-line fields, without changing their width/paint. */
     .ds-field { min-height: var(--ds-control-md); padding-block: calc((var(--ds-control-md) - var(--ds-leading-sm)) / 2 - var(--ds-border-width)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .ds-input:where(textarea, select[multiple], input[type='file']) { min-height: var(--ds-target-md); padding-block: var(--ds-space-2); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
+    select:is(.ds-input, .ds-field), select:is(.ds-input, .ds-field) option { font-size: var(--ds-text-sm); }
+    /* Native listbox rows otherwise shrink with the font; retain their previous geometry. */
+    select:is(.ds-input, .ds-field)[multiple] option { min-height: calc(var(--ds-text-base) * 1.2); block-size: calc(var(--ds-leading-sm) + 2 * var(--ds-border-width)); }
     .ds-label { display: block; margin-bottom: var(--ds-space-1); color: rgb(var(--ds-secondary)); font-weight: var(--ds-weight-semibold); }
     .ds-label, .ds-help, .ds-error { font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); overflow-wrap: anywhere; }
     .ds-help, .ds-error { margin-top: var(--ds-space-2); }
@@ -301,16 +304,16 @@
     .storefront-cart { position: relative; flex-shrink: 0; width: var(--ds-control-md); height: var(--ds-control-md); }
     .storefront-cart__icon { position: relative; display: inline-flex; flex-shrink: 0; width: var(--ds-space-5); height: var(--ds-space-5); }
     .storefront-cart__badge { position: absolute; top: 0; right: 0; transform: translate(var(--ds-space-2), calc(-1 * var(--ds-space-2))); display: grid; place-items: center; min-width: var(--ds-space-4); height: var(--ds-space-4); padding-inline: var(--ds-space-1); border-radius: var(--ds-radius-pill); background: rgb(var(--ds-danger)); color: rgb(var(--ds-surface)); font-size: var(--ds-text-xs); line-height: var(--ds-leading-xs); }
-    .storefront-login { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); padding-block: calc((var(--ds-control-md) - var(--ds-leading-base)) / 2 - var(--ds-border-width)); }
+    .storefront-login { font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); padding-block: calc((var(--ds-control-md) - var(--ds-leading-base)) / 2 - var(--ds-border-width)); }
     .storefront-user { position: relative; min-width: 0; max-width: calc(var(--ds-space-16) * 3); }
-    .storefront-user__trigger { --ds-button-line: var(--ds-line); --ds-button-ink: var(--ds-ink); width: 100%; font-size: var(--ds-text-base); line-height: var(--ds-leading-base); padding-block: calc((var(--ds-control-md) - var(--ds-leading-base)) / 2 - var(--ds-border-width)); }
+    .storefront-user__trigger { --ds-button-line: var(--ds-line); --ds-button-ink: var(--ds-ink); width: 100%; font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); padding-block: calc((var(--ds-control-md) - var(--ds-leading-base)) / 2 - var(--ds-border-width)); }
     .storefront-user__trigger > svg { transition: transform var(--ds-duration) var(--ds-easing); }
     .storefront-user__trigger[aria-expanded="true"] > svg { transform: rotate(180deg); }
     .storefront-user__avatar { display: grid; place-items: center; flex-shrink: 0; width: var(--ds-space-6); height: var(--ds-space-6); border-radius: var(--ds-radius-pill); background: rgb(var(--ds-brand)); color: rgb(var(--ds-surface)); }
     .storefront-user__name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; }
     .storefront-user__menu { position: absolute; z-index: 50; right: 0; top: calc(100% + var(--ds-space-2)); width: calc(var(--ds-space-16) * 4); max-width: calc(100vw - var(--ds-space-8)); padding: var(--ds-space-2); border: var(--ds-border-width) solid rgb(var(--ds-line)); border-radius: var(--ds-radius-sm); background: rgb(var(--ds-surface)); box-shadow: var(--ds-shadow-raised); }
     .storefront-user__menu nav { display: grid; gap: var(--ds-space-1); }
-    .storefront-user__menu :is(nav a, button) { display: flex; align-items: center; gap: var(--ds-space-2); width: 100%; padding: var(--ds-space-2) var(--ds-space-3); border-radius: var(--ds-radius-sm); color: rgb(var(--ds-secondary)); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); text-align: left; }
+    .storefront-user__menu :is(nav a, button) { display: flex; align-items: center; gap: var(--ds-space-2); width: 100%; padding: var(--ds-space-2) var(--ds-space-3); border-radius: var(--ds-radius-sm); color: rgb(var(--ds-secondary)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); text-align: left; }
     .storefront-user__menu nav a:hover { color: rgb(var(--ds-brand)); background: rgb(var(--ds-surface-alt)); }
     .storefront-user__menu nav a[aria-current="page"] { color: rgb(var(--ds-brand)); background: rgb(var(--ds-brand-soft)); font-weight: var(--ds-weight-semibold); }
     .storefront-user__menu .customer-navigation__logout { margin-top: var(--ds-space-2); padding-top: var(--ds-space-2); border-top: var(--ds-border-width) solid rgb(var(--ds-line)); }
@@ -331,7 +334,7 @@
         padding: var(--ds-space-2);
         border-radius: var(--ds-radius-sm);
         color: rgb(var(--ds-secondary));
-        font-size: var(--ds-text-base);
+        font-size: var(--ds-text-sm);
         line-height: var(--ds-leading-base);
         font-weight: var(--ds-weight-semibold);
         transition: color var(--ds-duration) var(--ds-easing);

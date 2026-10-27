@@ -36,12 +36,12 @@
                             @keydown.end.prevent="selected = {{ count($gallery) - 1 }}; $refs.thumbnails.querySelectorAll('button')[selected].focus()">
                             @foreach($gallery as $index => $image)
                                 <button type="button" @click="selected = {{ $index }}" aria-pressed="{{ $index === 0 ? 'true' : 'false' }}" x-bind:aria-pressed="(selected === {{ $index }}).toString()" aria-controls="product-gallery-stage" aria-label="Ver imagem {{ $index + 1 }} de {{ count($gallery) }}">
-                                    <img src="{{ $image['url'] }}" alt="" width="80" height="60" decoding="async" x-show="!failed[{{ $index }}]" x-on:error="failed[{{ $index }}] = true">
+                                    <img src="{{ $image['url'] }}" alt="" width="80" height="80" decoding="async" x-show="!failed[{{ $index }}]" x-on:error="failed[{{ $index }}] = true">
                                     <span x-cloak x-show="failed[{{ $index }}]" class="product-thumbnail-unavailable">{{ $index + 1 }}<span class="sr-only">: imagem indisponível</span></span>
                                 </button>
                             @endforeach
                         </div>
-                        <p class="product-gallery__status" aria-live="polite" x-text="'Imagem ' + (selected + 1) + ' de {{ count($gallery) }}'">Imagem 1 de {{ count($gallery) }}</p>
+                        <p class="product-gallery__status sr-only" aria-live="polite" x-text="'Imagem ' + (selected + 1) + ' de {{ count($gallery) }}'">Imagem 1 de {{ count($gallery) }}</p>
                     @endif
                 </section>
                 <section class="product-summary" aria-labelledby="product-title">

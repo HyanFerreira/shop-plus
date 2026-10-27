@@ -42,7 +42,7 @@
     .order-empty p { color: rgb(var(--ds-secondary)); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); max-width: 32rem; }
     .orders-pagination nav a, .orders-pagination nav button, .orders-pagination nav [aria-current] > span { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
     .orders-pagination nav { gap: var(--ds-space-3); flex-wrap: wrap; }
-    .order-back-link { display: inline-flex; align-items: center; color: rgb(var(--ds-brand-active)); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); margin-bottom: var(--ds-space-3); }
+    .order-back-link { display: inline-flex; align-items: center; color: rgb(var(--ds-brand-active)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); margin-bottom: var(--ds-space-3); }
     .orders-container > .orders-heading, .order-payment, .order-flash { margin-bottom: var(--ds-space-6); }
     .order-panel { padding: var(--ds-space-4); min-width: 0; }
     .order-overview { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--ds-space-3); }

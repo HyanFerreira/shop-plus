@@ -9,7 +9,7 @@
     .auth-form { display: flex; flex-direction: column; gap: var(--ds-space-5); margin-top: var(--ds-space-6); min-width: 0; }
     .auth-submit { width: 100%; }
     .auth-feedback { margin-top: var(--ds-space-5); overflow-wrap: anywhere; }
-    .auth-link { color: rgb(var(--ds-brand-strong)); font-weight: var(--ds-weight-semibold); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); display: inline-flex; align-items: center; justify-content: center; gap: var(--ds-space-2); border-radius: var(--ds-radius-xs); text-align: center; }
+    .auth-link { color: rgb(var(--ds-brand-strong)); font-weight: var(--ds-weight-semibold); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); display: inline-flex; align-items: center; justify-content: center; gap: var(--ds-space-2); border-radius: var(--ds-radius-xs); text-align: center; }
     .auth-link:hover { text-decoration: underline; color: rgb(var(--ds-brand-active)); }
     .auth-page :is(a, button):focus-visible { outline: var(--ds-focus-width) solid rgb(var(--ds-brand)); outline-offset: var(--ds-focus-offset); }
     .auth-options { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 var(--ds-space-3); }
@@ -64,13 +64,13 @@
     .auth-page--branded .auth-password .ds-input { padding-right: var(--ds-space-10); }
     .auth-page--branded .auth-password__toggle { display: grid; place-items: center; width: var(--ds-space-8); padding: 0; color: rgb(var(--ds-secondary)); }
     .auth-page--branded .auth-password__toggle svg { width: var(--ds-space-5); height: var(--ds-space-5); }
-    .auth-page--branded .auth-submit { border-radius: var(--ds-radius-lg); background-image: linear-gradient(110deg, rgb(var(--ds-brand)), rgb(var(--ds-brand-strong))); box-shadow: 0 var(--ds-space-2) var(--ds-space-3) rgb(var(--ds-brand) / .2); }
+    .auth-page--branded .auth-submit { font-size: var(--ds-text-sm); border-radius: var(--ds-radius-lg); background-image: linear-gradient(110deg, rgb(var(--ds-brand)), rgb(var(--ds-brand-strong))); box-shadow: 0 var(--ds-space-2) var(--ds-space-3) rgb(var(--ds-brand) / .2); }
     .auth-page--branded .auth-submit:hover:not(:disabled) { background-image: linear-gradient(110deg, rgb(var(--ds-brand-strong)), rgb(var(--ds-brand-active))); }
     .auth-page--branded .auth-submit:active:not(:disabled) { background-image: none; }
     .auth-page--branded .auth-submit > span { display: inline-flex; align-items: center; justify-content: center; gap: var(--ds-space-2); }
     .auth-page--branded .auth-submit svg, .auth-page--branded .auth-footer > svg { width: var(--ds-space-5); height: var(--ds-space-5); flex-shrink: 0; }
     .auth-page--branded .auth-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0 var(--ds-space-2); margin-top: var(--ds-space-6); padding: var(--ds-space-2) var(--ds-space-4); border: 0; border-radius: var(--ds-radius-md); background: rgb(var(--ds-brand-line) / .55); color: rgb(var(--ds-ink)); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
-    .auth-page--branded .auth-footer .auth-link { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
+    .auth-page--branded .auth-footer .auth-link { font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); }
     .auth-page--branded .auth-form { gap: var(--ds-space-4); }
     .auth-page--branded .auth-options { gap: var(--ds-space-2); }
     .auth-page--branded .auth-footer > svg { color: rgb(var(--ds-brand)); }
@@ -112,7 +112,8 @@
     @media (min-width: 1280px) {
         .auth-page--branded .auth-benefits { padding: var(--ds-space-4) calc(var(--ds-space-12) + var(--ds-space-10)) 0 var(--ds-space-12); }
         .auth-page--branded .auth-content { padding: var(--ds-space-8) var(--ds-space-10); }
-        .auth-page--branded .auth-remember, .auth-page--branded .auth-options .auth-link { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
+        .auth-page--branded .auth-remember { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
+        .auth-page--branded .auth-options .auth-link { font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); }
         .auth-login-intro-break { display: block; }
     }
     .auth-page--register .auth-heading h1 { font-size: var(--ds-text-3xl); line-height: var(--ds-leading-3xl); }
