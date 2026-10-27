@@ -52,6 +52,7 @@ class Product extends Model
             'height_mm' => 'integer',
             'length_mm' => 'integer',
             'status' => CatalogStatus::class,
+            'is_automated_demo' => 'boolean',
         ];
     }
 

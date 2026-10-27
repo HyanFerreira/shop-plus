@@ -21,6 +21,7 @@ class Order extends Model
     {
         return [
             'status' => OrderStatus::class,
+            'is_automated_demo' => 'boolean',
             'subtotal_cents' => 'integer',
             'shipping_cents' => 'integer',
             'total_cents' => 'integer',

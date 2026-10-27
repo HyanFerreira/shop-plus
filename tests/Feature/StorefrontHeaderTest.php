@@ -31,6 +31,7 @@ class StorefrontHeaderTest extends TestCase
         $this->assertSame('Entrar', trim($login->textContent));
         $this->assertStringContainsString('ds-button--primary', $login->getAttribute('class'));
         $this->assertSame(0, $xpath->query('//*[@id="storefront-account-menu"]')->length);
+        $this->assertSame(0, $xpath->query('//header//a[@href="'.route('users.index').'"]')->length);
     }
 
     public function test_authenticated_user_keeps_cart_and_account_navigation(): void
@@ -78,8 +79,12 @@ class StorefrontHeaderTest extends TestCase
         $menu = '//*[@id="storefront-account-menu"]';
         $links = fn ($scope) => array_map(fn ($link) => [$link->getAttribute('href'), $link->getAttribute('aria-current'), trim($link->textContent)], iterator_to_array($xpath->query($scope.'//nav/a')));
         $this->assertSame(0, $xpath->query('//aside')->length);
-        $this->assertSame(['Visão geral', 'Perfil', 'Pedidos', 'Favoritos'], array_column($links($menu), 2));
-        $this->assertSame([route('dashboard'), route('profile.show'), route('orders.index'), route('favorites.index')], array_column($links($menu), 0));
+        $this->assertSame(['Visão geral', 'Perfil', 'Pedidos', 'Favoritos', 'Ver usuários'], array_column($links($menu), 2));
+        $this->assertSame([route('dashboard'), route('profile.show'), route('orders.index'), route('favorites.index'), route('users.index')], array_column($links($menu), 0));
+        $this->assertSame(2, $xpath->query($menu.'//hr[@class="customer-navigation__divider"]')->length);
+        $this->assertSame(1, $xpath->query($menu.'//nav/hr[preceding-sibling::*[1][self::a[@href="'.route('favorites.index').'"]] and following-sibling::*[1][self::a[@href="'.route('users.index').'"]]]')->length);
+        $this->assertSame(1, $xpath->query($menu.'/hr[preceding-sibling::*[1][self::nav] and following-sibling::*[1][self::form]]')->length);
+        $this->assertSame(1, $xpath->query($menu.'//a[@href="'.route('users.index').'"]/svg')->length);
         $this->assertSame('page', $links($menu)[0][1]);
         $this->assertSame(0, $xpath->query($menu.'//a[@href="'.route('admin.dashboard').'"]')->length);
         $this->assertSame(1, $xpath->query($menu.'//form[@method="POST" and @action="'.route('logout').'"]//input[@name="_token"]')->length);
@@ -87,6 +92,14 @@ class StorefrontHeaderTest extends TestCase
         $this->assertSame(0, $xpath->query('//header//a[@href="'.route('logout').'"]')->length);
         $this->post(route('logout'))->assertRedirect('/');
         $this->assertGuest();
+    }
+
+    public function test_users_link_is_active_on_the_directory(): void
+    {
+        $this->actingAs(User::factory()->create());
+        $xpath = $this->header('/usuarios');
+        $this->assertSame(1, $xpath->query('//*[@id="storefront-account-menu"]//a[@href="'.route('users.index').'" and @aria-current="page"]')->length);
+        $this->assertSame(0, $xpath->query('//aside')->length);
     }
 
     public function test_search_preserves_get_query_and_accessible_submit_and_active_page(): void

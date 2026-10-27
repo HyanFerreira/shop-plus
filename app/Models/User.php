@@ -70,6 +70,7 @@ class User extends Authenticatable
             'password' => 'hashed',
             'role' => UserRole::class,
             'status' => UserStatus::class,
+            'is_automated_demo' => 'boolean',
         ];
     }
 

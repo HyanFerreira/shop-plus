@@ -41,18 +41,18 @@ class PaymentForm extends Component
 
     public function pay(ProcessPayment $action): mixed
     {
-        $order = $this->ownedOrder();
-        $key = 'payment:'.Auth::id().':'.$order->id;
-        if (RateLimiter::tooManyAttempts($key, 5)) {
-            throw ValidationException::withMessages(['payment' => 'Muitas tentativas. Aguarde antes de tentar novamente.']);
-        }
-        RateLimiter::hit($key, 60);
-
         try {
+            $order = $this->ownedOrder();
+            $key = 'payment:'.Auth::id().':'.$order->id;
+            if (RateLimiter::tooManyAttempts($key, 5)) {
+                throw ValidationException::withMessages(['payment' => 'Muitas tentativas. Aguarde antes de tentar novamente.']);
+            }
+            RateLimiter::hit($key, 60);
+
             $validated = $this->validate([
                 'cardholderName' => ['required', 'string', 'min:3', 'max:100'],
-                'cardNumber' => ['required', 'string', 'max:23'],
-                'cvv' => ['required', 'digits_between:3,4'],
+                'cardNumber' => ['required', 'string', 'max:37'],
+                'cvv' => ['required', 'regex:/\A[0-9]{3}\z/'],
                 'expiryMonth' => ['required', 'integer', 'between:1,12'],
                 'expiryYear' => ['required', 'integer', 'between:'.now()->year.','.now()->addYears(15)->year],
                 'paymentKey' => ['required', 'uuid'],

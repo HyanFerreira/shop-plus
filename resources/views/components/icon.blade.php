@@ -6,6 +6,7 @@
         @case('tag')<path stroke-linecap="round" stroke-linejoin="round" d="M9 3H3v6l11.25 11.25a1.5 1.5 0 0 0 2.12 0l3.88-3.88a1.5 1.5 0 0 0 0-2.12L9 3Z" /><circle cx="6.75" cy="6.75" r=".75" />@break
         @case('shield-check')<path stroke-linecap="round" stroke-linejoin="round" d="M12 3 3.75 6v5.25c0 4.5 3 7.5 8.25 9.75 5.25-2.25 8.25-5.25 8.25-9.75V6L12 3Zm-4.5 8.25 3 3 6-6" />@break
         @case('user')<path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM4 21a8 8 0 0 1 16 0" />@break
+        @case('users')<path stroke-linecap="round" stroke-linejoin="round" d="M15 7.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM4.5 21v-1.5a7.5 7.5 0 0 1 15 0V21M18 4.75a3 3 0 0 1 0 5.5M21 18v-1a5 5 0 0 0-2.5-4.33M6 4.75a3 3 0 0 0 0 5.5M3 18v-1a5 5 0 0 1 2.5-4.33" />@break
         @case('chevron-down')<path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6" />@break
         @case('trash')<path stroke-linecap="round" stroke-linejoin="round" d="M9 3h6m-11 4h16M6 7l1 14h10l1-14M10 11v6m4-6v6M9 7V3m6 4V3" />@break
         @case('shopping-bag')<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 9.4V7.5a4.5 4.5 0 0 0-9 0v1.9m-3.75 0h16.5l-1.125 10.125a2.25 2.25 0 0 1-2.237 2.003H7.112a2.25 2.25 0 0 1-2.237-2.003L3.75 9.4Z" />@break

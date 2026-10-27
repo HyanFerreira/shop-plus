@@ -316,7 +316,8 @@
     .storefront-user__menu :is(nav a, button) { display: flex; align-items: center; gap: var(--ds-space-2); width: 100%; padding: var(--ds-space-2) var(--ds-space-3); border-radius: var(--ds-radius-sm); color: rgb(var(--ds-secondary)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); text-align: left; }
     .storefront-user__menu nav a:hover { color: rgb(var(--ds-brand)); background: rgb(var(--ds-surface-alt)); }
     .storefront-user__menu nav a[aria-current="page"] { color: rgb(var(--ds-brand)); background: rgb(var(--ds-brand-soft)); font-weight: var(--ds-weight-semibold); }
-    .storefront-user__menu .customer-navigation__logout { margin-top: var(--ds-space-2); padding-top: var(--ds-space-2); border-top: var(--ds-border-width) solid rgb(var(--ds-line)); }
+    .customer-navigation__divider { grid-column: 1 / -1; width: 100%; margin-block: var(--ds-space-2); border: 0; border-top: var(--ds-border-width) solid rgb(var(--ds-line)); }
+    .storefront-user__menu .customer-navigation__logout { margin-top: 0; padding-top: 0; border: 0; }
     .storefront-user__menu .customer-navigation__logout button { color: rgb(var(--ds-danger)); }
     .storefront-user__menu .customer-navigation__logout button:hover { color: rgb(var(--ds-danger-strong)); background: rgb(var(--ds-surface-alt)); }
     .storefront-user__menu :is(a, button):focus-visible { outline: var(--ds-focus-width) solid rgb(var(--ds-brand)); outline-offset: var(--ds-focus-offset); }
