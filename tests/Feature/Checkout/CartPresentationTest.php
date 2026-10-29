@@ -55,14 +55,17 @@ class CartPresentationTest extends TestCase
         $this->assertSame(12345, $product->fresh()->price_cents);
     }
 
-    public function test_controls_preserve_update_remove_and_deferred_quantity_contracts(): void
+    public function test_controls_save_automatically_and_remove_without_a_text_button(): void
     {
         $user = User::factory()->create();
         [, $item] = $this->item($user, [], 2);
         $component = Livewire::actingAs($user)->test(CartManager::class)
             ->assertSee('wire:model="quantities.'.$item->id.'"', false)
-            ->assertSee('wire:click="updateItem('.$item->id.')"', false)
-            ->assertSee('wire:click="removeItem('.$item->id.')"', false)
+            ->assertSee('saveQuantity('.$item->id.', $event.target.value)', false)
+            ->assertDontSee('readonly', false)
+            ->assertSee('removeItem('.$item->id.')', false)
+            ->assertDontSee('>Atualizar</button>', false)
+            ->assertSee('title="Remover', false)
             ->assertSee('Aumentar quantidade')->assertSee('Diminuir quantidade')
             ->assertSee('cart-item-'.$item->id)->assertSee('wire:loading.attr="disabled"', false);
         $component->set('quantities.'.$item->id, 0)->call('updateItem', $item->id)->assertSeeText('Seu carrinho está vazio.');
@@ -70,6 +73,22 @@ class CartPresentationTest extends TestCase
         [, $second] = $this->item($user);
         Livewire::actingAs($user)->test(CartManager::class)->call('removeItem', $second->id)->assertSeeText('Seu carrinho está vazio.');
         $this->assertDatabaseMissing('cart_items', ['id' => $second->id]);
+    }
+
+    public function test_clear_cart_only_removes_owned_items_without_changing_stock(): void
+    {
+        $user = User::factory()->create();
+        [$product] = $this->item($user, [], 2);
+        $this->item($user);
+        $other = User::factory()->create();
+        [, $foreign] = $this->item($other);
+        $stock = $product->inventoryItem->getAttributes();
+        Livewire::actingAs($user)->test(CartManager::class)->call('clearCart')
+            ->assertHasNoErrors()->assertSet('quantities', [])->assertDispatched('cart-updated')
+            ->assertSeeText('Seu carrinho está vazio.')->call('clearCart')->assertHasNoErrors();
+        $this->assertSame(0, $user->cart->items()->count());
+        $this->assertDatabaseHas('cart_items', ['id' => $foreign->id, 'quantity' => 1]);
+        $this->assertSame($stock, $product->inventoryItem->fresh()->getAttributes());
     }
 
     public function test_existing_stock_and_invalid_quantity_errors_are_visible_without_changing_saved_values(): void
@@ -90,6 +109,7 @@ class CartPresentationTest extends TestCase
     {
         $product = Product::factory()->create($attributes);
         InventoryItem::factory()->for($product)->create(['on_hand' => 7, 'reserved' => 2]);
+
         return [$product, app(AddCartItem::class)->execute($user, $product, $quantity)];
     }
 }
