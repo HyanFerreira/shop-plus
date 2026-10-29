@@ -169,6 +169,15 @@
         --ds-button-active: var(--ds-success-active);
         --ds-button-line: var(--ds-success-strong);
     }
+    .ds-button--ghost, .ds-button--text {
+        --ds-button-ink: var(--ds-brand);
+        --ds-button-hover: var(--ds-surface-alt);
+        --ds-button-active: var(--ds-brand-soft);
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none;
+    }
+    .ds-button--text:hover:not(:disabled) { text-decoration: underline; text-underline-offset: var(--ds-space-1); }
     .ds-button:hover:not(:disabled):not([aria-disabled="true"]) { background-color: rgb(var(--ds-button-hover)); }
     .ds-button:active:not(:disabled):not([aria-disabled="true"]) { background-color: rgb(var(--ds-button-active)); }
     .ds-button:focus-visible, .ds-action:focus-visible, .ds-checkbox:focus-visible, .ds-shop-logo:focus-visible {
@@ -177,8 +186,10 @@
     }
     .ds-button:disabled, .ds-button[aria-disabled="true"] { opacity: var(--ds-disabled-opacity); cursor: not-allowed; }
     .ds-button[aria-disabled="true"] { pointer-events: none; }
+    .ds-button[aria-busy="true"] { cursor: progress; }
     .ds-button--sm { min-height: var(--ds-control-sm); padding: calc((var(--ds-control-sm) - var(--ds-leading-sm)) / 2 - var(--ds-border-width)) var(--ds-space-3); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .ds-button--lg { min-height: var(--ds-control-lg); padding-inline: var(--ds-space-4); }
+    .ds-button--icon { flex-shrink: 0; width: var(--ds-control-md); padding: 0; }
     .ds-button svg { width: var(--ds-space-5); height: var(--ds-space-5); flex-shrink: 0; }
     .ds-action { display: inline-flex; align-items: center; justify-content: center; min-height: var(--ds-control-md); gap: var(--ds-space-2); padding-block: calc((var(--ds-control-md) - var(--ds-leading-sm)) / 2 - var(--ds-border-width)); border: var(--ds-border-width) solid transparent; font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
 
@@ -220,6 +231,20 @@
     .ds-field { min-height: var(--ds-control-md); padding-block: calc((var(--ds-control-md) - var(--ds-leading-sm)) / 2 - var(--ds-border-width)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .ds-input:where(textarea, select[multiple], input[type='file']) { min-height: var(--ds-target-md); padding-block: var(--ds-space-2); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
     select:is(.ds-input, .ds-field), select:is(.ds-input, .ds-field) option { font-size: var(--ds-text-sm); }
+    .ds-select, .ds-select option { font-family: var(--ds-font-family); font-weight: var(--ds-weight-medium); }
+    .ds-select { cursor: pointer; }
+    .ds-select:not([multiple]):not([size]) {
+        appearance: none;
+        padding-right: var(--ds-space-10);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='1.8'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right var(--ds-space-3) center;
+        background-size: var(--ds-space-5);
+    }
+    .ds-select option:checked { background: rgb(var(--ds-brand-soft)); color: rgb(var(--ds-brand-active)); }
+    @media (forced-colors: active) {
+        .ds-select:not([multiple]):not([size]) { appearance: auto; background-image: none; }
+    }
     /* Native listbox rows otherwise shrink with the font; retain their previous geometry. */
     select:is(.ds-input, .ds-field)[multiple] option { min-height: calc(var(--ds-text-base) * 1.2); block-size: calc(var(--ds-leading-sm) + 2 * var(--ds-border-width)); }
     .ds-label { display: block; margin-bottom: var(--ds-space-1); color: rgb(var(--ds-secondary)); font-weight: var(--ds-weight-medium); }

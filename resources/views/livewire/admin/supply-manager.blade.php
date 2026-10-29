@@ -23,8 +23,8 @@
     <section class="bg-white p-6 shadow-xl sm:rounded-lg space-y-5">
         <h3 class="text-lg font-medium">Custos por fornecedor</h3>
         <form wire:submit="saveSupplierProduct" class="grid gap-4 md:grid-cols-4">
-            <select wire:model="linkSupplierId" class="ds-field rounded-lg border-gray-300"><option value="">Fornecedor</option>@foreach($suppliers->whereNull('deleted_at')->where('active',true) as $s)<option value="{{ $s->id }}">{{ $s->name_encrypted }}</option>@endforeach</select>
-            <select wire:model="linkProductId" class="ds-field rounded-lg border-gray-300"><option value="">Produto</option>@foreach($products as $p)<option value="{{ $p->id }}">{{ $p->name }}</option>@endforeach</select>
+            <x-select wire:model="linkSupplierId" aria-label="Fornecedor"><option value="">Fornecedor</option>@foreach($suppliers->whereNull('deleted_at')->where('active',true) as $s)<option value="{{ $s->id }}">{{ $s->name_encrypted }}</option>@endforeach</x-select>
+            <x-select wire:model="linkProductId" aria-label="Produto"><option value="">Produto</option>@foreach($products as $p)<option value="{{ $p->id }}">{{ $p->name }}</option>@endforeach</x-select>
             <x-input wire:model="externalCode" placeholder="Código externo"/><x-input wire:model="supplierCost" placeholder="Custo R$" inputmode="decimal"/>
             <x-input-error for="linkSupplierId"/><x-input-error for="linkProductId"/><x-input-error for="externalCode"/><x-input-error for="supplierCost"/>
             <div class="md:col-span-4 text-right"><x-button>Salvar custo</x-button></div>
@@ -47,14 +47,14 @@
             @endforeach
         </div>
         <form wire:submit="savePurchaseOrder" class="grid gap-4 md:grid-cols-4 border-t pt-5">
-            <select wire:model="orderSupplierId" class="ds-field rounded-lg border-gray-300"><option value="">Fornecedor</option>@foreach($suppliers->whereNull('deleted_at')->where('active',true) as $s)<option value="{{ $s->id }}">{{ $s->name_encrypted }}</option>@endforeach</select>
-            <select wire:model="orderProductId" class="ds-field rounded-lg border-gray-300"><option value="">Produto vinculado</option>@foreach($products as $p)<option value="{{ $p->id }}">{{ $p->name }}</option>@endforeach</select>
+            <x-select wire:model="orderSupplierId" aria-label="Fornecedor"><option value="">Fornecedor</option>@foreach($suppliers->whereNull('deleted_at')->where('active',true) as $s)<option value="{{ $s->id }}">{{ $s->name_encrypted }}</option>@endforeach</x-select>
+            <x-select wire:model="orderProductId" aria-label="Produto vinculado"><option value="">Produto vinculado</option>@foreach($products as $p)<option value="{{ $p->id }}">{{ $p->name }}</option>@endforeach</x-select>
             <x-input type="number" min="1" wire:model="orderQuantity"/><x-button>Criar rascunho</x-button>
             <x-input-error for="orderSupplierId"/><x-input-error for="orderProductId"/><x-input-error for="orderQuantity"/>
         </form>
         <form wire:submit="receivePurchase" class="grid gap-4 md:grid-cols-4 border-t pt-5">
-            <select wire:model.live="receiveOrderId" class="ds-field rounded-lg border-gray-300"><option value="">Ordem emitida</option>@foreach($orders->whereIn('status',[\App\Enums\PurchaseOrderStatus::Placed,\App\Enums\PurchaseOrderStatus::PartiallyReceived]) as $o)<option value="{{ $o->id }}">{{ $o->public_number }}</option>@endforeach</select>
-            <select wire:model="receiveItemId" class="ds-field rounded-lg border-gray-300"><option value="">Item</option>@if($receiveOrderId)@foreach($orders->firstWhere('id',$receiveOrderId)?->items ?? [] as $item)<option value="{{ $item->id }}">{{ $item->product->name }}</option>@endforeach @endif</select>
+            <x-select wire:model.live="receiveOrderId" aria-label="Ordem emitida"><option value="">Ordem emitida</option>@foreach($orders->whereIn('status',[\App\Enums\PurchaseOrderStatus::Placed,\App\Enums\PurchaseOrderStatus::PartiallyReceived]) as $o)<option value="{{ $o->id }}">{{ $o->public_number }}</option>@endforeach</x-select>
+            <x-select wire:model="receiveItemId" aria-label="Item"><option value="">Item</option>@if($receiveOrderId)@foreach($orders->firstWhere('id',$receiveOrderId)?->items ?? [] as $item)<option value="{{ $item->id }}">{{ $item->product->name }}</option>@endforeach @endif</x-select>
             <x-input type="number" min="1" wire:model="receiveQuantity"/><x-button>Registrar recebimento</x-button>
             <x-input-error for="receiveOrderId"/><x-input-error for="receiveItemId"/><x-input-error for="receiveQuantity"/>
         </form>
@@ -63,7 +63,7 @@
         <h3 class="text-lg font-medium">Estoque</h3>
         <div class="overflow-x-auto"><table class="min-w-full divide-y"><thead><tr class="text-left"><th>Produto</th><th>Físico</th><th>Reservado</th><th>Disponível</th></tr></thead><tbody class="divide-y">@foreach($inventoryItems as $stock)<tr><td class="py-2">{{ $stock->product->name }}</td><td>{{ $stock->on_hand }}</td><td>{{ $stock->reserved }}</td><td>{{ $stock->available() }}</td></tr>@endforeach</tbody></table></div>
         <form wire:submit="adjustInventory" class="grid gap-4 md:grid-cols-4 border-t pt-5">
-            <select wire:model="adjustProductId" class="ds-field rounded-lg border-gray-300"><option value="">Produto</option>@foreach($products as $p)<option value="{{ $p->id }}">{{ $p->name }}</option>@endforeach</select>
+            <x-select wire:model="adjustProductId" aria-label="Produto"><option value="">Produto</option>@foreach($products as $p)<option value="{{ $p->id }}">{{ $p->name }}</option>@endforeach</x-select>
             <x-input type="number" wire:model="adjustDelta" placeholder="Variação (+/-)"/><x-input wire:model="adjustReason" placeholder="Justificativa obrigatória"/><x-button>Ajustar estoque</x-button>
             <x-input-error for="adjustProductId"/><x-input-error for="adjustDelta"/><x-input-error for="adjustReason"/>
         </form>

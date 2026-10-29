@@ -39,10 +39,10 @@
                         @endphp
                         <div class="checkout-address-select">
                             <x-label for="address" value="Selecione um endereço cadastrado" />
-                            <select id="address" wire:model.live="addressId" class="ds-input" wire:loading.attr="disabled" wire:target="confirm" aria-describedby="checkout-address-help checkout-address-error" aria-invalid="{{ $errors->has('addressId') ? 'true' : 'false' }}">
+                            <x-select id="address" wire:model.live="addressId" wire:loading.attr="disabled" wire:target="confirm" aria-describedby="checkout-address-help checkout-address-error" aria-invalid="{{ $errors->has('addressId') ? 'true' : 'false' }}">
                                 <option value="">Selecione</option>
                                 @foreach(Auth::user()->addresses as $address)<option value="{{ $address->id }}">{{ $address->label }}{{ $addressLabelCounts[$address->label] > 1 ? ' · cadastro '.$loop->iteration : '' }}</option>@endforeach
-                            </select>
+                            </x-select>
                             <p id="checkout-address-help" class="ds-help">As modalidades são consultadas para o endereço selecionado.</p>
                             @if($hasDuplicateAddressLabels)<p class="checkout-address-duplicate" role="alert">Há endereços com o mesmo nome. Antes de continuar, revise e diferencie os nomes no cadastro.</p>@endif
                             <a class="checkout-text-link" href="{{ route('personal-data.show') }}">Gerenciar endereços <span aria-hidden="true">→</span></a>

@@ -82,11 +82,11 @@
 
                     <div>
                         <x-label for="phoneType" value="Tipo" />
-                        <select id="phoneType" wire:model="phoneType" class="ds-input mt-1 block w-full" wire:loading.attr="disabled" wire:target="saveProfile,savePhone,editPhone,cancelPhoneEdit,deletePhone,saveAddress,editAddress,cancelAddressEdit,deleteAddress" aria-invalid="{{ $errors->has('phoneType') ? 'true' : 'false' }}" aria-describedby="account-error-phoneType">
+                        <x-select id="phoneType" wire:model="phoneType" class="mt-1 block w-full" wire:loading.attr="disabled" wire:target="saveProfile,savePhone,editPhone,cancelPhoneEdit,deletePhone,saveAddress,editAddress,cancelAddressEdit,deleteAddress" aria-invalid="{{ $errors->has('phoneType') ? 'true' : 'false' }}" aria-describedby="account-error-phoneType">
                             <option value="mobile">Celular</option>
                             <option value="home">Residencial</option>
                             <option value="work">Trabalho</option>
-                        </select>
+                        </x-select>
                         <div id="account-error-phoneType" aria-live="polite"><x-input-error for="phoneType" class="mt-2"  /></div>
                     </div>
                 </div>
@@ -190,12 +190,12 @@
                     </div>
                     <div>
                         <x-label for="addressState" value="UF" />
-                        <select id="addressState" wire:model="addressState" autocomplete="address-level1" class="ds-input mt-1 block w-full" wire:loading.attr="disabled" wire:target="saveProfile,savePhone,editPhone,cancelPhoneEdit,deletePhone,saveAddress,editAddress,cancelAddressEdit,deleteAddress" aria-invalid="{{ $errors->has('addressState') ? 'true' : 'false' }}" aria-describedby="account-error-addressState">
+                        <x-select id="addressState" wire:model="addressState" autocomplete="address-level1" class="mt-1 block w-full" wire:loading.attr="disabled" wire:target="saveProfile,savePhone,editPhone,cancelPhoneEdit,deletePhone,saveAddress,editAddress,cancelAddressEdit,deleteAddress" aria-invalid="{{ $errors->has('addressState') ? 'true' : 'false' }}" aria-describedby="account-error-addressState">
                             <option value="">Selecione</option>
                             @foreach (['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'] as $state)
                                 <option value="{{ $state }}">{{ $state }}</option>
                             @endforeach
-                        </select>
+                        </x-select>
                         <div id="account-error-addressState" aria-live="polite"><x-input-error for="addressState" class="mt-2"  /></div>
                     </div>
                 </div>

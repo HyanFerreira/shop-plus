@@ -8,9 +8,9 @@
                     <div class="mt-4 border-t pt-4"><p><strong>Rastreio fictício:</strong> {{ $order->shipment->tracking_code }}</p><p class="text-sm text-gray-600">{{ $order->shipment->status->value }} · {{ $order->shipment->method }}</p>
                         @if ($this->options($order->shipment))
                             <div class="mt-3 flex flex-col gap-2 sm:flex-row">
-                                <select wire:model="targetStatus" class="ds-field rounded-lg border-gray-300"><option value="">Próximo estado</option>@foreach ($this->options($order->shipment) as $option)<option value="{{ $option->value }}">{{ $option->value }}</option>@endforeach</select>
+                                <x-select wire:model="targetStatus" aria-label="Próximo estado"><option value="">Próximo estado</option>@foreach ($this->options($order->shipment) as $option)<option value="{{ $option->value }}">{{ $option->value }}</option>@endforeach</x-select>
                                 <input wire:model="note" maxlength="500" placeholder="Observação fictícia" class="ds-field flex-1 rounded-lg border-gray-300">
-                                <button type="button" wire:click="transition({{ $order->shipment->id }})" class="rounded-lg bg-indigo-600 px-4 py-2 text-white">Atualizar</button>
+                                <x-button type="button" wire:click="transition({{ $order->shipment->id }})" wire:loading.attr="disabled" wire:target="transition">Atualizar</x-button>
                             </div>
                         @endif
                     </div>
@@ -18,7 +18,7 @@
                     <p class="mt-4 border-t pt-4 text-sm text-gray-500">Aguardando pagamento autorizado.</p>
                 @endif
                 @if (in_array($order->status, [\App\Enums\OrderStatus::Paid, \App\Enums\OrderStatus::Processing, \App\Enums\OrderStatus::Shipped, \App\Enums\OrderStatus::Delivered], true))
-                    <div class="mt-4 flex gap-2 border-t pt-4"><input wire:model="refundReason" maxlength="500" placeholder="Justificativa do reembolso" class="ds-field flex-1 rounded-lg border-gray-300"><button wire:click="refund({{ $order->id }})" wire:confirm="Confirmar reembolso e devolução ao estoque?" class="rounded-lg bg-red-700 px-4 py-2 text-white">Reembolsar</button></div>
+                    <div class="mt-4 flex gap-2 border-t pt-4"><input wire:model="refundReason" maxlength="500" placeholder="Justificativa do reembolso" class="ds-field flex-1 rounded-lg border-gray-300"><x-danger-button wire:click="refund({{ $order->id }})" wire:confirm="Confirmar reembolso e devolução ao estoque?" wire:loading.attr="disabled" wire:target="refund">Reembolsar</x-danger-button></div>
                 @endif
             </article>
         @empty

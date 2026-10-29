@@ -48,9 +48,9 @@
                 </div>
                 <div>
                     <x-label for="categoryStatus" value="Status" />
-                    <select id="categoryStatus" wire:model="categoryStatus" class="ds-field mt-1 rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                    <x-select id="categoryStatus" wire:model="categoryStatus" class="mt-1">
                         <option value="active">Ativa</option><option value="inactive">Inativa</option>
-                    </select>
+                    </x-select>
                 </div>
                 <div class="flex justify-end gap-3">
                     @if ($categoryId)<x-secondary-button type="button" wire:click="cancelCategoryEdit">Cancelar</x-secondary-button>@endif
@@ -98,19 +98,19 @@
                 <div class="grid gap-5 md:grid-cols-2">
                     <div>
                         <x-label for="productCategoryId" value="Categoria" />
-                        <select id="productCategoryId" wire:model="productCategoryId" class="ds-field mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                        <x-select id="productCategoryId" wire:model="productCategoryId" class="mt-1 block w-full">
                             <option value="">Selecione</option>
                             @foreach ($categories->whereNull('deleted_at') as $category)
                                 <option value="{{ $category->id }}">{{ $category->name }}</option>
                             @endforeach
-                        </select>
+                        </x-select>
                         <x-input-error for="productCategoryId" class="mt-2" />
                     </div>
                     <div><x-label for="productName" value="Nome" /><x-input id="productName" class="mt-1 block w-full" wire:model="productName" /><x-input-error for="productName" class="mt-2" /></div>
                     <div><x-label for="productSku" value="SKU" /><x-input id="productSku" class="mt-1 block w-full" wire:model="productSku" /><x-input-error for="productSku" class="mt-2" /></div>
                     <div><x-label for="productPrice" value="Preço (R$)" /><x-input id="productPrice" class="mt-1 block w-full" wire:model="productPrice" inputmode="decimal" placeholder="0,00" /><x-input-error for="productPrice" class="mt-2" /></div>
                     <div><x-label for="productWeight" value="Peso (g)" /><x-input id="productWeight" type="number" min="1" class="mt-1 block w-full" wire:model="productWeight" /><x-input-error for="productWeight" class="mt-2" /></div>
-                    <div><x-label for="productStatus" value="Status" /><select id="productStatus" wire:model="productStatus" class="ds-field mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"><option value="active">Ativo</option><option value="inactive">Inativo</option></select></div>
+                    <div><x-label for="productStatus" value="Status" /><x-select id="productStatus" wire:model="productStatus" class="mt-1 block w-full"><option value="active">Ativo</option><option value="inactive">Inativo</option></x-select></div>
                     <div><x-label for="productWidth" value="Largura (mm)" /><x-input id="productWidth" type="number" min="1" class="mt-1 block w-full" wire:model="productWidth" /><x-input-error for="productWidth" class="mt-2" /></div>
                     <div><x-label for="productHeight" value="Altura (mm)" /><x-input id="productHeight" type="number" min="1" class="mt-1 block w-full" wire:model="productHeight" /><x-input-error for="productHeight" class="mt-2" /></div>
                     <div><x-label for="productLength" value="Comprimento (mm)" /><x-input id="productLength" type="number" min="1" class="mt-1 block w-full" wire:model="productLength" /><x-input-error for="productLength" class="mt-2" /></div>
@@ -155,10 +155,10 @@
                 <div class="grid gap-5 md:grid-cols-2">
                     <div>
                         <x-label for="imageProductId" value="Produto" />
-                        <select id="imageProductId" wire:model="imageProductId" class="ds-field mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                        <x-select id="imageProductId" wire:model="imageProductId" class="mt-1 block w-full">
                             <option value="">Selecione</option>
                             @foreach ($products->whereNull('deleted_at') as $product)<option value="{{ $product->id }}">{{ $product->name }}</option>@endforeach
-                        </select>
+                        </x-select>
                         <x-input-error for="imageProductId" class="mt-2" />
                     </div>
                     <div>
