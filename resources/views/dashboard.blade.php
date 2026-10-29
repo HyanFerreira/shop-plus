@@ -1,3 +1,8 @@
-<x-account-shell :title="'Olá, '.Str::before(Auth::user()->name, ' ')" description="Bem-vindo ao ShopPlus. Acompanhe suas compras e cuide da sua conta.">
-    <livewire:account.overview />
-</x-account-shell>
+<x-app-layout>
+    @vite('resources/css/dashboard.css')
+    <div class="account-page dashboard-page">
+        <div class="ds-storefront-container account-container">
+            <livewire:account.overview />
+        </div>
+    </div>
+</x-app-layout>

@@ -17,8 +17,9 @@ class Overview extends Component
         $ordersCount = (int) $counts->sum();
         $pendingCount = (int) $counts->get(OrderStatus::PendingPayment->value, 0);
         $deliveredCount = (int) $counts->get(OrderStatus::Delivered->value, 0);
-        $recentOrders = $query->with(['items.product.images', 'shipment'])->latest()->orderByDesc('id')->limit(3)->get();
+        $favoritesCount = Auth::user()->favoriteProducts()->visibleInStorefront()->count();
+        $recentOrders = $query->with(['items.product.images', 'shipment', 'statusHistories'])->latest()->orderByDesc('id')->limit(3)->get();
 
-        return view('livewire.account.overview', compact('ordersCount', 'pendingCount', 'deliveredCount', 'recentOrders'));
+        return view('livewire.account.overview', compact('ordersCount', 'pendingCount', 'deliveredCount', 'favoritesCount', 'recentOrders'));
     }
 }
