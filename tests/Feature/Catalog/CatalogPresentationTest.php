@@ -104,10 +104,47 @@ class CatalogPresentationTest extends TestCase
         }
     }
 
+    public function test_per_page_select_and_filter_changes_reset_pagination(): void
+    {
+        Product::factory()->count(25)->create(['brand' => 'Marca inicial']);
+        Product::factory()->create(['brand' => 'Marca selecionada']);
+        $component = Livewire::test(Browser::class)->call('nextPage');
+        $component->set('perPage', 24)
+            ->assertViewHas('products', fn ($products) => $products->currentPage() === 1 && $products->count() === 24);
+        $dom = $this->dom($component->html());
+        $trigger = $dom->getElementById('catalog-per-page-trigger');
+        $this->assertNotNull($trigger);
+        $this->assertSame('menu', $trigger->getAttribute('aria-haspopup'));
+        $this->assertStringContainsString('24 por página', $trigger->textContent);
+        $menu = $dom->getElementById('catalog-per-page-options');
+        $options = $menu->getElementsByTagName('button');
+        $this->assertSame(['12 por página', '24 por página', '48 por página'], array_map(fn ($option) => trim($option->textContent), iterator_to_array($options)));
+        foreach ($options as $index => $option) {
+            $this->assertSame('menuitemradio', $option->getAttribute('role'));
+            $this->assertSame($index === 1 ? 'true' : 'false', $option->getAttribute('aria-checked'));
+            $this->assertSame("\$set('perPage', ".[12, 24, 48][$index].')', $option->getAttribute('wire:click'));
+        }
+        $component->call('nextPage')->set('brands', ['Marca selecionada'])
+            ->assertViewHas('products', fn ($products) => $products->currentPage() === 1 && $products->total() === 1);
+    }
+
+    public function test_per_page_dropdown_announces_the_effective_fallback_for_an_unsupported_url_value(): void
+    {
+        Product::factory()->count(13)->create();
+        $component = Livewire::test(Browser::class)->set('perPage', 20)
+            ->assertViewHas('products', fn ($products) => $products->perPage() === 12);
+        $dom = $this->dom($component->html());
+        $this->assertStringContainsString('12 por página', $dom->getElementById('catalog-per-page-trigger')->textContent);
+        $selected = (new \DOMXPath($dom))->query('//*[@id="catalog-per-page-options"]/button[@aria-checked="true"]');
+        $this->assertCount(1, $selected);
+        $this->assertSame('12 por página', trim($selected->item(0)->textContent));
+    }
+
     private function dom(string $html): \DOMDocument
     {
         $dom = new \DOMDocument;
         @$dom->loadHTML('<?xml encoding="UTF-8">'.$html);
+
         return $dom;
     }
 }

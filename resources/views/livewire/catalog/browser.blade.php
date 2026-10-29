@@ -35,10 +35,11 @@
                     <span class="catalog-filter-toggle" x-text="expanded ? 'Ocultar' : 'Mostrar'">Mostrar</span>
                 </summary>
                 <div id="catalog-filter-body" class="catalog-filter-body">
-                    <div class="catalog-filter-actions">
-                        <button type="button" wire:click="clearFilters" class="catalog-text-action">Limpar filtros</button>
-                        @if(trim($search) !== '')<button type="button" wire:click="$set('search', '')" class="catalog-text-action">Limpar busca</button>@endif
-                    </div>
+                    @if(trim($search) !== '')
+                        <div class="catalog-filter-actions">
+                            <button type="button" wire:click="$set('search', '')" class="catalog-text-action">Limpar busca</button>
+                        </div>
+                    @endif
                     <div class="catalog-filter-sections">
                         <div class="catalog-filter-group catalog-filter-search">
                             <x-label for="catalogSearch" value="Buscar" />
@@ -112,36 +113,7 @@
                 <p class="catalog-total" role="status">{{ $products->total() }} {{ $products->total() === 1 ? 'produto encontrado' : 'produtos encontrados' }}</p>
                 <div class="catalog-sort">
                     <span id="catalog-sort-label">Ordenar por</span>
-                    <div class="catalog-dropdown" x-data="{
-                        open: false,
-                        show(index = null) {
-                            this.open = true;
-                            this.$nextTick(() => {
-                                const options = Array.from(this.$refs.sortOptions.querySelectorAll('button'));
-                                (index === null ? this.$refs.sortOptions.querySelector('[aria-checked=true]') : options.at(index))?.focus();
-                            });
-                        },
-                        move(step) {
-                            const options = Array.from(this.$refs.sortOptions.querySelectorAll('button'));
-                            options[(options.indexOf(document.activeElement) + step + options.length) % options.length].focus();
-                        }
-                    }" @click.outside="open = false"
-                        @focusout="if (!$el.contains($event.relatedTarget)) open = false"
-                        @keydown.escape.stop.prevent="if (open) { open = false; $refs.sortTrigger.focus() }">
-                        <x-button id="catalog-sort-trigger" x-ref="sortTrigger" type="button" variant="secondary" @click="open ? (open = false) : show()"
-                            @keydown.arrow-down.prevent="show()" @keydown.arrow-up.prevent="show(-1)"
-                            aria-haspopup="menu" aria-expanded="false" x-bind:aria-expanded="open.toString()" aria-controls="catalog-sort-options" aria-labelledby="catalog-sort-label catalog-sort-value">
-                            <span id="catalog-sort-value">{{ $sortOptions[$sort] ?? 'Mais relevantes' }}</span><x-icon name="chevron-down" class="size-5" />
-                        </x-button>
-                        <div id="catalog-sort-options" class="catalog-dropdown__options" x-ref="sortOptions" x-cloak x-show="open" x-transition.opacity.duration.150ms
-                            role="menu" aria-labelledby="catalog-sort-label"
-                            @keydown.arrow-down.stop.prevent="move(1)" @keydown.arrow-up.stop.prevent="move(-1)"
-                            @keydown.home.prevent="$refs.sortOptions.firstElementChild.focus()" @keydown.end.prevent="$refs.sortOptions.lastElementChild.focus()">
-                            @foreach($sortOptions as $value => $label)
-                                <button type="button" role="menuitemradio" tabindex="-1" wire:click="$set('sort', '{{ $value }}')" @click="open = false; $refs.sortTrigger.focus()" aria-checked="{{ $sort === $value ? 'true' : 'false' }}">{{ $label }}</button>
-                            @endforeach
-                        </div>
-                    </div>
+                    <x-catalog-dropdown id="catalog-sort" model="sort" :options="$sortOptions" :value="$sort" labelled-by="catalog-sort-label" />
                 </div>
             </div>
 
@@ -150,8 +122,8 @@
                     <span class="catalog-active-filters__label">Filtros ativos:</span>
                     @foreach($activeLabels as $key => $label)<x-badge variant="info" class="catalog-chip" wire:key="active-{{ $key }}">{{ $label }}</x-badge>@endforeach
                     <div class="catalog-active-filters__actions">
-                        <button type="button" wire:click="clearFilters" class="catalog-text-action">Limpar filtros</button>
                         @if(trim($search) !== '')<button type="button" wire:click="$set('search', '')" class="catalog-text-action">Limpar busca</button>@endif
+                        <button type="button" wire:click="clearFilters" class="catalog-text-action">Limpar filtros</button>
                     </div>
                 </div>
             @endif
@@ -174,25 +146,14 @@
                 </div>
                 <div class="catalog-pagination-row">
                     <p>Mostrando {{ $products->firstItem() }} a {{ $products->lastItem() }} de {{ $products->total() }} resultados</p>
-                    <div class="catalog-per-page">
-                        <span id="catalog-per-page-label">Mostrar</span>
-                        <div class="catalog-dropdown catalog-dropdown--small" x-data="{ open: false }" @click.away="open = false" @keydown.escape.stop="open = false; $refs.perPageTrigger.focus()">
-                            <x-button id="catalog-per-page-trigger" x-ref="perPageTrigger" type="button" variant="secondary" @click="open = !open" x-bind:aria-expanded="open.toString()" aria-controls="catalog-per-page-options" aria-labelledby="catalog-per-page-label catalog-per-page-value">
-                                <span id="catalog-per-page-value">{{ $perPage }}</span><span aria-hidden="true">⌄</span>
-                            </x-button>
-                            <div id="catalog-per-page-options" class="catalog-dropdown__options catalog-dropdown__options--above" x-cloak x-show="open" role="group" aria-label="Produtos por página">
-                                @foreach([12, 24, 48] as $value)
-                                    <button type="button" wire:click="$set('perPage', {{ $value }})" @click="open = false; $refs.perPageTrigger.focus()" aria-pressed="{{ $perPage === $value ? 'true' : 'false' }}">{{ $value }}</button>
-                                @endforeach
-                            </div>
+                    <div class="catalog-pagination-controls">
+                        <div class="catalog-per-page">
+                            <x-catalog-dropdown id="catalog-per-page" model="perPage" :options="[12 => '12 por página', 24 => '24 por página', 48 => '48 por página']" :value="$perPage" label="Produtos por página" />
                         </div>
-                        <span>por página</span>
+                        {{ $products->links('components.catalog-pagination') }}
                     </div>
-                    {{ $products->links('components.catalog-pagination') }}
                 </div>
             @endif
-
-            <p class="catalog-demo-note"><x-icon name="lock-closed" />Ambiente de demonstração: produtos e pagamentos fictícios. Consulte as modalidades de entrega no checkout.</p>
         </section>
     </div>
 </div>
