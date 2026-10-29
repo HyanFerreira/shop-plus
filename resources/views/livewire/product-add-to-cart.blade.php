@@ -7,11 +7,15 @@
         <form wire:submit="add" class="product-purchase__form" novalidate>
             <div class="product-quantity-field">
                 <x-label for="product-quantity" value="Quantidade" />
-                <div class="product-quantity">
+                <x-quantity-control>
+                    <x-slot:decrement>
                     <x-button id="product-quantity-decrement" type="button" variant="secondary" size="lg" wire:click="decrement" wire:loading.attr="disabled" aria-label="Diminuir quantidade" :disabled="$available === 0 || $quantity <= 1" x-bind:disabled="$wire.quantity <= 1 || {{ $available === 0 ? 'true' : 'false' }}">−</x-button>
+                    </x-slot:decrement>
                     <x-input id="product-quantity" type="number" inputmode="numeric" min="1" step="1" max="{{ max(1, $quantityLimit) }}" wire:model="quantity" :disabled="$available === 0" aria-describedby="product-purchase-errors" aria-invalid="{{ $errors->has('quantity') ? 'true' : 'false' }}" />
-                    <x-button id="product-quantity-increment" type="button" variant="secondary" size="lg" wire:click="increment" wire:loading.attr="disabled" aria-label="Aumentar quantidade" :disabled="$available === 0 || $quantity >= $quantityLimit" x-bind:disabled="$wire.quantity >= {{ $quantityLimit }}">+</x-button>
-                </div>
+                    <x-slot:increment>
+                        <x-button id="product-quantity-increment" type="button" variant="secondary" size="lg" wire:click="increment" wire:loading.attr="disabled" aria-label="Aumentar quantidade" :disabled="$available === 0 || $quantity >= $quantityLimit" x-bind:disabled="$wire.quantity >= {{ $quantityLimit }}">+</x-button>
+                    </x-slot:increment>
+                </x-quantity-control>
             </div>
             <x-button id="product-add-submit" type="submit" size="lg" wire:loading.attr="disabled" :disabled="$available === 0">
                 <x-icon name="shopping-cart" class="size-5" />

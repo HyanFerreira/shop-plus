@@ -1,5 +1,6 @@
 @import './home.css';
 @import './catalog.css';
+@import './quantity-control.css';
 @import './product-detail.css';
 @import './cart.css';
 @import './checkout.css';
