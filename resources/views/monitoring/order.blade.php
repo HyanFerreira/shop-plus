@@ -1,5 +1,5 @@
 <x-account-shell :title="'Pedido fictício '.$order->public_number" description="Resumo acadêmico sanitizado da compra, dos pagamentos simulados e do estoque.">
-    <a class="account-text-link" href="{{ route('monitoring.index', ['tab' => 'transactions']) }}">← Voltar às transações</a>
+    <a class="account-text-link" href="{{ route('monitoring.index', ['tab' => 'transactions']) }}"><x-arrow direction="left" /> Voltar às transações</a>
     <section class="account-panel ds-panel" aria-labelledby="simulation-order-title">
         <div class="account-section-heading"><div><h2 id="simulation-order-title">Pedido e cliente fictício</h2><p><a class="account-text-link" href="{{ route('monitoring.users.show', $order->user_id) }}">{{ $order->user->name }} #{{ $order->user_id }}</a> · @include('monitoring.partials.time', ['date' => $order->created_at]) (Brasília)</p></div><x-order-status :status="$order->status" /></div>
         <p>Total: <strong>{{ \App\Domain\Catalog\Price::fromCents($order->total_cents)->brl() }}</strong></p>

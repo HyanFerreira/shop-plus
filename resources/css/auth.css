@@ -139,7 +139,6 @@
     .auth-page--recovery .auth-recovery-header .ds-shop-logo { color: rgb(var(--ds-surface)); font-size: var(--ds-text-2xl); line-height: var(--ds-leading-2xl); }
     .auth-page--recovery .auth-recovery-header .ds-shop-logo__icon { color: rgb(var(--ds-surface)); }
     .auth-page--recovery .auth-recovery-illustration { display: block; width: calc(var(--ds-space-16) * 3); max-width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; margin: 0 auto var(--ds-space-4); }
-    .auth-page--recovery .auth-recovery-back-icon { width: var(--ds-space-5); height: var(--ds-space-5); }
     @media (max-width: 767px) {
         .auth-page--recovery .auth-content { padding-inline: var(--ds-space-5); }
         .auth-page--recovery .auth-recovery-illustration { width: calc(var(--ds-space-16) * 2.5); }

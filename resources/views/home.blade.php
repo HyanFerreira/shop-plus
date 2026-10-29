@@ -24,7 +24,7 @@
                     <span class="home-hero__tag"><x-icon name="tag" />Ofertas incríveis para você</span>
                     <h1 id="home-title">Tudo o que você precisa<br>em <span class="home-hero__highlight">um só lugar.</span></h1>
                     <p>Produtos incríveis para o seu dia a dia<br class="hidden sm:block"> com entrega em todo o Brasil.</p>
-                    <a href="#ofertas" class="ds-button ds-button--secondary home-hero__cta">Ver ofertas <span class="home-hero__arrow" aria-hidden="true"><span>→</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m-7-7 7 7-7 7" /></svg></span></a>
+                    <a href="#ofertas" class="ds-button ds-button--secondary home-hero__cta">Ver ofertas <x-arrow /></a>
                 </div>
                 <div class="home-hero__art">
                     <img src="{{ asset('images/hero-headphones.png') }}" alt="Headphone fictício em cenário navy e azul" width="1672" height="941" fetchpriority="high">
@@ -64,7 +64,7 @@
             <section id="ofertas" class="home-section" aria-labelledby="offers-title">
                 <div class="home-section__heading">
                     <h2 id="offers-title">Ofertas em destaque</h2>
-                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <span aria-hidden="true">→</span></a>
+                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <x-arrow /></a>
                 </div>
                 <div class="home-products">
                     @forelse ($products as $item)
@@ -93,7 +93,7 @@
             <section class="home-section" aria-labelledby="bestsellers-title">
                 <div class="home-section__heading">
                     <h2 id="bestsellers-title">Mais vendidos</h2>
-                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <span aria-hidden="true">→</span></a>
+                    <a href="{{ route('catalog.index') }}" class="home-section__action">Ver todas <x-arrow /></a>
                 </div>
                 <div class="home-products">
                     @forelse ($bestSellers as $item)
@@ -112,7 +112,7 @@
                     <span class="home-eyebrow">No celular, no tablet ou no computador</span>
                     <h2 id="responsive-title">ShopPlus em qualquer tela</h2>
                     <p>Explore produtos e acompanhe seus pedidos pelo navegador, onde você estiver.</p>
-                    <a href="{{ route('catalog.index') }}" class="ds-button ds-button--primary">Explorar o catálogo <span aria-hidden="true">→</span></a>
+                    <a href="{{ route('catalog.index') }}" class="ds-button ds-button--primary">Explorar o catálogo <x-arrow /></a>
                 </div>
             </section>
 

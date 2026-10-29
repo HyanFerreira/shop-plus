@@ -26,8 +26,7 @@
         @case('lock-closed')<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 0 0-9 0v3.75m-3 0h15A1.5 1.5 0 0 1 21 12v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 21v-9a1.5 1.5 0 0 1 1.5-1.5Z" />@break
         @case('envelope')<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0l-7.5-4.615A2.25 2.25 0 0 1 2.25 6.993V6.75" />@break
         @case('check')<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />@break
-        @case('arrow-right-on-rectangle')<path stroke-linecap="round" stroke-linejoin="round" d="M9 5H4v14h5m6-14 7 7-7 7m7-7H9" />@break
-        @case('arrow-left')<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />@break
+        @case('arrow-right')<path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16m-7-7 7 7-7 7" />@break
         @case('bell')<path stroke-linecap="round" stroke-linejoin="round" d="M14.25 18.75a2.25 2.25 0 0 1-4.5 0m9-4.5V10.5a6.75 6.75 0 0 0-13.5 0v3.75L3.75 16.5h16.5l-1.5-2.25Z" />@break
         @case('ellipsis-horizontal')<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm6 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm6 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />@break
         @default <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />

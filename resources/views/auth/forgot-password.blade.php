@@ -37,6 +37,6 @@
             </div>
             <x-auth-submit pending="Enviando…"><x-icon name="envelope" />Enviar link</x-auth-submit>
         </x-auth-form>
-        <p class="auth-footer"><span>Lembrou da senha?</span><a href="{{ route('login') }}" class="auth-link"><x-icon name="arrow-left" class="auth-recovery-back-icon" />Fazer login</a></p>
+        <p class="auth-footer"><span>Lembrou da senha?</span><a href="{{ route('login') }}" class="auth-link"><x-arrow direction="left" />Fazer login</a></p>
     </x-auth-shell>
 </x-guest-layout>

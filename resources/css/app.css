@@ -286,6 +286,7 @@
     }
     .ds-shop-logo__icon { width: 1.2em; height: 1.2em; color: rgb(var(--ds-brand)); }
     .ds-shop-logo__accent { color: rgb(var(--ds-brand)); }
+    .ds-arrow { display: inline-block; width: var(--ds-space-5); height: var(--ds-space-5); aspect-ratio: 1; flex-shrink: 0; vertical-align: middle; }
 
     .ds-badge, .ds-alert {
         --ds-state-bg: var(--ds-surface-alt);

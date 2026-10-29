@@ -85,7 +85,7 @@
             </div>
             @if($relatedProducts->isNotEmpty())
                 <section class="product-related" aria-labelledby="product-related-title">
-                    <div class="product-related__heading"><h2 id="product-related-title">Produtos relacionados</h2><a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}">Ver todos <span aria-hidden="true">→</span></a></div>
+                    <div class="product-related__heading"><h2 id="product-related-title">Produtos relacionados</h2><a href="{{ route('catalog.index', ['category' => $product->category->slug]) }}">Ver todos <x-arrow /></a></div>
                     <div class="product-related__grid">@foreach($relatedProducts as $related)<x-home-product-card :product="$related" />@endforeach</div>
                 </section>
             @endif

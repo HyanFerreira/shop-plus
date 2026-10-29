@@ -7,4 +7,4 @@
     <a href="{{ route('users.index') }}" @if(request()->routeIs('users.*', 'monitoring.*')) aria-current="page" @endif><x-icon name="users" class="size-5" />Ver usuários</a>
 </nav>
 <hr class="customer-navigation__divider">
-<form method="POST" action="{{ route('logout') }}" class="customer-navigation__logout">@csrf<button type="submit"><x-icon name="arrow-right-on-rectangle" class="size-5" />Sair da conta</button></form>
+<form method="POST" action="{{ route('logout') }}" class="customer-navigation__logout">@csrf<button type="submit"><x-arrow />Sair da conta</button></form>

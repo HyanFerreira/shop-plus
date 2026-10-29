@@ -14,7 +14,7 @@
                                 </div>
                                 <div class="order-list-card__total"><p>Total do pedido</p><strong>{{ \App\Domain\Catalog\Price::fromCents($order->total_cents)->brl() }}</strong></div>
                             </div>
-                            <div class="order-list-card__footer"><p>@if($order->shipment)Entrega: <x-order-status :status="$order->shipment->status" />@else Sem registro de expedição @endif</p><a href="{{ route('orders.show', $order->public_number) }}" class="ds-button ds-button--secondary ds-button--md" aria-label="Ver detalhes do pedido {{ $order->public_number }}">Ver detalhes <span aria-hidden="true">→</span></a></div>
+                            <div class="order-list-card__footer"><p>@if($order->shipment)Entrega: <x-order-status :status="$order->shipment->status" />@else Sem registro de expedição @endif</p><a href="{{ route('orders.show', $order->public_number) }}" class="ds-button ds-button--secondary ds-button--md" aria-label="Ver detalhes do pedido {{ $order->public_number }}">Ver detalhes <x-arrow /></a></div>
                         </article>
                     @empty
                         <section class="order-empty ds-panel"><x-icon name="shopping-bag" class="size-12" /><h2>Você ainda não tem pedidos</h2><p>Quando realizar uma compra fictícia, os detalhes e o acompanhamento aparecerão aqui.</p><a href="{{ route('catalog.index') }}" class="ds-button ds-button--primary ds-button--md">Explorar catálogo</a></section>

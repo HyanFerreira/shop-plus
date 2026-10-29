@@ -5,7 +5,7 @@
         $shippingLabel = match ($order->shipping_method) { 'economy' => 'Econômica', 'express' => 'Expressa', 'pickup' => 'Retirada', default => $order->shipping_method };
     @endphp
     <div class="orders-page"><div class="ds-storefront-container orders-container {{ $pendingPayment ? 'payment-page' : '' }}">
-        <a href="{{ route('orders.index') }}" class="order-back-link">← Voltar para pedidos</a>
+        <a href="{{ route('orders.index') }}" class="order-back-link"><x-arrow direction="left" /> Voltar para pedidos</a>
         <div class="orders-heading"><p class="order-eyebrow">{{ $pendingPayment ? 'Etapa 2 de 2' : 'Detalhes da compra' }}</p><h1>{{ $pendingPayment ? 'Pagamento do pedido' : 'Detalhes do pedido' }}</h1><p>Pedido <strong>{{ $order->public_number }}</strong> · <time datetime="{{ ($order->placed_at ?? $order->created_at)->toIso8601String() }}">{{ ($order->placed_at ?? $order->created_at)->format('d/m/Y H:i') }}</time></p></div>
         @if(session('payment-status'))<x-alert variant="info" class="order-flash">{{ session('payment-status') }}</x-alert>@endif
         @if($pendingPayment)<div class="order-payment"><livewire:payment-form :order="$order" /></div>@endif

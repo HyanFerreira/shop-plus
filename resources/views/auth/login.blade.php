@@ -54,7 +54,7 @@
                 <label for="remember_me" class="auth-remember"><x-checkbox id="remember_me" name="remember" />Lembrar de mim</label>
                 @if (Route::has('password.request'))<a href="{{ route('password.request') }}" class="auth-link">Esqueceu sua senha?</a>@endif
             </div>
-            <x-auth-submit pending="Entrando…"><x-login-icon name="enter" />Entrar</x-auth-submit>
+            <x-auth-submit pending="Entrando…"><x-arrow />Entrar</x-auth-submit>
         </x-auth-form>
         @if (Route::has('register'))<p class="auth-footer"><x-login-icon name="user-plus" /><span>Não tem uma conta?</span> <a href="{{ route('register') }}" class="auth-link">Cadastre-se</a></p>@endif
     </x-auth-shell>

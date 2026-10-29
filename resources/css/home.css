@@ -9,9 +9,6 @@
     .home-hero__highlight { color: rgb(var(--ds-brand)); }
     .home-hero p { margin-top: var(--ds-space-4); color: rgb(var(--ds-surface)); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
     .home-hero .home-hero__cta { margin-top: var(--ds-space-6); border-color: transparent; color: rgb(var(--ds-navy)); font-weight: var(--ds-weight-medium); }
-    .home-hero__arrow { position: relative; }
-    .home-hero__arrow > span { visibility: hidden; }
-    .home-hero__arrow svg { position: absolute; top: 50%; left: 50%; width: var(--ds-space-5); height: var(--ds-space-5); transform: translate(-50%, -50%); }
     .home-hero__art { aspect-ratio: 1672 / 941; }
     .home-hero__art img { width: 100%; height: 100%; object-fit: contain; object-position: right center; }
 

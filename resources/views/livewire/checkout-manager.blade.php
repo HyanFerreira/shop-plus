@@ -26,12 +26,12 @@
                             </li>
                         @endforeach
                     </ul>
-                    <a class="checkout-text-link" href="{{ route('cart.show') }}">Revisar carrinho <span aria-hidden="true">→</span></a>
+                    <a class="checkout-text-link" href="{{ route('cart.show') }}">Revisar carrinho <x-arrow /></a>
                 </section>
                 <section class="checkout-panel ds-panel" aria-labelledby="checkout-address-title">
                     <div class="checkout-section-heading"><span aria-hidden="true">2</span><h2 id="checkout-address-title">Endereço de entrega</h2></div>
                     @if(Auth::user()->addresses->isEmpty())
-                        <div class="checkout-address-empty"><p>Cadastre um endereço para continuar</p><span>O endereço é necessário para consultar as modalidades de entrega.</span><a class="checkout-text-link" href="{{ route('personal-data.show') }}">Cadastrar endereço <span aria-hidden="true">→</span></a></div>
+                        <div class="checkout-address-empty"><p>Cadastre um endereço para continuar</p><span>O endereço é necessário para consultar as modalidades de entrega.</span><a class="checkout-text-link" href="{{ route('personal-data.show') }}">Cadastrar endereço <x-arrow /></a></div>
                     @else
                         @php
                             $addressLabelCounts = Auth::user()->addresses->countBy('label');
@@ -45,7 +45,7 @@
                             </x-select>
                             <p id="checkout-address-help" class="ds-help">As modalidades são consultadas para o endereço selecionado.</p>
                             @if($hasDuplicateAddressLabels)<p class="checkout-address-duplicate" role="alert">Há endereços com o mesmo nome. Antes de continuar, revise e diferencie os nomes no cadastro.</p>@endif
-                            <a class="checkout-text-link" href="{{ route('personal-data.show') }}">Gerenciar endereços <span aria-hidden="true">→</span></a>
+                            <a class="checkout-text-link" href="{{ route('personal-data.show') }}">Gerenciar endereços <x-arrow /></a>
                         </div>
                     @endif
                     <div id="checkout-address-error" aria-live="polite"><x-input-error for="addressId" /></div>

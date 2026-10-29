@@ -1,5 +1,5 @@
 <x-account-shell title="Usuários cadastrados" description="Acompanhe os cadastros do ShopPlus e o crescimento da demonstração acadêmica.">
-    <a href="{{ route('monitoring.index') }}" class="account-text-link">Abrir monitoramento de usuários, produtos e transações →</a>
+    <a href="{{ route('monitoring.index') }}" class="account-text-link">Abrir monitoramento de usuários, produtos e transações <x-arrow /></a>
     <div class="account-section-heading"><p>As contagens incluem todas as contas. A lista exibe somente contas fictícias da automação.</p><a href="{{ route('users.index') }}" class="ds-button ds-button--secondary ds-button--md">Atualizar</a></div>
 
     <section class="account-stats" aria-label="Resumo dos usuários cadastrados">

@@ -9,9 +9,9 @@
     @endphp
     <nav aria-label="Paginação do catálogo" class="catalog-pagination">
         @if ($paginator->onFirstPage())
-            <span aria-disabled="true" aria-label="Página anterior" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4" /></span>
+            <span aria-disabled="true" aria-label="Página anterior" class="catalog-page-button ds-button--secondary"><x-arrow direction="left" /></span>
         @else
-            <button type="button" wire:click="previousPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="prev" aria-label="Página anterior" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4" /></button>
+            <button type="button" wire:click="previousPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="prev" aria-label="Página anterior" class="catalog-page-button ds-button--secondary"><x-arrow direction="left" /></button>
         @endif
 
         @foreach (['wide' => $pages, 'compact' => $compactPages] as $window => $windowPages)
@@ -34,9 +34,9 @@
         @endforeach
 
         @if ($paginator->hasMorePages())
-            <button type="button" wire:click="nextPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="next" aria-label="Próxima página" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4 rotate-180" /></button>
+            <button type="button" wire:click="nextPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="next" aria-label="Próxima página" class="catalog-page-button ds-button--secondary"><x-arrow /></button>
         @else
-            <span aria-disabled="true" aria-label="Próxima página" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4 rotate-180" /></span>
+            <span aria-disabled="true" aria-label="Próxima página" class="catalog-page-button ds-button--secondary"><x-arrow /></span>
         @endif
     </nav>
 @endif
