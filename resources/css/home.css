@@ -8,7 +8,7 @@
     .home-hero h1 { color: rgb(var(--ds-surface)); font-size: clamp(1.25rem, 6.4vw, 1.5rem); line-height: var(--ds-leading-xl); font-weight: var(--ds-weight-bold); letter-spacing: -.025em; }
     .home-hero__highlight { color: rgb(var(--ds-brand)); }
     .home-hero p { margin-top: var(--ds-space-4); color: rgb(var(--ds-surface)); font-size: var(--ds-text-base); line-height: var(--ds-leading-base); }
-    .home-hero .home-hero__cta { margin-top: var(--ds-space-6); border-color: transparent; color: rgb(var(--ds-navy)); font-weight: var(--ds-weight-bold); }
+    .home-hero .home-hero__cta { margin-top: var(--ds-space-6); border-color: transparent; color: rgb(var(--ds-navy)); font-weight: var(--ds-weight-medium); }
     .home-hero__arrow { position: relative; }
     .home-hero__arrow > span { visibility: hidden; }
     .home-hero__arrow svg { position: absolute; top: 50%; left: 50%; width: var(--ds-space-5); height: var(--ds-space-5); transform: translate(-50%, -50%); }
@@ -34,7 +34,7 @@
     .home-section { min-width: 0; scroll-margin-top: var(--ds-space-6); }
     .home-section__heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--ds-space-2) var(--ds-space-4); margin-bottom: var(--ds-space-4); }
     .home-section h2, .home-responsive h2 { font-size: var(--ds-text-2xl); line-height: var(--ds-leading-2xl); font-weight: var(--ds-weight-bold); letter-spacing: -.02em; }
-    .home-section__action { display: inline-flex; align-items: center; gap: var(--ds-space-2); color: rgb(var(--ds-brand)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); border-radius: var(--ds-radius-xs); }
+    .home-section__action { display: inline-flex; align-items: center; gap: var(--ds-space-2); color: rgb(var(--ds-brand)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-medium); border-radius: var(--ds-radius-xs); }
     .home-section__action:hover { color: rgb(var(--ds-brand-active)); text-decoration: underline; text-underline-offset: 4px; }
     .home-products { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--ds-space-4); }
     .home-product-card { min-width: 0; border: var(--ds-border-width) solid rgb(var(--ds-line)); border-radius: var(--ds-radius-md); background: rgb(var(--ds-surface)); box-shadow: var(--ds-shadow-control); transition: box-shadow var(--ds-duration) var(--ds-easing), border-color var(--ds-duration) var(--ds-easing); }

@@ -24,7 +24,7 @@
     .checkout-item h3 { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); overflow-wrap: anywhere; }
     .checkout-item__copy p { margin-top: var(--ds-space-1); color: rgb(var(--ds-secondary)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .checkout-item__copy > strong { display: block; margin-top: var(--ds-space-2); font-size: var(--ds-text-lg); line-height: var(--ds-leading-lg); font-weight: var(--ds-weight-bold); overflow-wrap: anywhere; }
-    .checkout-text-link { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--ds-space-2); color: rgb(var(--ds-brand)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); border-radius: var(--ds-radius-xs); }
+    .checkout-text-link { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--ds-space-2); color: rgb(var(--ds-brand)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-medium); border-radius: var(--ds-radius-xs); }
     .checkout-text-link:hover, .checkout-breadcrumb a:hover { color: rgb(var(--ds-brand-strong)); text-decoration: underline; text-underline-offset: 4px; }
     .checkout-address-select, .checkout-address-empty, .checkout-shipping-options { margin-top: var(--ds-space-5); }
     .checkout-address-empty p { font-size: var(--ds-text-base); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); }

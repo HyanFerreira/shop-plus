@@ -56,7 +56,7 @@
     .cart-summary__total dd { flex-shrink: 0; white-space: nowrap; font-size: var(--ds-text-xl); line-height: var(--ds-leading-xl); font-weight: var(--ds-weight-bold); }
     .cart-summary__help, .cart-update-status { margin-top: var(--ds-space-3); color: rgb(var(--ds-secondary)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .cart-summary > .ds-button { display: flex; gap: var(--ds-space-2); width: 100%; margin-top: var(--ds-space-5); }
-    .cart-continue { display: flex; align-items: center; justify-content: center; margin-top: var(--ds-space-2); color: rgb(var(--ds-brand)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); border-radius: var(--ds-radius-xs); }
+    .cart-continue { display: flex; align-items: center; justify-content: center; margin-top: var(--ds-space-2); color: rgb(var(--ds-brand)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-medium); border-radius: var(--ds-radius-xs); }
     .cart-update-status { text-align: center; }
     .cart-empty { display: flex; flex-direction: column; align-items: center; gap: var(--ds-space-4); min-height: 24rem; padding: var(--ds-space-8) var(--ds-space-5); text-align: center; }
     .cart-empty__art { position: relative; display: grid; place-items: center; width: 8rem; height: 8rem; margin-block: var(--ds-space-2); border-radius: var(--ds-radius-pill); background: rgb(var(--ds-brand-soft)); color: rgb(var(--ds-brand)); }

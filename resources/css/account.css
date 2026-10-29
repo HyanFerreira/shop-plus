@@ -16,7 +16,7 @@
     .account-section-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: start; gap: var(--ds-space-3); }
     .account-section-heading > div { min-width: 0; }
     .account-section-heading p, .account-section-body > div:first-child > p { margin-top: var(--ds-space-2); color: rgb(var(--ds-secondary)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
-    .account-text-link { display: inline-flex; align-items: center; gap: var(--ds-space-2); color: rgb(var(--ds-brand-active)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-semibold); }
+    .account-text-link { display: inline-flex; align-items: center; gap: var(--ds-space-2); color: rgb(var(--ds-brand-active)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-medium); }
     .account-text-link:hover { color: rgb(var(--ds-brand-strong)); text-decoration: underline; }
     .account-stats { display: grid; gap: var(--ds-space-3); }
     .account-stat { display: flex; align-items: center; gap: var(--ds-space-3); padding: var(--ds-space-4); min-width: 0; }
