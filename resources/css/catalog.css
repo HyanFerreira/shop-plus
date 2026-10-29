@@ -39,7 +39,7 @@
     .catalog-sort { display: flex; align-items: center; gap: var(--ds-space-3); min-width: 0; }
     .catalog-sort > span { flex-shrink: 0; }
     .catalog-dropdown { position: relative; flex: 1; min-width: 0; }
-    .catalog-dropdown > .ds-button { display: flex; justify-content: space-between; width: 100%; height: var(--ds-control-md); min-height: var(--ds-control-md); gap: var(--ds-space-2); padding: 0 var(--ds-space-3); border-color: rgb(var(--ds-line)); border-radius: var(--ds-radius-sm); background: rgb(var(--ds-surface)); box-shadow: var(--ds-shadow-control); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-medium); text-align: left; }
+    .catalog-dropdown > .ds-button { --ds-button-hover: var(--ds-canvas); --ds-button-active: var(--ds-surface-alt); --ds-button-ink: var(--ds-secondary); display: flex; justify-content: space-between; width: 100%; height: var(--ds-control-md); min-height: var(--ds-control-md); gap: var(--ds-space-2); padding: 0 var(--ds-space-3); border-color: rgb(var(--ds-line)); border-radius: var(--ds-radius-sm); background: rgb(var(--ds-surface)); box-shadow: var(--ds-shadow-control); font-size: var(--ds-text-sm); line-height: var(--ds-leading-base); font-weight: var(--ds-weight-medium); text-align: left; }
     .catalog-dropdown > .ds-button > span:first-child { min-width: 0; white-space: nowrap; }
     .catalog-dropdown > .ds-button > svg { margin-left: auto; transition: transform 180ms var(--ds-easing); }
     .catalog-dropdown > .ds-button[aria-expanded="true"] > svg { transform: rotate(180deg); }
@@ -70,18 +70,16 @@
     .catalog-pagination-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: var(--ds-space-4); margin-left: auto; max-width: 100%; }
     .catalog-per-page .catalog-dropdown { width: max-content; }
     .catalog-pagination { display: inline-flex; align-items: center; max-width: 100%; }
-    .catalog-page-button, .catalog-page-ellipsis { position: relative; display: inline-flex; flex-shrink: 0; justify-content: center; align-items: center; width: 40px; height: 40px; flex: 0 0 40px; padding: 0; border: var(--ds-border-width) solid rgb(var(--ds-control-line)); color: rgb(var(--ds-secondary)); background: rgb(var(--ds-surface)); font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); font-weight: var(--ds-weight-medium); }
+    .catalog-page-button, .catalog-page-ellipsis { position: relative; display: inline-flex; flex-shrink: 0; justify-content: center; align-items: center; width: 40px; height: 40px; flex: 0 0 40px; padding: 0; border: var(--ds-border-width) solid; border-radius: 0; font-size: var(--ds-text-sm); line-height: var(--ds-leading-sm); }
     .catalog-pagination :is(.catalog-page-button, .catalog-page-ellipsis) { margin-left: calc(-1 * var(--ds-border-width)); }
     .catalog-pagination > :first-child { margin-left: 0; }
     .catalog-pagination__window { display: contents; }
     .catalog-pagination [data-pagination-window="compact"] { display: none; }
     .catalog-pagination > :first-child { border-radius: var(--ds-radius-sm) 0 0 var(--ds-radius-sm); }
     .catalog-pagination > :last-child { border-radius: 0 var(--ds-radius-sm) var(--ds-radius-sm) 0; }
-    .catalog-page-button[aria-current="page"] { z-index: 1; color: rgb(var(--ds-surface)); background: rgb(var(--ds-brand)); border-color: rgb(var(--ds-brand)); }
-    button.catalog-page-button:hover:not(:disabled) { background: rgb(var(--ds-canvas)); }
+    .catalog-page-button[aria-current="page"] { font-weight: var(--ds-weight-medium); z-index: 1; color: rgb(var(--ds-surface)); background: rgb(var(--ds-brand)); border-color: rgb(var(--ds-brand)); }
     .catalog-page-button[aria-disabled="true"], .catalog-page-button:disabled { opacity: var(--ds-disabled-opacity); }
     .catalog-page-button:focus-visible { z-index: 2; }
-    button.catalog-page-button:active:not(:disabled) { background: rgb(var(--ds-surface-alt)); }
     .catalog-breadcrumb a:focus-visible, .catalog-filters summary:focus-visible, .catalog-radio:focus-visible, .catalog-text-action:focus-visible, .catalog-dropdown__options > button:focus-visible, button.catalog-page-button:focus-visible { outline: var(--ds-focus-width) solid rgb(var(--ds-brand)); outline-offset: var(--ds-focus-offset); }
 
     @media (max-width: 1279px) {

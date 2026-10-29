@@ -9,9 +9,9 @@
     @endphp
     <nav aria-label="Paginação do catálogo" class="catalog-pagination">
         @if ($paginator->onFirstPage())
-            <span aria-disabled="true" aria-label="Página anterior" class="catalog-page-button"><x-icon name="arrow-left" class="size-4" /></span>
+            <span aria-disabled="true" aria-label="Página anterior" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4" /></span>
         @else
-            <button type="button" wire:click="previousPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="prev" aria-label="Página anterior" class="catalog-page-button"><x-icon name="arrow-left" class="size-4" /></button>
+            <button type="button" wire:click="previousPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="prev" aria-label="Página anterior" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4" /></button>
         @endif
 
         @foreach (['wide' => $pages, 'compact' => $compactPages] as $window => $windowPages)
@@ -19,14 +19,14 @@
                 @php $previous = 0; @endphp
                 @foreach ($windowPages as $page)
                     @if ($window === 'wide' && $page - $previous === 2)
-                        <button type="button" wire:click="setPage({{ $page - 1 }}, '{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" aria-label="Página {{ $page - 1 }}" class="catalog-page-button">{{ $page - 1 }}</button>
+                        <button type="button" wire:click="setPage({{ $page - 1 }}, '{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" aria-label="Página {{ $page - 1 }}" class="catalog-page-button ds-button--secondary">{{ $page - 1 }}</button>
                     @elseif ($page - $previous > 1)
                         <span class="catalog-page-ellipsis" aria-hidden="true">…</span>
                     @endif
                     @if ($page === $current)
                         <span aria-current="page" aria-label="Página {{ $page }}" class="catalog-page-button">{{ $page }}</span>
                     @else
-                        <button type="button" wire:click="setPage({{ $page }}, '{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" aria-label="Página {{ $page }}" class="catalog-page-button">{{ $page }}</button>
+                        <button type="button" wire:click="setPage({{ $page }}, '{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" aria-label="Página {{ $page }}" class="catalog-page-button ds-button--secondary">{{ $page }}</button>
                     @endif
                     @php $previous = $page; @endphp
                 @endforeach
@@ -34,9 +34,9 @@
         @endforeach
 
         @if ($paginator->hasMorePages())
-            <button type="button" wire:click="nextPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="next" aria-label="Próxima página" class="catalog-page-button"><x-icon name="arrow-left" class="size-4 rotate-180" /></button>
+            <button type="button" wire:click="nextPage('{{ $paginator->getPageName() }}')" wire:loading.attr="disabled" rel="next" aria-label="Próxima página" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4 rotate-180" /></button>
         @else
-            <span aria-disabled="true" aria-label="Próxima página" class="catalog-page-button"><x-icon name="arrow-left" class="size-4 rotate-180" /></span>
+            <span aria-disabled="true" aria-label="Próxima página" class="catalog-page-button ds-button--secondary"><x-icon name="arrow-left" class="size-4 rotate-180" /></span>
         @endif
     </nav>
 @endif
